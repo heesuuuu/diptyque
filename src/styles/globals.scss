@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'reset';
+@import 'fonts';
+@import 'swiper';
+
+// css variables
+$white: #fff;
+$black: #000;
+
+:root {
+  --background: #ffffff;
+  --foreground: #121212;
+
+  --primary: #112856;
+
+  --sementicgreen: #2F5539;
+  --sementicred: #D12F37;
+  --sementicblue: #23507A;
+
+  --lightgrey-1: #F8F8F8;
+  --lightgrey-2: #F3EFEF;
+  --lightgrey-3: #E5E7EB;
+  --lightgrey-4: #E6E5E5;
+
+  --grey-1: #D8D8D8;
+  --grey-2: #BBBBBB;
+  --grey-3: #808080;
+  --grey-4: #5F5F5F;
+
+  --darkgrey-1: #43464E;
+  --darkgrey-2: #1D1F22;
+  --darkgrey-3: #121212;
+  
+  // --hdHeight: 80px;
+}
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}

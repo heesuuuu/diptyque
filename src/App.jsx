@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './common/Layout';
+import './styles/globals.scss';
 import { Cart, Collection, GuestOrder, Maison, Member, Mypage, Payment, Product, Promotion, SearchResult, Service } from './pages';
 
 function App() {
