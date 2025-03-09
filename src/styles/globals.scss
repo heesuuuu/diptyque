@@ -2,42 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
-@import 'reset';
-@import 'fonts';
+@import 'variables';
+@import 'mixins';
 @import 'swiper';
 
-// css variables
-$white: #fff;
-$black: #000;
-
 :root {
-  --background: #ffffff;
-  --foreground: #121212;
+  --background: #{$white};
+  --foreground: #{$darkgrey-3};
 
-  --primary: #112856;
+  --primary: #{$primary};
 
-  --sementicgreen: #2f5539;
-  --sementicred: #d12f37;
-  --sementicblue: #23507a;
+  --semantic-green: #{$semantic-green};
+  --semantic-red: #{$semantic-red};
+  --semantic-blue: #{$semantic-blue};
 
-  --lightgrey-1: #f8f8f8;
-  --lightgrey-2: #f3efef;
-  --lightgrey-3: #e5e7eb;
-  --lightgrey-4: #e6e5e5;
+  --lightgrey-1: #{$lightgrey-1};
+  --lightgrey-2: #{$lightgrey-2};
+  --lightgrey-3: #{$lightgrey-3};
+  --lightgrey-4: #{$lightgrey-4};
 
-  --grey-1: #d8d8d8;
-  --grey-2: #bbbbbb;
-  --grey-3: #808080;
-  --grey-4: #5f5f5f;
+  --grey-1: #{$grey-1};
+  --grey-2: #{$grey-2};
+  --grey-3: #{$grey-3};
+  --grey-4: #{$grey-4};
 
-  --darkgrey-1: #43464e;
-  --darkgrey-2: #1d1f22;
-  --darkgrey-3: #121212;
+  --darkgrey-1: #{$darkgrey-1};
+  --darkgrey-2: #{$darkgrey-2};
+  --darkgrey-3: #{$darkgrey-3};
 
-  // --hdHeight: 80px;
+  --hdHeight: 134px;
+}
+
+/* 기본 폰트 설정 */
+html,
+body {
+  overflow-x: hidden;
+  @include pc-body2;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
+}
+
+/* 헤딩 폰트 설정 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: #{$font-family-heading};
 }
