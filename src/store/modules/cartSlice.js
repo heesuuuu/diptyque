@@ -123,6 +123,7 @@ const initialState = {
   cartData: cartdata,
   totalCartQuantity: 0,
   totalCartPrice: 0,
+  selectCartItem: false,
 };
 export const cartSlice = createSlice({
   name: 'cart',

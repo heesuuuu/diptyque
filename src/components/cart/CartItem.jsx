@@ -1,14 +1,16 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { cartActions } from '../../store/modules/cartSlice';
 
 const CartItem = ({ item }) => {
   const { id, name, type, options, quantity, engraving, totalPrice } = item;
+  const { selectCartItem } = useSelector((state) => state.cart);
   const dispatch = useDispatch();
 
   return (
     <div className="cart-item">
-      {/* <img src="" alt="" /> */}
+      <input type="checkbox" />
+      <img src={options[0].images.thumbnail.default} alt={name} style={{ width: '120px' }} />
       <div className="cart-item-wrap-top">
         <div className="cart-item-info">
           <p>
