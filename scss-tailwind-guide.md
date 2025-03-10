@@ -130,10 +130,10 @@ Tailwind CSS와 SCSS를 조합하면 유틸리티 클래스의 편리함과 SCSS
 
 ### 기본 접근법
 
-기본적으로 Tailwind CSS로 대부분의 스타일링을 하는 것을 제안합니다.
+기본적으로 Tailwind CSS로 대부분의 스타일링을, scss파일은 보조적으로 사용할 것을 제안합니다.
 
-1. 레이아웃과 간단한 스타일링에는 Tailwind CSS 클래스를 사용
-2. 복잡한 스타일링이나 재사용 가능한 컴포넌트에는 SCSS 사용
+1. 레이아웃과 대부분의 스타일링에는 Tailwind CSS 클래스를 사용
+2. 일부 복잡한 스타일링이나 재사용 가능한 컴포넌트에는 SCSS 사용
 3. 필요한 경우 두 가지 방식을 혼합하여 사용
 
 ### 예시 - Card 컴포넌트
@@ -177,7 +177,7 @@ export default Card;
 }
 
 .content {
-  border-top: 3px solid $primary-color;
+  border-top: 3px solid $primary;
 }
 ```
 
@@ -191,7 +191,7 @@ SCSS에서는 변수를 다양한 방식으로 활용할 수 있습니다. 일�
 
 ```scss
 .element {
-  color: $primary-color;
+  color: $primary;
   margin: $spacing-md;
   font-size: $font-size-base;
   width: calc(100% - $spacing-lg);
@@ -262,8 +262,8 @@ $property: 'margin';
 
 1. **Tailwind vs SCSS 사용 기준**
 
-   - 간단한 UI 요소나 일회성 스타일: Tailwind CSS
-   - 복잡한 컴포넌트나 재사용 패턴: SCSS
+   - 기본 스타일링: Tailwind CSS
+   - 일부 복잡한 컴포넌트나 재사용 패턴: SCSS
 
 2. **파일명 규칙**
 
@@ -272,13 +272,12 @@ $property: 'margin';
 
 3. **클래스명 규칙**
 
-   - 케밥 케이스(kebab-case) 대신 카멜 케이스(camelCase) 사용
-   - BEM 방식 지양 (SCSS 중첩 구문과 모듈 사용으로 대체)
-   <!-- 의논 필요 -->
+   - 카멜 케이스(camelCase) 대신 케밥 케이스(kebab-case) 사용
+   - BEM 방식 지양 (SCSS 중첩 구문 사용으로 대체)
 
 4. **변수 네이밍**
 
-   - 목적이 명확한 이름 사용: `$primary-color` (O), `$blue` (X)
+   - 목적이 명확한 이름 사용: `$primary` (O), `$blue` (X)
    - 접두사로 그룹화: `$spacing-sm`, `$spacing-md`, `$font-size-base`
 
 5. **코드 구성**
