@@ -33,6 +33,9 @@ const cartdata = [
       },
     ],
     collection: [],
+    quantity: 1,
+    engraving: '',
+    totalPrice: 170,
   },
   {
     id: 5,
@@ -70,6 +73,9 @@ const cartdata = [
         collectionName: null,
       },
     ],
+    quantity: 2,
+    engraving: 'Sarang-nim Babo',
+    totalPrice: 500,
   },
   {
     id: 7,
@@ -107,6 +113,9 @@ const cartdata = [
         collectionName: null,
       },
     ],
+    quantity: 2,
+    engraving: '',
+    totalPrice: 290,
   },
 ];
 
@@ -121,13 +130,31 @@ export const cartSlice = createSlice({
   reducers: {
     addToCart: (state, action) => {
       const newItem = action.payload;
-      const existingItem = state.cartData.find((item) => item.id === id);
+      const existingItem = state.cartData.find((item) => item.id === newItem.id);
       if (!existingItem) {
-        state.cartData.push({ ...newItem, quantity: 1, totalPrice: price });
+        state.cartData.push({ ...newItem, quantity: 1, totalPrice: newItem.options[0].price, engraving: '' });
       } else {
         existingItem.quantity++;
-        existingItem.totalPrice += price;
+        existingItem.totalPrice += existingItem.options[0].price;
       }
+      state.totalCartPrice = state.cartData.reduce((acc, curr) => acc + curr.totalPrice, 0);
+      state.totalCartQuantity = state.cartData.reduce((acc, curr) => acc + curr.quantity, 0);
+    },
+    reduceQuantity: (state, action) => {
+      const id = action.payload;
+      const newItem = state.cartData.find((item) => item.id === id);
+      if (newItem.quantity === 1) return;
+      else {
+        newItem.quantity--;
+        newItem.totalPrice -= newItem.options[0].price;
+      }
+      state.totalCartPrice = state.cartData.reduce((acc, curr) => acc + curr.totalPrice, 0);
+      state.totalCartQuantity = state.cartData.reduce((acc, curr) => acc + curr.quantity, 0);
+    },
+    removeFromCart: (state, action) => {
+      const newItem = action.payload;
+      state.cartData = state.cartData.filter((item) => item.id !== newItem.id);
+
       state.totalCartPrice = state.cartData.reduce((acc, curr) => acc + curr.totalPrice, 0);
       state.totalCartQuantity = state.cartData.reduce((acc, curr) => acc + curr.quantity, 0);
     },
