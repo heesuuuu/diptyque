@@ -3,12 +3,24 @@
   "semi": true,
   "tabWidth": 2,
   "trailingComma": "es5",
+  "quoteProps": "preserve",
   "printWidth": 120,
   "bracketSameLine": false,
   "htmlWhitespaceSensitivity": "strict",
   "jsxBracketSameLine": false,
-  "plugins": ["prettier-plugin-tailwindcss"],
   "proseWrap": "preserve",
   "endOfLine": "auto",
-  "commentPreserveBreakline": true
+  "commentPreserveBreakline": true,
+  "tailwindFunctions": [],
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "pluginSearchDirs": false,
+  "tailwindConfig": "./tailwind.config.js",
+  "overrides": [
+    {
+      "files": ["*.js", "*.jsx", "*.ts", "*.tsx"],
+      "options": {
+        "plugins": []
+      }
+    }
+  ]
 }
