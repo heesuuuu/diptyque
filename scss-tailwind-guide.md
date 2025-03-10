@@ -272,9 +272,8 @@ $property: 'margin';
 
 3. **클래스명 규칙**
 
-   - 케밥 케이스(kebab-case) 대신 카멜 케이스(camelCase) 사용
+   - 카멜 케이스(camelCase) 대신 케밥 케이스(kebab-case) 사용
    - BEM 방식 지양 (SCSS 중첩 구문과 모듈 사용으로 대체)
-   <!-- 의논 필요 -->
 
 4. **변수 네이밍**
 
