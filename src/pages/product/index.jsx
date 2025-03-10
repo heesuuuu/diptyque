@@ -5,7 +5,7 @@ const ProductLayout = () => {
   return (
     <>
       {/* inner용 최상위 div */}
-      <div>
+      <div className="p-[280px] tablet:p-[60px] mobile:p-4">
         {/* 카테고리 위치 상태 바 */}
         <div>
           <p>

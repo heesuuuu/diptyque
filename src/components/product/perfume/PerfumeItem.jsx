@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
 const PerfumeItem = ({ item }) => {
   const { name, description, options } = item;
@@ -44,11 +44,11 @@ const PerfumeItem = ({ item }) => {
   }, [description, maxChars]);
 
   return (
-    <div className=" w-[437px] h-[625px] lg:w-[200px] lg:h-[263px]">
-      <img src={thumbImg} alt={name} />
+    <div className="flex flex-col justify-between gap-2">
+      <img className="mb-2 object-cover w-full " src={thumbImg} alt={name} />
       <h2 className="text-heading3/[160%]">{name}</h2>
-      <p className="text-body3/[150%] line-clamp-2">{desc ? desc : description}</p>      
-      <span>€{price}</span>
+      <p className="flex-shrink-0 text-body3/[150%] line-clamp-2">{desc ? desc : description}</p>
+      <span className="text-body3/[150%] text-right">€{price}</span>
     </div>
   );
 };

@@ -6,7 +6,7 @@ const PerfumeList = () => {
 
   return (
     <>
-      <div className="grid grid-cols-3 gap-28">
+      <div className="grid grid-cols-3 gap-10">
         {perfumeData.map((item) => (
           <PerfumeItem key={item.id} item={item} />
         ))}
