@@ -5,7 +5,7 @@ export { default as Maison } from './maison';
 export { default as Member } from './member/SignIn';
 export { default as Mypage } from './mypage';
 export { default as Payment } from './payment';
-export { default as Product } from './product/Perfume';
+export { default as ProductLayout } from './product';
 export { default as Promotion } from './promotion';
 export { default as SearchResult } from './searchResult';
 export { default as Service } from './service';
