@@ -5,7 +5,6 @@
     "esbenp.prettier-vscode", // Prettier
     "formulahendry.auto-rename-tag", // Auto Rename Tag
     "dsznajder.es7-react-js-snippets", // React 스니펫
-    "styled-components.vscode-styled-components", // styled-components
     "stylelint.vscode-stylelint" // Stylelint
   ]
 }
