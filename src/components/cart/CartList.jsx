@@ -1,23 +1,17 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
+import { cartActions } from '../../store/modules/cartSlice';
 import CartItem from './CartItem';
 
 const CartList = () => {
-  const { cartData, totalCartPrice, selectCartItem } = useSelector((state) => state.cart);
+  const { cartData, totalCartPrice, selectCartItem, totalSelectedPrice } = useSelector((state) => state.cart);
+  const dispatch = useDispatch();
   return (
     <>
       <div>
-        <span>Select</span>
-        <span
-          style={{
-            opacity: selectCartItem ? 1 : 0,
-            transition: 'all 0.3s ease',
-            display: selectCartItem ? 'block' : 'none',
-          }}
-        >
-          Remove Selected
-        </span>
+        <span onClick={() => dispatch(cartActions.toggleSelectCartItem())}>Select</span>
+        <span>Remove Selected</span>
       </div>
       <div>
         <div className="cart-item-list">
@@ -28,7 +22,7 @@ const CartList = () => {
         <div className="cart-payment-info">
           <div className="cart-subtotal">
             <span>Subtotal</span>
-            <span>€{totalCartPrice}</span>
+            <span>{selectCartItem ? `€${totalSelectedPrice}` : `€${totalCartPrice}`}</span>
           </div>
           <div className="cart-shipping">
             <span>Shipping</span>
@@ -36,7 +30,7 @@ const CartList = () => {
           </div>
           <div className="cart-total">
             <span>TOTAL</span>
-            <span>€{totalCartPrice + 100}</span>
+            <span>{selectCartItem ? `€${totalSelectedPrice + 100}` : `€${totalCartPrice + 100}`}</span>
           </div>
           <button>
             <Link>PROCEED TO CHECKOUT</Link>

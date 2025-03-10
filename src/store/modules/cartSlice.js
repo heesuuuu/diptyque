@@ -36,6 +36,7 @@ const cartdata = [
     quantity: 1,
     engraving: '',
     totalPrice: 170,
+    selected: false,
   },
   {
     id: 5,
@@ -76,6 +77,7 @@ const cartdata = [
     quantity: 2,
     engraving: 'Sarang-nim Babo',
     totalPrice: 500,
+    selected: false,
   },
   {
     id: 7,
@@ -116,6 +118,7 @@ const cartdata = [
     quantity: 2,
     engraving: '',
     totalPrice: 290,
+    selected: false,
   },
 ];
 
@@ -124,6 +127,7 @@ const initialState = {
   totalCartQuantity: 0,
   totalCartPrice: 0,
   selectCartItem: false,
+  totalSelectedPrice: 0,
 };
 export const cartSlice = createSlice({
   name: 'cart',
@@ -133,7 +137,13 @@ export const cartSlice = createSlice({
       const newItem = action.payload;
       const existingItem = state.cartData.find((item) => item.id === newItem.id);
       if (!existingItem) {
-        state.cartData.push({ ...newItem, quantity: 1, totalPrice: newItem.options[0].price, engraving: '' });
+        state.cartData.push({
+          ...newItem,
+          quantity: 1,
+          totalPrice: newItem.options[0].price,
+          engraving: '',
+          selected: false,
+        });
       } else {
         existingItem.quantity++;
         existingItem.totalPrice += existingItem.options[0].price;
@@ -158,6 +168,16 @@ export const cartSlice = createSlice({
 
       state.totalCartPrice = state.cartData.reduce((acc, curr) => acc + curr.totalPrice, 0);
       state.totalCartQuantity = state.cartData.reduce((acc, curr) => acc + curr.quantity, 0);
+    },
+    toggleSelectCartItem: (state, action) => {
+      state.selectCartItem = !state.selectCartItem;
+    },
+    toggleSelected: (state, action) => {
+      const id = action.payload;
+      state.cartData = state.cartData.map((item) => (item.id === id ? { ...item, selected: !item.selected } : item));
+      state.totalSelectedPrice = state.cartData
+        .filter((item) => item.selected)
+        .reduce((acc, curr) => acc + curr.totalPrice, 0);
     },
   },
 });

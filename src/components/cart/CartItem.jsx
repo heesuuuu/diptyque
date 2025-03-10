@@ -3,13 +3,18 @@ import { useDispatch, useSelector } from 'react-redux';
 import { cartActions } from '../../store/modules/cartSlice';
 
 const CartItem = ({ item }) => {
-  const { id, name, type, options, quantity, engraving, totalPrice } = item;
+  const { id, name, type, options, quantity, engraving, totalPrice, selected } = item;
   const { selectCartItem } = useSelector((state) => state.cart);
   const dispatch = useDispatch();
 
   return (
     <div className="cart-item">
-      <input type="checkbox" />
+      <input
+        type="checkbox"
+        checked={selected}
+        onChange={() => dispatch(cartActions.toggleSelected(id))}
+        className={selectCartItem ? 'block' : 'hidden'}
+      />
       <img src={options[0].images.thumbnail.default} alt={name} style={{ width: '120px' }} />
       <div className="cart-item-wrap-top">
         <div className="cart-item-info">
