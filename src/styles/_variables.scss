@@ -2,8 +2,8 @@ $white: #fff;
 $black: #000;
 
 // 기본 색상
-$white: #ffffff !default;
-$black: #000000 !default;
+$white: #fff !default;
+$black: #000 !default;
 
 // 브랜드 및 시맨틱 색상
 $primary: #112856 !default;
@@ -19,7 +19,7 @@ $lightgrey-4: #e6e5e5 !default;
 
 // 그레이 계열
 $grey-1: #d8d8d8 !default;
-$grey-2: #bbbbbb !default;
+$grey-2: #bbb !default;
 $grey-3: #808080 !default;
 $grey-4: #5f5f5f !default;
 
@@ -29,12 +29,13 @@ $darkgrey-2: #1d1f22 !default;
 $darkgrey-3: #121212 !default;
 
 // ====================================
+
 /* Inter 폰트 로드 - CDN 사용 */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap';
 
 /* Diptyque 폰트 로드 - 로컬 파일 사용 */
 @font-face {
-  font-family: 'Diptyque';
+  font-family: Diptyque;
   src: url('/assets/fonts/diptyque/Diptyque-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
@@ -42,7 +43,7 @@ $darkgrey-3: #121212 !default;
 }
 
 @font-face {
-  font-family: 'Diptyque';
+  font-family: Diptyque;
   src: url('/assets/fonts/diptyque/Diptyque-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;

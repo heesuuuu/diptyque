@@ -1,3 +1,4 @@
+// vscode 추천 확장
 {
   "recommendations": [
     "dbaeumer.vscode-eslint", // ESLint
