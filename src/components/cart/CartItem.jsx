@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { cartActions } from '../../store/modules/cartSlice';
-import Icon from '../../ui/Icon';
+import { Icon } from '../../ui';
 
 const CartItem = ({ item }) => {
   const { id, name, type, options, quantity, engraving, totalPrice, selected } = item;

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
 import { cartActions } from '../../store/modules/cartSlice';
+import { BarButton } from '../../ui';
 import CartItem from './CartItem';
 
 const CartList = () => {
@@ -49,9 +49,7 @@ const CartList = () => {
               <span>TOTAL</span>
               <span>{selectCartItem ? `€${totalSelectedPrice + 100}` : `€${totalCartPrice + 100}`}</span>
             </div>
-            <button className="flex justify-center items-center w-full h-[42px] bg-darkgrey-3 active:bg-grey-4 text-white">
-              <Link>PROCEED TO CHECKOUT</Link>
-            </button>
+            <BarButton text="PROCEED TO CHECKOUT" type="border" className="" />
           </div>
         </div>
       </div>
