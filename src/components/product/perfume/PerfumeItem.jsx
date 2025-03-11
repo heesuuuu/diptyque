@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const PerfumeItem = ({ item }) => {
-  const { name, description, options } = item;
-  // const twoSentences = description.split('.').slice(0, 2).join('.') + '.';
+  const { id, name, description, options } = item;
   const price = options[0].price;
   const thumbImg = options[0].images.thumbnail.default;
   const hoverImg = options[0].images.thumbnail.hover;
@@ -44,12 +44,24 @@ const PerfumeItem = ({ item }) => {
   }, [description, maxChars]);
 
   return (
-    <div className="flex flex-col justify-between gap-2">
-      <img className="mb-2 object-cover w-full " src={thumbImg} alt={name} />
+    <Link to={`/product/${id}`} className="relative flex flex-col justify-between gap-2 cursor-pointer group">
+      <img
+        className="mb-2 object-cover w-full group-hover:opacity-0 transition-all ease-in-out duration-700"
+        src={thumbImg}
+        alt={name}
+      />
+      <img
+        className="absolute mb-2 object-cover opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-700"
+        src={hoverImg}
+        alt={name}
+      />
       <h2 className="text-heading3/[160%]">{name}</h2>
-      <p className="flex-shrink-0 text-body3/[150%] line-clamp-2">{desc ? desc : description}</p>
-      <span className="text-body3/[150%] text-right">€{price}</span>
-    </div>
+      <p className="flex-shrink-0 flex-grow text-body3/[150%] line-clamp-2">{desc ? desc : description}</p>
+      <p className="flex justify-between text-body3/[150%]">
+        Out of Stock
+        <span>€{price}</span>
+      </p>
+    </Link>
   );
 };
 
