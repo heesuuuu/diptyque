@@ -133,6 +133,9 @@ export const cartSlice = createSlice({
   name: 'cart',
   initialState,
   reducers: {
+    totalCartAmount: (state, action) => {
+      state.totalCartPrice = state.cartData.reduce((acc, curr) => acc + curr.totalPrice, 0);
+    },
     addToCart: (state, action) => {
       const newItem = action.payload;
       const existingItem = state.cartData.find((item) => item.id === newItem.id);
@@ -171,6 +174,10 @@ export const cartSlice = createSlice({
     },
     toggleSelectCartItem: (state, action) => {
       state.selectCartItem = !state.selectCartItem;
+      state.cartData = state.cartData.map((item) => ({
+        ...item,
+        selected: false,
+      }));
     },
     toggleSelected: (state, action) => {
       const id = action.payload;
@@ -178,6 +185,11 @@ export const cartSlice = createSlice({
       state.totalSelectedPrice = state.cartData
         .filter((item) => item.selected)
         .reduce((acc, curr) => acc + curr.totalPrice, 0);
+    },
+    removeSelected: (state, action) => {
+      state.cartData = state.cartData.filter((item) => item.selected === false);
+      state.selectCartItem = false;
+      state.totalCartPrice = state.cartData.reduce((acc, curr) => acc + curr.totalPrice, 0);
     },
   },
 });
