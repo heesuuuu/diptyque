@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 import { cartActions } from '../../store/modules/cartSlice';
 import { BarButton } from '../../ui';
 import CartItem from './CartItem';
@@ -11,6 +12,20 @@ const CartList = () => {
   useEffect(() => {
     dispatch(cartActions.totalCartAmount());
   }, []);
+
+  const navigate = useNavigate();
+
+  const handleCheckout = (e) => {
+    if (!selectCartItem && cartData.some((item) => !item.inStock)) {
+      e.preventDefault();
+      alert('선택한 상품 중 품절된 상품이 있습니다.');
+    } else if (selectCartItem && cartData.some((item) => item.selected && !item.inStock)) {
+      e.preventDefault();
+      alert('선택한 상품 중 품절된 상품이 있습니다.');
+    } else {
+      navigate('/payment');
+    }
+  };
 
   const priceStyle = 'flex flex-row justify-between w-full';
 
@@ -49,7 +64,9 @@ const CartList = () => {
               <span>TOTAL</span>
               <span>{selectCartItem ? `€${totalSelectedPrice + 100}` : `€${totalCartPrice + 100}`}</span>
             </div>
-            <BarButton text="PROCEED TO CHECKOUT" type="filled" className="" />
+            <div className="cart-checkout-btn" onClick={handleCheckout}>
+              <BarButton text="PROCEED TO CHECKOUT" type="filled" className="" />
+            </div>
           </div>
         </div>
       </div>

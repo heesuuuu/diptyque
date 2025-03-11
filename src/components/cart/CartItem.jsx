@@ -1,5 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { cartActions } from '../../store/modules/cartSlice';
 import { Icon } from '../../ui';
 
@@ -19,7 +20,10 @@ const CartItem = ({ item }) => {
         {selected ? <Icon name="check_box" /> : <Icon name="check_box_outline_blank" />}
       </div>
       <div className="cart-item flex flex-row gap-6 w-full items-center h-full">
-        <img src={options[0].images.thumbnail.default} alt={name} className="w-[200px]" />
+        <Link to={`/product/${id}`} className="block w-[200px] h-auto flex-shrink-0">
+          <img src={options[0].images.thumbnail.default} alt={name} className="w-full h-auto" />
+        </Link>
+
         <div className="cart-item-wrap flex flex-col justify-between h-full w-full">
           <div className="cart-item-wrap-top flex flex-row justify-between">
             <div className="cart-item-info flex flex-col gap-2 h-full">
@@ -40,7 +44,7 @@ const CartItem = ({ item }) => {
                   {engraving ? (
                     <>
                       <span className="text-grey-4">{engraving}</span>
-                      <div>Edit</div>
+                      <div className="cursor-pointer">Edit</div>
                     </>
                   ) : (
                     <span>Engrave Your Scent</span>
