@@ -3,7 +3,6 @@ import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 
 const CollectionMenu = () => {
-  // Redux store에서 컬렉션 이름 가져오기
   const { allCollectionNames } = useSelector((state) => state.collection);
 
 
@@ -14,7 +13,7 @@ const CollectionMenu = () => {
           <li key={index}>
             <Link
               to={`/collection/${encodeURIComponent(collection)}`}
-              className="font-diptyque text-body2 hover:text-primary transition-colors"
+              className="font-diptyque text-heading2 transition-colors"
             >
               {collection}
             </Link>

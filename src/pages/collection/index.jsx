@@ -23,7 +23,7 @@ const Collection = () => {
         </section>
 
         {/* Collection 상품 Sec */}
-        <section>
+        <section className="my-[200px]">
           <CollectionMenu/>
         </section>
       </div>
