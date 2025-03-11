@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { cartActions } from '../../store/modules/cartSlice';
@@ -8,6 +8,7 @@ const CartItem = ({ item }) => {
   const { id, name, type, options, quantity, engraving, totalPrice, selected, inStock } = item;
   const { selectCartItem } = useSelector((state) => state.cart);
   const dispatch = useDispatch();
+  const editRef = useRef();
 
   const [isEdit, setIsEdit] = useState(false);
   const [text, setText] = useState(engraving);
@@ -18,6 +19,16 @@ const CartItem = ({ item }) => {
   const onSubmit = () => {
     dispatch(cartActions.updateEngrave({ id, text }));
     setIsEdit(false);
+  };
+
+  useEffect(() => {
+    if (isEdit && editRef.current) {
+      editRef.current.focus();
+    }
+  }, [isEdit]);
+
+  const handleEdit = () => {
+    setIsEdit(true);
   };
 
   return (
@@ -50,23 +61,26 @@ const CartItem = ({ item }) => {
           <div className="cart-item-wrap-bottom flex flex-row justify-between items-end">
             {inStock ? (
               <div className="cart-item-custom flex flex-col gap-2">
-                <div className="cart-item-engraving-wrap flex flex-row gap-5">
-                  <span>Engraving</span>
+                <div className="cart-item-engraving-wrap flex flex-row">
+                  <span className="mr-5">Engraving</span>
+
+                  {!isEdit && engraving && <span className="text-grey-4 mr-5">{text}</span>}
+
+                  <input
+                    value={text}
+                    onChange={onChange}
+                    ref={editRef}
+                    className={`transition-all ${isEdit ? 'w-auto mr-5' : 'w-0 mr-0'}`}
+                  />
 
                   {isEdit ? (
-                    <>
-                      <input value={text} onChange={onChange} />
-                      <div onClick={onSubmit} className="cursor-pointer">
-                        Save
-                      </div>
-                    </>
+                    <div onClick={onSubmit} className="cursor-pointer">
+                      Save
+                    </div>
                   ) : (
-                    <>
-                      {engraving && <span className="text-grey-4">{text}</span>}
-                      <div className="cursor-pointer" onClick={() => setIsEdit(!isEdit)}>
-                        {engraving ? 'Edit' : 'Engrave Your Scent'}
-                      </div>
-                    </>
+                    <div className="cursor-pointer" onClick={handleEdit}>
+                      {engraving ? 'Edit' : 'Engrave Your Scent'}
+                    </div>
                   )}
                 </div>
                 <div className="cart-item-quantity flex flex-row gap-5">
