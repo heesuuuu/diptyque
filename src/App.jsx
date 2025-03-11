@@ -8,7 +8,8 @@ import {
   Member,
   Mypage,
   Payment,
-  ProductLayout,
+  ProductDetail,
+  ProductList,
   Promotion,
   SearchResult,
   Service,
@@ -26,12 +27,13 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Maison />} />
           <Route path="/promotion" element={<Promotion />} />
-          <Route path="/product" element={<ProductLayout />}>
+          <Route path="/product" element={<ProductList />}>
             <Route index element={<PerfumeList />} />
             <Route path="perfume" element={<PerfumeList />} />
             <Route path="candlediffuser" element={<CandleDiffuserList />} />
             <Route path="body" element={<BodyCareList />} />
           </Route>
+          <Route path="/product/:productId" element={<ProductDetail />} />
           <Route path="/collection" element={<Collection />} />
           <Route path="/service" element={<Service />} />
           <Route path="/member" element={<Member />} />
