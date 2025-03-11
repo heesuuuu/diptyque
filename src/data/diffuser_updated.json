@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": 500,
         "olfactory": "Flowers",
         "name": "Fleur d'Oranger (Orange Blossom)",
         "type": "Room Spray",
@@ -13,1363 +13,1319 @@
                 "weight": "150ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-d-oranger-orange-blossom-room-spray-vfov1-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-d-oranger-orange-blossom-room-spray-vfov1-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_hover.jpg"
                     },
                     "detail": [
-                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-d-oranger-orange-blossom-room-spray-vfov1-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_detail_1.jpg"
                     ]
                 },
-                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-d-oranger-orange-blossom-room-spray-vfov1-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                "optionId": 11
+                "optionId": 5001
             }
         ],
-        "collection": "Fleur d'Oranger (Orange Blossom)"
+        "collection": "Fleur d'Oranger (Orange Blossom)",
+        "sales": 196,
+        "inStock": false
     },
-    [
-        {
-            "id": 2,
-            "olfactory": "Flowers",
-            "name": "Roses",
-            "type": "Car diffuser and insert",
-            "notes": "The herbarium of flowers",
-            "description": "In the air, the scent of rose bushes brimming with flowers. The car diffuser continues the story of Rose, the emblematic fragrance of the Diptyque herbarium. Trip after trip, its fresh, flowery notes unfold, continuing the perfumed experience as you travel.",
-            "options": [
-                {
-                    "size": null,
-                    "price": 95,
-                    "weight": null,
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-roses-insert-cardifro-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-roses-insert-cardifro-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-roses-insert-cardifro-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-roses-insert-cardifro-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+    {
+        "id": 501,
+        "olfactory": "Flowers",
+        "name": "Roses",
+        "type": "Car diffuser and insert",
+        "notes": "The herbarium of flowers",
+        "description": "In the air, the scent of rose bushes brimming with flowers. The car diffuser continues the story of Rose, the emblematic fragrance of the Diptyque herbarium. Trip after trip, its fresh, flowery notes unfold, continuing the perfumed experience as you travel.",
+        "options": [
+            {
+                "size": null,
+                "price": 95,
+                "weight": null,
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-roses-insert-cardifro-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 21
-                }
-            ],
-            "collection": "Roses"
-        }
-    ],
-    [
-        {
-            "id": 3,
-            "olfactory": "Flowers",
-            "name": "Mimosa",
-            "type": "Refill for home fragrance diffuser",
-            "notes": "The herbarium of flowers",
-            "description": "Glass, perfume and reeds, working as one to breathe life and poetry into a room. This diffuser evenly releases the floral notes of Mimosa fragrance. In its sillage, the velvety, honeyed scent of the little golden yellow flowers. A memory of a winter's day near Grasse, on the hills of Tanneron.",
-            "options": [
-                {
-                    "size": "200ml",
-                    "price": 85,
-                    "weight": "200ml",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-refill-reed-diffuser-mimosa-200ml-refreedmi-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-refill-reed-diffuser-mimosa-200ml-refreedmi-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-refill-reed-diffuser-mimosa-200ml-refreedmi-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-refill-reed-diffuser-mimosa-200ml-refreedmi-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5011
+            }
+        ],
+        "collection": "Roses",
+        "sales": 406,
+        "inStock": false
+    },
+    {
+        "id": 502,
+        "olfactory": "Flowers",
+        "name": "Mimosa",
+        "type": "Refill for home fragrance diffuser",
+        "notes": "The herbarium of flowers",
+        "description": "Glass, perfume and reeds, working as one to breathe life and poetry into a room. This diffuser evenly releases the floral notes of Mimosa fragrance. In its sillage, the velvety, honeyed scent of the little golden yellow flowers. A memory of a winter's day near Grasse, on the hills of Tanneron.",
+        "options": [
+            {
+                "size": "200ml",
+                "price": 85,
+                "weight": "200ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-refill-reed-diffuser-mimosa-200ml-refreedmi-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 31
-                }
-            ],
-            "collection": "Mimosa"
-        }
-    ],
-    [
-        {
-            "id": 4,
-            "olfactory": "Flowers",
-            "name": "Mimosa",
-            "type": "Room Spray",
-            "notes": "The herbarium of flowers",
-            "description": "A notable guest. In one gesture, this room spray fills the air with its unique fragance - that of mimosas saturated in stray and honey. In the distance, a glimpse of the sea. Captured in a bottle, a tribute to the South of France and this little winter flower, letting you personalise the surrounding atmosphere in moments.",
-            "options": [
-                {
-                    "size": "150ml",
-                    "price": 60,
-                    "weight": "150ml",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-mimosa-room-spray-vmi-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-mimosa-room-spray-vmi-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-mimosa-room-spray-vmi-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5021
+            }
+        ],
+        "collection": "Mimosa",
+        "sales": 240,
+        "inStock": false
+    },
+    {
+        "id": 503,
+        "olfactory": "Flowers",
+        "name": "Mimosa",
+        "type": "Room Spray",
+        "notes": "The herbarium of flowers",
+        "description": "A notable guest. In one gesture, this room spray fills the air with its unique fragance - that of mimosas saturated in stray and honey. In the distance, a glimpse of the sea. Captured in a bottle, a tribute to the South of France and this little winter flower, letting you personalise the surrounding atmosphere in moments.",
+        "options": [
+            {
+                "size": "150ml",
+                "price": 60,
+                "weight": "150ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-mimosa-room-spray-vmi-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 41
-                }
-            ],
-            "collection": "Mimosa"
-        }
-    ],
-    [
-        {
-            "id": 5,
-            "olfactory": "Flowers",
-            "name": "Roses",
-            "type": "Refill for home fragrance diffuser",
-            "notes": "The herbarium of flowers",
-            "description": "A fragrance that travels through time. This refill, with its six natural rattan reeds, invites you to extend the tribute to the rose. When poured into the faceted glass bottle of the diffuser, its perfumed concentrate fills any room with fresh, flowery notes.",
-            "options": [
-                {
-                    "size": "200ml",
-                    "price": 85,
-                    "weight": "200ml",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/r/o/roses-home-fragrance-diffuseur-refill_200ml_refreedro_rvb_bd_fond-gris_spec-ecom_1_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/r/o/roses-home-fragrance-diffuseur-refill_200ml_refreedro_rvb_bd_fond-gris_spec-ecom_2_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/r/o/roses-home-fragrance-diffuseur-refill_200ml_refreedro_rvb_bd_fond-gris_spec-ecom_1_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/r/o/roses-home-fragrance-diffuseur-refill_200ml_refreedro_rvb_bd_fond-gris_spec-ecom_2_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_detail_1.jpg"
+                    ]
+                },
+                "optionId": 5031
+            }
+        ],
+        "collection": "Mimosa",
+        "sales": 199,
+        "inStock": false
+    },
+    {
+        "id": 504,
+        "olfactory": "Flowers",
+        "name": "Roses",
+        "type": "Refill for home fragrance diffuser",
+        "notes": "The herbarium of flowers",
+        "description": "A fragrance that travels through time. This refill, with its six natural rattan reeds, invites you to extend the tribute to the rose. When poured into the faceted glass bottle of the diffuser, its perfumed concentrate fills any room with fresh, flowery notes.",
+        "options": [
+            {
+                "size": "200ml",
+                "price": 85,
+                "weight": "200ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/r/o/roses-home-fragrance-diffuseur-refill_200ml_refreedro_rvb_bd_fond-gris_spec-ecom_1_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 51
-                }
-            ],
-            "collection": "Roses"
-        }
-    ],
-    [
-        {
-            "id": 6,
-            "olfactory": "Flowers",
-            "name": "Roses",
-            "type": "Room Spray",
-            "notes": "The herbarium of flowers",
-            "description": "Just one gesture - and the mist has us in its spell. The sillage conveys a fluctuating bouquet of roses, evoking that most emblematic of flowers. Within a few sprays, the room spray fills any room with its fresh, flowery notes - like an ode to springtime.",
-            "options": [
-                {
-                    "size": "150ml",
-                    "price": 60,
-                    "weight": "150ml",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-roses-room-spray-vro-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-roses-room-spray-vro-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-roses-room-spray-vro-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5041
+            }
+        ],
+        "collection": "Roses",
+        "sales": 376,
+        "inStock": true
+    },
+    {
+        "id": 505,
+        "olfactory": "Flowers",
+        "name": "Roses",
+        "type": "Room Spray",
+        "notes": "The herbarium of flowers",
+        "description": "Just one gesture - and the mist has us in its spell. The sillage conveys a fluctuating bouquet of roses, evoking that most emblematic of flowers. Within a few sprays, the room spray fills any room with its fresh, flowery notes - like an ode to springtime.",
+        "options": [
+            {
+                "size": "150ml",
+                "price": 60,
+                "weight": "150ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-roses-room-spray-vro-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 61
-                }
-            ],
-            "collection": "Roses"
-        }
-    ],
-    [
-        {
-            "id": 7,
-            "olfactory": "Flowers",
-            "name": "Fleur d'Oranger (Orange Blossom)",
-            "type": "Insert for diffuser",
-            "notes": "The herbarium of flowers",
-            "description": "An ode to the entire orange tree. Bark, leaves and citrus fruit blend together in a deliciously tangy, slightly spicy sillage. The pearls of this scented insert are an invitation to explore the Fleur d'Oranger (Orange Blossom) fragrance. Just slip it into the Un Air de Diptyque diffuser or the car diffuser and it instantly creates a perfumed ambiance.",
-            "options": [
-                {
-                    "size": null,
-                    "price": 85,
-                    "weight": null,
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-d-oranger-orange-blossom-insert-capsfo-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-d-oranger-orange-blossom-insert-capsfo-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-d-oranger-orange-blossom-insert-capsfo-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_detail_1.jpg"
+                    ]
+                },
+                "optionId": 5051
+            }
+        ],
+        "collection": "Roses",
+        "sales": 446,
+        "inStock": true
+    },
+    {
+        "id": 506,
+        "olfactory": "Flowers",
+        "name": "Fleur d'Oranger (Orange Blossom)",
+        "type": "Insert for diffuser",
+        "notes": "The herbarium of flowers",
+        "description": "An ode to the entire orange tree. Bark, leaves and citrus fruit blend together in a deliciously tangy, slightly spicy sillage. The pearls of this scented insert are an invitation to explore the Fleur d'Oranger (Orange Blossom) fragrance. Just slip it into the Un Air de Diptyque diffuser or the car diffuser and it instantly creates a perfumed ambiance.",
+        "options": [
+            {
+                "size": null,
+                "price": 85,
+                "weight": null,
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-d-oranger-orange-blossom-insert-capsfo-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 71
-                }
-            ],
-            "collection": "Fleur d'Oranger (Orange Blossom)"
-        }
-    ],
-    [
-        {
-            "id": 8,
-            "olfactory": "Flowers",
-            "name": "Tubéreuse (Tuberose)",
-            "type": "Room Spray",
-            "notes": "The herbarium of flowers",
-            "description": "At twilight, in the wide fields of Southern India, the tuberose reveals its fragrance - heady and almost dangerously sensual. In one gesture, this room spray creates or refreshes a perfumed ambiance, its sillage highlighting the enigmatic scent of this precious white flower.",
-            "options": [
-                {
-                    "size": "150ml",
-                    "price": 60,
-                    "weight": "150ml",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-tubereuse-tuberose-room-spray-vtb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-tubereuse-tuberose-room-spray-vtb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-tubereuse-tuberose-room-spray-vtb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_detail_1.jpg"
+                    ]
+                },
+                "optionId": 5061
+            }
+        ],
+        "collection": "Fleur d'Oranger (Orange Blossom)",
+        "sales": 496,
+        "inStock": true
+    },
+    {
+        "id": 507,
+        "olfactory": "Flowers",
+        "name": "Tubéreuse (Tuberose)",
+        "type": "Room Spray",
+        "notes": "The herbarium of flowers",
+        "description": "At twilight, in the wide fields of Southern India, the tuberose reveals its fragrance - heady and almost dangerously sensual. In one gesture, this room spray creates or refreshes a perfumed ambiance, its sillage highlighting the enigmatic scent of this precious white flower.",
+        "options": [
+            {
+                "size": "150ml",
+                "price": 60,
+                "weight": "150ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-tubereuse-tuberose-room-spray-vtb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 81
-                }
-            ],
-            "collection": "Tubéreuse (Tuberose)"
-        }
-    ],
-    [
-        {
-            "id": 9,
-            "olfactory": "Flowers",
-            "name": "Rose",
-            "type": "Wax Oval",
-            "notes": "The herbarium of flowers",
-            "description": "An ode to the muse of the garden. A bouquet of gentle, fresh-cut roses in a scented wax oval framed in a ceramic ring. When hung from a door or slipped into a wardrobe or drawer, it diffuses its delicate, flowery notes. Discreet sophistication - from an object that's new, yet still strangely familiar.",
-            "options": [
-                {
-                    "size": "35g",
-                    "price": 55,
-                    "weight": "35g",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-roses-scented-oval-pro-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-roses-scented-oval-pro-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-roses-scented-oval-pro-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-roses-scented-oval-pro-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_detail_1.jpg"
+                    ]
+                },
+                "optionId": 5071
+            }
+        ],
+        "collection": "Tubéreuse (Tuberose)",
+        "sales": 446,
+        "inStock": false
+    },
+    {
+        "id": 508,
+        "olfactory": "Flowers",
+        "name": "Rose",
+        "type": "Wax Oval",
+        "notes": "The herbarium of flowers",
+        "description": "An ode to the muse of the garden. A bouquet of gentle, fresh-cut roses in a scented wax oval framed in a ceramic ring. When hung from a door or slipped into a wardrobe or drawer, it diffuses its delicate, flowery notes. Discreet sophistication - from an object that's new, yet still strangely familiar.",
+        "options": [
+            {
+                "size": "35g",
+                "price": 55,
+                "weight": "35g",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Rose/Rose_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Rose/Rose_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-roses-scented-oval-pro-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 91
-                }
-            ],
-            "collection": null
-        }
-    ],
-    [
-        {
-            "id": 10,
-            "olfactory": "Flowers",
-            "name": "Tubéreuse (Tuberose)",
-            "type": "Insert for diffuser",
-            "notes": "The herbarium of flowers",
-            "description": "Where you go, it goes. The highly perfumed pearls inside this ingenious capsule replicate the heady, fresh, green fragrance of tuberoses. A perfume with subtle nuances of fruity, milky notes. At home or in the car, just slip this insert into a Diptyque diffuser and the atmosphere is instantly transformed.",
-            "options": [
-                {
-                    "size": null,
-                    "price": 42,
-                    "weight": null,
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-tubereuse-tuberose-insert-capstb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-tubereuse-tuberose-insert-capstb-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-tubereuse-tuberose-insert-capstb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-tubereuse-tuberose-insert-capstb-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Rose/Rose_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Rose/Rose_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5081
+            }
+        ],
+        "collection": null,
+        "sales": 190,
+        "inStock": false
+    },
+    {
+        "id": 509,
+        "olfactory": "Flowers",
+        "name": "Tubéreuse (Tuberose)",
+        "type": "Insert for diffuser",
+        "notes": "The herbarium of flowers",
+        "description": "Where you go, it goes. The highly perfumed pearls inside this ingenious capsule replicate the heady, fresh, green fragrance of tuberoses. A perfume with subtle nuances of fruity, milky notes. At home or in the car, just slip this insert into a Diptyque diffuser and the atmosphere is instantly transformed.",
+        "options": [
+            {
+                "size": null,
+                "price": 42,
+                "weight": null,
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-tubereuse-tuberose-insert-capstb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 101
-                }
-            ],
-            "collection": "Tubéreuse (Tuberose)"
-        }
-    ],
-    [
-        {
-            "id": 11,
-            "olfactory": "Flowers",
-            "name": "Mimosa",
-            "type": "Car diffuser and insert",
-            "notes": "The herbarium of flowers",
-            "description": "A perfume from the south of France. Gently, the notes of the Mimosa scent – slightly honeyed, slightly velvety – circulate inside your car. This duo combines an insert containing highly perfumed pearls and a refillable diffuser to create an invaluable travel companion.",
-            "options": [
-                {
-                    "size": null,
-                    "price": 95,
-                    "weight": null,
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-mimosa-insert-cardifmim-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-mimosa-insert-cardifmim-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-mimosa-insert-cardifmim-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-mimosa-insert-cardifmim-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5091
+            }
+        ],
+        "collection": "Tubéreuse (Tuberose)",
+        "sales": 175,
+        "inStock": false
+    },
+    {
+        "id": 510,
+        "olfactory": "Flowers",
+        "name": "Mimosa",
+        "type": "Car diffuser and insert",
+        "notes": "The herbarium of flowers",
+        "description": "A perfume from the south of France. Gently, the notes of the Mimosa scent – slightly honeyed, slightly velvety – circulate inside your car. This duo combines an insert containing highly perfumed pearls and a refillable diffuser to create an invaluable travel companion.",
+        "options": [
+            {
+                "size": null,
+                "price": 95,
+                "weight": null,
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-mimosa-insert-cardifmim-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 111
-                }
-            ],
-            "collection": "Mimosa"
-        }
-    ],
-    [
-        {
-            "id": 12,
-            "olfactory": "Flowers",
-            "name": "Mimosa",
-            "type": "Hourglass Diffuser",
-            "notes": "The herbarium of flowers",
-            "description": "A unique, poetic hour. Using an ingenious process, this hourglass diffuser release the velvety, slightly honeyed notes of the Mimosa fragrance. Slowly the perfume flows down, diffusing its subtle scent. A fragrance evoking the South of France in February, housed in an elegant object you'll want to keep close at hand.",
-            "options": [
-                {
-                    "size": "75ml",
-                    "price": 165,
-                    "weight": "75ml",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-mimosa-hourglass-diffuser-hgmicarb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-mimosa-hourglass-diffuser-hgmicarb-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-mimosa-hourglass-diffuser-hgmicarb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-mimosa-hourglass-diffuser-hgmicarb-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5101
+            }
+        ],
+        "collection": "Mimosa",
+        "sales": 83,
+        "inStock": true
+    },
+    {
+        "id": 511,
+        "olfactory": "Flowers",
+        "name": "Mimosa",
+        "type": "Hourglass Diffuser",
+        "notes": "The herbarium of flowers",
+        "description": "A unique, poetic hour. Using an ingenious process, this hourglass diffuser release the velvety, slightly honeyed notes of the Mimosa fragrance. Slowly the perfume flows down, diffusing its subtle scent. A fragrance evoking the South of France in February, housed in an elegant object you'll want to keep close at hand.",
+        "options": [
+            {
+                "size": "75ml",
+                "price": 165,
+                "weight": "75ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-mimosa-hourglass-diffuser-hgmicarb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 121
-                }
-            ],
-            "collection": "Mimosa"
-        }
-    ],
-    [
-        {
-            "id": 13,
-            "olfactory": "Flowers",
-            "name": "Fleur d'Oranger (Orange Blossom)",
-            "type": "Hourglass Diffuser",
-            "notes": "The herbarium of flowers",
-            "description": "An interlude outside time itself. Through the gilded scrolls on the Diptyque hourglass diffuser, a pageant of tangy, spicy orange tree notes emerges. The perfume flows down from one glass compartment to the other, gently and slowly delivering its fragrance. Abandon yourself for an hour to Fleur d'Oranger (Orange Blossom).",
-            "options": [
-                {
-                    "size": "75ml",
-                    "price": 165,
-                    "weight": "75ml",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-d-oranger-orange-blossom-hourglass-diffuser-hgfocarb2-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-d-oranger-orange-blossom-hourglass-diffuser-hgfocarb2-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-d-oranger-orange-blossom-hourglass-diffuser-hgfocarb2-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-d-oranger-orange-blossom-hourglass-diffuser-hgfocarb2-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5111
+            }
+        ],
+        "collection": "Mimosa",
+        "sales": 70,
+        "inStock": true
+    },
+    {
+        "id": 512,
+        "olfactory": "Flowers",
+        "name": "Fleur d'Oranger (Orange Blossom)",
+        "type": "Hourglass Diffuser",
+        "notes": "The herbarium of flowers",
+        "description": "An interlude outside time itself. Through the gilded scrolls on the Diptyque hourglass diffuser, a pageant of tangy, spicy orange tree notes emerges. The perfume flows down from one glass compartment to the other, gently and slowly delivering its fragrance. Abandon yourself for an hour to Fleur d'Oranger (Orange Blossom).",
+        "options": [
+            {
+                "size": "75ml",
+                "price": 165,
+                "weight": "75ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-d-oranger-orange-blossom-hourglass-diffuser-hgfocarb2-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 131
-                }
-            ],
-            "collection": "Fleur d'Oranger (Orange Blossom)"
-        }
-    ],
-    [
-        {
-            "id": 14,
-            "olfactory": "Flowers",
-            "name": "Roses",
-            "type": "Insert for diffuser",
-            "notes": "The herbarium of flowers",
-            "description": "From these fine pearls emerge the fresh, floral notes of a ruse bush brimming with flowers. The Rose insert celebrates this emblem of perfumery. Slipped into the Un Air de Diptyque home fragrance diffuser or the car diffuser, it perfumes the air with its fragrance.",
-            "options": [
-                {
-                    "size": null,
-                    "price": 42,
-                    "weight": null,
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-roses-insert-capsro-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-roses-insert-capsro-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-roses-insert-capsro-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-roses-insert-capsro-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5121
+            }
+        ],
+        "collection": "Fleur d'Oranger (Orange Blossom)",
+        "sales": 28,
+        "inStock": true
+    },
+    {
+        "id": 513,
+        "olfactory": "Flowers",
+        "name": "Roses",
+        "type": "Insert for diffuser",
+        "notes": "The herbarium of flowers",
+        "description": "From these fine pearls emerge the fresh, floral notes of a ruse bush brimming with flowers. The Rose insert celebrates this emblem of perfumery. Slipped into the Un Air de Diptyque home fragrance diffuser or the car diffuser, it perfumes the air with its fragrance.",
+        "options": [
+            {
+                "size": null,
+                "price": 42,
+                "weight": null,
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-roses-insert-capsro-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 141
-                }
-            ],
-            "collection": "Roses"
-        }
-    ],
-    [
-        {
-            "id": 15,
-            "olfactory": "Flowers",
-            "name": "Tubéreuse (Tuberose)",
-            "type": "Hourglass Diffuser",
-            "notes": "The herbarium of flowers",
-            "description": "A moment outside time itself. In one poetic gesture, this hourglass diffuser releases the notes of the Tubéreuse (Tuberose) fragrance - heady, yet fresh and green. Through the gilded scrolls, the enigmatic, almost intoxicating perfume of this white, deeply fragrant flower emerges. A scented object that sits on your bedside table or desk, soon becoming a familiar friend.",
-            "options": [
-                {
-                    "size": "75ml",
-                    "price": 165,
-                    "weight": "75ml",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-tubereuse-tuberose-hourglass-diffuser-hgtbcarb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-tubereuse-tuberose-hourglass-diffuser-hgtbcarb-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-tubereuse-tuberose-hourglass-diffuser-hgtbcarb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-tubereuse-tuberose-hourglass-diffuser-hgtbcarb-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5131
+            }
+        ],
+        "collection": "Roses",
+        "sales": 485,
+        "inStock": false
+    },
+    {
+        "id": 514,
+        "olfactory": "Flowers",
+        "name": "Tubéreuse (Tuberose)",
+        "type": "Hourglass Diffuser",
+        "notes": "The herbarium of flowers",
+        "description": "A moment outside time itself. In one poetic gesture, this hourglass diffuser releases the notes of the Tubéreuse (Tuberose) fragrance - heady, yet fresh and green. Through the gilded scrolls, the enigmatic, almost intoxicating perfume of this white, deeply fragrant flower emerges. A scented object that sits on your bedside table or desk, soon becoming a familiar friend.",
+        "options": [
+            {
+                "size": "75ml",
+                "price": 165,
+                "weight": "75ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-tubereuse-tuberose-hourglass-diffuser-hgtbcarb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 151
-                }
-            ],
-            "collection": "Tubéreuse (Tuberose)"
-        }
-    ],
-    [
-        {
-            "id": 16,
-            "olfactory": "Flowers",
-            "name": "Mimosa",
-            "type": "Insert for diffuser",
-            "notes": "The herbarium of flowers",
-            "description": "An emblem of the South of France, captured here in a precious insert filled with pearls that evenly deliver the notes of Mimosa. Either indoors with the Un Air de Diptyque diffuser or on the road with the car diffuser, they perfume the air with the velvety, slightly honeyed fragrance of these small, golden yellow flowers.",
-            "options": [
-                {
-                    "size": null,
-                    "price": 42,
-                    "weight": null,
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-mimosa-insert-capsmi-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-mimosa-insert-capsmi-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-mimosa-insert-capsmi-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-mimosa-insert-capsmi-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5141
+            }
+        ],
+        "collection": "Tubéreuse (Tuberose)",
+        "sales": 402,
+        "inStock": true
+    },
+    {
+        "id": 515,
+        "olfactory": "Flowers",
+        "name": "Mimosa",
+        "type": "Insert for diffuser",
+        "notes": "The herbarium of flowers",
+        "description": "An emblem of the South of France, captured here in a precious insert filled with pearls that evenly deliver the notes of Mimosa. Either indoors with the Un Air de Diptyque diffuser or on the road with the car diffuser, they perfume the air with the velvety, slightly honeyed fragrance of these small, golden yellow flowers.",
+        "options": [
+            {
+                "size": null,
+                "price": 42,
+                "weight": null,
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-mimosa-insert-capsmi-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 161
-                }
-            ],
-            "collection": "Mimosa"
-        }
-    ],
-    [
-        {
-            "id": 17,
-            "olfactory": "Flowers",
-            "name": "Fleur d'Oranger (Orange Blossom)",
-            "type": "Refill for home fragrance diffuser",
-            "notes": "The herbarium of flowers",
-            "description": "The scent of déjà vu was never so charming. This refill invites you to continue the perfumed experience in an ode to the entire orange tree. Citrus fruits, bark, leaves. Perfumed concentrate and rattan reeds join forces to reveal the tangy, sliightly spicy notes of the Fleur d'Oranger (Orange Blossom) fragrance",
-            "options": [
-                {
-                    "size": "200ml",
-                    "price": 85,
-                    "weight": "200ml",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-refill-reed-diffuser-fleur-d-oranger-200ml-refreedfo-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-refill-reed-diffuser-fleur-d-oranger-200ml-refreedfo-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-refill-reed-diffuser-fleur-d-oranger-200ml-refreedfo-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-refill-reed-diffuser-fleur-d-oranger-200ml-refreedfo-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5151
+            }
+        ],
+        "collection": "Mimosa",
+        "sales": 144,
+        "inStock": false
+    },
+    {
+        "id": 516,
+        "olfactory": "Flowers",
+        "name": "Fleur d'Oranger (Orange Blossom)",
+        "type": "Refill for home fragrance diffuser",
+        "notes": "The herbarium of flowers",
+        "description": "The scent of déjà vu was never so charming. This refill invites you to continue the perfumed experience in an ode to the entire orange tree. Citrus fruits, bark, leaves. Perfumed concentrate and rattan reeds join forces to reveal the tangy, sliightly spicy notes of the Fleur d'Oranger (Orange Blossom) fragrance",
+        "options": [
+            {
+                "size": "200ml",
+                "price": 85,
+                "weight": "200ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-refill-reed-diffuser-fleur-d-oranger-200ml-refreedfo-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 171
-                }
-            ],
-            "collection": "Fleur d'Oranger (Orange Blossom)"
-        }
-    ],
-    [
-        {
-            "id": 18,
-            "olfactory": "Flowers",
-            "name": "Fleur d'Oranger (Orange Blossom)",
-            "type": "Car diffuser and insert",
-            "notes": "The herbarium of flowers",
-            "description": "A discreet travel companion. The Fleur d'Oranger (Orange Blossom) car diffuser uses the air itself to reveal its scented notes. Bark, leaves, citrus fruit. The entire tree is expressed here. A scent that develops while you're on the road, instantly transforming the ambiance of any journey.",
-            "options": [
-                {
-                    "size": null,
-                    "price": 95,
-                    "weight": null,
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-fleur-d-oranger-insert-cardiffo-1_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-fleur-d-oranger-insert-cardiffo-2_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-fleur-d-oranger-insert-cardiffo-1_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-fleur-d-oranger-insert-cardiffo-2_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5161
+            }
+        ],
+        "collection": "Fleur d'Oranger (Orange Blossom)",
+        "sales": 53,
+        "inStock": true
+    },
+    {
+        "id": 517,
+        "olfactory": "Flowers",
+        "name": "Fleur d'Oranger (Orange Blossom)",
+        "type": "Car diffuser and insert",
+        "notes": "The herbarium of flowers",
+        "description": "A discreet travel companion. The Fleur d'Oranger (Orange Blossom) car diffuser uses the air itself to reveal its scented notes. Bark, leaves, citrus fruit. The entire tree is expressed here. A scent that develops while you're on the road, instantly transforming the ambiance of any journey.",
+        "options": [
+            {
+                "size": null,
+                "price": 95,
+                "weight": null,
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-fleur-d-oranger-insert-cardiffo-1_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 181
-                }
-            ],
-            "collection": "Fleur d'Oranger (Orange Blossom)"
-        }
-    ],
-    [
-        {
-            "id": 19,
-            "olfactory": "Flowers",
-            "name": "Tubéreuse (Tuberose)",
-            "type": "Refill for home fragrance diffuser",
-            "notes": "The herbarium of flowers",
-            "description": "A moment of poetry, to be lived and felt over and over again. The sillage of this refill features the fresh, green, heady notes of the tuberose. Just pour it into the home fragrance diffuser - and its six rattan reeds convey the fruity, milky nuances of this precious white flower.",
-            "options": [
-                {
-                    "size": "200ml",
-                    "price": 85,
-                    "weight": "200ml",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/t/u/tubereuse-home-fragrance-diffuseur-refill_200ml_refreedtb_rvb_bd_fond-gris_spec-ecom_1_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/t/u/tubereuse-home-fragrance-diffuseur-refill_200ml_refreedtb_rvb_bd_fond-gris_spec-ecom_2_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/t/u/tubereuse-home-fragrance-diffuseur-refill_200ml_refreedtb_rvb_bd_fond-gris_spec-ecom_1_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/t/u/tubereuse-home-fragrance-diffuseur-refill_200ml_refreedtb_rvb_bd_fond-gris_spec-ecom_2_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5171
+            }
+        ],
+        "collection": "Fleur d'Oranger (Orange Blossom)",
+        "sales": 10,
+        "inStock": true
+    },
+    {
+        "id": 518,
+        "olfactory": "Flowers",
+        "name": "Tubéreuse (Tuberose)",
+        "type": "Refill for home fragrance diffuser",
+        "notes": "The herbarium of flowers",
+        "description": "A moment of poetry, to be lived and felt over and over again. The sillage of this refill features the fresh, green, heady notes of the tuberose. Just pour it into the home fragrance diffuser - and its six rattan reeds convey the fruity, milky nuances of this precious white flower.",
+        "options": [
+            {
+                "size": "200ml",
+                "price": 85,
+                "weight": "200ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/t/u/tubereuse-home-fragrance-diffuseur-refill_200ml_refreedtb_rvb_bd_fond-gris_spec-ecom_1_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 191
-                }
-            ],
-            "collection": "Tubéreuse (Tuberose)"
-        }
-    ],
-    [
-        {
-            "id": 20,
-            "olfactory": "Flowers",
-            "name": "Roses",
-            "type": "Hourglass Diffuser",
-            "notes": "The herbarium of flowers",
-            "description": "Time stands still. Emerging through the scrolls on this hourglass diffuser, the fragrance of rose bushes brimming with flowers in May spreads out. From minute to minute, the air fills with the fresh, flowery notes of the Rose fragrance. A poetic object you'll want to keep close at hand - for a new perfumed ritual.",
-            "options": [
-                {
-                    "size": "75ml",
-                    "price": 165,
-                    "weight": "75ml",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-roses-hourglass-diffuser-hgrocarb2-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-roses-hourglass-diffuser-hgrocarb2-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-roses-hourglass-diffuser-hgrocarb2-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-roses-hourglass-diffuser-hgrocarb2-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5181
+            }
+        ],
+        "collection": "Tubéreuse (Tuberose)",
+        "sales": 292,
+        "inStock": true
+    },
+    {
+        "id": 519,
+        "olfactory": "Flowers",
+        "name": "Roses",
+        "type": "Hourglass Diffuser",
+        "notes": "The herbarium of flowers",
+        "description": "Time stands still. Emerging through the scrolls on this hourglass diffuser, the fragrance of rose bushes brimming with flowers in May spreads out. From minute to minute, the air fills with the fresh, flowery notes of the Rose fragrance. A poetic object you'll want to keep close at hand - for a new perfumed ritual.",
+        "options": [
+            {
+                "size": "75ml",
+                "price": 165,
+                "weight": "75ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-roses-hourglass-diffuser-hgrocarb2-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 201
-                }
-            ],
-            "collection": "Roses"
-        }
-    ],
-    [
-        {
-            "id": 21,
-            "olfactory": "Fruits",
-            "name": "Baies (Berries)",
-            "type": "Home Fragrance Diffuser",
-            "notes": "The herbarium of fruits",
-            "description": "In a faceted glass bottle bearing the emblematic oval, the cool, tangy notes of blackcurrant berries mingle with flowery rose accents. The Baies (Berries) home fragrance diffuser is a decorative object conceived for perfuming large spaces. It is also a time traveller, endlessly refillable.",
-            "options": [
-                {
-                    "size": "200ml",
-                    "price": 165,
-                    "weight": "200ml",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/r/e/reed-diffuseur-baies_200ml_reeddifb_rvb_bd_fond-gris_spec-ecom_1_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/r/e/reed-diffuseur-baies_200ml_reeddifb_rvb_bd_fond-gris_spec-ecom_2_diptyque_1_.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/r/e/reed-diffuseur-baies_200ml_reeddifb_rvb_bd_fond-gris_spec-ecom_1_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/r/e/reed-diffuseur-baies_200ml_reeddifb_rvb_bd_fond-gris_spec-ecom_2_diptyque_1_.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/r/e/reed-diffuseur-baies_200ml_reeddifb_rvb_bd_fond-gris_spec-ecom_3_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5191
+            }
+        ],
+        "collection": "Roses",
+        "sales": 296,
+        "inStock": true
+    },
+    {
+        "id": 520,
+        "olfactory": "Fruits",
+        "name": "Baies (Berries)",
+        "type": "Home Fragrance Diffuser",
+        "notes": "The herbarium of fruits",
+        "description": "In a faceted glass bottle bearing the emblematic oval, the cool, tangy notes of blackcurrant berries mingle with flowery rose accents. The Baies (Berries) home fragrance diffuser is a decorative object conceived for perfuming large spaces. It is also a time traveller, endlessly refillable.",
+        "options": [
+            {
+                "size": "200ml",
+                "price": 165,
+                "weight": "200ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/r/e/reed-diffuseur-baies_200ml_reeddifb_rvb_bd_fond-gris_spec-ecom_1_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 211
-                }
-            ],
-            "collection": "Baies (Berries)"
-        }
-    ],
-    [
-        {
-            "id": 22,
-            "olfactory": "Fruits",
-            "name": "Baies (Berries)",
-            "type": "Room Spray",
-            "notes": "The herbarium of fruits",
-            "description": "One gesture and this spray perfumes the air. It expresses the tangy freshness of blackcurrant berries, the green fragrance of their leaves and the flowery notes of rose. Just a few sprays and your home is filled with an irresistible perfumed ambiance - a delightful surprise!",
-            "options": [
-                {
-                    "size": "150ml",
-                    "price": 60,
-                    "weight": "150ml",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-baies-berries-room-spray-vb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-baies-berries-room-spray-vb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-baies-berries-room-spray-vb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_3.jpg"
+                    ]
+                },
+                "optionId": 5201
+            }
+        ],
+        "collection": "Baies (Berries)",
+        "sales": 285,
+        "inStock": true
+    },
+    {
+        "id": 521,
+        "olfactory": "Fruits",
+        "name": "Baies (Berries)",
+        "type": "Room Spray",
+        "notes": "The herbarium of fruits",
+        "description": "One gesture and this spray perfumes the air. It expresses the tangy freshness of blackcurrant berries, the green fragrance of their leaves and the flowery notes of rose. Just a few sprays and your home is filled with an irresistible perfumed ambiance - a delightful surprise!",
+        "options": [
+            {
+                "size": "150ml",
+                "price": 60,
+                "weight": "150ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-baies-berries-room-spray-vb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 221
-                }
-            ],
-            "collection": "Baies (Berries)"
-        }
-    ],
-    [
-        {
-            "id": 23,
-            "olfactory": "Fruits",
-            "name": "Baies (Berries)",
-            "type": "Wax Oval",
-            "notes": "The herbarium of fruits",
-            "description": "Tucked away in a drawer or suitcase or slipped into a wardrobe of fresh linen, the Baies (Berries) scented wax oval slowly diffuses its fragrance. The fragrance evokes the tangy coolness of blackcurrant berries and lively, flowery rose accents. Framed in a white ceramic ring, the tablet is as discreet as it is irresistible.",
-            "options": [
-                {
-                    "size": "35g",
-                    "price": 55,
-                    "weight": "35g",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-baies-berries-scented-oval-pb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-baies-berries-scented-oval-pb-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-baies-berries-scented-oval-pb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-baies-berries-scented-oval-pb-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_1.jpg"
+                    ]
+                },
+                "optionId": 5211
+            }
+        ],
+        "collection": "Baies (Berries)",
+        "sales": 492,
+        "inStock": false
+    },
+    {
+        "id": 522,
+        "olfactory": "Fruits",
+        "name": "Baies (Berries)",
+        "type": "Wax Oval",
+        "notes": "The herbarium of fruits",
+        "description": "Tucked away in a drawer or suitcase or slipped into a wardrobe of fresh linen, the Baies (Berries) scented wax oval slowly diffuses its fragrance. The fragrance evokes the tangy coolness of blackcurrant berries and lively, flowery rose accents. Framed in a white ceramic ring, the tablet is as discreet as it is irresistible.",
+        "options": [
+            {
+                "size": "35g",
+                "price": 55,
+                "weight": "35g",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-baies-berries-scented-oval-pb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 231
-                }
-            ],
-            "collection": "Baies (Berries)"
-        }
-    ],
-    [
-        {
-            "id": 24,
-            "olfactory": "Fruits",
-            "name": "Figuier (Fig Tree)",
-            "type": "Car diffuser and insert",
-            "notes": "The herbarium of fruits",
-            "description": "A journey of the senses. The car diffuser prolongs the story of Figuier (Fig Tree), an emblematic scent in the Diptyque herbarium. In its sillage, the woody fragrance of the tree blends with the green, slightly fruity accents of a handful of figs. A Mediterranean stopover during a car journey.",
-            "options": [
-                {
-                    "size": null,
-                    "price": 95,
-                    "weight": null,
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-figuier-insert-cardiffi-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-figuier-insert-cardiffi-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-figuier-insert-cardiffi-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-figuier-insert-cardiffi-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5221
+            }
+        ],
+        "collection": "Baies (Berries)",
+        "sales": 211,
+        "inStock": true
+    },
+    {
+        "id": 523,
+        "olfactory": "Fruits",
+        "name": "Figuier (Fig Tree)",
+        "type": "Car diffuser and insert",
+        "notes": "The herbarium of fruits",
+        "description": "A journey of the senses. The car diffuser prolongs the story of Figuier (Fig Tree), an emblematic scent in the Diptyque herbarium. In its sillage, the woody fragrance of the tree blends with the green, slightly fruity accents of a handful of figs. A Mediterranean stopover during a car journey.",
+        "options": [
+            {
+                "size": null,
+                "price": 95,
+                "weight": null,
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-figuier-insert-cardiffi-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 241
-                }
-            ],
-            "collection": "Figuier (Fig Tree)"
-        }
-    ],
-    [
-        {
-            "id": 25,
-            "olfactory": "Fruits",
-            "name": "Baies (Berries)",
-            "type": "The Culbuto, Oscillating diffuser",
-            "notes": "The herbarium of fruits",
-            "description": "One simple gesture activates the Culbuto, diffusing notes of Baies (Berries). The rocker arm amplifies these, its motion evoking memories of childhood. The Culbuto is an unusual, intriguing object comprising a sphere of solid wood and a ceramic stick that releases green notes of blackcurrant berries mingled with flowery rose accents. It is endlessly refillable.",
-            "options": [
-                {
-                    "size": null,
-                    "price": 220,
-                    "weight": null,
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diffuseur-culbuto_culbutob_rvb_bd_fond-gris_spec-ecom_1_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diffuseur-culbuto_culbutob_rvb_bd_fond-gris_spec-ecom_2_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diffuseur-culbuto_culbutob_rvb_bd_fond-gris_spec-ecom_1_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diffuseur-culbuto_culbutob_rvb_bd_fond-gris_spec-ecom_2_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diffuseur-culbuto_culbutob_rvb_bd_fond-gris_spec-ecom_3_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diffuseur-culbuto_culbutob_rvb_bd_fond-gris_spec-ecom_4_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/c/u/culbuto_visuel_ingredients_culbuto_2024_2025x2700px_diptyque_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5231
+            }
+        ],
+        "collection": "Figuier (Fig Tree)",
+        "sales": 330,
+        "inStock": false
+    },
+    {
+        "id": 524,
+        "olfactory": "Fruits",
+        "name": "Baies (Berries)",
+        "type": "The Culbuto, Oscillating diffuser",
+        "notes": "The herbarium of fruits",
+        "description": "One simple gesture activates the Culbuto, diffusing notes of Baies (Berries). The rocker arm amplifies these, its motion evoking memories of childhood. The Culbuto is an unusual, intriguing object comprising a sphere of solid wood and a ceramic stick that releases green notes of blackcurrant berries mingled with flowery rose accents. It is endlessly refillable.",
+        "options": [
+            {
+                "size": null,
+                "price": 220,
+                "weight": null,
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diffuseur-culbuto_culbutob_rvb_bd_fond-gris_spec-ecom_1_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 251
-                }
-            ],
-            "collection": "Baies (Berries)"
-        }
-    ],
-    [
-        {
-            "id": 26,
-            "olfactory": "Fruits",
-            "name": "Figuier (Fig Tree)",
-            "type": "Spray",
-            "notes": "The herbarium of fruits",
-            "description": "The fragrance of Mediterranean trees. A single spray is enough to bring out their notes, mingling with the green, faintly fruity accents of figs. Suffusing the room with a warm glow, this home fragrance leaves a sillage that suggests a familiar, woody landscape: a sun-drenched terrain baking in a blazing wind.",
-            "options": [
-                {
-                    "size": "150ml",
-                    "price": 60,
-                    "weight": "150ml",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-figuier-fig-tree-room-spray-vfi-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/f/i/figuier-fig-tree-room-spray_vfi.png?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-figuier-fig-tree-room-spray-vfi-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/f/i/figuier-fig-tree-room-spray_vfi.png?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_3.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_4.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_5.jpg"
+                    ]
+                },
+                "optionId": 5241
+            }
+        ],
+        "collection": "Baies (Berries)",
+        "sales": 345,
+        "inStock": false
+    },
+    {
+        "id": 525,
+        "olfactory": "Fruits",
+        "name": "Figuier (Fig Tree)",
+        "type": "Spray",
+        "notes": "The herbarium of fruits",
+        "description": "The fragrance of Mediterranean trees. A single spray is enough to bring out their notes, mingling with the green, faintly fruity accents of figs. Suffusing the room with a warm glow, this home fragrance leaves a sillage that suggests a familiar, woody landscape: a sun-drenched terrain baking in a blazing wind.",
+        "options": [
+            {
+                "size": "150ml",
+                "price": 60,
+                "weight": "150ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-figuier-fig-tree-room-spray-vfi-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 261
-                }
-            ],
-            "collection": "Figuier (Fig Tree)"
-        }
-    ],
-    [
-        {
-            "id": 27,
-            "olfactory": "Fruits",
-            "name": "Baies (Berries)",
-            "type": "Insert for diffuser",
-            "notes": "The herbarium of fruits",
-            "description": "The tangy coolness of blackcurrant berries meets the lively, flowery accents of the rose. The perfumed pearls in this capsule release the full range of notes in Baies (Berries). Slip it into your Un Air de Diptyque diffuser to fragrance a room, or into the car diffuser to take it with you on the road.",
-            "options": [
-                {
-                    "size": null,
-                    "price": 42,
-                    "weight": null,
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-baies-berries-insert-capsb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-baies-berries-insert-capsb-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-baies-berries-insert-capsb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-baies-berries-insert-capsb-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5251
+            }
+        ],
+        "collection": "Figuier (Fig Tree)",
+        "sales": 485,
+        "inStock": false
+    },
+    {
+        "id": 526,
+        "olfactory": "Fruits",
+        "name": "Baies (Berries)",
+        "type": "Insert for diffuser",
+        "notes": "The herbarium of fruits",
+        "description": "The tangy coolness of blackcurrant berries meets the lively, flowery accents of the rose. The perfumed pearls in this capsule release the full range of notes in Baies (Berries). Slip it into your Un Air de Diptyque diffuser to fragrance a room, or into the car diffuser to take it with you on the road.",
+        "options": [
+            {
+                "size": null,
+                "price": 42,
+                "weight": null,
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-baies-berries-insert-capsb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 271
-                }
-            ],
-            "collection": "Baies (Berries)"
-        }
-    ],
-    [
-        {
-            "id": 28,
-            "olfactory": "Fruits",
-            "name": "Baies (Berries)",
-            "type": "Hourglass Diffuser",
-            "notes": "The herbarium of fruits",
-            "description": "Time seems to stand still. Just turn the hourglass diffuser over: as if by magic, it releases the subtle scent of the iconic Baies (Berries) fragrance. This unique object poetically reinvents the art of home fragrancing, revealing a blend of green notes of blackcurrant and flowery rose accents.",
-            "options": [
-                {
-                    "size": "75ml",
-                    "price": 165,
-                    "weight": "75ml",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-baies-berries-hourglass-diffuser-hgbcarb3-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-baies-berries-hourglass-diffuser-hgbcarb3-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-baies-berries-hourglass-diffuser-hgbcarb3-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-baies-berries-hourglass-diffuser-hgbcarb3-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5261
+            }
+        ],
+        "collection": "Baies (Berries)",
+        "sales": 214,
+        "inStock": true
+    },
+    {
+        "id": 527,
+        "olfactory": "Fruits",
+        "name": "Baies (Berries)",
+        "type": "Hourglass Diffuser",
+        "notes": "The herbarium of fruits",
+        "description": "Time seems to stand still. Just turn the hourglass diffuser over: as if by magic, it releases the subtle scent of the iconic Baies (Berries) fragrance. This unique object poetically reinvents the art of home fragrancing, revealing a blend of green notes of blackcurrant and flowery rose accents.",
+        "options": [
+            {
+                "size": "75ml",
+                "price": 165,
+                "weight": "75ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-baies-berries-hourglass-diffuser-hgbcarb3-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 281
-                }
-            ],
-            "collection": "Baies (Berries)"
-        }
-    ],
-    [
-        {
-            "id": 29,
-            "olfactory": "Fruits",
-            "name": "Figuier (Fig Tree)",
-            "type": "Wax Oval",
-            "notes": "The herbarium of fruits",
-            "description": "The warmth of the bark, the freshness of the leaves, the milky sap of the fruit - every facet of the fig tree is expressed in this scented wax oval. Framed in a white ceramic ring and sporting a handy cord, this precious scented oval can be slipped into drawers or hung in a wardrobe - adding a little Mediterranean touch to your home.",
-            "options": [
-                {
-                    "size": "35g",
-                    "price": 55,
-                    "weight": "35g",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-figuier-fig-tree-scented-oval-pfi-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-figuier-fig-tree-scented-oval-pfi-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-figuier-fig-tree-scented-oval-pfi-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-figuier-fig-tree-scented-oval-pfi-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5271
+            }
+        ],
+        "collection": "Baies (Berries)",
+        "sales": 321,
+        "inStock": false
+    },
+    {
+        "id": 528,
+        "olfactory": "Fruits",
+        "name": "Figuier (Fig Tree)",
+        "type": "Wax Oval",
+        "notes": "The herbarium of fruits",
+        "description": "The warmth of the bark, the freshness of the leaves, the milky sap of the fruit - every facet of the fig tree is expressed in this scented wax oval. Framed in a white ceramic ring and sporting a handy cord, this precious scented oval can be slipped into drawers or hung in a wardrobe - adding a little Mediterranean touch to your home.",
+        "options": [
+            {
+                "size": "35g",
+                "price": 55,
+                "weight": "35g",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-figuier-fig-tree-scented-oval-pfi-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 291
-                }
-            ],
-            "collection": "Figuier (Fig Tree)"
-        }
-    ],
-    [
-        {
-            "id": 30,
-            "olfactory": "Fruits",
-            "name": "Figuier (Fig Tree)",
-            "type": "Hourglass Diffuser",
-            "notes": "The herbarium of fruits",
-            "description": "",
-            "options": [
-                {
-                    "size": "75ml",
-                    "price": 165,
-                    "weight": "75ml",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-figuier-fig-tree-hourglass-diffuser-hgficarb2-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-figuier-fig-tree-hourglass-diffuser-hgficarb2-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-figuier-fig-tree-hourglass-diffuser-hgficarb2-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-figuier-fig-tree-hourglass-diffuser-hgficarb2-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5281
+            }
+        ],
+        "collection": "Figuier (Fig Tree)",
+        "sales": 60,
+        "inStock": false
+    },
+    {
+        "id": 529,
+        "olfactory": "Fruits",
+        "name": "Figuier (Fig Tree)",
+        "type": "Hourglass Diffuser",
+        "notes": "The herbarium of fruits",
+        "description": "",
+        "options": [
+            {
+                "size": "75ml",
+                "price": 165,
+                "weight": "75ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-figuier-fig-tree-hourglass-diffuser-hgficarb2-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 301
-                }
-            ],
-            "collection": "Figuier (Fig Tree)"
-        }
-    ],
-    [
-        {
-            "id": 31,
-            "olfactory": "Fruits",
-            "name": "Baies (Berries)",
-            "type": "Car diffuser and insert",
-            "notes": "The herbarium of fruits",
-            "description": "A constant travel companion. Using air to spread its perfume, this car diffuser invites you to extend the story of a scent emblematic of Diptyque. In its sillage, green, cool notes of fresh-picked blackcurrant berries mingle with lively, flowery rose accents.",
-            "options": [
-                {
-                    "size": null,
-                    "price": 95,
-                    "weight": null,
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-baies-insert-cardifb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-baies-insert-cardifb-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-baies-insert-cardifb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-baies-insert-cardifb-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5291
+            }
+        ],
+        "collection": "Figuier (Fig Tree)",
+        "sales": 448,
+        "inStock": false
+    },
+    {
+        "id": 530,
+        "olfactory": "Fruits",
+        "name": "Baies (Berries)",
+        "type": "Car diffuser and insert",
+        "notes": "The herbarium of fruits",
+        "description": "A constant travel companion. Using air to spread its perfume, this car diffuser invites you to extend the story of a scent emblematic of Diptyque. In its sillage, green, cool notes of fresh-picked blackcurrant berries mingle with lively, flowery rose accents.",
+        "options": [
+            {
+                "size": null,
+                "price": 95,
+                "weight": null,
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-baies-insert-cardifb-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 311
-                }
-            ],
-            "collection": "Baies (Berries)"
-        }
-    ],
-    [
-        {
-            "id": 32,
-            "olfactory": "Fruits",
-            "name": "Figuier (Fig Tree)",
-            "type": "Insert for diffuser",
-            "notes": "The herbarium of fruits",
-            "description": "Between the woody fragrance of the tree and the green accents of a handful of figs, this scented insert is an ode to the entire fig tree. Just slip it into the Un Air de Diptyque diffuser to perfume any room in your home, or use it in the car with the dedicated diffuser. A scent of escape - in a nomadic insert.",
-            "options": [
-                {
-                    "size": null,
-                    "price": 42,
-                    "weight": null,
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-figuier-fig-tree-insert-capsfi-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-figuier-fig-tree-insert-capsfi-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-figuier-fig-tree-insert-capsfi-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-figuier-fig-tree-insert-capsfi-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5301
+            }
+        ],
+        "collection": "Baies (Berries)",
+        "sales": 405,
+        "inStock": false
+    },
+    {
+        "id": 531,
+        "olfactory": "Fruits",
+        "name": "Figuier (Fig Tree)",
+        "type": "Insert for diffuser",
+        "notes": "The herbarium of fruits",
+        "description": "Between the woody fragrance of the tree and the green accents of a handful of figs, this scented insert is an ode to the entire fig tree. Just slip it into the Un Air de Diptyque diffuser to perfume any room in your home, or use it in the car with the dedicated diffuser. A scent of escape - in a nomadic insert.",
+        "options": [
+            {
+                "size": null,
+                "price": 42,
+                "weight": null,
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-figuier-fig-tree-insert-capsfi-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 321
-                }
-            ],
-            "collection": "Figuier (Fig Tree)"
-        }
-    ],
-    [
-        {
-            "id": 33,
-            "olfactory": "Fruits",
-            "name": "Baies (Berries)",
-            "type": "Refill for home fragrance diffuser",
-            "notes": "The herbarium of fruits",
-            "description": "Evenly delivers the green, tangy notes of blackcurrant berries blended with the lively, flowery accents of the rose. This refill its six natural rattan reeds prolong the perfumed ambiance of the Baies (Berries) diffuser.",
-            "options": [
-                {
-                    "size": "200ml",
-                    "price": 85,
-                    "weight": "200ml",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/b/a/baies-home-fragrance-diffuseur-refill_200ml_refreedb_rvb_bd_fond-gris_spec-ecom_1_diptyque_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/b/a/baies-home-fragrance-diffuseur-refill_200ml_refreedb_rvb_bd_fond-gris_spec-ecom_2_diptyque_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/b/a/baies-home-fragrance-diffuseur-refill_200ml_refreedb_rvb_bd_fond-gris_spec-ecom_1_diptyque_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/b/a/baies-home-fragrance-diffuseur-refill_200ml_refreedb_rvb_bd_fond-gris_spec-ecom_2_diptyque_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5311
+            }
+        ],
+        "collection": "Figuier (Fig Tree)",
+        "sales": 290,
+        "inStock": false
+    },
+    {
+        "id": 532,
+        "olfactory": "Fruits",
+        "name": "Baies (Berries)",
+        "type": "Refill for home fragrance diffuser",
+        "notes": "The herbarium of fruits",
+        "description": "Evenly delivers the green, tangy notes of blackcurrant berries blended with the lively, flowery accents of the rose. This refill its six natural rattan reeds prolong the perfumed ambiance of the Baies (Berries) diffuser.",
+        "options": [
+            {
+                "size": "200ml",
+                "price": 85,
+                "weight": "200ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/b/a/baies-home-fragrance-diffuseur-refill_200ml_refreedb_rvb_bd_fond-gris_spec-ecom_1_diptyque_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 331
-                }
-            ],
-            "collection": "Baies (Berries)"
-        }
-    ],
-    [
-        {
-            "id": 34,
-            "olfactory": "Fruits",
-            "name": "Baies (Berries)",
-            "type": "Refill for the Culbuto, Oscillating diffuser",
-            "notes": "The herbarium of fruits",
-            "description": "An emblematic scent captured in a fine ceramic stick. This refill for the Culbuto diffuses delicate notes of Baies (Berries) into the air. It fits into the solid wooden sphere of the Culbuto in one simple motion, extending the olfactory experience and prolonging the perfumed interlude",
-            "options": [
-                {
-                    "size": null,
-                    "price": 50,
-                    "weight": null,
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/r/e/recharge-diffuseur-culbuto_refb1culbut_rvb_fond-gris_spec-ecom_1_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/r/e/recharge-diffuseur-culbuto_refb1culbut_rvb_fond-gris_spec-ecom_1_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/r/e/recharge-diffuseur-culbuto_refb1culbut_rvb_fond-gris_spec-ecom_1_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5321
+            }
+        ],
+        "collection": "Baies (Berries)",
+        "sales": 235,
+        "inStock": false
+    },
+    {
+        "id": 533,
+        "olfactory": "Fruits",
+        "name": "Baies (Berries)",
+        "type": "Refill for the Culbuto, Oscillating diffuser",
+        "notes": "The herbarium of fruits",
+        "description": "An emblematic scent captured in a fine ceramic stick. This refill for the Culbuto diffuses delicate notes of Baies (Berries) into the air. It fits into the solid wooden sphere of the Culbuto in one simple motion, extending the olfactory experience and prolonging the perfumed interlude",
+        "options": [
+            {
+                "size": null,
+                "price": 50,
+                "weight": null,
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/r/e/recharge-diffuseur-culbuto_refb1culbut_rvb_fond-gris_spec-ecom_1_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 341
-                }
-            ],
-            "collection": "Baies (Berries)"
-        }
-    ],
-    [
-        {
-            "id": 35,
-            "olfactory": "Spices",
-            "name": "Gingembre (Ginger)",
-            "type": "Hourglass Diffuser",
-            "notes": "The herbarium of spices",
-            "description": "Fragrance reinvented. As if by magic, this this hourglass diffuser - a unique, poetic object - releases the lively, spicy notes of the Gingembre (Ginger) fragrance. The perfume flows gently down from one glass compartment to the other, creating a contemplative mood. Wafting through the stylised scrolls of precious metal, the original purity of the plant is diffused into your home.",
-            "options": [
-                {
-                    "size": "75ml",
-                    "price": 165,
-                    "weight": "75ml",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-gingembre-ginger-hourglass-diffuser-hgggcarb2-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-gingembre-ginger-hourglass-diffuser-hgggcarb2-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-gingembre-ginger-hourglass-diffuser-hgggcarb2-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-gingembre-ginger-hourglass-diffuser-hgggcarb2-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_1.jpg"
+                    ]
+                },
+                "optionId": 5331
+            }
+        ],
+        "collection": "Baies (Berries)",
+        "sales": 169,
+        "inStock": true
+    },
+    {
+        "id": 534,
+        "olfactory": "Spices",
+        "name": "Gingembre (Ginger)",
+        "type": "Hourglass Diffuser",
+        "notes": "The herbarium of spices",
+        "description": "Fragrance reinvented. As if by magic, this this hourglass diffuser - a unique, poetic object - releases the lively, spicy notes of the Gingembre (Ginger) fragrance. The perfume flows gently down from one glass compartment to the other, creating a contemplative mood. Wafting through the stylised scrolls of precious metal, the original purity of the plant is diffused into your home.",
+        "options": [
+            {
+                "size": "75ml",
+                "price": 165,
+                "weight": "75ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-gingembre-ginger-hourglass-diffuser-hgggcarb2-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 351
-                }
-            ],
-            "collection": "Gingembre (Ginger)"
-        }
-    ],
-    [
-        {
-            "id": 36,
-            "olfactory": "Spices",
-            "name": "Gingembre (Ginger)",
-            "type": "Room Spray",
-            "notes": "The herbarium of spices",
-            "description": "Energetic, spicy notes. In this Gingembre (Ginger) room spray, the plant is displayed at its purest and liveliest. In a single gesture, it transforms the olfactory ambiance of a room. The perfumed moment can be prolonged at will, with just a few sprays on your curtains, hangings and cushions.",
-            "options": [
-                {
-                    "size": "150ml",
-                    "price": 60,
-                    "weight": "150ml",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-gingembre-ginger-room-spray-vggv1-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/g/i/gingembre-ginger-room-spray_vggv1.png?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-gingembre-ginger-room-spray-vggv1-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/g/i/gingembre-ginger-room-spray_vggv1.png?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5341
+            }
+        ],
+        "collection": "Gingembre (Ginger)",
+        "sales": 218,
+        "inStock": false
+    },
+    {
+        "id": 535,
+        "olfactory": "Spices",
+        "name": "Gingembre (Ginger)",
+        "type": "Room Spray",
+        "notes": "The herbarium of spices",
+        "description": "Energetic, spicy notes. In this Gingembre (Ginger) room spray, the plant is displayed at its purest and liveliest. In a single gesture, it transforms the olfactory ambiance of a room. The perfumed moment can be prolonged at will, with just a few sprays on your curtains, hangings and cushions.",
+        "options": [
+            {
+                "size": "150ml",
+                "price": 60,
+                "weight": "150ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-gingembre-ginger-room-spray-vggv1-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 361
-                }
-            ],
-            "collection": "Gingembre (Ginger)"
-        }
-    ],
-    [
-        {
-            "id": 37,
-            "olfactory": "Spices",
-            "name": "Gingembre (Ginger)",
-            "type": "Insert for diffuser",
-            "notes": "The herbarium of spices",
-            "description": "Lively and spicy. The highly perfumed pearls in this capsule evenly reproduce the notes of fresh-cut ginger. A pure, original fragrance, released using the Un Air de Diptyque home fragrance diffuser or the car diffuser.",
-            "options": [
-                {
-                    "size": null,
-                    "price": 42,
-                    "weight": null,
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-gingembre-ginger-insert-capsgg-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-gingembre-ginger-insert-capsgg-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-gingembre-ginger-insert-capsgg-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-gingembre-ginger-insert-capsgg-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5351
+            }
+        ],
+        "collection": "Gingembre (Ginger)",
+        "sales": 32,
+        "inStock": false
+    },
+    {
+        "id": 536,
+        "olfactory": "Spices",
+        "name": "Gingembre (Ginger)",
+        "type": "Insert for diffuser",
+        "notes": "The herbarium of spices",
+        "description": "Lively and spicy. The highly perfumed pearls in this capsule evenly reproduce the notes of fresh-cut ginger. A pure, original fragrance, released using the Un Air de Diptyque home fragrance diffuser or the car diffuser.",
+        "options": [
+            {
+                "size": null,
+                "price": 42,
+                "weight": null,
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-gingembre-ginger-insert-capsgg-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 371
-                }
-            ],
-            "collection": "Gingembre (Ginger)"
-        }
-    ],
-    [
-        {
-            "id": 38,
-            "olfactory": "Trees",
-            "name": "34 boulevard Saint Germain",
-            "type": "Room Spray",
-            "notes": "The herbarium of trees",
-            "description": "In one gesture, the 34 Boulevard Saint-Germain room spray brings out the notes of Diptyque's signature scent. The fresh, unconventional perfume of moss and blackcurrant leaves - floral notes heightened with wood and spices. Just a few sprays and the Maison's entire art of living is expressed. Creative, urbane.",
-            "options": [
-                {
-                    "size": "150ml",
-                    "price": 64,
-                    "weight": "150ml",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-room-spray-v34b-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-room-spray-v34b-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-room-spray-v34b-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5361
+            }
+        ],
+        "collection": "Gingembre (Ginger)",
+        "sales": 188,
+        "inStock": true
+    },
+    {
+        "id": 537,
+        "olfactory": "Trees",
+        "name": "34 boulevard Saint Germain",
+        "type": "Room Spray",
+        "notes": "The herbarium of trees",
+        "description": "In one gesture, the 34 Boulevard Saint-Germain room spray brings out the notes of Diptyque's signature scent. The fresh, unconventional perfume of moss and blackcurrant leaves - floral notes heightened with wood and spices. Just a few sprays and the Maison's entire art of living is expressed. Creative, urbane.",
+        "options": [
+            {
+                "size": "150ml",
+                "price": 64,
+                "weight": "150ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-room-spray-v34b-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 381
-                }
-            ],
-            "collection": "34 boulevard Saint Germain"
-        }
-    ],
-    [
-        {
-            "id": 39,
-            "olfactory": "Trees",
-            "name": "34 boulevard Saint Germain",
-            "type": "Insert for diffuser",
-            "notes": "The herbarium of trees",
-            "description": "The Latin Quarter encapsulated. In these fine perfumed pearls, the entire olfactory soul of the first Diptyque boutique is expressed. Notes of moss, heightened here by Oriental spices, plus floral and woody notes. The art of living as per 34 Boulevard Saint-Germain, ready to be slipped into your Un Air de Diptyque diffuser or diffuser for the car.",
-            "options": [
-                {
-                    "size": null,
-                    "price": 48,
-                    "weight": null,
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-insert-caps34-1_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-insert-caps34-2_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-insert-caps34-1_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-insert-caps34-2_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_1.jpg"
+                    ]
+                },
+                "optionId": 5371
+            }
+        ],
+        "collection": "34 boulevard Saint Germain",
+        "sales": 438,
+        "inStock": false
+    },
+    {
+        "id": 538,
+        "olfactory": "Trees",
+        "name": "34 boulevard Saint Germain",
+        "type": "Insert for diffuser",
+        "notes": "The herbarium of trees",
+        "description": "The Latin Quarter encapsulated. In these fine perfumed pearls, the entire olfactory soul of the first Diptyque boutique is expressed. Notes of moss, heightened here by Oriental spices, plus floral and woody notes. The art of living as per 34 Boulevard Saint-Germain, ready to be slipped into your Un Air de Diptyque diffuser or diffuser for the car.",
+        "options": [
+            {
+                "size": null,
+                "price": 48,
+                "weight": null,
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-insert-caps34-1_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 391
-                }
-            ],
-            "collection": "34 boulevard Saint Germain"
-        }
-    ],
-    [
-        {
-            "id": 40,
-            "olfactory": "Trees",
-            "name": "34 boulevard Saint Germain",
-            "type": "Car diffuser and insert",
-            "notes": "The herbarium of trees",
-            "description": "34 Boulevard Saint-Germain is on the move. This car diffuser encapsulates the Maison's signature scent. Moss, blackcurrant leaves, Oriental spices, floral and woody notes - the atmosphere of the first Diptyque boutique is expressed here in full.",
-            "options": [
-                {
-                    "size": null,
-                    "price": 100,
-                    "weight": null,
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-34-boulevard-saint-germain-insert-cardif34b-1_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-34-boulevard-saint-germain-insert-cardif34b-2_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-34-boulevard-saint-germain-insert-cardif34b-1_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-34-boulevard-saint-germain-insert-cardif34b-2_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5381
+            }
+        ],
+        "collection": "34 boulevard Saint Germain",
+        "sales": 13,
+        "inStock": false
+    },
+    {
+        "id": 539,
+        "olfactory": "Trees",
+        "name": "34 boulevard Saint Germain",
+        "type": "Car diffuser and insert",
+        "notes": "The herbarium of trees",
+        "description": "34 Boulevard Saint-Germain is on the move. This car diffuser encapsulates the Maison's signature scent. Moss, blackcurrant leaves, Oriental spices, floral and woody notes - the atmosphere of the first Diptyque boutique is expressed here in full.",
+        "options": [
+            {
+                "size": null,
+                "price": 100,
+                "weight": null,
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-car-diffuser-with-34-boulevard-saint-germain-insert-cardif34b-1_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 401
-                }
-            ],
-            "collection": "34 boulevard Saint Germain"
-        }
-    ],
-    [
-        {
-            "id": 41,
-            "olfactory": "Trees",
-            "name": "34 boulevard Saint Germain",
-            "type": "Hourglass Diffuser",
-            "notes": "The herbarium of trees",
-            "description": "Travel through time for an hour, exploring the olfactory ambiance of the Maison. This hourglass diffuser reinvents home fragrancing. Just turn it over and it gently diffuses its fragrance: mossy notes and blackcurrant leaves plus wood, flowers and spices. A welcome addition to any cosy office, library or bedside table.",
-            "options": [
-                {
-                    "size": "75ml",
-                    "price": 175,
-                    "weight": "75ml",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-hourglass-diffuser-hg34bcarb2-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-hourglass-diffuser-hg34bcarb2-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-hourglass-diffuser-hg34bcarb2-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-hourglass-diffuser-hg34bcarb2-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5391
+            }
+        ],
+        "collection": "34 boulevard Saint Germain",
+        "sales": 125,
+        "inStock": false
+    },
+    {
+        "id": 540,
+        "olfactory": "Trees",
+        "name": "34 boulevard Saint Germain",
+        "type": "Hourglass Diffuser",
+        "notes": "The herbarium of trees",
+        "description": "Travel through time for an hour, exploring the olfactory ambiance of the Maison. This hourglass diffuser reinvents home fragrancing. Just turn it over and it gently diffuses its fragrance: mossy notes and blackcurrant leaves plus wood, flowers and spices. A welcome addition to any cosy office, library or bedside table.",
+        "options": [
+            {
+                "size": "75ml",
+                "price": 175,
+                "weight": "75ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-hourglass-diffuser-hg34bcarb2-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 411
-                }
-            ],
-            "collection": "34 boulevard Saint Germain"
-        }
-    ],
-    [
-        {
-            "id": 42,
-            "olfactory": "Trees",
-            "name": "34 boulevard Saint Germain",
-            "type": "Wax Oval",
-            "notes": "The herbarium of trees",
-            "description": "Fresh moss, Oriental spices, floral and woody notes. The 34 Boulevard Saint-Germain scented oval conveys Diptyque's entire art of living. Decorated with a white ceramic ring, it reveals the olfactory soul of the Maison's first boutique. Placed in your linen or in a wardrobe, it diffuses a fragrance of liberty and creativity.",
-            "options": [
-                {
-                    "size": "35g",
-                    "price": 60,
-                    "weight": "35g",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-scented-oval-p34b-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-scented-oval-p34b-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-scented-oval-p34b-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-scented-oval-p34b-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5401
+            }
+        ],
+        "collection": "34 boulevard Saint Germain",
+        "sales": 453,
+        "inStock": true
+    },
+    {
+        "id": 541,
+        "olfactory": "Trees",
+        "name": "34 boulevard Saint Germain",
+        "type": "Wax Oval",
+        "notes": "The herbarium of trees",
+        "description": "Fresh moss, Oriental spices, floral and woody notes. The 34 Boulevard Saint-Germain scented oval conveys Diptyque's entire art of living. Decorated with a white ceramic ring, it reveals the olfactory soul of the Maison's first boutique. Placed in your linen or in a wardrobe, it diffuses a fragrance of liberty and creativity.",
+        "options": [
+            {
+                "size": "35g",
+                "price": 60,
+                "weight": "35g",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-scented-oval-p34b-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 421
-                }
-            ],
-            "collection": "34 boulevard Saint Germain"
-        }
-    ],
-    [
-        {
-            "id": 43,
-            "olfactory": "Trees",
-            "name": "Ambre (Amber)",
-            "type": "Room Spray",
-            "notes": "The herbarium of trees",
-            "description": "Just a few sprays are enough to fill any room with unique notes - subtle, wonderfully warm and redolent of wood and tanned leather. The Ambre (Amber) fragrance is a tribute to a resin as rare and precious as gold for Arab merchants, as incense for the Egyptians and as aphrodisiac spices in China.",
-            "options": [
-                {
-                    "size": "150ml",
-                    "price": 60,
-                    "weight": "150ml",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-ambre-amber-room-spray-vab-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-ambre-amber-room-spray-vab-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-ambre-amber-room-spray-vab-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5411
+            }
+        ],
+        "collection": "34 boulevard Saint Germain",
+        "sales": 19,
+        "inStock": true
+    },
+    {
+        "id": 542,
+        "olfactory": "Trees",
+        "name": "Ambre (Amber)",
+        "type": "Room Spray",
+        "notes": "The herbarium of trees",
+        "description": "Just a few sprays are enough to fill any room with unique notes - subtle, wonderfully warm and redolent of wood and tanned leather. The Ambre (Amber) fragrance is a tribute to a resin as rare and precious as gold for Arab merchants, as incense for the Egyptians and as aphrodisiac spices in China.",
+        "options": [
+            {
+                "size": "150ml",
+                "price": 60,
+                "weight": "150ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Ambre_(Amber)/Ambre_(Amber)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Ambre_(Amber)/Ambre_(Amber)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-ambre-amber-room-spray-vab-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 431
-                }
-            ],
-            "collection": "Ambre (Amber)"
-        }
-    ],
-    [
-        {
-            "id": 44,
-            "olfactory": "Trees",
-            "name": "34 boulevard Saint Germain",
-            "type": "Refill for home fragrance diffuser",
-            "notes": "The herbarium of trees",
-            "description": "The eternal scent: a meeting of moss and blackcurrant leaves. Floral notes, heightened by spices and underpinned by woods and balms. Accompanied by six rattan reeds, this diffuser refill evenly expresses the signature scent of Diptyque's first boutique. A sophisticated art of living.",
-            "options": [
-                {
-                    "size": "200ml",
-                    "price": 90,
-                    "weight": "200ml",
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-home-fragrance-diffuser-refill-refreed34b-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-home-fragrance-diffuser-refill-refreed34b-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-home-fragrance-diffuser-refill-refreed34b-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-home-fragrance-diffuser-refill-refreed34b-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Ambre_(Amber)/Ambre_(Amber)_detail_1.jpg"
+                    ]
+                },
+                "optionId": 5421
+            }
+        ],
+        "collection": "Ambre (Amber)",
+        "sales": 17,
+        "inStock": false
+    },
+    {
+        "id": 543,
+        "olfactory": "Trees",
+        "name": "34 boulevard Saint Germain",
+        "type": "Refill for home fragrance diffuser",
+        "notes": "The herbarium of trees",
+        "description": "The eternal scent: a meeting of moss and blackcurrant leaves. Floral notes, heightened by spices and underpinned by woods and balms. Accompanied by six rattan reeds, this diffuser refill evenly expresses the signature scent of Diptyque's first boutique. A sophisticated art of living.",
+        "options": [
+            {
+                "size": "200ml",
+                "price": 90,
+                "weight": "200ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-home-fragrance-diffuser-refill-refreed34b-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 441
-                }
-            ],
-            "collection": "34 boulevard Saint Germain"
-        }
-    ],
-    [
-        {
-            "id": 45,
-            "olfactory": "Trees",
-            "name": "Ambre (Amber)",
-            "type": "Insert for diffuser",
-            "notes": "The herbarium of trees",
-            "description": "Amber-scented pearls encased in an insert, releasing the heady fragrance of balms and spices, of precious, enveloping woods. When slipped into the Un Air de Diptyque diffuser, it elegantly perfumes any room in your home - but it's also quite at home in the car diffuser. The olfactory narrative continues.",
-            "options": [
-                {
-                    "size": null,
-                    "price": 42,
-                    "weight": null,
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-ambre-insert-capsab-1_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-ambre-insert-capsab-2_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-ambre-insert-capsab-1_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-ambre-insert-capsab-2_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5431
+            }
+        ],
+        "collection": "34 boulevard Saint Germain",
+        "sales": 428,
+        "inStock": true
+    },
+    {
+        "id": 544,
+        "olfactory": "Trees",
+        "name": "Ambre (Amber)",
+        "type": "Insert for diffuser",
+        "notes": "The herbarium of trees",
+        "description": "Amber-scented pearls encased in an insert, releasing the heady fragrance of balms and spices, of precious, enveloping woods. When slipped into the Un Air de Diptyque diffuser, it elegantly perfumes any room in your home - but it's also quite at home in the car diffuser. The olfactory narrative continues.",
+        "options": [
+            {
+                "size": null,
+                "price": 42,
+                "weight": null,
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Ambre_(Amber)/Ambre_(Amber)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Ambre_(Amber)/Ambre_(Amber)_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-ambre-insert-capsab-1_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 451
-                }
-            ],
-            "collection": "Ambre (Amber)"
-        }
-    ],
-    [
-        {
-            "id": 46,
-            "olfactory": null,
-            "name": "Electric Diffuser",
-            "type": "For the wall",
-            "notes": null,
-            "description": "Simply press to release the perfume. This electric diffuser uses the air itself to deliver the notes of nine iconic Diptyque scents. A durable, aesthetically pleasing object that can be carried from room to room or slipped into your suitcase to perfume any transient location.",
-            "options": [
-                {
-                    "size": null,
-                    "price": 110,
-                    "weight": null,
-                    "images": {
-                        "thumbnail": {
-                            "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-electric-wall-diffuser-elecplug-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-electric-wall-diffuser-elecplug-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        },
-                        "detail": [
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-electric-wall-diffuser-elecplug-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
-                            "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-electric-wall-diffuser-elecplug-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
-                        ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Ambre_(Amber)/Ambre_(Amber)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Ambre_(Amber)/Ambre_(Amber)_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5441
+            }
+        ],
+        "collection": "Ambre (Amber)",
+        "sales": 290,
+        "inStock": false
+    },
+    {
+        "id": 545,
+        "olfactory": null,
+        "name": "Electric Diffuser",
+        "type": "For the wall",
+        "notes": null,
+        "description": "Simply press to release the perfume. This electric diffuser uses the air itself to deliver the notes of nine iconic Diptyque scents. A durable, aesthetically pleasing object that can be carried from room to room or slipped into your suitcase to perfume any transient location.",
+        "options": [
+            {
+                "size": null,
+                "price": 110,
+                "weight": null,
+                "images": {
+                    "thumbnail": {
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Electric_Diffuser/Electric_Diffuser_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Electric_Diffuser/Electric_Diffuser_hover.jpg"
                     },
-                    "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-electric-wall-diffuser-elecplug-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
-                    "optionId": 461
-                }
-            ],
-            "collection": null
-        }
-    ]
+                    "detail": [
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Electric_Diffuser/Electric_Diffuser_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Electric_Diffuser/Electric_Diffuser_detail_2.jpg"
+                    ]
+                },
+                "optionId": 5451
+            }
+        ],
+        "collection": null,
+        "sales": 184,
+        "inStock": false
+    }
 ]
