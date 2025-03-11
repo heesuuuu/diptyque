@@ -1,3 +1,5 @@
+import CollectionMenu from "../../components/collection/CollectionMenu";
+
 
 const Collection = () => {
   return (
@@ -21,7 +23,9 @@ const Collection = () => {
         </section>
 
         {/* Collection 상품 Sec */}
-        <section>dd</section>
+        <section>
+          <CollectionMenu/>
+        </section>
       </div>
     </>
   );

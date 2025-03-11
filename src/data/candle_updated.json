@@ -678,7 +678,7 @@
     {
         "id": 315,
         "olfactory": "Trees",
-        "name": "34 boulevard Saint Germain",
+        "name": "34 Boulevard Saint Germain",
         "notes": "The herbarium of trees",
         "description": "Stamped with the emblematic oval, this large 34 Boulevard Saint-Germain candle captures the olfactory atmosphere of the first Diptyque boutique. Moss and blackcurrant leaves, floral notes heightened with oriental spices, the warmth of wood and of balms: within this white biscuit vessel is a whole art of living, Latin Quarter-style. Urbanity, liberty.",
         "options": [
@@ -734,7 +734,7 @@
                 "optionId": 3153
             }
         ],
-        "collection": "34 boulevard Saint Germain",
+        "collection": "34 Boulevard Saint Germain",
         "sales": 384,
         "inStock": true
     },
@@ -1233,7 +1233,7 @@
     {
         "id": 330,
         "olfactory": "Fruits",
-        "name": "Baies(Berries)",
+        "name": "Baies (Berries)",
         "notes": "The herbarium of fruits",
         "description": "The tangy coolness of a few fresh-picked blackcurrant berries. Lively, flowery rose accents. The Baies (Berries) scented candle speaks of harmony - a coming together of flower and fruit.",
         "options": [
@@ -1243,13 +1243,13 @@
                 "weight": "70g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_3.jpg"
                     ]
                 },
                 "optionId": 3301
@@ -1260,13 +1260,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_3.jpg"
                     ]
                 },
                 "optionId": 3302
@@ -1277,12 +1277,12 @@
                 "weight": "300g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_2.jpg"
                     ]
                 },
                 "optionId": 3303
@@ -1293,13 +1293,13 @@
                 "weight": "600g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_3.jpg"
                     ]
                 },
                 "optionId": 3304
@@ -1310,21 +1310,21 @@
                 "weight": "1500g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_detail_3.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_detail_4.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies(Berries)/Baies(Berries)_detail_5.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_3.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_4.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_5.jpg"
                     ]
                 },
                 "optionId": 3305
             }
         ],
-        "collection": "Baies(Berries)",
+        "collection": "Baies (Berries)",
         "sales": 439,
         "inStock": false
     },
@@ -1360,7 +1360,7 @@
     {
         "id": 332,
         "olfactory": "Fruits",
-        "name": "Figuier(Fig Tree)",
+        "name": "Figuier (Fig Tree)",
         "notes": "The herbarium of fruits",
         "description": "Stretching endlessly along the Mediterranean shoreline: fig trees in the hot sun, their perfume borne on the warm wind. The Figuier (Fig Tree) scented candle portrays the entire tree. The intense fragrance of the wood blends with the green, slightly fruity accents of a handful of figs as they start to ripen. A foretaste of summer.",
         "options": [
@@ -1434,7 +1434,7 @@
                 "optionId": 3324
             }
         ],
-        "collection": "Figuier(Fig Tree)",
+        "collection": "Figuier (Fig Tree)",
         "sales": 111,
         "inStock": true
     },
