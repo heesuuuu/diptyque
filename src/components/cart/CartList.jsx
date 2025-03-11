@@ -49,7 +49,7 @@ const CartList = () => {
               <span>TOTAL</span>
               <span>{selectCartItem ? `€${totalSelectedPrice + 100}` : `€${totalCartPrice + 100}`}</span>
             </div>
-            <BarButton text="PROCEED TO CHECKOUT" type="border" className="" />
+            <BarButton text="PROCEED TO CHECKOUT" type="filled" className="" />
           </div>
         </div>
       </div>

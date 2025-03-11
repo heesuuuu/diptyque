@@ -4,7 +4,7 @@ import { cartActions } from '../../store/modules/cartSlice';
 import { Icon } from '../../ui';
 
 const CartItem = ({ item }) => {
-  const { id, name, type, options, quantity, engraving, totalPrice, selected } = item;
+  const { id, name, type, options, quantity, engraving, totalPrice, selected, inStock } = item;
   const { selectCartItem } = useSelector((state) => state.cart);
   const dispatch = useDispatch();
 
@@ -33,29 +33,37 @@ const CartItem = ({ item }) => {
             </div>
           </div>
           <div className="cart-item-wrap-bottom flex flex-row justify-between items-end">
-            <div className="cart-item-custom flex flex-col gap-2">
-              <div className="cart-item-engraving-wrap flex flex-row gap-5">
-                <span>Engraving</span>
-                {engraving ? (
-                  <>
-                    <span className="text-grey-4">{engraving}</span>
-                    <div>Edit</div>
-                  </>
-                ) : (
-                  <span>Engrave Your Scent</span>
-                )}
+            {inStock ? (
+              <div className="cart-item-custom flex flex-col gap-2">
+                <div className="cart-item-engraving-wrap flex flex-row gap-5">
+                  <span>Engraving</span>
+                  {engraving ? (
+                    <>
+                      <span className="text-grey-4">{engraving}</span>
+                      <div>Edit</div>
+                    </>
+                  ) : (
+                    <span>Engrave Your Scent</span>
+                  )}
+                </div>
+                <div className="cart-item-quantity flex flex-row gap-5">
+                  <span
+                    className="cursor-pointer text-grey-4 "
+                    onClick={() => dispatch(cartActions.reduceQuantity(id))}
+                  >
+                    -
+                  </span>
+                  <span>{quantity}</span>
+                  <span className="cursor-pointer text-grey-4" onClick={() => dispatch(cartActions.addToCart(item))}>
+                    +
+                  </span>
+                </div>
               </div>
-              <div className="cart-item-quantity flex flex-row gap-5">
-                <span className="cursor-pointer text-grey-4 " onClick={() => dispatch(cartActions.reduceQuantity(id))}>
-                  -
-                </span>
-                <span>{quantity}</span>
-                <span className="cursor-pointer text-grey-4" onClick={() => dispatch(cartActions.addToCart(item))}>
-                  +
-                </span>
-              </div>
-            </div>
-            <div>€{totalPrice}</div>
+            ) : (
+              <p>Out of Stock</p>
+            )}
+
+            <div className={inStock ? '' : 'text-grey-2'}>€{totalPrice}</div>
           </div>
         </div>
       </div>
