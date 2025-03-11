@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { cartActions } from '../../store/modules/cartSlice';
@@ -8,6 +8,17 @@ const CartItem = ({ item }) => {
   const { id, name, type, options, quantity, engraving, totalPrice, selected, inStock } = item;
   const { selectCartItem } = useSelector((state) => state.cart);
   const dispatch = useDispatch();
+
+  const [isEdit, setIsEdit] = useState(false);
+  const [text, setText] = useState(engraving);
+
+  const onChange = (e) => {
+    setText(e.target.value);
+  };
+  const onSubmit = () => {
+    dispatch(cartActions.updateEngrave({ id, text }));
+    setIsEdit(false);
+  };
 
   return (
     <div className="cart-item-selectitem flex flex-row items-center">
@@ -41,13 +52,21 @@ const CartItem = ({ item }) => {
               <div className="cart-item-custom flex flex-col gap-2">
                 <div className="cart-item-engraving-wrap flex flex-row gap-5">
                   <span>Engraving</span>
-                  {engraving ? (
+
+                  {isEdit ? (
                     <>
-                      <span className="text-grey-4">{engraving}</span>
-                      <div className="cursor-pointer">Edit</div>
+                      <input value={text} onChange={onChange} />
+                      <div onClick={onSubmit} className="cursor-pointer">
+                        Save
+                      </div>
                     </>
                   ) : (
-                    <span>Engrave Your Scent</span>
+                    <>
+                      {engraving && <span className="text-grey-4">{text}</span>}
+                      <div className="cursor-pointer" onClick={() => setIsEdit(!isEdit)}>
+                        {engraving ? 'Edit' : 'Engrave Your Scent'}
+                      </div>
+                    </>
                   )}
                 </div>
                 <div className="cart-item-quantity flex flex-row gap-5">
