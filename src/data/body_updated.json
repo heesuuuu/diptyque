@@ -1,0 +1,1163 @@
+[
+    {
+        "id": 1,
+        "olfactory": "Trees",
+        "name": "34 Boulevard Saint Germain",
+        "type": "Scented soap",
+        "keyword": ["Amber/patchouli accord", "Rose", "Cinnamon"],
+        "description": "The Diptyque spirit in a fragrance gesture. Enriched with sweet almond oil, 34 Boulevard Saint-Germain soap envelops the skin with a scented sillage. Rose, blackcurrant buds and spices blend together in a delicate foam. A ritual for the bath that fully encapsulates the Maison's art of living.",
+        "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures - eau de toilette, perfume oil, body mist or body balm - has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can often be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
+        "options": [
+            {
+                "size": "200g",
+                "price": 38,
+                "weight": "200g",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-perfumed-soap-s34b-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-perfumed-soap-s34b-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-perfumed-soap-s34b-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-perfumed-soap-s34b-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-34-boulevard-saint-germain-perfumed-soap-s34b-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 11
+            }
+        ],
+        "collection": "34 Boulevard Saint Germain"
+    },
+    {
+        "id": 2,
+        "olfactory": "Floral",
+        "name": "Do Son",
+        "type": "Body mist",
+        "keyword": ["Tuberose", "Orange blossom", "Jasmine"],
+        "description": "Some travels leave their imprint upon the skin. Hazy as a sea breeze, this body mist extends the sillage of Do Son. Concentrated in a moisturising white lotus extract, it leaves the skin with an irresistibly soft, powdery finish. An ode to tuberose - in a ritual that carries the scent of a memory.",
+        "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures - eau de toilette, perfume oil, body mist or body balm - has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can often be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
+        "options": [
+            {
+                "size": "200ml",
+                "price": 58,
+                "weight": "200ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-do-son-body-mist-dosmist-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-do-son-body-mist-dosmist-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-do-son-body-mist-dosmist-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-do-son-body-mist-dosmist-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-do-son-body-mist-dosmist-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 21
+            }
+        ],
+        "collection": "Do Son"
+    },
+    {
+        "id": 3,
+        "olfactory": "Floral",
+        "name": "Do Son",
+        "type": "Perfumed hand cream",
+        "keyword": ["Tuberose", "Orange blossom", "Jasmine"],
+        "description": "A perfumed caress. This scented hand cream is as sweet as a childhood memory and as sensual as a fragrance - a tuberose cooled by the sea spray. With a rich texture and a formulation of aloe vera and macadamia oil, this hand cream perfumes the hands in a simple, exquisitely delicate gesture.",
+        "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures - eau de toilette, perfume oil, body mist or body balm - has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can often be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
+        "options": [
+            {
+                "size": "45ml",
+                "price": 40,
+                "weight": "45ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-do-son-hand-cream-45-ml-doshcream-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-do-son-hand-cream-45-ml-doshcream-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-do-son-hand-cream-45-ml-doshcream-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-do-son-hand-cream-45-ml-doshcream-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-do-son-hand-cream-45-ml-doshcream-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 31
+            }
+        ],
+        "collection": "Do Son"
+    },
+    {
+        "id": 4,
+        "olfactory": "Floral",
+        "name": "Do Son",
+        "type": "Scented shower oil",
+        "keyword": ["Tuberose", "Orange blossom", "Jasmine"],
+        "description": "Do Son shower oil is a scented interlude with surprisingly sensuous qualities. In the shower or the bath, it transforms into a silky emulsion. With floral notes that evoke a tuberose, its fragrance borne on the sea breeze. The apricot seed oil formulation washes and scents the skin intensively. Just one gesture does the trick.",
+        "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures - eau de toilette, perfume oil, body mist or body balm - has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can often be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
+        "options": [
+            {
+                "size": "200ml",
+                "price": 52,
+                "weight": "200ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-do-son-shower-oil-shoildoson-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-do-son-shower-oil-shoildoson-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-do-son-shower-oil-shoildoson-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-do-son-shower-oil-shoildoson-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-do-son-shower-oil-shoildoson-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 41
+            }
+        ],
+        "collection": "Do Son"
+    },
+    {
+        "id": 5,
+        "olfactory": "Floral",
+        "name": "Do Son",
+        "type": "Scented soap",
+        "keyword": ["Tuberose", "Orange blossom", "Jasmine"],
+        "description": "An escape for the senses. Do Son soap evokes a memory of a childhood in Vietnam, lulled by the voluptuous, spicy notes of the tuberoses. Composed of a plant base enriched with sweet almond oil, this soap envelops the skin with a delicate foam bearing a fragrance that is floral and subtly spicy. An olfactory journey.",
+        "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures - eau de toilette, perfume oil, body mist or body balm - has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can often be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
+        "options": [
+            {
+                "size": "150g",
+                "price": 35,
+                "weight": "150g",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-do-son-perfumed-soap-soapdoson-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-do-son-perfumed-soap-soapdoson-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-do-son-perfumed-soap-soapdoson-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-do-son-perfumed-soap-soapdoson-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-do-son-perfumed-soap-soapdoson-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 51
+            }
+        ],
+        "collection": "Do Son"
+    },
+    {
+        "id": 6,
+        "olfactory": "Floral",
+        "name": "Eau Capitale",
+        "type": "Perfumed hand cream",
+        "keyword": ["Rose", "Bergamot", "Patchouli"],
+        "description": "Paris at your fingertips. In Eau Capitale scented hand cream, a chypre with a thousand facets is revealed. First you're caressed by rose, then gripped by bergamot given extra bite by pink peppercorns. On the hands, much more than a fragrance gesture. A tribute to Paris.",
+        "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures - eau de toilette, perfume oil, body mist or body balm - has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can often be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter",
+        "options": [
+            {
+                "size": "45ml",
+                "price": 40,
+                "weight": "45ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-capitale-hand-cream-45-ml-capihcreamv1-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-capitale-hand-cream-45-ml-capihcreamv1-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-capitale-hand-cream-45-ml-capihcreamv1-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-capitale-hand-cream-45-ml-capihcreamv1-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-capitale-hand-cream-45-ml-capihcreamv1-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 61
+            }
+        ],
+        "collection": "Eau Capitale"
+    },
+    {
+        "id": 7,
+        "olfactory": "Floral",
+        "name": "Eau des Sens",
+        "type": "Scented cleansing hand and body gel",
+        "keyword": ["Orange blossom", "Angelica root", "Patchouli", "Juniper berry"],
+        "description": "An ode to bitter orange. In the shower, Eau des Sens hand and body gel becomes a light, silky cleansing foam. In this bracing cascade, orange blossom and bitter orange are refreshed by lively notes of juniper berries and petitgrain. A wake-up call for the senses.",
+        "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures - eau de toilette, perfume oil, body mist or body balm - has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can often be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
+        "options": [
+            {
+                "size": "200ml",
+                "price": 48,
+                "weight": "200ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-des-sens-cleansing-hand-and-body-gel-sensbgel-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-des-sens-cleansing-hand-and-body-gel-sensbgel-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-des-sens-cleansing-hand-and-body-gel-sensbgel-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-des-sens-cleansing-hand-and-body-gel-sensbgel-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-des-sens-cleansing-hand-and-body-gel-sensbgel-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 71
+            }
+        ],
+        "collection": "Eau des Sens"
+    },
+    {
+        "id": 8,
+        "olfactory": "Floral",
+        "name": "Eau des Sens",
+        "type": "Scented soap",
+        "keyword": ["Orange blossom", "Angelica root", "Patchouli", "Juniper berry"],
+        "description": "A scented interlude - an invitation to dream. Enriched with sweet almond oil, Eau des Sens soap highlights the entire bigarade. In the shower or the bath, the delicate, fragranced foam reveals the lively, flowery, delicately fruity notes of bitter orange. A heady fragrance that stimulates the senses.",
+        "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures - eau de toilette, perfume oil, body mist or body balm - has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can often be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
+        "options": [
+            {
+                "size": "150g",
+                "price": 35,
+                "weight": "150g",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-des-sens-perfumed-soap-soapsens-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-des-sens-perfumed-soap-soapsens-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-des-sens-perfumed-soap-soapsens-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-des-sens-perfumed-soap-soapsens-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-des-sens-perfumed-soap-soapsens-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 81
+            }
+        ],
+        "collection": "Eau des Sens"
+    },
+    {
+        "id": 9,
+        "olfactory": "Amber",
+        "name": "Eau Rihla",
+        "type": "Perfumed body balm",
+        "keyword": ["Leather", "Iris", "Cedarwood Heart"],
+        "description": "Notes of leather and spice work sensory magic. This soft melting body balm extends the enchanting trail of Eau Rihla. This new body balm is enriched with mango butter and candelilla wax to nourish and comfort the skin, scenting it with the luxurious notes of Eau Rihla.",
+        "story": "Eau Rihla is inspired by journeys along the routes of the Middle East, which have nourished diptyque's imagination since the origins of the Maison. Conceived as the chronicle of a long journey, the perfume features a leather that changes throughout its composition.At first, the spicy liveliness of Pink Peppercorn and the woody notes of Atlas Cedar create a vibrant accord. Then, as Iris, Vanilla and Saffron come into play, the fragrance warms up and softens, elegantly perfuming the hair.Rihla means “journey” in Arabic. For diptyque, it becomes a journey whose olfactory imprint instantly reawakens the memory of other inspiring and captivating horizons. The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures - eau de toilette, perfume oil, body mist or body balm - has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can often be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
+        "options": [
+            {
+                "size": "200g",
+                "price": 95,
+                "weight": "200g",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rihla-body-perfumed-balm-rihlbbalm200-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rihla-body-perfumed-balm-rihlbbalm200-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rihla-body-perfumed-balm-rihlbbalm200-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rihla-body-perfumed-balm-rihlbbalm200-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rihla-body-perfumed-balm-rihlbbalm200-3.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rihla-body-perfumed-balm-rihlbbalm200-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 91
+            }
+        ],
+        "collection": "Eau Rihla"
+    },
+    {
+        "id": 10,
+        "olfactory": "Floral",
+        "name": "Eau Rose",
+        "type": "Perfumed hand and body lotion",
+        "keyword": ["Damascena rose", "Centifolia rose", "Litchi accord", "Ambroxan"],
+        "description": "Barely milky, as delicate as a perfumed lotion. When applied to body and hands, Eau Rose lotion brings unknown facets of the fragrance to life. At the heart of the composition lies an infusion of flowers nuanced with green, almost lemony accents - a bit like a duo of dormant petals and leaves, activated by the addition of a citrus zest..",
+        "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures - eau de toilette, perfume oil, body mist or body balm - has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can often be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
+        "options": [
+            {
+                "size": "200ml",
+                "price": 58,
+                "weight": "200ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rose-hand-and-body-lotion-roseblotion-1_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rose-hand-and-body-lotion-roseblotion-2_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rose-hand-and-body-lotion-roseblotion-1_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rose-hand-and-body-lotion-roseblotion-2_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rose-hand-and-body-lotion-roseblotion-1_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 101
+            }
+        ],
+        "collection": "Eau Rose"
+    },
+    {
+        "id": 11,
+        "olfactory": "Floral",
+        "name": "Eau Rose",
+        "type": "Perfumed hand cream",
+        "keyword": ["Damascena rose", "Damascena rose", "Litchi accord"],
+        "description": "Perfumed comfort. This hand cream extends the sillage of Eau Rose in an ode to the emblematic flower of perfumers. This balm combines damascena and centifolia, the loveliest roses. With a rich texture and a formulation of aloe vera and macademaia oil, it protects your hands while enveloping them in a gentle layer of fragrance.",
+        "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures - eau de toilette, perfume oil, body mist or body balm - has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can often be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
+        "options": [
+            {
+                "size": "45ml",
+                "price": 40,
+                "weight": "45ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rose-hand-emulsion-rosehcream-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rose-hand-emulsion-rosehcream-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rose-hand-emulsion-rosehcream-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rose-hand-emulsion-rosehcream-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rose-hand-emulsion-rosehcream-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 111
+            }
+        ],
+        "collection": "Eau Rose"
+    },
+    {
+        "id": 12,
+        "olfactory": "Floral",
+        "name": "Eau Rose",
+        "type": "Scented shower foam",
+        "keyword": ["Damascena rose", "Damascena rose", "Litchi accord"],
+        "description": "An indulgence. Upon contact with water, Eau Rose shower foam is transformed, becoming as velvety as whipped cream. The transparent gel evokes an infusion of roses, combining floral damascena notes with fruity accents of litchi. Softens and scents the skin.",
+        "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures - eau de toilette, perfume oil, body mist or body balm - has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can often be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
+        "options": [
+            {
+                "size": "150ml",
+                "price": 48,
+                "weight": "150ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rose-shower-foam-rosfoam-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rose-shower-foam-rosfoam-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rose-shower-foam-rosfoam-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rose-shower-foam-rosfoam-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rose-shower-foam-rosfoam-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 121
+            }
+        ],
+        "collection": "Eau Rose"
+    },
+    {
+        "id": 13,
+        "olfactory": "Floral",
+        "name": "Eau Rose",
+        "type": "Scented soap",
+        "keyword": ["Damascena rose", "Damascena rose", "Litchi accord"],
+        "description": "As if by magic - in the shower or the bath, Eau Rose soap transforms into a delicate, scented foam. Enriched with sweet almond oil, created as an infusion of damascena and centifolia - the loveliest of all roses - this soap envelops the skin with a bewitching sillage.",
+        "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures - eau de toilette, perfume oil, body mist or body balm - has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can often be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
+        "options": [
+            {
+                "size": "150g",
+                "price": 35,
+                "weight": "150g",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rose-perfumed-soap-soaprose-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rose-perfumed-soap-soaprose-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rose-perfumed-soap-soaprose-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rose-perfumed-soap-soaprose-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-eau-rose-perfumed-soap-soaprose-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 131
+            }
+        ],
+        "collection": "Eau Rose"
+    },
+    {
+        "id": 14,
+        "olfactory": "Exfoliating",
+        "name": "Exfoliating ointment",
+        "type": "for the body",
+        "keyword": ["Velvety", "creamy", "regenerating"],
+        "description": "For a smooth, silky skin. This velvety body polish with exfoliating grains delivers all the benevolence of the pomegranate, queen of fruits. Perfumed with Arabian jasmine, pink peppercorn and peach, this rich, creamy-textured care product combines the fine qualities of pomegranate oil, jasmine floral water and peach butter.",
+        "story": null,
+        "options": [
+            {
+                "size": "200ml",
+                "price": 58,
+                "weight": "200ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-smoothing-body-polish-bodyscrub-1_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-smoothing-body-polish-bodyscrub-2_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-smoothing-body-polish-bodyscrub-1_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-smoothing-body-polish-bodyscrub-2_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-smoothing-body-polish-bodyscrub-1_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 141
+            }
+        ],
+        "collection": "Exfoliating"
+    },
+    {
+        "id": 15,
+        "olfactory": "Exfoliating",
+        "name": "Exfoliating Wash",
+        "type": "For the hands",
+        "keyword": ["Refreshing", "foaming", "cleansing"],
+        "description": "A prelude to moisturising. Enriched with ground olive stones, this hand wash cleans and purifies the hands, leaving them soft and exfoliated.Plunging you deep into an aromatic garden, it envelops the skin with green, floral and woody notes, intermingling to highlight the full splendour of the laurel flower.",
+        "story": null,
+        "options": [
+            {
+                "size": "350ml",
+                "price": 62,
+                "weight": "350ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-exfoliating-hand-wash-350ml-handscrub-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-exfoliating-hand-wash-350ml-handscrub-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-exfoliating-hand-wash-350ml-handscrub-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-exfoliating-hand-wash-350ml-handscrub-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-exfoliating-hand-wash-350ml-handscrub-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 151
+            }
+        ],
+        "collection": "Exfoliating"
+    },
+    {
+        "id": 16,
+        "olfactory": "Floral",
+        "name": "Fleur de Peau",
+        "type": "Cleansing hand and body gel",
+        "keyword": ["Musk", "Iris", "Ambrette", "Pink Pepperconrs"],
+        "description": "A tribute to the sensual, stimulating qualities of musk. On contact with water, this gel becomes an unbelievably silky cleansing foam. Enriched with shea butter, it perfumes the body intensively while leaving it softened and invigorated. Musk, with nuances of iris and ambrette seed, enhances the skin with a timeless fragrance.",
+        "story": "In this bottle lives a legend transformed into a perfume. Fleur de Peau celebrates passion and sensuality while honouring the myth of Eros and Psyche and the daughter born from their love, Hedone. At the heart of the composition is musk, its stimulating, carnal accents exalting the skin. Combined with iris, it evokes perfumes of days gone by and in particular the Renaissance era, when this accord was used for scenting gloves. Diptyque's fragrance gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal fragrancing that renders the invisible perceptible and the ethereal tangible. Each of the gestures – Eau de Toilette, Shower Oil, Body Mist and Body Balm – contains a specific concentrate, with a galenic formulation designed to offer optimised olfactory reproduction. With its high concentration, it can often be used alone depending on the moment and the mood. The never-ending dance of scent and matter...",
+        "options": [
+            {
+                "size": "200ml",
+                "price": 48,
+                "weight": "200ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-de-peau-cleansing-hand-and-body-gel-fleurbgel200-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-de-peau-cleansing-hand-and-body-gel-fleurbgel200-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-de-peau-cleansing-hand-and-body-gel-fleurbgel200-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-de-peau-cleansing-hand-and-body-gel-fleurbgel200-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-de-peau-cleansing-hand-and-body-gel-fleurbgel200-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 161
+            }
+        ],
+        "collection": "Fleur de Peau"
+    },
+    {
+        "id": 17,
+        "olfactory": "Floral",
+        "name": "Fleur de Peau",
+        "type": "Hand and body lotion",
+        "keyword": ["Musk", "Iris", "Ambrette", "Pink Pepperconrs"],
+        "description": "A legendary perfume – musk nuanced with fruity, amber-scented accents. A lotion full of contrasts, generating an intense vibrancy in every facet of Fleur de Peau. Its delicacy envelops the body and hands, leaving the skin well moisturised. This is the secret of a long-lasting sillage.",
+        "story": "In this bottle lives a legend transformed into a perfume. Fleur de Peau celebrates passion and sensuality while honouring the myth of Eros and Psyche and the daughter born from their love, Hedone. At the heart of the composition is musk, its stimulating, carnal accents exalting the skin. Combined with iris, it evokes perfumes of days gone by and in particular the Renaissance era, when this accord was used for scenting gloves. Diptyque's fragrance gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal fragrancing that renders the invisible perceptible and the ethereal tangible. Each of the gestures – Eau de Toilette, Shower Oil, Body Mist and Body Balm – contains a specific concentrate, with a galenic formulation designed to offer optimised olfactory reproduction. With its high concentration, it can often be used alone depending on the moment and the mood. The never-ending dance of scent and matter...",
+        "options": [
+            {
+                "size": "200ml",
+                "price": 58,
+                "weight": "200ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-de-peau-hand-and-body-lotion-fleurblotion-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-de-peau-hand-and-body-lotion-fleurblotion-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-de-peau-hand-and-body-lotion-fleurblotion-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-de-peau-hand-and-body-lotion-fleurblotion-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-de-peau-hand-and-body-lotion-fleurblotion-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 171
+            }
+        ],
+        "collection": "Fleur de Peau"
+    },
+    {
+        "id": 18,
+        "olfactory": "Floral",
+        "name": "Fleur de Peau",
+        "type": "Perfumed body balm",
+        "keyword": ["Musk", "Iris", "Ambrette"],
+        "description": "The soothing, cottony lightness of musks in a a body balm with fabulous sensorial qualities. The velvety density envelops the body with the softness of mango butter and candellila wax. When applied, the balm surprises and delights with a shiver of coolness and the sillage of Fleur de Peau.",
+        "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures - eau de toilette, perfume oil, body mist or body balm - has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can often be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
+        "options": [
+            {
+                "size": "200ml",
+                "price": 75,
+                "weight": "200ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-de-peau-body-balm-fleurbbalm-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-de-peau-body-balm-fleurbbalm-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-de-peau-body-balm-fleurbbalm-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-de-peau-body-balm-fleurbbalm-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-de-peau-body-balm-fleurbbalm-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 181
+            }
+        ],
+        "collection": "Fleur de Peau"
+    },
+    {
+        "id": 19,
+        "olfactory": "Floral",
+        "name": "Fleur de Peau",
+        "type": "Perfumed hand cream",
+        "keyword": ["Musk", "Iris", "Ambrette"],
+        "description": "Musks with with cottony, downy notes. Made with aloe vera and macadamia oil, this hand cream extends the sillage of Fleur de Peau. A comforting break, enhanced with a fragrance composed as a tribute to a myth from antiquity: the love of Eros and Psyche.",
+        "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures - eau de toilette, perfume oil, body mist or body balm - has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can often be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
+        "options": [
+            {
+                "size": "45ml",
+                "price": 40,
+                "weight": "45ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-de-peau-hand-cream-45-ml-fleurhcream-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-de-peau-hand-cream-45-ml-fleurhcream-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-de-peau-hand-cream-45-ml-fleurhcream-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-de-peau-hand-cream-45-ml-fleurhcream-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fleur-de-peau-hand-cream-45-ml-fleurhcream-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 191
+            }
+        ],
+        "collection": "Fleur de Peau"
+    },
+    {
+        "id": 20,
+        "olfactory": null,
+        "name": "Fresh Lotion",
+        "type": "for the body",
+        "keyword": ["Fluid", "fresh", "velvety"],
+        "description": "The scent of orange blossom on a morning breeze across the bay of Alexandria. This deliciously fresh lotion hydrates and softens skin that is still sleepy. Refreshed, it gently wakes up, delicately perfumed by the green, citric scent of petitgrain combined with soothing, musky notes of orange blossom.",
+        "story": null,
+        "options": [
+            {
+                "size": "250ml",
+                "price": 58,
+                "weight": "250ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fresh-lotion-for-the-body-250-ml-fbodylotion-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fresh-lotion-for-the-body-250-ml-fbodylotion-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fresh-lotion-for-the-body-250-ml-fbodylotion-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fresh-lotion-for-the-body-250-ml-fbodylotion-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-fresh-lotion-for-the-body-250-ml-fbodylotion-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 201
+            }
+        ],
+        "collection": null
+    },
+    {
+        "id": 21,
+        "olfactory": "Woody",
+        "name": "L'Eau Papier",
+        "type": "Scented cleansing hand and body gel",
+        "keyword": ["White musks", "Mimosa", "Blonde woods accord", "Rice steam accord"],
+        "description": "On contact with water, L'Eau Papier cleansing gel becomes a light, silky foam. An enchanting gesture with notes of white musks, mimosa and blonde woods. Enriched with shea butter, it perfumes the body intensively while leaving it softened and invigorated. Settling onto the skin, the accords in L'Eau Papier prompt us to create, expressing our fantasies in drawings",
+        "story": "As ink soaks into a sheet of white paper, shadows emerge. Worlds are invented. L'Eau Papier celebrates the power of the imagination – that moment, suspended in time, when ink, paper and the hand become one.An encounter made perfume, plunging us into the heart of musk and its multiple facets. Musk evolves, changes, expresses itself over time and from one skin to another, just as ink saturates paper, assuming its texture to conjure up dreams and images. In L'Eau Papier, white musks are delicately faceted by an accord of rice steam, evoking the grain of the paper. To these are added luminous notes of mimosa, while a backdrop of blonde wood tones roots L'Eau Papier in the material itself. The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures - eau de toilette, perfume oil, body mist or body balm - has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can often be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
+        "options": [
+            {
+                "size": "200ml",
+                "price": 48,
+                "weight": "200ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/l/_/l_eau-papier-shower-gel_repush-l_eau-papier-2024_200ml_papierbgel_rvb_hd_fond-gris_spec-ecom_1_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/l/_/l_eau-papier-shower-gel_2024_200ml_papierbgel_rvb_hd_fond-gris_spec-ecom_2_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/l/_/l_eau-papier-shower-gel_repush-l_eau-papier-2024_200ml_papierbgel_rvb_hd_fond-gris_spec-ecom_1_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/l/_/l_eau-papier-shower-gel_2024_200ml_papierbgel_rvb_hd_fond-gris_spec-ecom_2_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/l/_/l_eau-papier-shower-gel_repush-l_eau-papier-2024_200ml_papierbgel_rvb_hd_fond-gris_spec-ecom_1_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 211
+            }
+        ],
+        "collection": "L'Eau Papier"
+    },
+    {
+        "id": 22,
+        "olfactory": "Floral",
+        "name": "L'Ombre dans l'Eau",
+        "type": "Scented soap",
+        "keyword": ["Rose", "Blackcurrant buds", "Petitgrain"],
+        "description": "A scented interlude, an invitation to dream. In a delicate foam, fruity but tart blackcurrant accents mingle with the intensity of the rose. L’Ombre dans l’Eau soap paints a romantic tableau in fragrances. Composed with sweet almond oil, this fragrance gesture leaves a fresh, silky layer on the skin.",
+        "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures - eau de toilette, perfume oil, body mist or body balm - has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can often be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
+        "options": [
+            {
+                "size": "150g",
+                "price": 35,
+                "weight": "150g",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-l-ombre-dans-l-eau-perfumed-soap-soapombre-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-l-ombre-dans-l-eau-perfumed-soap-soapombre-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-l-ombre-dans-l-eau-perfumed-soap-soapombre-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-l-ombre-dans-l-eau-perfumed-soap-soapombre-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-l-ombre-dans-l-eau-perfumed-soap-soapombre-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 221
+            }
+        ],
+        "collection": "L'Ombre dans l'Eau"
+    },
+    {
+        "id": 23,
+        "olfactory": null,
+        "name": "Luxurious balm",
+        "type": "For the hands",
+        "keyword": ["Protective", "fine", "silky"],
+        "description": "Exquisitely mild. This luxurious hand balm conjures up childhood memories of almonds and the rounded, velvety scent of apricots in the groves of Cordoba. Combining apricot seed oil, argan oil and shea butter, this care product is a blessing for hands as well as dry areas on the body. A simple gesture that softens and brings relief.",
+        "story": null,
+        "options": [
+            {
+                "size": "45ml",
+                "price": 42,
+                "weight": "45ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-hand-balm-50-ml-baumemain-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-hand-balm-50-ml-baumemain-2_1_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-hand-balm-50-ml-baumemain-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-hand-balm-50-ml-baumemain-2_1_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-hand-balm-50-ml-baumemain-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 231
+            }
+        ],
+        "collection": null
+    },
+    {
+        "id": 24,
+        "olfactory": "Woody",
+        "name": "Orphéon",
+        "type": "Cleansing hand and body gel",
+        "keyword": ["Juniper berry", "Cedar", "Tonka bean", "Jasmine"],
+        "description": "Orphéon now includes a new ritual - a cleansing gel featuring an olfactory tribute to a legendary bar frequented by the founders of Diptyque.Tonka bean, cedar and juniper berries create a light, silky foam that fully conveys the effervescence of Boulevard Saint-Germain in the sixties. An exhilarating feeling.",
+        "story": "In the 1960s, the Saint-Germain quarter in Paris lived to the beat of all-nighters and artistic encounters. Orphéon was one of the bars buzzing with energy, where the founders of diptyque liked to meet up. The atmosphere was warm and people could relax to the sound of jazz... Today, all that remains of Orphéon is a faceted blue column in the back of the boutique at 34 boulevard Saint-Germain. The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures - eau de toilette, perfume oil, body mist or body balm - has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can often be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
+        "options": [
+            {
+                "size": "200ml",
+                "price": 48,
+                "weight": "200ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-orpheon-shower-gel-orphbgel-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-orpheon-shower-gel-orphbgel-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-orpheon-shower-gel-orphbgel-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-orpheon-shower-gel-orphbgel-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-orpheon-shower-gel-orphbgel-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 241
+            }
+        ],
+        "collection": "Orphéon"
+    },
+    {
+        "id": 25,
+        "olfactory": "Woody",
+        "name": "Philosykos",
+        "type": "Perfumed hand and body lotion",
+        "keyword": ["Fig leaves", "Fig tree sap", "Fig tree wood", "Black pepper"],
+        "description": "Filled with contrast. Despite its delicacy, this Philosykos hand and body lotion delivers an intensity that brings the fragrance to life. In its sillage, the milky flavour of figs, the green freshness of fig leaves and the density of white wood. As gentle on the skin as the memory of a summer in Greece.",
+        "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures - eau de toilette, perfume oil, body mist or body balm - has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can often be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
+        "options": [
+            {
+                "size": "200ml",
+                "price": 58,
+                "weight": "200ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-philosykos-hand-and-body-lotion-phiblotion-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-philosykos-hand-and-body-lotion-phiblotion-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-philosykos-hand-and-body-lotion-phiblotion-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-philosykos-hand-and-body-lotion-phiblotion-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-philosykos-hand-and-body-lotion-phiblotion-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 251
+            }
+        ],
+        "collection": "Philosykos"
+    },
+    {
+        "id": 26,
+        "olfactory": "Woody",
+        "name": "Philosykos",
+        "type": "Scented cleansing hand and body gel",
+        "keyword": ["Fig leaves", "Fig tree sap", "Fig tree wood", "Black pepper"],
+        "description": "Between the memory and the journey. On contact with water, Philosykos hand and body gel turns into a light, silky foam. In its sillage, the green freshness of fig leaves, the density of white wood, the milky flavour of figs. Like treating your whole body to a dive deep into the fragrance.",
+        "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures - eau de toilette, perfume oil, body mist or body balm - has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can often be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
+        "options": [
+            {
+                "size": "200ml",
+                "price": 48,
+                "weight": "200ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-philosykos-cleansing-hand-and-body-gel-phibgel-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-philosykos-cleansing-hand-and-body-gel-phibgel-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-philosykos-cleansing-hand-and-body-gel-phibgel-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-philosykos-cleansing-hand-and-body-gel-phibgel-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-philosykos-cleansing-hand-and-body-gel-phibgel-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 261
+            }
+        ],
+        "collection": "Philosykos"
+    },
+    {
+        "id": 27,
+        "olfactory": "Woody",
+        "name": "Philosykos",
+        "type": "Scented soap",
+        "keyword": ["Fig leaves", "Fig tree sap", "Fig tree wood", "Black pepper"],
+        "description": "On your hands, the entire fig tree. The delicate, intensely scented foam of Philosykos soap delivers an interlude of softness. On the skin, a formulation enriched with sweet almond oil expresses the freshness of leaves, the density of white wood and the milky flavour of figs. A memory of a Greek summer and a sun-drenched grove.",
+        "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures - eau de toilette, perfume oil, body mist or body balm - has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can often be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
+        "options": [
+            {
+                "size": "150g",
+                "price": 35,
+                "weight": "150g",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-philosykos-perfumed-soap-soapphilo-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-philosykos-perfumed-soap-soapphilo-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-philosykos-perfumed-soap-soapphilo-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-philosykos-perfumed-soap-soapphilo-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-philosykos-perfumed-soap-soapphilo-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 271
+            }
+        ],
+        "collection": "Philosykos"
+    },
+    {
+        "id": 28,
+        "olfactory": "Refill",
+        "name": "Exfoliating Wash",
+        "type": "for the hands",
+        "keyword": ["Refreshing", "foaming", "cleansing"],
+        "description": "An unprecedented deep dive into an aromatic garden. Enriched with ground olive stones, this refill prolongs the story of the Exfoliating Hand Wash. Use before moisturising to clean and purify the skin. On the hands, a blend of green, floral and woody notes underscores the laurel flower scent.",
+        "story": null,
+        "options": [
+            {
+                "size": "350ml",
+                "price": 40,
+                "weight": "350ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-refill-exfoliating-hand-wash-350ml-rhandscrub-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-refill-exfoliating-hand-wash-350ml-rhandscrub-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-refill-exfoliating-hand-wash-350ml-rhandscrub-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-refill-exfoliating-hand-wash-350ml-rhandscrub-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-refill-exfoliating-hand-wash-350ml-rhandscrub-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 281
+            }
+        ],
+        "collection": "Refill"
+    },
+    {
+        "id": 29,
+        "olfactory": "Refill",
+        "name": "Softening and comforting wash",
+        "type": "for the hands",
+        "keyword": ["Mild", "soothing", "repairing"],
+        "description": "Extend the restful interlude. Just pour this refill into the Softening Hand Wash bottle to keep using this hand care product that cleanses and relaxes the skin. Gentle and soothing, it washes hands delicately, leaving the skin pleasantly perfumed with lavender, rosemary, ylang-yland and amber.",
+        "story": null,
+        "options": [
+            {
+                "size": "350ml",
+                "price": 40,
+                "weight": "350ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-refill-softening-hand-wash-350ml-rhandsoap-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-refill-softening-hand-wash-350ml-rhandsoap-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-refill-softening-hand-wash-350ml-rhandsoap-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-refill-softening-hand-wash-350ml-rhandsoap-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-refill-softening-hand-wash-350ml-rhandsoap-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 291
+            }
+        ],
+        "collection": "Refill"
+    },
+    {
+        "id": 30,
+        "olfactory": "Refill",
+        "name": "Velvet Lotion",
+        "type": "for the hands",
+        "keyword": ["Gentle", "enveloping", "nurturing"],
+        "description": "Leaves a light, undetectable layer that nourishes and protects the skin. To prolong the care ritual, just pour this refill into the glass bottle of the Velvet Hand Lotion. On your hands, immortelle floral water, Roman camomile floral water and sesame oil combine to deliver a sensorial experience..",
+        "story": null,
+        "options": [
+            {
+                "size": "350ml",
+                "price": 46,
+                "weight": "350ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/1/0/10_recharge_emulsion_velours.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/1/0/10_recharge_emulsion_velours_cu.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/1/0/10_recharge_emulsion_velours.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/1/0/10_recharge_emulsion_velours_cu.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/1/0/10_recharge_emulsion_velours.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 301
+            }
+        ],
+        "collection": "Refill"
+    },
+    {
+        "id": 31,
+        "olfactory": null,
+        "name": "Revitalizing Shower Gel",
+        "type": "for body and hair",
+        "keyword": ["Invigorating", "fresh", "foaming"],
+        "description": "What could be more delightful than an early morning jolt of fresh bergamot, inspired by Calabria and its cascading waterfalls? A revitalising gel that gently cleans. In the shower or bath, its light foam stimulates the mind while enveloping the body and hair in a delicate perfume of bergamot, green tangerine and honey from neroli oil.",
+        "story": null,
+        "options": [
+            {
+                "size": "200ml",
+                "price": 45,
+                "weight": "200ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-revitalizing-shower-gel-200-ml-hbsgel-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-revitalizing-shower-gel-200-ml-hbsgel-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-revitalizing-shower-gel-200-ml-hbsgel-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-revitalizing-shower-gel-200-ml-hbsgel-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-revitalizing-shower-gel-200-ml-hbsgel-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 311
+            }
+        ],
+        "collection": null
+    },
+    {
+        "id": 32,
+        "olfactory": null,
+        "name": "Rich butter",
+        "type": "For the body",
+        "keyword": ["Opulent", "melting", "voluptuous"],
+        "description": "Driven by the Byzantine rose, this smooth cream, as luscious and addictive as Turkish delight, quenches dry skin. As luxurious as fresh butter, this care product envelops the body in a delicate perfume. In its sillage, Damask rose mingles with myrrh and the power of Peru balsam.",
+        "story": null,
+        "options": [
+            {
+                "size": "200ml",
+                "price": 72,
+                "weight": "200ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-rich-butter-for-the-body-cremecorps-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-rich-butter-for-the-body-cremecorps-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-rich-butter-for-the-body-cremecorps-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-rich-butter-for-the-body-cremecorps-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-rich-butter-for-the-body-cremecorps-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 321
+            }
+        ],
+        "collection": null
+    },
+    {
+        "id": 33,
+        "olfactory": null,
+        "name": "Rinse-free wash",
+        "type": "for the hands",
+        "keyword": ["Cleansing", "moisturising", "gentle"],
+        "description": "A readily portable gel, combining the cleansing properties of the Mediterranean white saponaria plant with the beneficial qualities of sweet almond oil. Just a pea-sized helping of gel is enough to clean and gently perfume the hands. It requires no rinsing, leaving the skin with Arabian jasmine notes enlivened by pink peppercorn and peach.",
+        "story": null,
+        "options": [
+            {
+                "size": "45ml",
+                "price": 25,
+                "weight": "45ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-rinse-free-hand-wash-45-ml-rfhwash45-1_5.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-rinse-free-hand-wash-45-ml-rfhwash45-2_5.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-rinse-free-hand-wash-45-ml-rfhwash45-1_5.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-rinse-free-hand-wash-45-ml-rfhwash45-2_5.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-rinse-free-hand-wash-45-ml-rfhwash45-1_5.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 331
+            }
+        ],
+        "collection": null
+    },
+    {
+        "id": 34,
+        "olfactory": null,
+        "name": "Satin Oil",
+        "type": "for body and hair",
+        "keyword": ["Beautifying", "silky", "evanescent"],
+        "description": "A summer essential. Inspired by Rhodes, this versatile oil releases jasmine, ylang-ylang and saffron – fragrances from sun-drenched climes.An ethereal, satiny spray that restores radiance when sprayed onto the skin, while also leaving hair supple and shiny. A perfumed caress.",
+        "story": null,
+        "options": [
+            {
+                "size": "100ml",
+                "price": 58,
+                "weight": "100ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-satin-oil-hair-andbody-100ml-satinoil-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-satin-oil-hair-andbody-100ml-satinoil-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-satin-oil-hair-andbody-100ml-satinoil-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-satin-oil-hair-andbody-100ml-satinoil-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-satin-oil-hair-andbody-100ml-satinoil-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 341
+            }
+        ],
+        "collection": null
+    },
+    {
+        "id": 35,
+        "olfactory": null,
+        "name": "Soft lotion",
+        "type": "for the body",
+        "keyword": ["Fluid", "mild"],
+        "description": "Perfumed and delightfully soothing. When applied daily after the shower or bath, this lotion gives the skin a supple, moisturized feel.It envelops the body in gentle warmth, revealing notes of jasmine, ylang-ylang and beeswax.",
+        "story": null,
+        "options": [
+            {
+                "size": "250ml",
+                "price": 58,
+                "weight": "250ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-soft-lotion-for-the-body-250-ml-sbodylotion-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-soft-lotion-for-the-body-250-ml-sbodylotion-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-soft-lotion-for-the-body-250-ml-sbodylotion-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-soft-lotion-for-the-body-250-ml-sbodylotion-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-soft-lotion-for-the-body-250-ml-sbodylotion-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 351
+            }
+        ],
+        "collection": null
+    },
+    {
+        "id": 36,
+        "olfactory": null,
+        "name": "Softening and comforting wash",
+        "type": "for the hands",
+        "keyword": ["Mild", "soothing", "repairing"],
+        "description": "Hailed since antiquity, fine lavender from Provence lends its regenerative qualities to this soothing hand wash. Restoring the gentle feel of the skin, it also delivers lavender and rosemary notes softened by subtle accents of ylang-ylang and amber.",
+        "story": null,
+        "options": [
+            {
+                "size": "350ml",
+                "price": 62,
+                "weight": "350ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-softening-hand-wash-350-ml-handsoapg-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-softening-hand-wash-350-ml-handsoapg-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-softening-hand-wash-350-ml-handsoapg-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-softening-hand-wash-350-ml-handsoapg-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-softening-hand-wash-350-ml-handsoapg-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 361
+            }
+        ],
+        "collection": null
+    },
+    {
+        "id": 37,
+        "olfactory": "Woody",
+        "name": "Tam Dao",
+        "type": "Scented soap",
+        "keyword": ["Sandalwood", "Cedar", "Cypress"],
+        "description": "Take a trip through time. In the shower and after, Tam Dao soap brings to life the holy forests of Vietnam, a childhood memory of Yves Coueslant. On the skin and in the air, the creamy foam leaves a velvety scent of sandalwood - woody and slightly spicy.",
+        "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures - eau de toilette, perfume oil, body mist or body balm - has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can often be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
+        "options": [
+            {
+                "size": "150g",
+                "price": 35,
+                "weight": "150g",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-tam-dao-perfumed-soap-soaptam-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-tam-dao-perfumed-soap-soaptam-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-tam-dao-perfumed-soap-soaptam-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-tam-dao-perfumed-soap-soaptam-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-tam-dao-perfumed-soap-soaptam-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 371
+            }
+        ],
+        "collection": "Tam Dao"
+    },
+    {
+        "id": 38,
+        "olfactory": null,
+        "name": "The art of hand care",
+        "type": "Travel Set",
+        "keyword": ["Hand wash", "velvet hand lotion", "rinse-free hand wash"],
+        "description": "Three portable hand care products to take you on a sensorial journey. This collection offers three different gestures for cleansing the skin. Jus slip it into your suitcase or bag: The softening hand wash, the velvet hand lotion and the rinse-free hand wash soothe and cleanse the hands, enveloping them in a delicate perfume.",
+        "story": null,
+        "options": [
+            {
+                "size": "30ml",
+                "price": 38,
+                "weight": "30ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-the-art-of-hand-care-travel-set-sethandcarev1-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-the-art-of-hand-care-travel-set-sethandcarev1-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-the-art-of-hand-care-travel-set-sethandcarev1-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-the-art-of-hand-care-travel-set-sethandcarev1-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-the-art-of-hand-care-travel-set-sethandcarev1-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 381
+            }
+        ],
+        "collection": null
+    },
+    {
+        "id": 39,
+        "olfactory": null,
+        "name": "Velvet Lotion",
+        "type": "For the hands",
+        "keyword": ["Gentle", "enveloping", "nurturing"],
+        "description": "With the beneficial qualities of the immortelle, Golden Flower of Corinth and symbol of eternity, this refined lotion leaves a soothing, protective layer on the hands.Its mouthwatering freshness springs from a blend of sweet almond and crisp petitgrain, offset by the comforting warmth of Virginia cedar.",
+        "story": null,
+        "options": [
+            {
+                "size": "350ml",
+                "price": 68,
+                "weight": "350ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-velvet-hand-lotion-350-ml-handlotiong-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-velvet-hand-lotion-350-ml-handlotiong-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-velvet-hand-lotion-350-ml-handlotiong-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-velvet-hand-lotion-350-ml-handlotiong-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-velvet-hand-lotion-350-ml-handlotiong-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 391
+            }
+        ],
+        "collection": null
+    },
+    {
+        "id": 40,
+        "olfactory": null,
+        "name": "Vinaigre de toilette",
+        "type": "Multi-purpose",
+        "keyword": null,
+        "description": "To those in the know, it's essential. With its spice, wood and plant fragrances, this vinaigre de toilette lends itself to countless uses. A capful in the bath softens the water, a few drops after showering or shaving refreshes and invigorates the skin, and a glassful in boiling water will cleanse and perfume the home.",
+        "story": null,
+        "options": [
+            {
+                "size": "200ml",
+                "price": 65,
+                "weight": "200ml",
+                "images": {
+                    "thumbnail": {
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-vinegar-200-ml-pvinaigre2-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-vinegar-200-ml-pvinaigre2-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    },
+                    "detail": [
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-vinegar-200-ml-pvinaigre2-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-vinegar-200-ml-pvinaigre2-2.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90"
+                    ]
+                },
+                "url": "https://www.diptyqueparis.com/media/catalog/product/d/i/diptyque-vinegar-200-ml-pvinaigre2-1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=150&quality=90",
+                "optionId": 401
+            }
+        ],
+        "collection": null
+    }
+]
