@@ -1,6 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Layout from './common/Layout';
-import './styles/globals.scss';
 import {
   Cart,
   Collection,
@@ -9,11 +8,16 @@ import {
   Member,
   Mypage,
   Payment,
-  Product,
+  ProductLayout,
   Promotion,
   SearchResult,
   Service,
 } from './pages';
+
+import BodyCareList from './components/product/body/bodyCareList';
+import CandleDiffuserList from './components/product/candleDiffuser/CandleDiffuserList';
+import PerfumeList from './components/product/perfume/PerfumeList';
+import './styles/globals.scss';
 
 function App() {
   return (
@@ -22,7 +26,12 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Maison />} />
           <Route path="/promotion" element={<Promotion />} />
-          <Route path="/product" element={<Product />} />
+          <Route path="/product" element={<ProductLayout />}>
+            <Route index element={<PerfumeList />} />
+            <Route path="perfume" element={<PerfumeList />} />
+            <Route path="candlediffuser" element={<CandleDiffuserList />} />
+            <Route path="body" element={<BodyCareList />} />
+          </Route>
           <Route path="/collection" element={<Collection />} />
           <Route path="/service" element={<Service />} />
           <Route path="/member" element={<Member />} />

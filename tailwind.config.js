@@ -59,8 +59,8 @@ export default {
         'body3-m': '12px',
       },
       screens: {
-        sm: '768px',
-        lg: '1024px',
+        'tablet': { max: '1023px' },
+        'mobile': { max: '767px' },
       },
     },
   },
