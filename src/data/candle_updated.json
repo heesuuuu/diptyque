@@ -12,13 +12,13 @@
                 "weight": "70g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Roses/Roses_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Roses/Roses_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Roses/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Roses/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Roses/Roses_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Roses/Roses_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Roses/Roses_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Roses/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Roses/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Roses/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3001
@@ -29,13 +29,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Roses/Roses_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Roses/Roses_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Roses/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Roses/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Roses/Roses_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Roses/Roses_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Roses/Roses_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Roses/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Roses/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Roses/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3002
@@ -46,13 +46,13 @@
                 "weight": "600g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Roses/Roses_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Roses/Roses_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Roses/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Roses/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Roses/Roses_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Roses/Roses_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Roses/Roses_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Roses/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Roses/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Roses/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3003
@@ -63,16 +63,16 @@
                 "weight": "1500g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Roses/Roses_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Roses/Roses_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Roses/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Roses/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Roses/Roses_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Roses/Roses_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Roses/Roses_detail_3.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Roses/Roses_detail_4.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Roses/Roses_detail_5.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Roses/Roses_detail_6.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Roses/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Roses/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Roses/detail/detail_3.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Roses/detail/detail_4.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Roses/detail/detail_5.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Roses/detail/detail_6.jpg"
                     ]
                 },
                 "optionId": 3004
@@ -95,13 +95,13 @@
                 "weight": "70g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3011
@@ -112,13 +112,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3012
@@ -129,12 +129,12 @@
                 "weight": "300g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 3013
@@ -145,13 +145,13 @@
                 "weight": "600g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3014
@@ -162,14 +162,14 @@
                 "weight": "1500g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_detail_3.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tubéreuse/Tubéreuse_detail_4.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/detail/detail_3.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tubéreuse/detail/detail_4.jpg"
                     ]
                 },
                 "optionId": 3015
@@ -192,13 +192,13 @@
                 "weight": "70g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Mimosa/Mimosa_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Mimosa/Mimosa_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Mimosa/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Mimosa/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Mimosa/Mimosa_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Mimosa/Mimosa_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Mimosa/Mimosa_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Mimosa/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Mimosa/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Mimosa/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3021
@@ -209,13 +209,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Mimosa/Mimosa_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Mimosa/Mimosa_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Mimosa/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Mimosa/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Mimosa/Mimosa_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Mimosa/Mimosa_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Mimosa/Mimosa_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Mimosa/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Mimosa/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Mimosa/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3022
@@ -238,13 +238,13 @@
                 "weight": "70g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Jasmin_/Jasmin__default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Jasmin_/Jasmin__hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Jasmin_/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Jasmin_/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Jasmin_/Jasmin__detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Jasmin_/Jasmin__detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Jasmin_/Jasmin__detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Jasmin_/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Jasmin_/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Jasmin_/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3031
@@ -255,13 +255,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Jasmin_/Jasmin__default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Jasmin_/Jasmin__hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Jasmin_/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Jasmin_/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Jasmin_/Jasmin__detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Jasmin_/Jasmin__detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Jasmin_/Jasmin__detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Jasmin_/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Jasmin_/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Jasmin_/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3032
@@ -284,13 +284,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Muguet_(Lily_of_the_Valley)/Muguet_(Lily_of_the_Valley)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Muguet_(Lily_of_the_Valley)/Muguet_(Lily_of_the_Valley)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Muguet_Lily_of_the_Valley/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Muguet_Lily_of_the_Valley/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Muguet_(Lily_of_the_Valley)/Muguet_(Lily_of_the_Valley)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Muguet_(Lily_of_the_Valley)/Muguet_(Lily_of_the_Valley)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Muguet_(Lily_of_the_Valley)/Muguet_(Lily_of_the_Valley)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Muguet_Lily_of_the_Valley/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Muguet_Lily_of_the_Valley/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Muguet_Lily_of_the_Valley/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3041
@@ -313,13 +313,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tilleul_(Linden_Tree)/Tilleul_(Linden_Tree)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tilleul_(Linden_Tree)/Tilleul_(Linden_Tree)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tilleul_Linden_Tree/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tilleul_Linden_Tree/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tilleul_(Linden_Tree)/Tilleul_(Linden_Tree)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tilleul_(Linden_Tree)/Tilleul_(Linden_Tree)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Tilleul_(Linden_Tree)/Tilleul_(Linden_Tree)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tilleul_Linden_Tree/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tilleul_Linden_Tree/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Tilleul_Linden_Tree/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3051
@@ -342,13 +342,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Lys_(Lily)/Lys_(Lily)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Lys_(Lily)/Lys_(Lily)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Lys_Lily/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Lys_Lily/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Lys_(Lily)/Lys_(Lily)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Lys_(Lily)/Lys_(Lily)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Lys_(Lily)/Lys_(Lily)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Lys_Lily/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Lys_Lily/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Lys_Lily/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3061
@@ -371,13 +371,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Violette_(Violet)/Violette_(Violet)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Violette_(Violet)/Violette_(Violet)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Violette_Violet/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Violette_Violet/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Violette_(Violet)/Violette_(Violet)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Violette_(Violet)/Violette_(Violet)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Violette_(Violet)/Violette_(Violet)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Violette_Violet/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Violette_Violet/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Violette_Violet/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3071
@@ -400,13 +400,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Geranium_Rosa/Geranium_Rosa_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Geranium_Rosa/Geranium_Rosa_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Geranium_Rosa/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Geranium_Rosa/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Geranium_Rosa/Geranium_Rosa_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Geranium_Rosa/Geranium_Rosa_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Geranium_Rosa/Geranium_Rosa_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Geranium_Rosa/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Geranium_Rosa/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Geranium_Rosa/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3081
@@ -429,13 +429,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Gardenia/Gardenia_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Gardenia/Gardenia_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Gardenia/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Gardenia/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Gardenia/Gardenia_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Gardenia/Gardenia_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Gardenia/Gardenia_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Gardenia/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Gardenia/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Gardenia/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3091
@@ -458,13 +458,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Choisya_(Orange_Blossom)/Choisya_(Orange_Blossom)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Choisya_(Orange_Blossom)/Choisya_(Orange_Blossom)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Choisya_Orange_Blossom/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Choisya_Orange_Blossom/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Choisya_(Orange_Blossom)/Choisya_(Orange_Blossom)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Choisya_(Orange_Blossom)/Choisya_(Orange_Blossom)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Choisya_(Orange_Blossom)/Choisya_(Orange_Blossom)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Choisya_Orange_Blossom/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Choisya_Orange_Blossom/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Choisya_Orange_Blossom/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3101
@@ -487,13 +487,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Aubépine_(Hawthorn)/Aubépine_(Hawthorn)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Aubépine_(Hawthorn)/Aubépine_(Hawthorn)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Aubépine_Hawthorn/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Aubépine_Hawthorn/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Aubépine_(Hawthorn)/Aubépine_(Hawthorn)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Aubépine_(Hawthorn)/Aubépine_(Hawthorn)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Aubépine_(Hawthorn)/Aubépine_(Hawthorn)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Aubépine_Hawthorn/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Aubépine_Hawthorn/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Aubépine_Hawthorn/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3111
@@ -516,13 +516,13 @@
                 "weight": "70g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Freesia/Freesia_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Freesia/Freesia_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Freesia/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Freesia/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Freesia/Freesia_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Freesia/Freesia_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Freesia/Freesia_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Freesia/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Freesia/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Freesia/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3121
@@ -533,13 +533,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Freesia/Freesia_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Freesia/Freesia_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Freesia/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Freesia/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Freesia/Freesia_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Freesia/Freesia_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Freesia/Freesia_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Freesia/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Freesia/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Freesia/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3122
@@ -562,13 +562,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Iris/Iris_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Iris/Iris_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Iris/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Iris/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Iris/Iris_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Iris/Iris_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Iris/Iris_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Iris/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Iris/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Iris/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3131
@@ -591,13 +591,13 @@
                 "weight": "70g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3141
@@ -608,13 +608,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3142
@@ -625,12 +625,12 @@
                 "weight": "300g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 3143
@@ -641,13 +641,13 @@
                 "weight": "600g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3144
@@ -658,14 +658,14 @@
                 "weight": "600g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_detail_3.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feu_de_Bois_(Wood_Fire)/Feu_de_Bois_(Wood_Fire)_detail_4.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/detail/detail_3.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feu_de_Bois_Wood_Fire/detail/detail_4.jpg"
                     ]
                 },
                 "optionId": 3145
@@ -688,12 +688,12 @@
                 "weight": "300g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/34_boulevard_Saint_Germain/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/34_boulevard_Saint_Germain/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/34_boulevard_Saint_Germain/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/34_boulevard_Saint_Germain/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 3151
@@ -704,12 +704,12 @@
                 "weight": "600g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/34_boulevard_Saint_Germain/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/34_boulevard_Saint_Germain/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/34_boulevard_Saint_Germain/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/34_boulevard_Saint_Germain/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 3152
@@ -720,15 +720,15 @@
                 "weight": "600g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/34_boulevard_Saint_Germain/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/34_boulevard_Saint_Germain/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_3.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_4.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_5.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/34_boulevard_Saint_Germain/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/34_boulevard_Saint_Germain/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/34_boulevard_Saint_Germain/detail/detail_3.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/34_boulevard_Saint_Germain/detail/detail_4.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/34_boulevard_Saint_Germain/detail/detail_5.jpg"
                     ]
                 },
                 "optionId": 3153
@@ -751,13 +751,13 @@
                 "weight": "70g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3161
@@ -768,13 +768,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3162
@@ -785,12 +785,12 @@
                 "weight": "300g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 3163
@@ -801,14 +801,14 @@
                 "weight": "600g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_detail_3.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_detail_4.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/detail/detail_3.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/detail/detail_4.jpg"
                     ]
                 },
                 "optionId": 3164
@@ -819,15 +819,15 @@
                 "weight": "1500g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_detail_3.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_detail_4.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Ambre_(Amber)/Ambre_(Amber)_detail_5.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/detail/detail_3.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/detail/detail_4.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Ambre_Amber/detail/detail_5.jpg"
                     ]
                 },
                 "optionId": 3165
@@ -850,13 +850,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Oud/Oud_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Oud/Oud_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Oud/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Oud/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Oud/Oud_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Oud/Oud_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Oud/Oud_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Oud/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Oud/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Oud/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3171
@@ -879,13 +879,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Santal_(Sandalwood)/Santal_(Sandalwood)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Santal_(Sandalwood)/Santal_(Sandalwood)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Santal_Sandalwood/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Santal_Sandalwood/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Santal_(Sandalwood)/Santal_(Sandalwood)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Santal_(Sandalwood)/Santal_(Sandalwood)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Santal_(Sandalwood)/Santal_(Sandalwood)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Santal_Sandalwood/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Santal_Sandalwood/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Santal_Sandalwood/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3181
@@ -908,13 +908,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Maquis(Scrub)/Maquis(Scrub)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Maquis(Scrub)/Maquis(Scrub)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/MaquisScrub/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/MaquisScrub/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Maquis(Scrub)/Maquis(Scrub)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Maquis(Scrub)/Maquis(Scrub)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Maquis(Scrub)/Maquis(Scrub)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/MaquisScrub/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/MaquisScrub/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/MaquisScrub/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3191
@@ -937,13 +937,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Bois_Ciré_(Waxed_Wood)/Bois_Ciré_(Waxed_Wood)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Bois_Ciré_(Waxed_Wood)/Bois_Ciré_(Waxed_Wood)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Bois_Ciré_Waxed_Wood/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Bois_Ciré_Waxed_Wood/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Bois_Ciré_(Waxed_Wood)/Bois_Ciré_(Waxed_Wood)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Bois_Ciré_(Waxed_Wood)/Bois_Ciré_(Waxed_Wood)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Bois_Ciré_(Waxed_Wood)/Bois_Ciré_(Waxed_Wood)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Bois_Ciré_Waxed_Wood/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Bois_Ciré_Waxed_Wood/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Bois_Ciré_Waxed_Wood/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3201
@@ -966,13 +966,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Opopanax/Opopanax_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Opopanax/Opopanax_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Opopanax/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Opopanax/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Opopanax/Opopanax_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Opopanax/Opopanax_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Opopanax/Opopanax_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Opopanax/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Opopanax/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Opopanax/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3211
@@ -995,13 +995,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Noisetier_(Hazel_Tree)/Noisetier_(Hazel_Tree)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Noisetier_(Hazel_Tree)/Noisetier_(Hazel_Tree)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Noisetier_Hazel_Tree/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Noisetier_Hazel_Tree/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Noisetier_(Hazel_Tree)/Noisetier_(Hazel_Tree)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Noisetier_(Hazel_Tree)/Noisetier_(Hazel_Tree)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Noisetier_(Hazel_Tree)/Noisetier_(Hazel_Tree)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Noisetier_Hazel_Tree/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Noisetier_Hazel_Tree/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Noisetier_Hazel_Tree/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3221
@@ -1024,13 +1024,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Chêne_(Oak_Tree)/Chêne_(Oak_Tree)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Chêne_(Oak_Tree)/Chêne_(Oak_Tree)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Chêne_Oak_Tree/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Chêne_Oak_Tree/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Chêne_(Oak_Tree)/Chêne_(Oak_Tree)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Chêne_(Oak_Tree)/Chêne_(Oak_Tree)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Chêne_(Oak_Tree)/Chêne_(Oak_Tree)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Chêne_Oak_Tree/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Chêne_Oak_Tree/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Chêne_Oak_Tree/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3231
@@ -1053,13 +1053,13 @@
                 "weight": "70g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Cyprès_(Cypress)/Cyprès_(Cypress)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Cyprès_(Cypress)/Cyprès_(Cypress)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Cyprès_Cypress/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Cyprès_Cypress/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Cyprès_(Cypress)/Cyprès_(Cypress)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Cyprès_(Cypress)/Cyprès_(Cypress)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Cyprès_(Cypress)/Cyprès_(Cypress)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Cyprès_Cypress/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Cyprès_Cypress/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Cyprès_Cypress/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3241
@@ -1070,13 +1070,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Cyprès_(Cypress)/Cyprès_(Cypress)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Cyprès_(Cypress)/Cyprès_(Cypress)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Cyprès_Cypress/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Cyprès_Cypress/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Cyprès_(Cypress)/Cyprès_(Cypress)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Cyprès_(Cypress)/Cyprès_(Cypress)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Cyprès_(Cypress)/Cyprès_(Cypress)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Cyprès_Cypress/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Cyprès_Cypress/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Cyprès_Cypress/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3242
@@ -1099,12 +1099,12 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/John_Galliano/John_Galliano_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/John_Galliano/John_Galliano_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/John_Galliano/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/John_Galliano/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/John_Galliano/John_Galliano_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/John_Galliano/John_Galliano_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/John_Galliano/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/John_Galliano/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 3251
@@ -1127,13 +1127,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Musc(Musk)/Musc(Musk)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Musc(Musk)/Musc(Musk)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/MuscMusk/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/MuscMusk/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Musc(Musk)/Musc(Musk)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Musc(Musk)/Musc(Musk)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Musc(Musk)/Musc(Musk)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/MuscMusk/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/MuscMusk/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/MuscMusk/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3261
@@ -1156,13 +1156,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Benjoin(Benzoin)/Benjoin(Benzoin)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Benjoin(Benzoin)/Benjoin(Benzoin)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BenjoinBenzoin/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BenjoinBenzoin/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Benjoin(Benzoin)/Benjoin(Benzoin)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Benjoin(Benzoin)/Benjoin(Benzoin)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Benjoin(Benzoin)/Benjoin(Benzoin)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BenjoinBenzoin/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BenjoinBenzoin/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BenjoinBenzoin/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3271
@@ -1185,13 +1185,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Myrrhe(Myrrh)/Myrrhe(Myrrh)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Myrrhe(Myrrh)/Myrrhe(Myrrh)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/MyrrheMyrrh/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/MyrrheMyrrh/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Myrrhe(Myrrh)/Myrrhe(Myrrh)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Myrrhe(Myrrh)/Myrrhe(Myrrh)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Myrrhe(Myrrh)/Myrrhe(Myrrh)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/MyrrheMyrrh/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/MyrrheMyrrh/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/MyrrheMyrrh/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3281
@@ -1214,13 +1214,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Cuir(Leather)/Cuir(Leather)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Cuir(Leather)/Cuir(Leather)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/CuirLeather/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/CuirLeather/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Cuir(Leather)/Cuir(Leather)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Cuir(Leather)/Cuir(Leather)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Cuir(Leather)/Cuir(Leather)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/CuirLeather/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/CuirLeather/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/CuirLeather/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3291
@@ -1243,13 +1243,13 @@
                 "weight": "70g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3301
@@ -1260,13 +1260,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3302
@@ -1277,12 +1277,12 @@
                 "weight": "300g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 3303
@@ -1293,13 +1293,13 @@
                 "weight": "600g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3304
@@ -1310,15 +1310,15 @@
                 "weight": "1500g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_3.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_4.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Baies (Berries)/Baies (Berries)_detail_5.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/detail/detail_3.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/detail/detail_4.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/BaiesBerries/detail/detail_5.jpg"
                     ]
                 },
                 "optionId": 3305
@@ -1341,13 +1341,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Oranger(Orange_Tree)/Oranger(Orange_Tree)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Oranger(Orange_Tree)/Oranger(Orange_Tree)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/OrangerOrange_Tree/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/OrangerOrange_Tree/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Oranger(Orange_Tree)/Oranger(Orange_Tree)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Oranger(Orange_Tree)/Oranger(Orange_Tree)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Oranger(Orange_Tree)/Oranger(Orange_Tree)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/OrangerOrange_Tree/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/OrangerOrange_Tree/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/OrangerOrange_Tree/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3311
@@ -1370,13 +1370,13 @@
                 "weight": "70g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Figuier(Fig_Tree)/Figuier(Fig_Tree)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Figuier(Fig_Tree)/Figuier(Fig_Tree)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/FiguierFig_Tree/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/FiguierFig_Tree/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Figuier(Fig_Tree)/Figuier(Fig_Tree)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Figuier(Fig_Tree)/Figuier(Fig_Tree)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Figuier(Fig_Tree)/Figuier(Fig_Tree)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/FiguierFig_Tree/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/FiguierFig_Tree/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/FiguierFig_Tree/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3321
@@ -1387,13 +1387,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Figuier(Fig_Tree)/Figuier(Fig_Tree)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Figuier(Fig_Tree)/Figuier(Fig_Tree)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/FiguierFig_Tree/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/FiguierFig_Tree/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Figuier(Fig_Tree)/Figuier(Fig_Tree)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Figuier(Fig_Tree)/Figuier(Fig_Tree)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Figuier(Fig_Tree)/Figuier(Fig_Tree)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/FiguierFig_Tree/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/FiguierFig_Tree/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/FiguierFig_Tree/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3322
@@ -1404,12 +1404,12 @@
                 "weight": "300g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Figuier(Fig_Tree)/Figuier(Fig_Tree)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Figuier(Fig_Tree)/Figuier(Fig_Tree)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/FiguierFig_Tree/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/FiguierFig_Tree/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Figuier(Fig_Tree)/Figuier(Fig_Tree)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Figuier(Fig_Tree)/Figuier(Fig_Tree)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/FiguierFig_Tree/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/FiguierFig_Tree/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 3323
@@ -1420,15 +1420,15 @@
                 "weight": "1500g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Figuier(Fig_Tree)/Figuier(Fig_Tree)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Figuier(Fig_Tree)/Figuier(Fig_Tree)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/FiguierFig_Tree/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/FiguierFig_Tree/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Figuier(Fig_Tree)/Figuier(Fig_Tree)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Figuier(Fig_Tree)/Figuier(Fig_Tree)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Figuier(Fig_Tree)/Figuier(Fig_Tree)_detail_3.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Figuier(Fig_Tree)/Figuier(Fig_Tree)_detail_4.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Figuier(Fig_Tree)/Figuier(Fig_Tree)_detail_5.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/FiguierFig_Tree/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/FiguierFig_Tree/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/FiguierFig_Tree/detail/detail_3.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/FiguierFig_Tree/detail/detail_4.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/FiguierFig_Tree/detail/detail_5.jpg"
                     ]
                 },
                 "optionId": 3324
@@ -1451,13 +1451,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Coing(Quince)/Coing(Quince)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Coing(Quince)/Coing(Quince)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/CoingQuince/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/CoingQuince/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Coing(Quince)/Coing(Quince)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Coing(Quince)/Coing(Quince)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Coing(Quince)/Coing(Quince)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/CoingQuince/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/CoingQuince/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/CoingQuince/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3331
@@ -1480,13 +1480,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Oyédo/Oyédo_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Oyédo/Oyédo_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Oyédo/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Oyédo/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Oyédo/Oyédo_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Oyédo/Oyédo_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Oyédo/Oyédo_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Oyédo/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Oyédo/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Oyédo/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3341
@@ -1509,13 +1509,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Narguilé/Narguilé_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Narguilé/Narguilé_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Narguilé/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Narguilé/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Narguilé/Narguilé_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Narguilé/Narguilé_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Narguilé/Narguilé_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Narguilé/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Narguilé/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Narguilé/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3351
@@ -1538,13 +1538,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Vanille(Vanilla)/Vanille(Vanilla)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Vanille(Vanilla)/Vanille(Vanilla)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/VanilleVanilla/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/VanilleVanilla/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Vanille(Vanilla)/Vanille(Vanilla)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Vanille(Vanilla)/Vanille(Vanilla)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Vanille(Vanilla)/Vanille(Vanilla)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/VanilleVanilla/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/VanilleVanilla/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/VanilleVanilla/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3361
@@ -1567,13 +1567,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Cannelle(Cinnamon)/Cannelle(Cinnamon)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Cannelle(Cinnamon)/Cannelle(Cinnamon)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/CannelleCinnamon/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/CannelleCinnamon/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Cannelle(Cinnamon)/Cannelle(Cinnamon)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Cannelle(Cinnamon)/Cannelle(Cinnamon)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Cannelle(Cinnamon)/Cannelle(Cinnamon)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/CannelleCinnamon/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/CannelleCinnamon/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/CannelleCinnamon/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3371
@@ -1596,13 +1596,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Thé(Tea)/Thé(Tea)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Thé(Tea)/Thé(Tea)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/ThéTea/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/ThéTea/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Thé(Tea)/Thé(Tea)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Thé(Tea)/Thé(Tea)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Thé(Tea)/Thé(Tea)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/ThéTea/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/ThéTea/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/ThéTea/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3381
@@ -1625,13 +1625,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Genévrier(Juniper)/Genévrier(Juniper)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Genévrier(Juniper)/Genévrier(Juniper)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/GenévrierJuniper/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/GenévrierJuniper/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Genévrier(Juniper)/Genévrier(Juniper)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Genévrier(Juniper)/Genévrier(Juniper)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Genévrier(Juniper)/Genévrier(Juniper)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/GenévrierJuniper/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/GenévrierJuniper/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/GenévrierJuniper/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3391
@@ -1654,13 +1654,13 @@
                 "weight": "70g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Pomander/Pomander_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Pomander/Pomander_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Pomander/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Pomander/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Pomander/Pomander_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Pomander/Pomander_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Pomander/Pomander_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Pomander/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Pomander/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Pomander/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3401
@@ -1671,13 +1671,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Pomander/Pomander_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Pomander/Pomander_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Pomander/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Pomander/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Pomander/Pomander_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Pomander/Pomander_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Pomander/Pomander_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Pomander/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Pomander/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Pomander/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3402
@@ -1700,13 +1700,13 @@
                 "weight": "70g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Verveine(Lemon_Verbena_Scented)/Verveine(Lemon_Verbena_Scented)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Verveine(Lemon_Verbena_Scented)/Verveine(Lemon_Verbena_Scented)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/VerveineLemon_Verbena_Scented/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/VerveineLemon_Verbena_Scented/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Verveine(Lemon_Verbena_Scented)/Verveine(Lemon_Verbena_Scented)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Verveine(Lemon_Verbena_Scented)/Verveine(Lemon_Verbena_Scented)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Verveine(Lemon_Verbena_Scented)/Verveine(Lemon_Verbena_Scented)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/VerveineLemon_Verbena_Scented/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/VerveineLemon_Verbena_Scented/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/VerveineLemon_Verbena_Scented/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3411
@@ -1717,13 +1717,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Verveine(Lemon_Verbena_Scented)/Verveine(Lemon_Verbena_Scented)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Verveine(Lemon_Verbena_Scented)/Verveine(Lemon_Verbena_Scented)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/VerveineLemon_Verbena_Scented/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/VerveineLemon_Verbena_Scented/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Verveine(Lemon_Verbena_Scented)/Verveine(Lemon_Verbena_Scented)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Verveine(Lemon_Verbena_Scented)/Verveine(Lemon_Verbena_Scented)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Verveine(Lemon_Verbena_Scented)/Verveine(Lemon_Verbena_Scented)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/VerveineLemon_Verbena_Scented/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/VerveineLemon_Verbena_Scented/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/VerveineLemon_Verbena_Scented/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3412
@@ -1746,13 +1746,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Patchouli/Patchouli_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Patchouli/Patchouli_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Patchouli/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Patchouli/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Patchouli/Patchouli_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Patchouli/Patchouli_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Patchouli/Patchouli_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Patchouli/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Patchouli/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Patchouli/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3421
@@ -1775,12 +1775,12 @@
                 "weight": "220g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/L'Elide/L'Elide_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/L'Elide/L'Elide_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/L'Elide/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/L'Elide/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/L'Elide/L'Elide_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/L'Elide/L'Elide_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/L'Elide/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/L'Elide/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 3431
@@ -1803,13 +1803,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Mousses(Moss)/Mousses(Moss)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Mousses(Moss)/Mousses(Moss)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/MoussesMoss/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/MoussesMoss/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Mousses(Moss)/Mousses(Moss)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Mousses(Moss)/Mousses(Moss)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Mousses(Moss)/Mousses(Moss)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/MoussesMoss/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/MoussesMoss/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/MoussesMoss/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3441
@@ -1832,13 +1832,13 @@
                 "weight": "70g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feuille_de_Lavande(Lavender_Leaf)/Feuille_de_Lavande(Lavender_Leaf)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feuille_de_Lavande(Lavender_Leaf)/Feuille_de_Lavande(Lavender_Leaf)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feuille_de_LavandeLavender_Leaf/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feuille_de_LavandeLavender_Leaf/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feuille_de_Lavande(Lavender_Leaf)/Feuille_de_Lavande(Lavender_Leaf)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feuille_de_Lavande(Lavender_Leaf)/Feuille_de_Lavande(Lavender_Leaf)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feuille_de_Lavande(Lavender_Leaf)/Feuille_de_Lavande(Lavender_Leaf)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feuille_de_LavandeLavender_Leaf/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feuille_de_LavandeLavender_Leaf/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feuille_de_LavandeLavender_Leaf/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3451
@@ -1849,13 +1849,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feuille_de_Lavande(Lavender_Leaf)/Feuille_de_Lavande(Lavender_Leaf)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feuille_de_Lavande(Lavender_Leaf)/Feuille_de_Lavande(Lavender_Leaf)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feuille_de_LavandeLavender_Leaf/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feuille_de_LavandeLavender_Leaf/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feuille_de_Lavande(Lavender_Leaf)/Feuille_de_Lavande(Lavender_Leaf)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feuille_de_Lavande(Lavender_Leaf)/Feuille_de_Lavande(Lavender_Leaf)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Feuille_de_Lavande(Lavender_Leaf)/Feuille_de_Lavande(Lavender_Leaf)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feuille_de_LavandeLavender_Leaf/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feuille_de_LavandeLavender_Leaf/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Feuille_de_LavandeLavender_Leaf/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3452
@@ -1878,13 +1878,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Eucalyptus/Eucalyptus_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Eucalyptus/Eucalyptus_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Eucalyptus/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Eucalyptus/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Eucalyptus/Eucalyptus_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Eucalyptus/Eucalyptus_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Eucalyptus/Eucalyptus_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Eucalyptus/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Eucalyptus/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Eucalyptus/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3461
@@ -1907,13 +1907,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Vétyver(Vetiver)/Vétyver(Vetiver)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Vétyver(Vetiver)/Vétyver(Vetiver)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/VétyverVetiver/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/VétyverVetiver/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Vétyver(Vetiver)/Vétyver(Vetiver)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Vétyver(Vetiver)/Vétyver(Vetiver)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Vétyver(Vetiver)/Vétyver(Vetiver)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/VétyverVetiver/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/VétyverVetiver/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/VétyverVetiver/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3471
@@ -1936,13 +1936,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Foin_Coupé(Fresh_Mown_Hay)/Foin_Coupé(Fresh_Mown_Hay)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Foin_Coupé(Fresh_Mown_Hay)/Foin_Coupé(Fresh_Mown_Hay)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Foin_CoupéFresh_Mown_Hay/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Foin_CoupéFresh_Mown_Hay/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Foin_Coupé(Fresh_Mown_Hay)/Foin_Coupé(Fresh_Mown_Hay)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Foin_Coupé(Fresh_Mown_Hay)/Foin_Coupé(Fresh_Mown_Hay)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Foin_Coupé(Fresh_Mown_Hay)/Foin_Coupé(Fresh_Mown_Hay)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Foin_CoupéFresh_Mown_Hay/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Foin_CoupéFresh_Mown_Hay/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Foin_CoupéFresh_Mown_Hay/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3481
@@ -1965,13 +1965,13 @@
                 "weight": "190g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Menthe_Verte(Spearmint)/Menthe_Verte(Spearmint)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Menthe_Verte(Spearmint)/Menthe_Verte(Spearmint)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Menthe_VerteSpearmint/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Menthe_VerteSpearmint/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Menthe_Verte(Spearmint)/Menthe_Verte(Spearmint)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Menthe_Verte(Spearmint)/Menthe_Verte(Spearmint)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/candle/Menthe_Verte(Spearmint)/Menthe_Verte(Spearmint)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Menthe_VerteSpearmint/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Menthe_VerteSpearmint/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/candle/Menthe_VerteSpearmint/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 3491
