@@ -9,7 +9,7 @@ const ProductDetail = () => {
   const dispatch = useDispatch();
   const { productId } = useParams();
   const { productData } = useSelector((state) => state.product);
-  const { id, olfactory, name, type, notes, description, story, options, collection } = productData;
+  const { id, olfactory, name, type, notes, keyword, description, story, options, collection } = productData;
 
   useEffect(() => {
     dispatch(productActions.setProduct(Number(productId)));
