@@ -21,7 +21,7 @@ const ProductDetail = () => {
     return () => {
       dispatch(productActions.resetProduct());
     };
-  }, [productId]);
+  }, [dispatch, productId]);
 
   // if (!productData) {
   //   return <div>Loading . . . </div>;
