@@ -58,7 +58,13 @@ const initialState = {
     description: '',
     story: '',
     options: [
-      { size: '', price: '', weight: '', images: { thumbnail: { default: '', hover: '' }, detail: '' }, optionId: '' },
+      {
+        size: '',
+        price: '',
+        weight: '',
+        images: { thumbnail: { default: '', hover: '' }, detail: '' },
+        optionId: '',
+      },
     ],
     collection: '',
     sales: '',
@@ -114,10 +120,14 @@ export const productSlice = createSlice({
     },
     setProduct: (state, action) => {
       const id = action.payload;
-      state.productData = state.categoryData.find((data) => data.id === id);
+      const selectedProduct = state.allProductData.find((data) => data.id === id);
+      state.productData = {
+        ...state.productData,
+        ...selectedProduct,
+      };
     },
     resetProduct: (state, action) => {
-      state.productData = [];
+      state.productData = {};
     },
   },
 });

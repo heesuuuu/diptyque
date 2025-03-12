@@ -10,6 +10,10 @@ const ProductDetail = () => {
   const { productId } = useParams();
   const { productData } = useSelector((state) => state.product);
   const { id, olfactory, name, type, notes, keyword, description, story, options, collection } = productData;
+  console.log(productData);
+  console.log('keyword type:', typeof keyword, keyword);
+  console.log('notes type:', typeof notes, notes);
+  console.log('olfactory type:', typeof olfactory, olfactory);
 
   useEffect(() => {
     dispatch(productActions.setProduct(Number(productId)));
@@ -17,21 +21,32 @@ const ProductDetail = () => {
     return () => {
       dispatch(productActions.resetProduct());
     };
-  }, []);
+  }, [productId]);
 
-  if (!productData | !productData.options) {
-    return <div>Loading . . . </div>;
-  }
+  // if (!productData) {
+  //   return <div>Loading . . . </div>;
+  // }
+
+  // 안전한 렌더링 함수 추가
+  const safeRender = (value) => {
+    if (value === null || value === undefined) return '';
+    if (typeof value === 'string' || typeof value === 'number') return value;
+    if (Array.isArray(value)) return value.join(', ');
+    if (typeof value === 'object') return Object.values(value).join(', ');
+    return String(value);
+  };
 
   return (
     <>
       <div className="flex">
         <div className="w-1/2">
-          {options[0].images.detail.map((img, idx) => (
-            <img key={idx} src={img} alt={name} className="w-full h-auto" />
-          ))}
+          {options &&
+            options[0].images.detail &&
+            options[0].images.detail.map((img, idx) => (
+              <img key={idx} src={img} alt={name} className="w-full h-auto" />
+            ))}
         </div>
-        <div className="fixed top-0 right-0 w-1/2">
+        <div className="sticky top-0 right-0 w-1/2">
           <h1>{name}</h1>
           <p>
             {type}
@@ -40,7 +55,10 @@ const ProductDetail = () => {
             </span>
           </p>
           <hr />
-          <p>{notes.map((note, idx) => (idx !== notes.length - 1 ? note + ', ' : note))}</p>
+          <p>
+            {notes && safeRender(notes)}
+            {keyword && safeRender(keyword)}
+          </p>
           <p>{description}</p>
           <div>
             <label htmlFor="selectOption">Add Personalization</label>
