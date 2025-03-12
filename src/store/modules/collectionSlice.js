@@ -4,37 +4,72 @@ import diffuserData from '../../data/diffuser_updated.json';
 import candleData from '../../data/candle_updated.json';
 import bodyData from '../../data/body_updated.json';
 
-// const getItemsColName = (dataArray) => {
-//   return dataArray.fiter((item) => item.collection !== null && item.collection !== undefined);
-// };
+// 데이터 배열 평탄화 - 중첩된 배열을 하나의 배열로 만들기
+const flattenData = (dataArray) => {
+  let result = [];
+  if (!Array.isArray(dataArray)) return result;
 
-// const perfumeColName = getItemsColName(perfumeData);
-// const diffuserColName = getItemsColName(diffuserData);
-// const candleColName = getItemsColName(candleData);
-// const bodyColName = getItemsColName(bodyData);
+  dataArray.forEach((item) => {
+    if (Array.isArray(item)) {
+      result = result.concat(flattenData(item));
+    } else {
+      result.push(item);
+    }
+  });
+  return result;
+};
 
-// 모든 컬렉션 이름 합침
-// const allCollections = [...perfumeColName, ...diffuserColName, ...candleColName, ...bodyColName];
+// collection 배열에서 collectionName만 추출
+const getCollectionNames = (dataArray) => {
+  if (!dataArray) return [];
 
-// // 컬렉션 이름 배열로 생성
-// const AllCollectionNames = [...new Set(allCollections.map((item) => item.collection))];
+  const flatData = flattenData(dataArray);
+  let result = [];
 
-// const collectionGroups = {};
-// allCollections.forEach((collectionName) => {
-//   collectionGroups[collectionName] = allCollections.filter((item) => item.collection === collectionName);
-// });
+  flatData.forEach((item) => {
+    if (item && typeof item === 'object' && item.collection) {
+      if (Array.isArray(item.collection)) {
+        item.collection.forEach((col) => {
+          if (
+            col &&
+            typeof col === 'object' &&
+            col.collectionName &&
+            typeof col.collectionName === 'string' &&
+            col.collectionName.trim() !== ''
+          ) {
+            result.push(col.collectionName);
+          }
+        });
+      }
+    }
+  });
 
-const initialState = {};
+  return [...new Set(result)];
+};
+
+const perfumeNames = getCollectionNames(perfumeData);
+const diffuserNames = getCollectionNames(diffuserData);
+const candleNames = getCollectionNames(candleData);
+const bodyNames = getCollectionNames(bodyData);
+
+const allNames = [...perfumeNames, ...diffuserNames, ...candleNames, ...bodyNames];
+
+const uniqueNames = [...new Set(allNames)].sort();
+
+console.log('Collection Names:', uniqueNames);
+
+const initialState = {
+  allCollectionNames: uniqueNames,
+};
+
 export const collectionSlice = createSlice({
-//   getItemsColName,
-//   AllCollectionNames,
   name: 'collection',
   initialState,
   reducers: {
     update: (state, action) => {},
   },
-
   extraReducers: (builder) => {},
 });
+
 export const collectionActions = collectionSlice.actions;
 export default collectionSlice.reducer;
