@@ -4,7 +4,12 @@
         "olfactory": "Amber",
         "name": "Benjoin Bohème",
         "type": "Eau de parfum",
-        "notes": ["Benzoin", "Peru balsam", "Rockrose", "Patchouli"],
+        "notes": [
+            "Benzoin",
+            "Peru balsam",
+            "Rockrose",
+            "Patchouli"
+        ],
         "description": "Amber Laotian benzoin, warmed by balms and spices … Benjoin Bohême eau de parfum is a portrait in miniature. An olfactory sketch discreetly portraying the elegant silhouette of a British dandy or a Latin bohemian. A perfumed aesthete, assuredly. An imaginary resident of 34 Boulevard Saint-Germain.",
         "story": "Imagine the scent of the resident of 34 Boulevard Saint Germain... Undoubtedly a British dandy or a Latin Bohemian, he is a perfumed aesthete. Singularly amber with notes of Laotian benzoin and warmed by balms and spices, it is an olfactory sketch that reveals his identity. The benzoin used in Benjoin Bohème comes from a sustainable, fair-trade production network in Laos.",
         "options": [
@@ -13,13 +18,13 @@
                 "price": 250,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Benjoin_Bohème/Benjoin_Bohème_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Benjoin_Bohème/Benjoin_Bohème_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Benjoin_Bohème/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Benjoin_Bohème/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Benjoin_Bohème/Benjoin_Bohème_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Benjoin_Bohème/Benjoin_Bohème_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Benjoin_Bohème/Benjoin_Bohème_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Benjoin_Bohème/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Benjoin_Bohème/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Benjoin_Bohème/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7001
@@ -34,7 +39,12 @@
         "olfactory": "Amber",
         "name": "Eau Duelle",
         "type": "Eau de parfum",
-        "notes": ["Vanilla", "Pink peppercorn", "Cypriol", "Incense"],
+        "notes": [
+            "Vanilla",
+            "Pink peppercorn",
+            "Cypriol",
+            "Incense"
+        ],
         "description": "An ode to travel. In Eau Duelle eau de parfum, Bourbon vanilla retains its full duality, revealing a spicy facet of greater intensity. The sweet, sugary notes of vanilla - the fruit of an orchid flower - are joined by luminous calamus accents and smoky cypriol accents. A new addiction.",
         "story": "In the Eau de Parfum, the Bourbon vanilla retains all its sense of duality, unveiling a spiced, denser facet to create a new form of addiction. An ode to travel and vanilla. Along the spice route, the vanilla at the heart of Eau Duelle takes on new aromas: luminous, addictive accents of calamus and dark, smoky nuances of cypriol. Travelling through time and over borders, Bourbon vanilla from Madagascar reveals itself between darkness and light.",
         "options": [
@@ -43,13 +53,13 @@
                 "price": 170,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Duelle/Eau_Duelle_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Duelle/Eau_Duelle_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Duelle/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Duelle/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Duelle/Eau_Duelle_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Duelle/Eau_Duelle_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Duelle/Eau_Duelle_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Duelle/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Duelle/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Duelle/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7011
@@ -64,7 +74,12 @@
         "olfactory": "Amber",
         "name": "Eau Duelle",
         "type": "Eau de toilette",
-        "notes": ["Vanilla", "Pink peppercorn", "Cypriol", "Calamus"],
+        "notes": [
+            "Vanilla",
+            "Pink peppercorn",
+            "Cypriol",
+            "Calamus"
+        ],
         "description": "Perfumed chiaroscuro. The vanilla at the heart of Eau Duelle eau de toilette takes on fresh flavours as it travels the spice road. The luminous, addictive accents of calamus are joined here by smoky cypriol notes for an extra element of surprise. Bourbon vanilla from Madagascar emerges, between darkness and light.",
         "story": "An ode to travel and vanilla. Along the spice route, the vanilla at the heart of Eau Duelle takes on new aromas: luminous, addictive accents of calamus and dark, smoky nuances of cypriol. Travelling through time and over borders, Bourbon vanilla from Madagascar reveals itself between darkness and light. The vanilla bean is the fruit of the orchid flower. Harvested while still green, it must undergo a maturation process of thirty-four months: it is dried slowly so that all of its subtle, sweet perfume can develop fully.",
         "options": [
@@ -73,13 +88,13 @@
                 "price": 105,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Duelle/Eau_Duelle_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Duelle/Eau_Duelle_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Duelle/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Duelle/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Duelle/Eau_Duelle_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Duelle/Eau_Duelle_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Duelle/Eau_Duelle_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Duelle/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Duelle/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Duelle/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7021
@@ -89,13 +104,13 @@
                 "price": 145,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Duelle/Eau_Duelle_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Duelle/Eau_Duelle_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Duelle/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Duelle/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Duelle/Eau_Duelle_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Duelle/Eau_Duelle_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Duelle/Eau_Duelle_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Duelle/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Duelle/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Duelle/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7022
@@ -114,7 +129,12 @@
         "olfactory": "Amber",
         "name": "Eau Lente",
         "type": "Eau de toilette",
-        "notes": ["Opoponax", "Cedar", "Cinnamon", "Red tangerine"],
+        "notes": [
+            "Opoponax",
+            "Cedar",
+            "Cinnamon",
+            "Red tangerine"
+        ],
         "description": "Travel back to the time of Alexander the Great. Eau Lente eau de toilette is a journey through history. Opoponax, cedar, cinnamon … At night, spices and resins were burned to produce a smoke that was rich in delicate, balmy accents, soothing the soul and relaxing the body. Gradually, plans were shaped for the great conquests to come.",
         "story": "An imaginary voyage back to the time of Alexander the Great when, at night, spices and resins were burned. The smoke took on their sweet, balmy accents that soothed the soul and offered repose to the body. Slowly, they prepared for the morrow and the great conquests to come. Opoponax or opopanax is a resin from a shrub found in Africa and the Middle East. With its sweet, warm fragrance, it is often used in oriental accords.",
         "options": [
@@ -123,13 +143,13 @@
                 "price": 145,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Lente/Eau_Lente_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Lente/Eau_Lente_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Lente/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Lente/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Lente/Eau_Lente_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Lente/Eau_Lente_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Lente/Eau_Lente_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Lente/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Lente/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Lente/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7031
@@ -148,7 +168,11 @@
         "olfactory": "Amber",
         "name": "Eau Navati",
         "type": "Eau de parfum",
-        "notes": ["Bergamot", "Petitgrain", "Peru balsam"],
+        "notes": [
+            "Bergamot",
+            "Petitgrain",
+            "Peru balsam"
+        ],
         "description": "Deep within the dunes, an oasis outside of time. Eau Nabati eau de parfum is an imaginary stroll through a garden in paradise. The warm, spicy wind reveals lively notes of citrus fruits. In a composition rich in contrasts, fresh bergamot and petitgrain mingle with the amber warmth of immortelle flowers and balm of Peru. Opposing elements in harmony.",
         "story": "Did you know? Nabati calls to mind botanical, one of the definitions of this word in classical Arabic. The name evokes luxuriant vegetation, inseparable from the art of the paradise garden. The art of perpetual enchantment.",
         "options": [
@@ -157,13 +181,13 @@
                 "price": 250,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Navati/Eau_Navati_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Navati/Eau_Navati_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Navati/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Navati/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Navati/Eau_Navati_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Navati/Eau_Navati_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Navati/Eau_Navati_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Navati/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Navati/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Navati/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7041
@@ -182,7 +206,12 @@
         "olfactory": "Amber",
         "name": "Eau Rihla",
         "type": "Eau de parfum",
-        "notes": ["Leather", "Iris", "Cedar core", "Raspberry"],
+        "notes": [
+            "Leather",
+            "Iris",
+            "Cedar core",
+            "Raspberry"
+        ],
         "description": "In Arabic, Rihla means travel. In Eau Rihla eau de parfum, spicy pink peppercorn and the Atlas cedar evoke the roads of the Middle East. The lively, woody accords are softened along the way by iris, vanilla and saffron. As it would in the heart of the desert, the fragrance becomes warm.",
         "story": "Under the desert sun, the sand dunes give way to the ruins of ancient cities. Two travellers advance along the path, the pages of their leather notebooks filling up with sketches before nightfall... Diptyque’s history is charged with memories such as this one. Since the origins of the Maison, the Middle East and its imagery have nourished its creations. From the beginning of the 1960s, Diptyque’s founders crisscrossed the routes of the region, roaming its landscapes.Eau Rihla evokes these travels, which have inspired a perfume conceived as the chronicle of a long journey, where leather, in all its splendour, changes throughout its composition. At first, the spicy liveliness of pink peppercorn and the woody notes of Atlas cedar create a vibrant accord. Then, as iris, vanilla and saffron come into play, the fragrance warms up, softens, and takes on the comfort of a second skin. Rihla means “journey” in Arabic. A journey whose olfactory imprint instantly reawakens the memory of other inspiring and captivating horizons. A leather note was specially developed for Diptyque to enhance the composition of Eau Rihla. This natural ingredient with a leathery scent was obtained from Chinese cedar wood. It is a “vegetal” leather with an evocative fragrance.",
         "options": [
@@ -191,13 +220,13 @@
                 "price": 250,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rihla/Eau_Rihla_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rihla/Eau_Rihla_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Rihla/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Rihla/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rihla/Eau_Rihla_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rihla/Eau_Rihla_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rihla/Eau_Rihla_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Rihla/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Rihla/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Rihla/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7051
@@ -216,7 +245,12 @@
         "olfactory": "Amber",
         "name": "L'Autre ",
         "type": "Eau de toilette",
-        "notes": ["Nutmeg", "Cumin", "Caraway", "Clary sage"],
+        "notes": [
+            "Nutmeg",
+            "Cumin",
+            "Caraway",
+            "Clary sage"
+        ],
         "description": "Nutmeg, cumin, caraway … L'Autre eau de toilette radiates twenty-seven essences from places like Damascus, Palmyra and other regions. Its fragrance speaks of a journey to some faraway place - and also of the haunting sillage of a loved one, subtly scenting the skin with spicy notes.",
         "story": "A captivating name with a double meaning. “L’Autre” speaks of a trip to a faraway elsewhere. Nutmeg, cumin, caraway... the fragrance radiates twenty-seven essences from places like Damascus and Palmyra. “L’Autre” is also the haunting scent of a loved one, the skin slightly fragranced with spicy notes. Desmond Knox-Leet, one of Diptyque’s founders, concocted “scented pastes” using flowers, dried leaves and resins that served as inspiration for the composition of the Eaux de Toilette.",
         "options": [
@@ -225,13 +259,13 @@
                 "price": 145,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Autre_/L'Autre__default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Autre_/L'Autre__hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Autre_/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Autre_/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Autre_/L'Autre__detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Autre_/L'Autre__detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Autre_/L'Autre__detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Autre_/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Autre_/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Autre_/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7061
@@ -250,7 +284,12 @@
         "olfactory": "Amber",
         "name": "L'Eau",
         "type": "Eau de toilette",
-        "notes": ["Geranium", "Clove", "Cinnamon", "Ginger"],
+        "notes": [
+            "Geranium",
+            "Clove",
+            "Cinnamon",
+            "Ginger"
+        ],
         "description": "Macerations of clove, cinnamon, flowers and wood. L'Eau, the first eau de toilette from Diptyque, was already defying convention in 1968. An avant-garde time machine - travelling back to invent the future. Neither masculine nor feminine - both at once.",
         "story": "Created in 1968, L’Eau was the first of the first, an olfactory time machine for inventing the future. It effuses macerations of clove and cinnamon, flowers and woods. Long before anyone else, L’Eau was defying gender codes: it spoke neither in the feminine nor the masculine, it captured both. Since the time of this first creation, all the names of Diptyque’s fragrances have contained either an “O” sound or the word “Eau”.",
         "options": [
@@ -259,13 +298,13 @@
                 "price": 145,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau/L'Eau_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau/L'Eau_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau/L'Eau_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau/L'Eau_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau/L'Eau_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7071
@@ -284,7 +323,11 @@
         "olfactory": "Amber",
         "name": "Lilyphéa ",
         "type": "Eau de parfum",
-        "notes": ["Cardamom", "violet leaves", "vanilla"],
+        "notes": [
+            "Cardamom",
+            "violet leaves",
+            "vanilla"
+        ],
         "description": "Lilyphéa celebrates a noted beauty of the plant world: the water lily. Fresh notes of cardamom and violet leaves blend into sweet vanilla. The name of this potent fragrance is a blend in its own right, combining water lily and Nymphéas, the French title for Claude Monet's Water Lilies series. On the bottle, enticing us to tranquil contemplation,the gentle shapes of water lilies are subtly delineated. On the sleeve, its blue and green hues are depicted in watercolour.",
         "story": "Diptyque has always drawn inspiration from nature, whether in the wild or tamed by man. Nature enchants our gaze. It stirs our curiosity, feeds our creativity. The Maison's new collection, Les Essences de Diptyque (The Essences of Diptyque), freely reinterprets the treasures of nature, fluctuating between the realistic and the fantastical. Revealed in all their beauty, these treasures invite us to pause and admire them. Delicate, dreamlike, the five compositions in this collection are the product of an alliance between the perfumer's nose and the hand of an artist. Each creation celebrates one of nature's treasures – reinventing it in fragrance and exceptional drawings. Lilyphéa turns the spotlight onto this remarkable aquatic plant, rising from the depths of a pond to reveal its beauty to the world. On glittering waters, it floats majestically. A dreamlike, inspirational vision.Combining the work of perfumer Nathalie Cetto and her initial collaborator Olivier Pescheux with that of drawing artist Nigel Peake, this olfactory and visual composition is a tribute to the gentle, voluptuous texture of this natural treasure.",
         "options": [
@@ -293,15 +336,15 @@
                 "price": 275,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Lilyphéa_/Lilyphéa__default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Lilyphéa_/Lilyphéa__hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Lilyphéa_/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Lilyphéa_/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Lilyphéa_/Lilyphéa__detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Lilyphéa_/Lilyphéa__detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Lilyphéa_/Lilyphéa__detail_3.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Lilyphéa_/Lilyphéa__detail_4.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Lilyphéa_/Lilyphéa__detail_5.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Lilyphéa_/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Lilyphéa_/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Lilyphéa_/detail/detail_3.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Lilyphéa_/detail/detail_4.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Lilyphéa_/detail/detail_5.jpg"
                     ]
                 },
                 "optionId": 7081
@@ -320,7 +363,11 @@
         "olfactory": "Amber",
         "name": "Lunamaris ",
         "type": "Eau de parfum",
-        "notes": ["Pink peppercorn", "incense", "rockrose"],
+        "notes": [
+            "Pink peppercorn",
+            "incense",
+            "rockrose"
+        ],
         "description": "Lunamaris shines a light on mother of pearl, a delicate beauty of nature. Vibrant notes of pink peppercorn mingle with subtle accords of incense and ambery rockrose. The name of this potent fragrance evokes the iridescence of mother of pearl, recalling the gentle, gleaming reflections of the moon on the waters of the sea. The black brushstrokes decorating the bottle are inspired by the mother of pearl reliefs found inside some mollusc shells, and the motif continues in watercolour on the sleeve.",
         "story": "Diptyque has always drawn inspiration from nature, whether in the wild or tamed by man. Nature enchants our gaze. It stirs our curiosity, feeds our creativity. The Maison's new collection, Les Essences de Diptyque (The Essences of Diptyque), freely reinterprets the treasures of nature, fluctuating between the realistic and the fantastical. Revealed in all their beauty, these treasures invite us to pause and admire them. Delicate, dreamlike, the five compositions in this collection are the product of an alliance between the perfumer's nose and the hand of an artist. Each creation celebrates one of nature's treasures – reinventing it in fragrance and exceptional drawings. Lunamaris illuminates mother of pearl – a natural treasure symbolic of purity. It forms in concealment, hidden away inside a shell. Once revealed, its delicate, iridescent beauty exerts a delightful fascination, recalling the moon reflected on the waters of the sea. Combining the work of perfumer Fabrice Pellegrin with that of drawing artist Nigel Peake, this olfactory and visual composition is an invitation to discover a secret beauty ... revealed at last.",
         "options": [
@@ -329,15 +376,15 @@
                 "price": 275,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Lunamaris_/Lunamaris__default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Lunamaris_/Lunamaris__hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Lunamaris_/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Lunamaris_/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Lunamaris_/Lunamaris__detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Lunamaris_/Lunamaris__detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Lunamaris_/Lunamaris__detail_3.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Lunamaris_/Lunamaris__detail_4.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Lunamaris_/Lunamaris__detail_5.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Lunamaris_/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Lunamaris_/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Lunamaris_/detail/detail_3.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Lunamaris_/detail/detail_4.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Lunamaris_/detail/detail_5.jpg"
                     ]
                 },
                 "optionId": 7091
@@ -356,7 +403,12 @@
         "olfactory": "Amber",
         "name": "Volutes ",
         "type": "Eau de parfum",
-        "notes": ["Honey", "Opoponax", "Cinnamon", "Iris accord"],
+        "notes": [
+            "Honey",
+            "Opoponax",
+            "Cinnamon",
+            "Iris accord"
+        ],
         "description": "1930: an ocean liner bound for Saigon. Women in evening gowns linger on the bridge, cigarette holders in their hands. In the lounge, the orchestra plays on. Mild tobacco, the powdery scent of make-up: Volutes eau de parfum evokes a childhood memory - one belonging to Yves Coueslant, one of the founders of the Maison.",
         "story": "Did you know? The Khedive was an iconic Egyptian cigarette brand in the 1930s with a sweet, fruity tobacco flavour. ",
         "options": [
@@ -365,13 +417,13 @@
                 "price": 170,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Volutes_/Volutes__default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Volutes_/Volutes__hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Volutes_/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Volutes_/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Volutes_/Volutes__detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Volutes_/Volutes__detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Volutes_/Volutes__detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Volutes_/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Volutes_/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Volutes_/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7101
@@ -390,7 +442,12 @@
         "olfactory": "Floral",
         "name": "Do son ",
         "type": "Eau de parfum",
-        "notes": ["Tuberose", "Orange blossom", "Jasmine", "Amberwood"],
+        "notes": [
+            "Tuberose",
+            "Orange blossom",
+            "Jasmine",
+            "Amberwood"
+        ],
         "description": "A tuberose whose scent brings to mind the twilight hour, when the white flowers stand out in the darkness. Notes of jasmine and orange blossom. Do Son eau de parfum was born out of a memory of Yves Coueslant, one of the Maison's founders, who spent his summers in Vietnam. A recollection of a flower filled with sensuality.",
         "story": "In the Eau de Parfum, the tuberose is more enduring still. Its scent brings to mind the sundown hour, when the white flowers stand out in the darkness of the wooden pagoda... As a child, Yves Coueslant, one of Diptyque’s founders, spent his summers in Do Son, in Halong Bay. The sea breeze carried the heady and spicy scent of tuberoses. Do Son has the delicateness and persistence of a memory from a childhood in Vietnam - a voluptuous memory of flowers. At the Haiphong market, tuberoses are wrapped together with jasmine and ylang-ylang in large canna leaves to be used as offerings.",
         "options": [
@@ -399,13 +456,13 @@
                 "price": 170,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Do_son_/Do_son__default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Do_son_/Do_son__hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Do_son_/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Do_son_/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Do_son_/Do_son__detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Do_son_/Do_son__detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Do_son_/Do_son__detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Do_son_/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Do_son_/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Do_son_/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7111
@@ -424,7 +481,12 @@
         "olfactory": "Floral",
         "name": "Do son",
         "type": "Eau de toilette",
-        "notes": ["Tuberose", "Orange blossom", "Jasmine", "Marine accord"],
+        "notes": [
+            "Tuberose",
+            "Orange blossom",
+            "Jasmine",
+            "Marine accord"
+        ],
         "description": "The scent of a tuberose borne on the sea breeze, along with a blend of orange blossom and jasmine. Do Son eau de toilette is an evocation of a memory. From the very first notes, our imagination transports us to Halong Bay, where Yves Coueslant, one of the founders of the Maison Diptyque, spent his childhood summers. A fragrance that evokes distant shores.",
         "story": "As a child, Yves Coueslant, one of Diptyque’s founders, spent his summers in Do Son, in Halong Bay. The sea breeze carried the heady and spicy scent of tuberoses. Do Son has the delicateness and persistence of a memory from a childhood in Vietnam - A floral memory combining light and voluptuous elements. At the Haiphong market, tuberoses are wrapped together with jasmine and ylang-ylang in large canna leaves to be used as offerings.",
         "options": [
@@ -433,13 +495,13 @@
                 "price": 105,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Do_son/Do_son_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Do_son/Do_son_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Do_son/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Do_son/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Do_son/Do_son_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Do_son/Do_son_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Do_son/Do_son_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Do_son/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Do_son/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Do_son/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7121
@@ -449,13 +511,13 @@
                 "price": 145,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Do_son/Do_son_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Do_son/Do_son_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Do_son/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Do_son/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Do_son/Do_son_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Do_son/Do_son_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Do_son/Do_son_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Do_son/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Do_son/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Do_son/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7122
@@ -474,7 +536,12 @@
         "olfactory": "Floral",
         "name": "Do son",
         "type": "Refillable solid perfume",
-        "notes": ["Tuberose", "Orange blossom", "Jasmine", "Marine accord"],
+        "notes": [
+            "Tuberose",
+            "Orange blossom",
+            "Jasmine",
+            "Marine accord"
+        ],
         "description": "An infused cold wax, to be applied directly to the skin in a single gesture. In its sillage, the voluptuous scent and floral delicacy of the tuberoses of Do Son. The case pays tribute to childhood memories of Vietnam. A scented balm, the stuff of dreams.",
         "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures – eau de toilette, body mist or body balm – has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
         "options": [
@@ -483,12 +550,12 @@
                 "price": 60,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Do_son/Do_son_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Do_son/Do_son_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/Do_son/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/Do_son/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Do_son/Do_son_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Do_son/Do_son_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/Do_son/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/Do_son/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 7131
@@ -507,7 +574,12 @@
         "olfactory": "Floral",
         "name": "Eau Capitale",
         "type": "Eau de parfum",
-        "notes": ["Rose", "Bergamot", "Patchouli", " Pink peppercorn"],
+        "notes": [
+            "Rose",
+            "Bergamot",
+            "Patchouli",
+            " Pink peppercorn"
+        ],
         "description": "Like a tribute to Paris. For Diptyque, only a chypre - the accord with a thousand facets - could portray this city with a thousand faces. In Eau Capitale eau de parfum, bergamot - given extra bite by pink peppercorn - is followed by roses, and moss gives way to patchouli. Paris in a bottle.",
         "story": "How is Paris to be celebrated? For Diptyque, only chypre, a legendary accord with a thousand facets, could pay worthy tribute to the city of a thousand faces. A bouquet of roses verging on excess follows fresh bergamot spiced with pink peppercorns. Freedom claimed: this time not moss, but patchouli. An Eiffel Tower, roses, flowing calligraphy, a peacock with its tail fanned, volutes, lines intertwined... To illustrate Eau Capitale, Diptyque and Pierre Marie drew their inspiration from Parisian architecture and iconic Art Nouveau buildings. Chypre is an emblematic accord in perfumery. The source of the name and head of this distinguished family is Chypre de Coty, created in 1917.",
         "options": [
@@ -516,14 +588,14 @@
                 "price": 170,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Capitale/Eau_Capitale_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Capitale/Eau_Capitale_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Capitale/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Capitale/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Capitale/Eau_Capitale_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Capitale/Eau_Capitale_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Capitale/Eau_Capitale_detail_3.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Capitale/Eau_Capitale_detail_4.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Capitale/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Capitale/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Capitale/detail/detail_3.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Capitale/detail/detail_4.jpg"
                     ]
                 },
                 "optionId": 7141
@@ -542,7 +614,12 @@
         "olfactory": "Floral",
         "name": "Eau Capitale",
         "type": "Refillable solid perfume",
-        "notes": ["Rose", "Bergamot", "Patchouli", " Pink peppercorn"],
+        "notes": [
+            "Rose",
+            "Bergamot",
+            "Patchouli",
+            " Pink peppercorn"
+        ],
         "description": "A perfumed ritual. Extending the sillage of Eau Capitale, this solid perfume reveals floral notes of bergamot and patchouli. A chypre with a thousand facts in a tribute to Paris, the city with a thousand faces. A fragrance like a caress, to be applied to the neck and wrist with your fingertips.",
         "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures – eau de toilette, body mist or body balm – has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
         "options": [
@@ -551,12 +628,12 @@
                 "price": 60,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Capitale/Eau_Capitale_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Capitale/Eau_Capitale_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/Eau_Capitale/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/Eau_Capitale/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Capitale/Eau_Capitale_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Capitale/Eau_Capitale_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/Eau_Capitale/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/Eau_Capitale/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 7151
@@ -575,7 +652,12 @@
         "olfactory": "Floral",
         "name": "Eau des Sens",
         "type": "Eau de toilette",
-        "notes": ["Orange blossom,", "Angelica root", "Patchouli", "Juniper berry"],
+        "notes": [
+            "Orange blossom,",
+            "Angelica root",
+            "Patchouli",
+            "Juniper berry"
+        ],
         "description": "It was a daring gamble: to unite in one scent every dimension of the bigarade. The result: Eau des Sens, an eau de toilette with a stimulating composition. A delicacy to make the mouth water, a vigorous, stimulating cascade of freshness. A unique creation that expresses every aspect of bitter orange: branches, leaves, blossom and fruit.",
         "story": "A composition that stirs the senses. It caresses the skin and makes your mouth water like an indulgent treat, awakening you with its freshness. Eau des Sens owes its originality to the very idea behind its creation: bringing together all the dimensions of bitter orange tree, its branches, leaves and fruit. The illustration on the back of the label is inspired by optical art – or Op Art – a movement born in the 60s, just like Diptyque.",
         "options": [
@@ -584,13 +666,13 @@
                 "price": 105,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_des_Sens/Eau_des_Sens_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_des_Sens/Eau_des_Sens_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_des_Sens/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_des_Sens/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_des_Sens/Eau_des_Sens_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_des_Sens/Eau_des_Sens_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_des_Sens/Eau_des_Sens_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_des_Sens/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_des_Sens/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_des_Sens/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7161
@@ -600,13 +682,13 @@
                 "price": 145,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_des_Sens/Eau_des_Sens_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_des_Sens/Eau_des_Sens_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_des_Sens/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_des_Sens/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_des_Sens/Eau_des_Sens_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_des_Sens/Eau_des_Sens_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_des_Sens/Eau_des_Sens_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_des_Sens/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_des_Sens/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_des_Sens/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7162
@@ -625,7 +707,12 @@
         "olfactory": "Floral",
         "name": "Eau Mohéli",
         "type": "Eau de toilette",
-        "notes": ["Ylang-ylang", "Pink peppercorn", "Ginger", "Vetiver"],
+        "notes": [
+            "Ylang-ylang",
+            "Pink peppercorn",
+            "Ginger",
+            "Vetiver"
+        ],
         "description": "Green, spicy, slightly woody notes. In Eau Moheli eau de toilette, ylang-ylang takes centre stage as never before. Nestling deep in the luxuriant vegetation of the island of Mohéli in the Comoros archipelago, this small, sun-loving flower with its yellow petals here displays neither languor nor opulence.",
         "story": "Here, the ylang-ylang flower takes centre stage, as it does on the island of Moheli in the Comoros archipelago, where this star-shaped yellow flower flourishes alongside lushious vegetation. It has never been experienced this way: green, spicy, slightly woody, without languor or opulence. Since 2013, along with the Givaudan Foundation, Diptyque has been supporting a ylang-ylang tree and firewood cooperative on the island of Moheli.",
         "options": [
@@ -634,13 +721,13 @@
                 "price": 145,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Mohéli/Eau_Mohéli_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Mohéli/Eau_Mohéli_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Mohéli/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Mohéli/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Mohéli/Eau_Mohéli_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Mohéli/Eau_Mohéli_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Mohéli/Eau_Mohéli_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Mohéli/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Mohéli/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Mohéli/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7171
@@ -659,7 +746,13 @@
         "olfactory": "Floral",
         "name": "Eau Rose",
         "type": "Eau de parfum",
-        "notes": ["Damascena rose", "Centifolia rose", "Chamomile", "Litchi", "Artichoke"],
+        "notes": [
+            "Damascena rose",
+            "Centifolia rose",
+            "Chamomile",
+            "Litchi",
+            "Artichoke"
+        ],
         "description": "Capricious and exuberant. In Eau Rose eau de parfum, this emblematic flower of perfumers shows off its more flamboyant aspects. Within the bottle, absolute and extract of damascena and centifolia roses, contribute their full intensity. Essence of the firad rose, with its unexpected accents of chamomile and artichoke, rounds off the bouquet.",
         "story": "Rose done differently. A new take on the flower, this version of the Eau Rose Eau de Parfum reveals a fascinating dimension of the flower – more vibrant and exuberant. In this composition, extracts and absolutes of damascena and centifolia roses amplify the flowers’ intensity. Firad rose essence is added to this duo, with its astonishing fruity accents of lychee, and unexpected, yet naturally present, notes: the honeyed accents of camomile, and a singular, green, vegetal accord of artichoke. After all, perfumers say that “a good rose always smells of artichoke”. A surprising detour inspired by the fantasies of nature, for a rose with a playful and exhilarating character. Firad rose is a rose extract obtained by “upcycling” the floral water that remains after an initial extraction of the flower. The process reveals all the olfactory subtleties of the rose, particularly its fruity nuances of lychee.",
         "options": [
@@ -668,13 +761,13 @@
                 "price": 170,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rose/Eau_Rose_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rose/Eau_Rose_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Rose/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Rose/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rose/Eau_Rose_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rose/Eau_Rose_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rose/Eau_Rose_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Rose/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Rose/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_Rose/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7181
@@ -693,7 +786,12 @@
         "olfactory": "Floral",
         "name": "Eau Rose",
         "type": "Eau de toilette",
-        "notes": ["Damascena rose", "Centifolia rose", "Litchi accord", "Ambroxan"],
+        "notes": [
+            "Damascena rose",
+            "Centifolia rose",
+            "Litchi accord",
+            "Ambroxan"
+        ],
         "description": "Take the petals of a rose. Add the green leaves, thorns, stems and buds. Place them in clear water - and wait … Eau rose eau de toilette is an olfactory deep dive into a flower that's emblematic of perfumers. An infusion of the two loveliest roses, damascena and centifolia, to create an unexpected fragrance.",
         "story": "Take the petals of a rose, add its green leaves, its stem, without forgetting its buds. Leave it in fresh water and wait until all its rosy delicacy, fruity accents, and acidulous greenery are revealed... Eau Rose is composed as an infusion of the most beautiful Damascus and centifolia roses.  Why do certain roses smell more than others? The enzyme Nudix hydrolase is involved in synthesising the molecules that make up a rose’s scent. This enzyme is found in a greater quantity in fragrant roses.",
         "options": [
@@ -702,13 +800,13 @@
                 "price": 105,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rose/Eau_Rose_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rose/Eau_Rose_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Rose/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Rose/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rose/Eau_Rose_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rose/Eau_Rose_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rose/Eau_Rose_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Rose/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Rose/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Rose/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7191
@@ -718,13 +816,13 @@
                 "price": 145,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rose/Eau_Rose_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rose/Eau_Rose_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Rose/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Rose/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rose/Eau_Rose_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rose/Eau_Rose_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rose/Eau_Rose_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Rose/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Rose/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_Rose/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7192
@@ -743,7 +841,11 @@
         "olfactory": "Floral",
         "name": "Eau Rose",
         "type": "Refillable solid perfume",
-        "notes": ["Damascena rose", "Centifolia rose", "Litchi accord"],
+        "notes": [
+            "Damascena rose",
+            "Centifolia rose",
+            "Litchi accord"
+        ],
         "description": "Placing the rose centre stage, this scented wax, to be applied to the skin with the fingertips, brings out the full delicacy and floral intensity of Eau Rose. A fragrance gesture, a tribute to a flower iconic among perfumers, in a box with a colour illustration.",
         "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures – eau de toilette, body mist or body balm – has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
         "options": [
@@ -752,12 +854,12 @@
                 "price": 60,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rose/Eau_Rose_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rose/Eau_Rose_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/Eau_Rose/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/Eau_Rose/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rose/Eau_Rose_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_Rose/Eau_Rose_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/Eau_Rose/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/Eau_Rose/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 7201
@@ -776,7 +878,12 @@
         "olfactory": "Floral",
         "name": "Fleur de Peau",
         "type": "Eau de parfum",
-        "notes": ["Musk", "Iris", "Ambrette", "Pink peppercorn"],
+        "notes": [
+            "Musk",
+            "Iris",
+            "Ambrette",
+            "Pink peppercorn"
+        ],
         "description": "An ancient myth translated into perfume. For Diptyque, only musks could do justice to the love of Eros and Psyche. Musks are at the very heart of Fleur de Peau eau de parfum, as cottony and light as they are soft and moist. Highlighted with iris and ambrette seeds, their tactile aspects are fully revealed.",
         "story": "A tribute to the mythical love between Psyche and Eros, which led to the birth of their daughter, Hedone. One scent can convey this legend: musks. At the heart of Fleur de Peau, they are cottony, downy or soft. Highlighted with iris and ambrette seed, they reveal their full tactile dimension. Absolute ambrette seed extract comes from hibiscus flowers. Its notes are extraordinarily rich: sweet, slightly animal, fruity (like pear and plum).",
         "options": [
@@ -785,13 +892,13 @@
                 "price": 170,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Fleur_de_Peau/Fleur_de_Peau_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Fleur_de_Peau/Fleur_de_Peau_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Fleur_de_Peau/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Fleur_de_Peau/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Fleur_de_Peau/Fleur_de_Peau_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Fleur_de_Peau/Fleur_de_Peau_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Fleur_de_Peau/Fleur_de_Peau_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Fleur_de_Peau/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Fleur_de_Peau/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Fleur_de_Peau/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7211
@@ -810,7 +917,12 @@
         "olfactory": "Floral",
         "name": "Geranium Odorata",
         "type": "Eau de toilette",
-        "notes": ["Geranium", "Cardamom", "Tonka bean", "Vetiver"],
+        "notes": [
+            "Geranium",
+            "Cardamom",
+            "Tonka bean",
+            "Vetiver"
+        ],
         "description": "Ambivalence guaranteed. Geranium Odorata eau de toilette pays tribute to a flower more commonly found in a buttonhole, not a sillage.Defying convention, it enhances men's skin with citrus fruits and spices. Yet, much like a tuxedo, it is also superb as a scent for women.",
         "story": "Did you know? Geraniums exist in a great number of varieties, but in most varieties of geranium, the flowers have no scent. The scent molecules are contained in the leaves. ",
         "options": [
@@ -819,13 +931,13 @@
                 "price": 145,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Geranium_Odorata/Geranium_Odorata_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Geranium_Odorata/Geranium_Odorata_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Geranium_Odorata/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Geranium_Odorata/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Geranium_Odorata/Geranium_Odorata_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Geranium_Odorata/Geranium_Odorata_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Geranium_Odorata/Geranium_Odorata_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Geranium_Odorata/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Geranium_Odorata/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Geranium_Odorata/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7221
@@ -844,7 +956,12 @@
         "olfactory": "Floral",
         "name": "L'Ombre dans l'Eau",
         "type": "Eau de parfum",
-        "notes": ["Rose", "Blackcurrant buds", "Petitgrain", " Blackcurrant leaves"],
+        "notes": [
+            "Rose",
+            "Blackcurrant buds",
+            "Petitgrain",
+            " Blackcurrant leaves"
+        ],
         "description": "The nose lingers over a rose in bloom - dense and sensual, underscoring in passing the tartness of the blackcurrant buds. L'Ombre dans l'Eau eau de toilette is an invitation to dream, in the shade of a tree by a river bank. A fleeting, nature-filled moment transformed into a perfume.",
         "story": "In the Eau de Parfum, we find the fragrance of a rose in bloom, denser and more sensual. Telling the story of daydreams, a calm river, a summer slumber under a weeping willow... Roses and blackcurrant berries gathered into a perfume: the herbaceousness of blackcurrant leaves, the acidulated fruity accents of the buds and the floral intensity of the rose. A nature-filled moment to savour. Created in 1983, L’Ombre dans l’Eau is an avantgarde perfume, one of Diptyque’s very first floral-fruity fragrances.",
         "options": [
@@ -853,12 +970,12 @@
                 "price": 170,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Ombre_dans_l'Eau/L'Ombre_dans_l'Eau_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Ombre_dans_l'Eau/L'Ombre_dans_l'Eau_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/L'Ombre_dans_l'Eau/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/L'Ombre_dans_l'Eau/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Ombre_dans_l'Eau/L'Ombre_dans_l'Eau_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Ombre_dans_l'Eau/L'Ombre_dans_l'Eau_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/L'Ombre_dans_l'Eau/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/L'Ombre_dans_l'Eau/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 7231
@@ -877,7 +994,12 @@
         "olfactory": "Floral",
         "name": "L'Ombre dans l'Eau",
         "type": "Eau de toilette",
-        "notes": ["Rose", "Blackcurrant buds", "Petitgrain", " Blackcurrant leaves"],
+        "notes": [
+            "Rose",
+            "Blackcurrant buds",
+            "Petitgrain",
+            " Blackcurrant leaves"
+        ],
         "description": "A fragrance with pictorial qualities. The green of blackcurrant leaves mingles with the tart, fruity notes of blackcurrant buds and the floral intensity of rose. In L'Ombre dans l'Eau eau de toilette, a romantic painting comes to life - a summer slumber beneath a tree on a river bank.",
         "story": "Telling the story of daydreams, a calm river, a summer slumber under a weeping willow... Roses and blackcurrant berries gathered into a perfume: the herbaceousness of blackcurrant leaves, the acidulated fruity accents of buds and the floral intensity of the rose. A nature-filled moment to savour. Created in 1983, L’Ombre dans l’Eau is an avantgarde perfume, one of Diptyque’s very first floral fruity fragrances.",
         "options": [
@@ -886,12 +1008,12 @@
                 "price": 105,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Ombre_dans_l'Eau/L'Ombre_dans_l'Eau_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Ombre_dans_l'Eau/L'Ombre_dans_l'Eau_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Ombre_dans_l'Eau/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Ombre_dans_l'Eau/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Ombre_dans_l'Eau/L'Ombre_dans_l'Eau_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Ombre_dans_l'Eau/L'Ombre_dans_l'Eau_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Ombre_dans_l'Eau/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Ombre_dans_l'Eau/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 7241
@@ -901,12 +1023,12 @@
                 "price": 145,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Ombre_dans_l'Eau/L'Ombre_dans_l'Eau_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Ombre_dans_l'Eau/L'Ombre_dans_l'Eau_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Ombre_dans_l'Eau/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Ombre_dans_l'Eau/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Ombre_dans_l'Eau/L'Ombre_dans_l'Eau_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Ombre_dans_l'Eau/L'Ombre_dans_l'Eau_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Ombre_dans_l'Eau/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Ombre_dans_l'Eau/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 7242
@@ -925,7 +1047,12 @@
         "olfactory": "Floral",
         "name": "L'Ombre dans l'Eau",
         "type": "Refillable solid perfume",
-        "notes": ["Rose", "Blackcurrant buds", "Petitgrain", " Blackcurrant leaves"],
+        "notes": [
+            "Rose",
+            "Blackcurrant buds",
+            "Petitgrain",
+            " Blackcurrant leaves"
+        ],
         "description": "On the skin, the delicate floral sillage of rose combined with fruity accents of tart blackcurrant berries. A new ritual, created by L'Ombre dans l'Eau solid perfume. From the fingertips to the neck and wrists, an interlude of sensuality.",
         "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures – eau de toilette, body mist or body balm – has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
         "options": [
@@ -934,12 +1061,12 @@
                 "price": 60,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Ombre_dans_l'Eau/L'Ombre_dans_l'Eau_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Ombre_dans_l'Eau/L'Ombre_dans_l'Eau_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/L'Ombre_dans_l'Eau/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/L'Ombre_dans_l'Eau/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Ombre_dans_l'Eau/L'Ombre_dans_l'Eau_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Ombre_dans_l'Eau/L'Ombre_dans_l'Eau_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/L'Ombre_dans_l'Eau/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/L'Ombre_dans_l'Eau/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 7251
@@ -958,7 +1085,12 @@
         "olfactory": "Floral",
         "name": "Ofrésia",
         "type": "Eau de toilette",
-        "notes": ["RoWhite freesiase", "Carnation", "Guaiac wood", " Black pepper"],
+        "notes": [
+            "RoWhite freesiase",
+            "Carnation",
+            "Guaiac wood",
+            " Black pepper"
+        ],
         "description": "An astonishing stroll through a garden on the Normandy coast. Deep inside a wondrous tangle of plantlife, a white freesia. Ofrésia eau de toilette plays on olfactory contrasts, the freshness and delicacy of freesia mingling brazenly with a diabolically spicy black pepper.",
         "story": "A garden on the coast of Normandy, a freesia amid a marvellously fragrant combination of plant notes. Ofrésia plays upon olfactory contradictions: the freshness and floral delicacy of freesia mingle with a devilishly spicy and heady black pepper. Freesia is a “mute” flower, which means that no essential oil can be extracted from it and its scent must be reproduced using other raw materials.",
         "options": [
@@ -967,13 +1099,13 @@
                 "price": 145,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Ofrésia/Ofrésia_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Ofrésia/Ofrésia_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Ofrésia/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Ofrésia/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Ofrésia/Ofrésia_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Ofrésia/Ofrésia_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Ofrésia/Ofrésia_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Ofrésia/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Ofrésia/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Ofrésia/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7261
@@ -992,7 +1124,12 @@
         "olfactory": "Floral",
         "name": "Olène",
         "type": "Eau de toilette",
-        "notes": ["Wisteria", "Honeysuckle", "Jasmine", " Narcissus"],
+        "notes": [
+            "Wisteria",
+            "Honeysuckle",
+            "Jasmine",
+            " Narcissus"
+        ],
         "description": "Olene tells of the gardens of Venice. An evening under the pergolas, lulled by the floral notes of wisteria, jasmine and honeysuckle. To distinguish all the fragrances, you need only step back. Simply cross a bridge in the City of Water - and a thousand and one floral scents will emerge.",
         "story": "Olene tells the story of Venetian gardens. In the evening, under the pergolas, the sweet fragrance of wisteria and jasmine or sometimes honeysuckle, just as delicate. Cross bridges to lose yourself, and then stroll through the narrow streets to perceive the thousand and one scents of the flowers. The illustration for Olene depicts Flora, a powerful Roman goddess. Endowed with great beauty, she is the goddess of flowers, springtime and fertility. ",
         "options": [
@@ -1001,13 +1138,13 @@
                 "price": 105,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Olène/Olène_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Olène/Olène_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Olène/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Olène/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Olène/Olène_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Olène/Olène_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Olène/Olène_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Olène/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Olène/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Olène/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7271
@@ -1017,13 +1154,13 @@
                 "price": 145,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Olène/Olène_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Olène/Olène_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Olène/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Olène/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Olène/Olène_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Olène/Olène_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Olène/Olène_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Olène/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Olène/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Olène/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7272
@@ -1042,7 +1179,11 @@
         "olfactory": "Floral",
         "name": "Corail Oscuro",
         "type": "Eau de parfum",
-        "notes": ["Mandarin", "rose bourbon", "salty mineral accord"],
+        "notes": [
+            "Mandarin",
+            "rose bourbon",
+            "salty mineral accord"
+        ],
         "description": "Corail Oscuro is a tribute to coral, a true treasure of nature. The crystalline effervescence of mandarin meets rose bourbon absolute and a warm, salty mineral accord. A potent fragrance with a lingering sillage, its name evoking the contrast between the fiery red of coral and the darkness of the sea bed. Like a tree spreading itself over the bed of the lagoon, coral fans out across the bottle in black lines, and across the sleeve in watercolor.",
         "story": "Diptyque has always drawn inspiration from nature, whether in the wild or tamed by man. Nature enchants our gaze. It stirs our curiosity, feeds our creativity. The Maison's new collection, Les Essences de Diptyque (The Essences of Diptyque), freely reinterprets the treasures of nature, fluctuating between the realistic and the fantastical. Revealed in all their beauty, these treasures invite us to pause and admire them. Delicate, dreamlike, the five compositions in this collection are the product of an alliance between the perfumer's nose and the hand of an artist. Each creation celebrates one of nature's treasures – reinventing it in fragrance and exceptional drawings. Corail Oscuro speaks of coral, flourishing across the bed of the Venetian lagoon. Its intricate red patterns ripple to the rhythm of the waters, the vibrant color contrasting with the opacity of the depths. Renaissance painters had a name for this interplay of light and dark: chiaroscuro ... and this in turn inspired the name of Corail Oscuro Eau de Parfum. Combining the work of perfumer Alexandra Carlin with that of drawing artist Nigel Peake, this olfactory and visual composition brings to life an underwater spectacle.",
         "options": [
@@ -1051,15 +1192,15 @@
                 "price": 275,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Corail_Oscuro/Corail_Oscuro_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Corail_Oscuro/Corail_Oscuro_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Corail_Oscuro/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Corail_Oscuro/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Corail_Oscuro/Corail_Oscuro_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Corail_Oscuro/Corail_Oscuro_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Corail_Oscuro/Corail_Oscuro_detail_3.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Corail_Oscuro/Corail_Oscuro_detail_4.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Corail_Oscuro/Corail_Oscuro_detail_5.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Corail_Oscuro/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Corail_Oscuro/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Corail_Oscuro/detail/detail_3.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Corail_Oscuro/detail/detail_4.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Corail_Oscuro/detail/detail_5.jpg"
                     ]
                 },
                 "optionId": 7281
@@ -1078,7 +1219,11 @@
         "olfactory": "Floral",
         "name": "Rose Roche",
         "type": "Eau de parfum",
-        "notes": ["Lemon", "centifolia rose", "patchouli"],
+        "notes": [
+            "Lemon",
+            "centifolia rose",
+            "patchouli"
+        ],
         "description": "Rose Roche conjures up the imaginary fragrance of the desert rose: an encounter between lemon, centifolia rose and patchouli notes. A potent fragrance with a lingering sillage, its name playing on the contrast between the vegetable – transient, delicate – and the mineral – eternal. On the bottle, this timeless and unique rose is sketched out in fine black lines. It appears again on the sleeve, this time emerging in subtle shades of pink.",
         "story": "Diptyque has always drawn inspiration from nature, whether in the wild or tamed by man. Nature enchants our gaze. It stirs our curiosity, feeds our creativity. The Maison's new collection, Les Essences de Diptyque (The Essences of Diptyque), freely reinterprets the treasures of nature, fluctuating between the realistic and the fantastical. Revealed in all their beauty, these treasures invite us to pause and admire them. Delicate, dreamlike, the five compositions in this collection are the product of an alliance between the perfumer's nose and the hand of an artist. Each creation celebrates one of nature's treasures – reinventing it in fragrance and exceptional drawings. Rose Roche evokes the desert rose, a bloom shaped by air, water and the sun. Exposed to the winds of the desert, over time this mineral, crystalline flower develops its graphic and distinctive contours. Combining the work of perfumer Fabrice Pellegrin with that of drawing artist Nigel Peake, this olfactory and visual composition breathes life into a timeless rose revered as a masterpiece of accidental precision.",
         "options": [
@@ -1087,15 +1232,15 @@
                 "price": 275,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Rose_Roche/Rose_Roche_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Rose_Roche/Rose_Roche_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Rose_Roche/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Rose_Roche/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Rose_Roche/Rose_Roche_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Rose_Roche/Rose_Roche_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Rose_Roche/Rose_Roche_detail_3.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Rose_Roche/Rose_Roche_detail_4.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Rose_Roche/Rose_Roche_detail_5.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Rose_Roche/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Rose_Roche/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Rose_Roche/detail/detail_3.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Rose_Roche/detail/detail_4.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Rose_Roche/detail/detail_5.jpg"
                     ]
                 },
                 "optionId": 7291
@@ -1114,7 +1259,12 @@
         "olfactory": "Citrus",
         "name": "L'Eau de Néroli",
         "type": "Eau de toilette",
-        "notes": ["Neroli", "Bergamot", "Orange blossom", "Beeswax"],
+        "notes": [
+            "Neroli",
+            "Bergamot",
+            "Orange blossom",
+            "Beeswax"
+        ],
         "description": "La dolce vita. L'Eau de Néroli is a tribute to this small white flower. In Calabria, when it is harvested, its perfume fills the air. But we can also discern the fragrance of the nearby bergamot trees - their pollen, their green leaves. An entire effervescent orchard, expressed in a scent.",
         "story": "In Calabria, at the time of the neroli harvest, the air fills with its perfume. But there is also the fragrance of the bergamots growing nearby, and of pollen and green leaves. An entire orchard in a state of aromatic effervescence, like an invitation to la dolce vita. Neroli owes its name to the Italian princess of Nerola, who perfumed her gloves with the essence of bitter orange, bringing popularity to this sweet, floral scent.",
         "options": [
@@ -1123,13 +1273,13 @@
                 "price": 145,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_de_Néroli/L'Eau_de_Néroli_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_de_Néroli/L'Eau_de_Néroli_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_de_Néroli/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_de_Néroli/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_de_Néroli/L'Eau_de_Néroli_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_de_Néroli/L'Eau_de_Néroli_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_de_Néroli/L'Eau_de_Néroli_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_de_Néroli/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_de_Néroli/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_de_Néroli/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7301
@@ -1148,7 +1298,12 @@
         "olfactory": "Citrus",
         "name": "L'Eau des Hespérides",
         "type": "Eau de toilette",
-        "notes": ["Bitter orange", "Lemon", "Peppermint", "Immortelle"],
+        "notes": [
+            "Bitter orange",
+            "Lemon",
+            "Peppermint",
+            "Immortelle"
+        ],
         "description": "An eau de toilette with a green, sparkling freshness, in which citrus fruits, intensified by spicy notes, gain a dapper, devilishly elegant vivacity. In Greek mythology, the Hesperides were the guardians of a garden that grew precious “golden apples” – citrus fruits. Divinity, zest, gaiety – all were vital ingredients in the conception of this perfume.",
         "story": "In Greek mythology, the Hesperides were the nymph guardians of a garden with precious “golden apples”: citrus fruits. Divinities, zest, and joyousness... Ingredients and mood poured into a perfume with a sparkling, green freshness: the fruit scents become stronger with spicy notes and gain a new vivacity that is dapper and diabolically elegant. There were three Hesperides: Aegle, Erytheia and Hesperia. The citrus fruits that they guarded had several virtues, including the power to bestow beauty and bring down fever.",
         "options": [
@@ -1157,13 +1312,13 @@
                 "price": 145,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_des_Hespérides/L'Eau_des_Hespérides_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_des_Hespérides/L'Eau_des_Hespérides_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_des_Hespérides/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_des_Hespérides/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_des_Hespérides/L'Eau_des_Hespérides_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_des_Hespérides/L'Eau_des_Hespérides_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_des_Hespérides/L'Eau_des_Hespérides_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_des_Hespérides/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_des_Hespérides/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_des_Hespérides/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7311
@@ -1182,7 +1337,12 @@
         "olfactory": "Citrus",
         "name": "Oyédo",
         "type": "Eau de toilette",
-        "notes": ["Yuzu", "Green tangerine", "Thyme", "Raspberry"],
+        "notes": [
+            "Yuzu",
+            "Green tangerine",
+            "Thyme",
+            "Raspberry"
+        ],
         "description": "From a fragrance springs … an empire. In Oyédo eau de toilette, the lively sharpness of yuzu is elevated by raspberry and thyme. An elegant yet potent tribute to the Land of the Rising Sun and to Edo, the ancient imperial city of Japan.",
         "story": "Yuzu, a name with the sharp zing of Asian citrus zest. Oyédo draws its inspiration from Japan’s ancient imperial city, Edo. At the heart of the fragrance, the citrus fruit gains all of its elegance in an accord of juicy raspberry and thyme. Frambinone is a synthetic note reproducing the scent of raspberry, a plant whose odorant cannot be extracted.",
         "options": [
@@ -1191,13 +1351,13 @@
                 "price": 105,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Oyédo/Oyédo_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Oyédo/Oyédo_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Oyédo/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Oyédo/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Oyédo/Oyédo_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Oyédo/Oyédo_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Oyédo/Oyédo_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Oyédo/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Oyédo/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Oyédo/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7321
@@ -1207,13 +1367,13 @@
                 "price": 145,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Oyédo/Oyédo_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Oyédo/Oyédo_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Oyédo/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Oyédo/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Oyédo/Oyédo_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Oyédo/Oyédo_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Oyédo/Oyédo_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Oyédo/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Oyédo/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Oyédo/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7322
@@ -1232,7 +1392,11 @@
         "olfactory": "Woody",
         "name": "34 Boulevard Saint Germain",
         "type": "Eau de parfum",
-        "notes": ["Sandalwood", "vanilla", "pink peppercorn"],
+        "notes": [
+            "Sandalwood",
+            "vanilla",
+            "pink peppercorn"
+        ],
         "description": "If we had to choose just one ... The Maison's signature eau de parfum has a sillage that leaves behind notes of rose, spices, amber and more. The very soul of 34 Boulevard Saint-German emerges from this bottle. A complex olfactory kaleidoscope - and an art of living freely and creatively.",
         "story": "Did you know?  This Eau de Parfum is dressed in an emblematic motif of the House, Basile, designed by Christiane Gautrot and Desmond Knox-Leet in 1963. ",
         "options": [
@@ -1241,13 +1405,13 @@
                 "price": 190,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/34_Boulevard_Saint_Germain/34_Boulevard_Saint_Germain_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/34_Boulevard_Saint_Germain/34_Boulevard_Saint_Germain_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/34_Boulevard_Saint_Germain/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/34_Boulevard_Saint_Germain/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/34_Boulevard_Saint_Germain/34_Boulevard_Saint_Germain_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/34_Boulevard_Saint_Germain/34_Boulevard_Saint_Germain_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/34_Boulevard_Saint_Germain/34_Boulevard_Saint_Germain_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/34_Boulevard_Saint_Germain/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/34_Boulevard_Saint_Germain/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/34_Boulevard_Saint_Germain/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7331
@@ -1266,7 +1430,12 @@
         "olfactory": "Woody",
         "name": "34 Boulevard Saint Germain",
         "type": "Eau de toilette",
-        "notes": ["Amber/patchouli accord", "Rose", "Cinnamon", "Blackcurrant buds"],
+        "notes": [
+            "Amber/patchouli accord",
+            "Rose",
+            "Cinnamon",
+            "Blackcurrant buds"
+        ],
         "description": "More than a perfume - a memory. 34 Boulevard Saint-Germain eau de toilette recreates the very soul of the Maison's first boutique. Behind the rose, spices, amber and blackcurrant buds, an art of living freely and creatively emerges. Very Diptyque.",
         "story": "A mad idea: capture the scent of the shop at 34 Boulevard Saint Germain and make it into a perfume... The olfactory soul of the boutique is there: a kaleidoscope of scents bringing together all of Diptyque’s candles and fragrances. With the advent of advanced technology, Diptyque has become a thief of scents. To recreate the flagship boutique’s olfactory soul as a perfume, Diptyque used headspace technology, a method for capturing the odour compounds of a place, an object or a flower.",
         "options": [
@@ -1275,12 +1444,12 @@
                 "price": 155,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/34_Boulevard_Saint_Germain/34_Boulevard_Saint_Germain_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/34_Boulevard_Saint_Germain/34_Boulevard_Saint_Germain_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/34_Boulevard_Saint_Germain/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/34_Boulevard_Saint_Germain/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/34_Boulevard_Saint_Germain/34_Boulevard_Saint_Germain_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/34_Boulevard_Saint_Germain/34_Boulevard_Saint_Germain_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/34_Boulevard_Saint_Germain/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/34_Boulevard_Saint_Germain/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 7341
@@ -1299,7 +1468,12 @@
         "olfactory": "Woody",
         "name": "34 Boulevard Saint Germain",
         "type": "Refillable solid perfume",
-        "notes": ["Amber/patchouli accord", "Rose", "Cinnamon", "Blackcurrant buds"],
+        "notes": [
+            "Amber/patchouli accord",
+            "Rose",
+            "Cinnamon",
+            "Blackcurrant buds"
+        ],
         "description": "A memory of a unique location. In 34 Boulevard Saint-Germain scented balm, notes of rose, spices and blackcurrent buds notes blend together in harmony. Just apply the wax with your fingertips - and discover the olfactory soul of the first Diptyque boutique.",
         "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures – eau de toilette, body mist or body balm – has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
         "options": [
@@ -1308,12 +1482,12 @@
                 "price": 62,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/34_Boulevard_Saint_Germain/34_Boulevard_Saint_Germain_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/34_Boulevard_Saint_Germain/34_Boulevard_Saint_Germain_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/34_Boulevard_Saint_Germain/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/34_Boulevard_Saint_Germain/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/34_Boulevard_Saint_Germain/34_Boulevard_Saint_Germain_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/34_Boulevard_Saint_Germain/34_Boulevard_Saint_Germain_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/34_Boulevard_Saint_Germain/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/34_Boulevard_Saint_Germain/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 7351
@@ -1332,7 +1506,11 @@
         "olfactory": "Woody",
         "name": "Bois Corsé",
         "type": "Eau de parfum",
-        "notes": ["Café arabica", "sandalwood", "tonka bean"],
+        "notes": [
+            "Café arabica",
+            "sandalwood",
+            "tonka bean"
+        ],
         "description": "Bois Corsé evokes the textured outer layer of a tree. A combination of intense black coffee absolute and essence of sandalwood, with tonka bean blended in. A fragrance with a lingering sillage, its name a play on words: écorce is French for bark, corsé means full-bodied – like the coffee aroma celebrated here. The bottle is decorated with fine black lines inspired by the reliefs found in bark. The irregular forms on the sleeve evoke the texture of wood, its shape evolving with the passage of time.",
         "story": "Diptyque has always drawn inspiration from nature, whether in the wild or tamed by man. Nature enchants our gaze. It stirs our curiosity, feeds our creativity. The Maison's new collection, Les Essences de Diptyque (The Essences of Diptyque), freely reinterprets the treasures of nature, fluctuating between the realistic and the fantastical. Revealed in all their beauty, these treasures invite us to pause and admire them. Delicate, dreamlike, the five compositions in this collection are the product of an alliance between the perfumer's nose and the hand of an artist. Each creation celebrates one of nature's treasures – reinventing it in fragrance and exceptional drawings. Bois Corsé is a tribute to bark, the vital protective mantle that shields the vulnerable core of the tree. Exposed to the elements, it gradually takes shape, developing relief textures that are coarse, irregular and yet pleasing to the touch. In this olfactory and visual composition, which combines the work of perfumer Nathalie Cetto and her initial collaborator Olivier Pescheux – with that of drawing artist Nigel Peake, tree bark comes vividly to life. Rough, yet soothing.",
         "options": [
@@ -1341,15 +1519,15 @@
                 "price": 275,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Bois_Corsé/Bois_Corsé_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Bois_Corsé/Bois_Corsé_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Bois_Corsé/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Bois_Corsé/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Bois_Corsé/Bois_Corsé_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Bois_Corsé/Bois_Corsé_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Bois_Corsé/Bois_Corsé_detail_3.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Bois_Corsé/Bois_Corsé_detail_4.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Bois_Corsé/Bois_Corsé_detail_5.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Bois_Corsé/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Bois_Corsé/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Bois_Corsé/detail/detail_3.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Bois_Corsé/detail/detail_4.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Bois_Corsé/detail/detail_5.jpg"
                     ]
                 },
                 "optionId": 7361
@@ -1368,7 +1546,12 @@
         "olfactory": "Woody",
         "name": "Eau de Lierre",
         "type": "Eau de toilette",
-        "notes": ["Galbanum", "Cyclamen", "Rosewood", "Pink peppercorn"],
+        "notes": [
+            "Galbanum",
+            "Cyclamen",
+            "Rosewood",
+            "Pink peppercorn"
+        ],
         "description": "Ivy is said to be persistent. A symbol of attachment. In other words, like a perfume … yet its fragrance remains a mystery. Eau de Lierre eau de toilette invents this - giving it its green notes, extending the roots of its sillage in a fresh, slightly aquatic accord, as herbaceous as green sap rising up a vine.",
         "story": "Ivy is a symbol of fidelity and attachment but ivy’s scent cannot be extracted. It must therefore be invented, given green notes, the roots of its trail extended... Eau de Lierre is a fresh and slightly aquatic accord, as herbaceous as green sap rising up a vine. In Egypt and among the early Christians, ivy symbolised eternal life. Among the Greeks, its worship was dedicated to Dionysos, the god of joy and vitality. The Romans dedicated it to Bacchus and the glory of poets.",
         "options": [
@@ -1377,13 +1560,13 @@
                 "price": 145,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_de_Lierre/Eau_de_Lierre_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_de_Lierre/Eau_de_Lierre_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_de_Lierre/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_de_Lierre/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_de_Lierre/Eau_de_Lierre_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_de_Lierre/Eau_de_Lierre_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_de_Lierre/Eau_de_Lierre_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_de_Lierre/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_de_Lierre/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Eau_de_Lierre/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7371
@@ -1402,7 +1585,12 @@
         "olfactory": "Woody",
         "name": "Eau de Minthé",
         "type": "Eau de parfum",
-        "notes": ["Patchouli", "Geranium", "Mint", "Rose oxide"],
+        "notes": [
+            "Patchouli",
+            "Geranium",
+            "Mint",
+            "Rose oxide"
+        ],
         "description": "Inspired by the Greek myth of the nymph Minthé, this eau da parfum takes its cue from mint as it revisits fougère, an accord legendary in perfumery. At the heart of this composition: lively floral notes of geranium and the profundity of patchouli. An aromatic freshness, a mythical tale with a vibrant sillage.",
         "story": "Inspired by a Greek myth, Eau de Minthé reinvents an emblematic perfumery accord, fougère, drawing on the scent of mint. At the very heart of the composition, its aromatic freshness enhances the lively floral notes of geranium while the patchouli provides depth. At the very heart of the composition, its aromatic freshness enhances the lively floral notes of geranium while the patchouli provides depth.",
         "options": [
@@ -1411,13 +1599,13 @@
                 "price": 170,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_de_Minthé/Eau_de_Minthé_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_de_Minthé/Eau_de_Minthé_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_de_Minthé/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_de_Minthé/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_de_Minthé/Eau_de_Minthé_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_de_Minthé/Eau_de_Minthé_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Eau_de_Minthé/Eau_de_Minthé_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_de_Minthé/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_de_Minthé/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Eau_de_Minthé/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7381
@@ -1436,7 +1624,12 @@
         "olfactory": "Woody",
         "name": "L'Eau Papier",
         "type": "Eau de toilette",
-        "notes": ["White musks", "Mimosa", "Blonde woods accord", "Rice steam accord"],
+        "notes": [
+            "White musks",
+            "Mimosa",
+            "Blonde woods accord",
+            "Rice steam accord"
+        ],
         "description": "White musks take on the aspect of a second skin. A rice steam accord combined with notes of mimosa and blonde wood tonalities. L’Eau Papier eau de toilette celebrates the power of the imagination. On a blank sheet, ink infuses, shades emerge and new worlds are invented",
         "story": "As ink soaks into a sheet of white paper, shadows emerge. Worlds are invented. L'Eau Papier celebrates the power of the imagination – that moment, suspended in time, when ink, paper and the hand become one. An encounter made perfume, plunging us into the heart of musk and its multiple facets. Musk evolves, changes, expresses itself over time and from one skin to another, just as ink saturates paper, assuming its texture to conjure up dreams and images. In L'Eau Papier, white musks are delicately faceted by an accord of rice steam, evoking the grain of the paper. To these are added luminous notes of mimosa, while a backdrop of blonde wood tones roots L'Eau Papier in the material itself. In this Eau de Toilette, the perfumer used Grasse Mimosa, a variety that has been cultivated since 1865. Its yellow flowers bloom in February on the hills around the town of Grasse, offering a stunning sight scented with sunny, floral and honeyed notes.",
         "options": [
@@ -1445,14 +1638,14 @@
                 "price": 105,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_Papier/L'Eau_Papier_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_Papier/L'Eau_Papier_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_Papier/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_Papier/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_Papier/L'Eau_Papier_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_Papier/L'Eau_Papier_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_Papier/L'Eau_Papier_detail_3.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_Papier/L'Eau_Papier_detail_4.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_Papier/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_Papier/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_Papier/detail/detail_3.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_Papier/detail/detail_4.jpg"
                     ]
                 },
                 "optionId": 7391
@@ -1462,14 +1655,14 @@
                 "price": 145,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_Papier/L'Eau_Papier_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_Papier/L'Eau_Papier_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_Papier/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_Papier/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_Papier/L'Eau_Papier_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_Papier/L'Eau_Papier_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_Papier/L'Eau_Papier_detail_3.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_Papier/L'Eau_Papier_detail_4.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_Papier/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_Papier/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_Papier/detail/detail_3.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_Papier/detail/detail_4.jpg"
                     ]
                 },
                 "optionId": 7392
@@ -1488,7 +1681,12 @@
         "olfactory": "Woody",
         "name": "L'Eau Papier",
         "type": "Refillable solid perfume",
-        "notes": ["White musks", "Mimosa", "Blonde woods accord,", "Rice steam accord"],
+        "notes": [
+            "White musks",
+            "Mimosa",
+            "Blonde woods accord,",
+            "Rice steam accord"
+        ],
         "description": "In this refillable solid perfume, notes of white musks and mimosa are shaded with accords of blonde woods and rice steam. L’Eau Papier is endlessly refillable and alcohol-free, ready to grace your wrist or neck when applied with the fingertips. Just as ink is gradually absorbed into paper, this solid perfume scents the skin, its unique fragrance unfolding over time.",
         "story": "As ink soaks into a sheet of white paper, shadows emerge. Worlds are invented. L'Eau Papier celebrates the power of the imagination – that moment, suspended in time, when ink, paper and the hand become one. An encounter made perfume, plunging us into the heart of musk and its multiple facets. Musk evolves, changes, expresses itself over time and from one skin to another, just as ink saturates paper, assuming its texture to conjure up dreams and images. In L'Eau Papier, white musks are delicately faceted by an accord of rice steam, evoking the grain of the paper. To these are added luminous notes of mimosa, while a backdrop of blonde wood tones roots L'Eau Papier in the material itself. The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures - eau de toilette, perfume oil, body mist or body balm - has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can often be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
         "options": [
@@ -1497,12 +1695,12 @@
                 "price": 60,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_Papier/L'Eau_Papier_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_Papier/L'Eau_Papier_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/L'Eau_Papier/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/L'Eau_Papier/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_Papier/L'Eau_Papier_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_Papier/L'Eau_Papier_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/L'Eau_Papier/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/L'Eau_Papier/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 7401
@@ -1521,7 +1719,12 @@
         "olfactory": "Woody",
         "name": "L'Eau Trois",
         "type": "Eau de toilette",
-        "notes": ["Myrrh", "Rockrose", "Incense,", "Rosemary"],
+        "notes": [
+            "Myrrh",
+            "Rockrose",
+            "Incense,",
+            "Rosemary"
+        ],
         "description": "A mysterious trio - a woody, spicy, soothing fragrance. L'Eau Trois eau de toilette evokes the scent of resinous shrub and of incense. During the service, myrrh was burned. A refuge at the top of Mount Athos - arrived at after a long hike in the blazing sun.",
         "story": "At the top of Mount Athos, after a long hike, we sought shelter from the burning sun within the walls of a monastery. When we opened the doors, the scent of resinous shrub mingled with the incense and myrrh burned during the service. A spicy, woody scent, mysterious and soothing. The origin of this name is a mystery. Does it refer to the three wise kings, the three founders of Diptyque or the third fragrance created by the brand?",
         "options": [
@@ -1530,13 +1733,13 @@
                 "price": 145,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_Trois/L'Eau_Trois_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_Trois/L'Eau_Trois_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_Trois/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_Trois/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_Trois/L'Eau_Trois_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_Trois/L'Eau_Trois_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/L'Eau_Trois/L'Eau_Trois_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_Trois/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_Trois/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/L'Eau_Trois/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7411
@@ -1555,7 +1758,12 @@
         "olfactory": "Woody",
         "name": "Orphéon",
         "type": "Eau de parfum",
-        "notes": ["Juniper berry", "Cedar", "Tonka bean,", "Jasmine"],
+        "notes": [
+            "Juniper berry",
+            "Cedar",
+            "Tonka bean,",
+            "Jasmine"
+        ],
         "description": "At the heart of this composition are the warmth of tonka bean, the depth of cedar, the richness of jasmine and the vivacity of juniper berries. Orphéon eau de parfum is a tribute. An olfactory portrait of a legendary bar where the founders of Diptyque loved to get together - amid curls of tobacco smoke, powdery trails of blusher and burnished wood.",
         "story": "Paris in the early 60s. The Saint-Germain quarter was alive with the rhythm of all-night sessions in jazz clubs and artistic encounters. People would discuss the world, dance and laugh in a warm atmosphere as vibrant as it was elegant... Orphéon was one of the bars, filled with joyful effervescence, where the three founders of the nearby Diptyque boutique liked to meet. Today, paying tribute to this era and to creative friendships, the bar is immortalised in the olfactory portrait that bears its name: Orphéon. Freeze frame: plumes of tobacco smoke mingle with powdery trails of blusher, lingering on burnished wood. At the heart of the composition is the atmosphere of that unforgettable place, recognisable through the warmth of the tonka bean, the depth of cedar and the vivacity of juniper berries. Today, all that remains of Orphéon is a faceted blue column in the back of the boutique at 34 Boulevard Saint Germain.",
         "options": [
@@ -1564,13 +1772,13 @@
                 "price": 88,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Orphéon/Orphéon_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Orphéon/Orphéon_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Orphéon/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Orphéon/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Orphéon/Orphéon_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Orphéon/Orphéon_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Orphéon/Orphéon_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Orphéon/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Orphéon/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Orphéon/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7421
@@ -1580,14 +1788,14 @@
                 "price": 170,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Orphéon/Orphéon_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Orphéon/Orphéon_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Orphéon/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Orphéon/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Orphéon/Orphéon_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Orphéon/Orphéon_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Orphéon/Orphéon_detail_3.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Orphéon/Orphéon_detail_4.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Orphéon/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Orphéon/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Orphéon/detail/detail_3.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Orphéon/detail/detail_4.jpg"
                     ]
                 },
                 "optionId": 7422
@@ -1597,14 +1805,14 @@
                 "price": 255,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Orphéon/Orphéon_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Orphéon/Orphéon_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Orphéon/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Orphéon/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Orphéon/Orphéon_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Orphéon/Orphéon_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Orphéon/Orphéon_detail_3.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Orphéon/Orphéon_detail_4.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Orphéon/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Orphéon/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Orphéon/detail/detail_3.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Orphéon/detail/detail_4.jpg"
                     ]
                 },
                 "optionId": 7423
@@ -1623,7 +1831,12 @@
         "olfactory": "Woody",
         "name": "Orphéon",
         "type": "Refillable solid perfume",
-        "notes": ["Juniper berry", "Cedar", "Tonka bean,", "Jasmine"],
+        "notes": [
+            "Juniper berry",
+            "Cedar",
+            "Tonka bean,",
+            "Jasmine"
+        ],
         "description": "A time capsule. Orphéon solid perfume plunges us into the atmosphere of a legendary bar frequented by the founders of Diptyque. This scented balm, to be applied to the skin with the fingertips, brings out the warmth of tonka bean, the density of cedar and the vivacity of juniper berries.",
         "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures – eau de toilette, body mist or body balm – has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
         "options": [
@@ -1632,12 +1845,12 @@
                 "price": 60,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Orphéon/Orphéon_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Orphéon/Orphéon_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/Orphéon/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/Orphéon/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Orphéon/Orphéon_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Orphéon/Orphéon_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/Orphéon/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Refillable_solid_perfume/Orphéon/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 7431
@@ -1656,7 +1869,12 @@
         "olfactory": "Woody",
         "name": "Philosykos",
         "type": "Eau de parfum",
-        "notes": ["Fig leaves", "Fig sap", "Fig tree wood,", "Black pepper"],
+        "notes": [
+            "Fig leaves",
+            "Fig sap",
+            "Fig tree wood,",
+            "Black pepper"
+        ],
         "description": "Fresh perspectives on the fig tree. In Philosykos eau de parfum, the flavour of the fruit cedes centre stage, and white cedar underscores the woody strength of the tree and its bark. A fragrance that carries the scent of a memory: crossing a grove of wild fig trees during a summer in Greece.",
         "story": "In the Eau de Parfum, another side of the fig is revealed. The fruit withdraws, as the white cedar lands to heighten the woody intensity of the tree and the smell of bark baking under the midday sun. The memory of a Greek summer at Mount Pelion where, to get to the sea, there was a natural grove of wild sun-soaked fig trees to cross. Philosykos is an ode to the entire fig tree: the green freshness of the leaves, the milky flavour of the figs, the density of the wood. “Philosykos” means “friend of the fig tree” in Greek. A tree whose leaves and a few branches brought back in a memory box was the source of inspiration.",
         "options": [
@@ -1665,13 +1883,13 @@
                 "price": 170,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Philosykos/Philosykos_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Philosykos/Philosykos_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Philosykos/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Philosykos/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Philosykos/Philosykos_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Philosykos/Philosykos_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Philosykos/Philosykos_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Philosykos/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Philosykos/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Philosykos/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7441
@@ -1690,7 +1908,12 @@
         "olfactory": "Woody",
         "name": "Philosykos",
         "type": "Eau de toilette",
-        "notes": ["Fig leaves", "Fig sap", "Fig tree wood,", "Black pepper"],
+        "notes": [
+            "Fig leaves",
+            "Fig sap",
+            "Fig tree wood,",
+            "Black pepper"
+        ],
         "description": "The freshness of the leaves, the milky flavour of the fruit, the density of the white wood. Philosykos eau de toilette is an ode to the entire fig tree. A fragrance that feels like a memory - of crossing a wild grove under the blazing Greek sun. The tale of a summer spent at Mount Pelion, told now in perfume.",
         "story": "The memory of a Greek summer at Mount Pelion where, to get to the sea, there was a natural grove of wild sun-soaked fig trees to cross. Philosykos is an ode to the entire fig tree: the green freshness of the leaves, the milky flavour of the figs, the density of the wood. “Philosykos” means “friend of the fig tree” in Greek. A tree whose leaves and a few branches brought back in a memory box was the source of inspiration.",
         "options": [
@@ -1699,13 +1922,13 @@
                 "price": 105,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Philosykos/Philosykos_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Philosykos/Philosykos_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Philosykos/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Philosykos/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Philosykos/Philosykos_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Philosykos/Philosykos_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Philosykos/Philosykos_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Philosykos/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Philosykos/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Philosykos/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7451
@@ -1715,14 +1938,14 @@
                 "price": 145,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Philosykos/Philosykos_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Philosykos/Philosykos_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Philosykos/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Philosykos/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Philosykos/Philosykos_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Philosykos/Philosykos_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Philosykos/Philosykos_detail_3.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Philosykos/Philosykos_detail_4.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Philosykos/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Philosykos/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Philosykos/detail/detail_3.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Philosykos/detail/detail_4.jpg"
                     ]
                 },
                 "optionId": 7452
@@ -1741,7 +1964,12 @@
         "olfactory": "Woody",
         "name": "Philosykos",
         "type": "Eau de parfum",
-        "notes": ["Fig leaves", "Fig sap", "Fig tree wood,", "Black pepper"],
+        "notes": [
+            "Fig leaves",
+            "Fig sap",
+            "Fig tree wood,",
+            "Black pepper"
+        ],
         "description": "When applied to the skin, Philosykos solid perfume delivers the freshness of leaves, the milky flavour of figs, the woody density of the tree. A fragrance gesture, delicate and sensual. An ode to the memory of a summer under the Greek sun, surrounded by wild groves.",
         "story": "The Fragrance Gestures draw their inspiration from the history of perfume, reinventing textures to offer a new approach to personal scenting. It is a way to make the invisible sensual, and the ethereal tangible. Each of the gestures – eau de toilette, body mist or body balm – has a specific concentrate designed to offer the best olfactory rendering depending on its formulation. With its high concentration, it can be used alone depending on the moment and the mood. Matter becomes scent, scent becomes matter...",
         "options": [
@@ -1750,12 +1978,12 @@
                 "price": 50,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Philosykos/Philosykos_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Philosykos/Philosykos_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Philosykos/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Philosykos/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Philosykos/Philosykos_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Philosykos/Philosykos_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Philosykos/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Philosykos/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 7461
@@ -1774,7 +2002,12 @@
         "olfactory": "Woody",
         "name": "Tam Dao",
         "type": "Eau de parfum",
-        "notes": ["Sandalwood", "Cedar", "Cypress,", "Coriander"],
+        "notes": [
+            "Sandalwood",
+            "Cedar",
+            "Cypress,",
+            "Coriander"
+        ],
         "description": "A memory of the holy forests of Vietnam. In this eau de parfum, Asian spices highlight the sandalwood and its creamy nuances. Tam Dao immerses us in the childhood of Yves Coueslant, one of the founders of the Maison Diptyque. A trip through space and time..",
         "story": "In the Eau de Parfum, the Asian spices highlight the wood and its creamy nuances, anchoring Tam Dao more solidly in its region of origin. A memory from the holy forests of Vietnam, and the velvety, milky scent of sandalwood burned in temples. Yves Coueslant, one of Diptyque’s founders, has never forgotten this sandalwood-driven fragrance from his childhood.",
         "options": [
@@ -1783,13 +2016,13 @@
                 "price": 170,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Tam_Dao/Tam_Dao_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Tam_Dao/Tam_Dao_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Tam_Dao/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Tam_Dao/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Tam_Dao/Tam_Dao_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Tam_Dao/Tam_Dao_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Tam_Dao/Tam_Dao_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Tam_Dao/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Tam_Dao/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Tam_Dao/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7471
@@ -1808,7 +2041,12 @@
         "olfactory": "Woody",
         "name": "Tam Dao",
         "type": "Eau de toilette",
-        "notes": ["Sandalwood", "Cedar", "Cypress,", "Myrtle"],
+        "notes": [
+            "Sandalwood",
+            "Cedar",
+            "Cypress,",
+            "Myrtle"
+        ],
         "description": "A fragrance from yesteryear. Tam Dao eau de toilette revisits a childhood memory of Yves Coueslant, one of the founders of Diptyque. The slightly spicy scent of sandalwood. The forests and holy temples of Vietnam. An olfactory memory rekindled by the cooling notes of cypress and myrtle.",
         "story": "A memory from the holy forests of Vietnam, and the velvety, milky scent of sandalwood burned in temples. Yves Coueslant, one of Diptyque’s founders, has never forgotten this sandalwood-driven fragrance from his childhood.",
         "options": [
@@ -1817,13 +2055,13 @@
                 "price": 105,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Tam_Dao/Tam_Dao_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Tam_Dao/Tam_Dao_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Tam_Dao/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Tam_Dao/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Tam_Dao/Tam_Dao_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Tam_Dao/Tam_Dao_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Tam_Dao/Tam_Dao_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Tam_Dao/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Tam_Dao/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Tam_Dao/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7481
@@ -1833,13 +2071,13 @@
                 "price": 145,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Tam_Dao/Tam_Dao_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Tam_Dao/Tam_Dao_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Tam_Dao/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Tam_Dao/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Tam_Dao/Tam_Dao_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Tam_Dao/Tam_Dao_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Tam_Dao/Tam_Dao_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Tam_Dao/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Tam_Dao/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Tam_Dao/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7482
@@ -1858,7 +2096,12 @@
         "olfactory": "Woody",
         "name": "Tempo",
         "type": "Eau de parfum",
-        "notes": ["Patchouli", "Mate", "Clary sage,", "Violet"],
+        "notes": [
+            "Patchouli",
+            "Mate",
+            "Clary sage,",
+            "Violet"
+        ],
         "description": "During the 1960s, one scent changed the world: patchouli. Tempo pays tribute to this in three different times - three extracts from a single essence. This eau de parfum draws on its own nuances to create a composition that hovers between woody and elegant, earthy and enveloping. Elevated by voilet leaf, Tempo delivers vibrancy and a remarkable sophistication.",
         "story": "During the 60s, a certain scent was changing the world: patchouli. Tempo pays tribute to it with three extracts of this essence, a nuanced composition that hovers between elegant and woody, enveloping and earthy. Elevated by violet leaf, Tempo vibrates with remarkable sophistication. Despite its woody scent, fragrant patchouli oil is not extracted from wood, like cedar or sandalwood, but instead from the leaves of an aromatic plant in Indonesia called Nilam. Award Winner: Best New Men’s Fragrance by The Fragrance Foundation Awards London (FIFI Adwards)",
         "options": [
@@ -1867,13 +2110,13 @@
                 "price": 170,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Tempo/Tempo_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Tempo/Tempo_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Tempo/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Tempo/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Tempo/Tempo_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Tempo/Tempo_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Tempo/Tempo_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Tempo/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Tempo/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Tempo/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7491
@@ -1892,7 +2135,12 @@
         "olfactory": "Woody",
         "name": "Vetyverio",
         "type": "Eau de parfum",
-        "notes": ["Vetiver from Java", "Vetiver from Haiti", "Grapefruit,", "Rose"],
+        "notes": [
+            "Vetiver from Java",
+            "Vetiver from Haiti",
+            "Grapefruit,",
+            "Rose"
+        ],
         "description": "Beyond feminine, beyond masculine. Vetyverio eau de parfum reveals facets that are sometimes smoky, sometimes elegant, sometimes subtly floral. Used in an overdose, vetiver transcends gender. A kaleidoscope of nuances within a single raw material, magnified here in an unusual interpretation. Like inlaid wood..",
         "story": "In the Eau de Parfum, Haitian vetiver takes the leading role. Used to excess, it shines through in a pure, raw form, unleashing the full-bodied, smoky temperament it takes from the fiery, volcanic rock. n Vetyverio, vetiver does not become totally feminine or masculine, it is pushed to excess and goes beyond. Like inlaid wood, vetiver reveals unexpected facets: sometimes fresh, other times smoky or subtly floral. A kaleidoscope of olfactory nuances in a material that is magnified here in an unusual interpretation. he essence of vetiver from Haiti used in the Vetyverio Eau de Parfum has ESR certification (fairtrade, sustainable and responsible). It is sourced from the villages of Massey, Faucault and Bazelais in Haiti.",
         "options": [
@@ -1901,13 +2149,13 @@
                 "price": 170,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Vetyverio/Vetyverio_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Vetyverio/Vetyverio_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Vetyverio/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Vetyverio/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Vetyverio/Vetyverio_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Vetyverio/Vetyverio_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Vetyverio/Vetyverio_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Vetyverio/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Vetyverio/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Vetyverio/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7501
@@ -1926,7 +2174,12 @@
         "olfactory": "Woody",
         "name": "Vetyverio",
         "type": "Eau de toilette",
-        "notes": ["Vetiver from Java", "Vetiver from Haiti", "Grapefruit,", "Rose"],
+        "notes": [
+            "Vetiver from Java",
+            "Vetiver from Haiti",
+            "Grapefruit,",
+            "Rose"
+        ],
         "description": "Intense and subtle. Vetyverio eau de parfum expresses all that's attractive in vetiver: sometimes fresh, sometimes smoky or even delicately floral. The plant reveals unexpected facets, much in the manner of inlaid wood. A kaleidoscope of olfactory nuances in an unusual interpretation.",
         "story": "Did you know? The essence of vetiver from Haiti used in the Vetyverio eau de parfum has ESR certification (fairly traded, sustainable and responsible). It is sourced from the villages of Massey, Faucault and Bazelais, Haiti. ",
         "options": [
@@ -1935,13 +2188,13 @@
                 "price": 105,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Vetyverio/Vetyverio_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Vetyverio/Vetyverio_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Vetyverio/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Vetyverio/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Vetyverio/Vetyverio_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Vetyverio/Vetyverio_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Vetyverio/Vetyverio_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Vetyverio/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Vetyverio/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Vetyverio/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7511
@@ -1951,13 +2204,13 @@
                 "price": 145,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Vetyverio/Vetyverio_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Vetyverio/Vetyverio_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Vetyverio/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Vetyverio/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Vetyverio/Vetyverio_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Vetyverio/Vetyverio_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/perfume/Vetyverio/Vetyverio_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Vetyverio/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Vetyverio/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_toilette/Vetyverio/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 7512
