@@ -1,5 +1,6 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Layout from './common/Layout';
+import CategoryList from './components/product/CategoryList';
 import {
   Cart,
   Collection,
@@ -14,10 +15,6 @@ import {
   SearchResult,
   Service,
 } from './pages';
-
-import BodyCareList from './components/product/body/bodyCareList';
-import CandleDiffuserList from './components/product/candleDiffuser/CandleDiffuserList';
-import PerfumeList from './components/product/perfume/PerfumeList';
 import './styles/globals.scss';
 
 function App() {
@@ -28,12 +25,9 @@ function App() {
           <Route index element={<Maison />} />
           <Route path="/promotion" element={<Promotion />} />
           <Route path="/product" element={<ProductList />}>
-            <Route index element={<PerfumeList />} />
-            <Route path="perfume" element={<PerfumeList />} />
-            <Route path="candlediffuser" element={<CandleDiffuserList />} />
-            <Route path="body" element={<BodyCareList />} />
+            <Route path=":categoryName" element={<CategoryList />} />
           </Route>
-          <Route path="/product/:productId" element={<ProductDetail />} />
+          <Route path="/product/:categoryName/:productId" element={<ProductDetail />} />
           <Route path="/collection" element={<Collection />} />
           <Route path="/service" element={<Service />} />
           <Route path="/member" element={<Member />} />
