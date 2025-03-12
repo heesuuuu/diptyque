@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const PerfumeItem = ({ item }) => {
+const CategoryItem = ({ item }) => {
   const { id, name, description, options } = item;
   const price = options[0].price;
   const thumbImg = options[0].images.thumbnail.default;
@@ -65,4 +65,4 @@ const PerfumeItem = ({ item }) => {
   );
 };
 
-export default PerfumeItem;
+export default CategoryItem;
