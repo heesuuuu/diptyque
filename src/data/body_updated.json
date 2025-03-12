@@ -18,12 +18,12 @@
                 "weight": "200g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/34_Boulevard_Saint_Germain/34_Boulevard_Saint_Germain_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/34_Boulevard_Saint_Germain/34_Boulevard_Saint_Germain_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/34_Boulevard_Saint_Germain/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/34_Boulevard_Saint_Germain/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/34_Boulevard_Saint_Germain/34_Boulevard_Saint_Germain_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/34_Boulevard_Saint_Germain/34_Boulevard_Saint_Germain_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/34_Boulevard_Saint_Germain/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/34_Boulevard_Saint_Germain/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1001
@@ -52,12 +52,12 @@
                 "weight": "200ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Do_Son/Do_Son_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Do_Son/Do_Son_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Body_mist/Do_Son/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Body_mist/Do_Son/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Do_Son/Do_Son_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Do_Son/Do_Son_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Body_mist/Do_Son/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Body_mist/Do_Son/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1011
@@ -86,12 +86,12 @@
                 "weight": "45ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Do_Son/Do_Son_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Do_Son/Do_Son_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_cream/Do_Son/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_cream/Do_Son/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Do_Son/Do_Son_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Do_Son/Do_Son_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_cream/Do_Son/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_cream/Do_Son/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1021
@@ -120,12 +120,12 @@
                 "weight": "200ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Do_Son/Do_Son_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Do_Son/Do_Son_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_shower_oil/Do_Son/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_shower_oil/Do_Son/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Do_Son/Do_Son_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Do_Son/Do_Son_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_shower_oil/Do_Son/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_shower_oil/Do_Son/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1031
@@ -154,12 +154,12 @@
                 "weight": "150g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Do_Son/Do_Son_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Do_Son/Do_Son_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/Do_Son/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/Do_Son/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Do_Son/Do_Son_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Do_Son/Do_Son_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/Do_Son/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/Do_Son/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1041
@@ -188,12 +188,12 @@
                 "weight": "45ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Capitale/Eau_Capitale_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Capitale/Eau_Capitale_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_cream/Eau_Capitale/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_cream/Eau_Capitale/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Capitale/Eau_Capitale_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Capitale/Eau_Capitale_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_cream/Eau_Capitale/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_cream/Eau_Capitale/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1051
@@ -223,12 +223,12 @@
                 "weight": "200ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_des_Sens/Eau_des_Sens_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_des_Sens/Eau_des_Sens_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_cleansing_hand_and_body_gel/Eau_des_Sens/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_cleansing_hand_and_body_gel/Eau_des_Sens/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_des_Sens/Eau_des_Sens_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_des_Sens/Eau_des_Sens_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_cleansing_hand_and_body_gel/Eau_des_Sens/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_cleansing_hand_and_body_gel/Eau_des_Sens/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1061
@@ -258,12 +258,12 @@
                 "weight": "150g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_des_Sens/Eau_des_Sens_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_des_Sens/Eau_des_Sens_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/Eau_des_Sens/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/Eau_des_Sens/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_des_Sens/Eau_des_Sens_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_des_Sens/Eau_des_Sens_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/Eau_des_Sens/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/Eau_des_Sens/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1071
@@ -292,13 +292,13 @@
                 "weight": "200g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Rihla/Eau_Rihla_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Rihla/Eau_Rihla_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_body_balm/Eau_Rihla/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_body_balm/Eau_Rihla/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Rihla/Eau_Rihla_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Rihla/Eau_Rihla_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Rihla/Eau_Rihla_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_body_balm/Eau_Rihla/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_body_balm/Eau_Rihla/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_body_balm/Eau_Rihla/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 1081
@@ -328,12 +328,12 @@
                 "weight": "200ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Rose/Eau_Rose_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Rose/Eau_Rose_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_and_body_lotion/Eau_Rose/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_and_body_lotion/Eau_Rose/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Rose/Eau_Rose_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Rose/Eau_Rose_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_and_body_lotion/Eau_Rose/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_and_body_lotion/Eau_Rose/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1091
@@ -362,12 +362,12 @@
                 "weight": "45ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Rose/Eau_Rose_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Rose/Eau_Rose_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_cream/Eau_Rose/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_cream/Eau_Rose/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Rose/Eau_Rose_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Rose/Eau_Rose_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_cream/Eau_Rose/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_cream/Eau_Rose/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1101
@@ -396,12 +396,12 @@
                 "weight": "150ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Rose/Eau_Rose_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Rose/Eau_Rose_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_shower_foam/Eau_Rose/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_shower_foam/Eau_Rose/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Rose/Eau_Rose_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Rose/Eau_Rose_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_shower_foam/Eau_Rose/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_shower_foam/Eau_Rose/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1111
@@ -430,12 +430,12 @@
                 "weight": "150g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Rose/Eau_Rose_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Rose/Eau_Rose_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/Eau_Rose/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/Eau_Rose/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Rose/Eau_Rose_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Eau_Rose/Eau_Rose_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/Eau_Rose/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/Eau_Rose/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1121
@@ -464,12 +464,12 @@
                 "weight": "200ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Exfoliating_ointment/Exfoliating_ointment_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Exfoliating_ointment/Exfoliating_ointment_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_body/Exfoliating_ointment/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_body/Exfoliating_ointment/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Exfoliating_ointment/Exfoliating_ointment_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Exfoliating_ointment/Exfoliating_ointment_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_body/Exfoliating_ointment/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_body/Exfoliating_ointment/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1131
@@ -498,12 +498,12 @@
                 "weight": "350ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Exfoliating_Wash/Exfoliating_Wash_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Exfoliating_Wash/Exfoliating_Wash_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/For_the_hands/Exfoliating_Wash/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/For_the_hands/Exfoliating_Wash/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Exfoliating_Wash/Exfoliating_Wash_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Exfoliating_Wash/Exfoliating_Wash_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/For_the_hands/Exfoliating_Wash/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/For_the_hands/Exfoliating_Wash/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1141
@@ -533,12 +533,12 @@
                 "weight": "200ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Fleur_de_Peau/Fleur_de_Peau_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Fleur_de_Peau/Fleur_de_Peau_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Cleansing_hand_and_body_gel/Fleur_de_Peau/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Cleansing_hand_and_body_gel/Fleur_de_Peau/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Fleur_de_Peau/Fleur_de_Peau_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Fleur_de_Peau/Fleur_de_Peau_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Cleansing_hand_and_body_gel/Fleur_de_Peau/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Cleansing_hand_and_body_gel/Fleur_de_Peau/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1151
@@ -568,12 +568,12 @@
                 "weight": "200ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Fleur_de_Peau/Fleur_de_Peau_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Fleur_de_Peau/Fleur_de_Peau_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Hand_and_body_lotion/Fleur_de_Peau/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Hand_and_body_lotion/Fleur_de_Peau/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Fleur_de_Peau/Fleur_de_Peau_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Fleur_de_Peau/Fleur_de_Peau_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Hand_and_body_lotion/Fleur_de_Peau/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Hand_and_body_lotion/Fleur_de_Peau/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1161
@@ -602,12 +602,12 @@
                 "weight": "200ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Fleur_de_Peau/Fleur_de_Peau_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Fleur_de_Peau/Fleur_de_Peau_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_body_balm/Fleur_de_Peau/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_body_balm/Fleur_de_Peau/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Fleur_de_Peau/Fleur_de_Peau_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Fleur_de_Peau/Fleur_de_Peau_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_body_balm/Fleur_de_Peau/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_body_balm/Fleur_de_Peau/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1171
@@ -636,12 +636,12 @@
                 "weight": "45ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Fleur_de_Peau/Fleur_de_Peau_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Fleur_de_Peau/Fleur_de_Peau_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_cream/Fleur_de_Peau/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_cream/Fleur_de_Peau/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Fleur_de_Peau/Fleur_de_Peau_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Fleur_de_Peau/Fleur_de_Peau_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_cream/Fleur_de_Peau/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_cream/Fleur_de_Peau/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1181
@@ -670,12 +670,12 @@
                 "weight": "250ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Fresh_Lotion/Fresh_Lotion_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Fresh_Lotion/Fresh_Lotion_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_body/Fresh_Lotion/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_body/Fresh_Lotion/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Fresh_Lotion/Fresh_Lotion_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Fresh_Lotion/Fresh_Lotion_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_body/Fresh_Lotion/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_body/Fresh_Lotion/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1191
@@ -705,12 +705,12 @@
                 "weight": "200ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/L'Eau_Papier/L'Eau_Papier_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/L'Eau_Papier/L'Eau_Papier_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_cleansing_hand_and_body_gel/L'Eau_Papier/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_cleansing_hand_and_body_gel/L'Eau_Papier/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/L'Eau_Papier/L'Eau_Papier_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/L'Eau_Papier/L'Eau_Papier_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_cleansing_hand_and_body_gel/L'Eau_Papier/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_cleansing_hand_and_body_gel/L'Eau_Papier/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1201
@@ -739,12 +739,12 @@
                 "weight": "150g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/L'Ombre_dans_l'Eau/L'Ombre_dans_l'Eau_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/L'Ombre_dans_l'Eau/L'Ombre_dans_l'Eau_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/L'Ombre_dans_l'Eau/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/L'Ombre_dans_l'Eau/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/L'Ombre_dans_l'Eau/L'Ombre_dans_l'Eau_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/L'Ombre_dans_l'Eau/L'Ombre_dans_l'Eau_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/L'Ombre_dans_l'Eau/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/L'Ombre_dans_l'Eau/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1211
@@ -773,12 +773,12 @@
                 "weight": "45ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Luxurious_balm/Luxurious_balm_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Luxurious_balm/Luxurious_balm_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/For_the_hands/Luxurious_balm/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/For_the_hands/Luxurious_balm/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Luxurious_balm/Luxurious_balm_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Luxurious_balm/Luxurious_balm_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/For_the_hands/Luxurious_balm/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/For_the_hands/Luxurious_balm/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1221
@@ -808,12 +808,12 @@
                 "weight": "200ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Orphéon/Orphéon_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Orphéon/Orphéon_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Cleansing_hand_and_body_gel/Orphéon/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Cleansing_hand_and_body_gel/Orphéon/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Orphéon/Orphéon_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Orphéon/Orphéon_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Cleansing_hand_and_body_gel/Orphéon/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Cleansing_hand_and_body_gel/Orphéon/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1231
@@ -843,12 +843,12 @@
                 "weight": "200ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Philosykos/Philosykos_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Philosykos/Philosykos_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_and_body_lotion/Philosykos/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_and_body_lotion/Philosykos/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Philosykos/Philosykos_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Philosykos/Philosykos_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_and_body_lotion/Philosykos/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Perfumed_hand_and_body_lotion/Philosykos/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1241
@@ -878,12 +878,12 @@
                 "weight": "200ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Philosykos/Philosykos_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Philosykos/Philosykos_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_cleansing_hand_and_body_gel/Philosykos/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_cleansing_hand_and_body_gel/Philosykos/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Philosykos/Philosykos_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Philosykos/Philosykos_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_cleansing_hand_and_body_gel/Philosykos/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_cleansing_hand_and_body_gel/Philosykos/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1251
@@ -913,12 +913,12 @@
                 "weight": "150g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Philosykos/Philosykos_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Philosykos/Philosykos_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/Philosykos/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/Philosykos/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Philosykos/Philosykos_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Philosykos/Philosykos_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/Philosykos/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/Philosykos/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1261
@@ -947,12 +947,12 @@
                 "weight": "350ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Exfoliating_Wash/Exfoliating_Wash_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Exfoliating_Wash/Exfoliating_Wash_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_hands/Exfoliating_Wash/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_hands/Exfoliating_Wash/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Exfoliating_Wash/Exfoliating_Wash_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Exfoliating_Wash/Exfoliating_Wash_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_hands/Exfoliating_Wash/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_hands/Exfoliating_Wash/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1271
@@ -981,12 +981,12 @@
                 "weight": "350ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Softening_and_comforting_wash/Softening_and_comforting_wash_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Softening_and_comforting_wash/Softening_and_comforting_wash_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_hands/Softening_and_comforting_wash/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_hands/Softening_and_comforting_wash/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Softening_and_comforting_wash/Softening_and_comforting_wash_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Softening_and_comforting_wash/Softening_and_comforting_wash_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_hands/Softening_and_comforting_wash/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_hands/Softening_and_comforting_wash/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1281
@@ -1015,12 +1015,12 @@
                 "weight": "350ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Velvet_Lotion/Velvet_Lotion_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Velvet_Lotion/Velvet_Lotion_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_hands/Velvet_Lotion/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_hands/Velvet_Lotion/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Velvet_Lotion/Velvet_Lotion_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Velvet_Lotion/Velvet_Lotion_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_hands/Velvet_Lotion/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_hands/Velvet_Lotion/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1291
@@ -1049,12 +1049,12 @@
                 "weight": "200ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Revitalizing_Shower_Gel/Revitalizing_Shower_Gel_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Revitalizing_Shower_Gel/Revitalizing_Shower_Gel_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_body_and_hair/Revitalizing_Shower_Gel/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_body_and_hair/Revitalizing_Shower_Gel/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Revitalizing_Shower_Gel/Revitalizing_Shower_Gel_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Revitalizing_Shower_Gel/Revitalizing_Shower_Gel_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_body_and_hair/Revitalizing_Shower_Gel/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_body_and_hair/Revitalizing_Shower_Gel/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1301
@@ -1083,12 +1083,12 @@
                 "weight": "200ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Rich_butter/Rich_butter_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Rich_butter/Rich_butter_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/For_the_body/Rich_butter/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/For_the_body/Rich_butter/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Rich_butter/Rich_butter_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Rich_butter/Rich_butter_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/For_the_body/Rich_butter/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/For_the_body/Rich_butter/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1311
@@ -1117,12 +1117,12 @@
                 "weight": "45ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Rinse-free_wash/Rinse-free_wash_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Rinse-free_wash/Rinse-free_wash_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_hands/Rinse-free_wash/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_hands/Rinse-free_wash/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Rinse-free_wash/Rinse-free_wash_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Rinse-free_wash/Rinse-free_wash_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_hands/Rinse-free_wash/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_hands/Rinse-free_wash/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1321
@@ -1151,12 +1151,12 @@
                 "weight": "100ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Satin_Oil/Satin_Oil_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Satin_Oil/Satin_Oil_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_body_and_hair/Satin_Oil/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_body_and_hair/Satin_Oil/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Satin_Oil/Satin_Oil_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Satin_Oil/Satin_Oil_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_body_and_hair/Satin_Oil/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_body_and_hair/Satin_Oil/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1331
@@ -1184,12 +1184,12 @@
                 "weight": "250ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Soft_lotion/Soft_lotion_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Soft_lotion/Soft_lotion_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_body/Soft_lotion/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_body/Soft_lotion/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Soft_lotion/Soft_lotion_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Soft_lotion/Soft_lotion_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_body/Soft_lotion/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_body/Soft_lotion/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1341
@@ -1218,12 +1218,12 @@
                 "weight": "350ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Softening_and_comforting_wash/Softening_and_comforting_wash_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Softening_and_comforting_wash/Softening_and_comforting_wash_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_hands/Softening_and_comforting_wash/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_hands/Softening_and_comforting_wash/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Softening_and_comforting_wash/Softening_and_comforting_wash_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Softening_and_comforting_wash/Softening_and_comforting_wash_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_hands/Softening_and_comforting_wash/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/for_the_hands/Softening_and_comforting_wash/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1351
@@ -1252,12 +1252,12 @@
                 "weight": "150g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Tam_Dao/Tam_Dao_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Tam_Dao/Tam_Dao_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/Tam_Dao/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/Tam_Dao/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Tam_Dao/Tam_Dao_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Tam_Dao/Tam_Dao_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/Tam_Dao/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Scented_soap/Tam_Dao/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1361
@@ -1286,12 +1286,12 @@
                 "weight": "30ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/The_art_of_hand_care/The_art_of_hand_care_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/The_art_of_hand_care/The_art_of_hand_care_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Travel_Set/The_art_of_hand_care/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Travel_Set/The_art_of_hand_care/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/The_art_of_hand_care/The_art_of_hand_care_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/The_art_of_hand_care/The_art_of_hand_care_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Travel_Set/The_art_of_hand_care/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Travel_Set/The_art_of_hand_care/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1371
@@ -1320,12 +1320,12 @@
                 "weight": "350ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Velvet_Lotion/Velvet_Lotion_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Velvet_Lotion/Velvet_Lotion_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/For_the_hands/Velvet_Lotion/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/For_the_hands/Velvet_Lotion/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Velvet_Lotion/Velvet_Lotion_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Velvet_Lotion/Velvet_Lotion_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/For_the_hands/Velvet_Lotion/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/For_the_hands/Velvet_Lotion/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1381
@@ -1350,12 +1350,12 @@
                 "weight": "200ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Vinaigre_de_toilette/Vinaigre_de_toilette_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Vinaigre_de_toilette/Vinaigre_de_toilette_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Multi-purpose/Vinaigre_de_toilette/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Multi-purpose/Vinaigre_de_toilette/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Vinaigre_de_toilette/Vinaigre_de_toilette_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/body/Vinaigre_de_toilette/Vinaigre_de_toilette_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Multi-purpose/Vinaigre_de_toilette/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/body/Multi-purpose/Vinaigre_de_toilette/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 1391

@@ -13,11 +13,11 @@
                 "weight": "150ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Fleur_d'Oranger_Orange_Blossom/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Fleur_d'Oranger_Orange_Blossom/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_detail_1.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Fleur_d'Oranger_Orange_Blossom/detail/detail_1.jpg"
                     ]
                 },
                 "optionId": 5001
@@ -41,12 +41,12 @@
                 "weight": null,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Roses/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Roses/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Roses/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Roses/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5011
@@ -70,12 +70,12 @@
                 "weight": "200ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Mimosa/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Mimosa/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Mimosa/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Mimosa/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5021
@@ -99,11 +99,11 @@
                 "weight": "150ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Mimosa/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Mimosa/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_detail_1.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Mimosa/detail/detail_1.jpg"
                     ]
                 },
                 "optionId": 5031
@@ -127,12 +127,12 @@
                 "weight": "200ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Roses/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Roses/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Roses/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Roses/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5041
@@ -156,11 +156,11 @@
                 "weight": "150ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Roses/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Roses/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_detail_1.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Roses/detail/detail_1.jpg"
                     ]
                 },
                 "optionId": 5051
@@ -184,11 +184,11 @@
                 "weight": null,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Fleur_d'Oranger_Orange_Blossom/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Fleur_d'Oranger_Orange_Blossom/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_detail_1.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Fleur_d'Oranger_Orange_Blossom/detail/detail_1.jpg"
                     ]
                 },
                 "optionId": 5061
@@ -212,11 +212,11 @@
                 "weight": "150ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Tubéreuse_Tuberose/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Tubéreuse_Tuberose/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_detail_1.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Tubéreuse_Tuberose/detail/detail_1.jpg"
                     ]
                 },
                 "optionId": 5071
@@ -240,12 +240,12 @@
                 "weight": "35g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Rose/Rose_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Rose/Rose_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Rose/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Rose/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Rose/Rose_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Rose/Rose_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Rose/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Rose/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5081
@@ -269,12 +269,12 @@
                 "weight": null,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Tubéreuse_Tuberose/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Tubéreuse_Tuberose/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Tubéreuse_Tuberose/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Tubéreuse_Tuberose/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5091
@@ -298,12 +298,12 @@
                 "weight": null,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Mimosa/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Mimosa/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Mimosa/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Mimosa/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5101
@@ -327,12 +327,12 @@
                 "weight": "75ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Mimosa/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Mimosa/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Mimosa/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Mimosa/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5111
@@ -356,12 +356,12 @@
                 "weight": "75ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Fleur_d'Oranger_Orange_Blossom/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Fleur_d'Oranger_Orange_Blossom/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Fleur_d'Oranger_Orange_Blossom/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Fleur_d'Oranger_Orange_Blossom/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5121
@@ -385,12 +385,12 @@
                 "weight": null,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Roses/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Roses/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Roses/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Roses/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5131
@@ -414,12 +414,12 @@
                 "weight": "75ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Tubéreuse_Tuberose/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Tubéreuse_Tuberose/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Tubéreuse_Tuberose/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Tubéreuse_Tuberose/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5141
@@ -443,12 +443,12 @@
                 "weight": null,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Mimosa/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Mimosa/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Mimosa/Mimosa_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Mimosa/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Mimosa/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5151
@@ -472,12 +472,12 @@
                 "weight": "200ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Fleur_d'Oranger_Orange_Blossom/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Fleur_d'Oranger_Orange_Blossom/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Fleur_d'Oranger_Orange_Blossom/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Fleur_d'Oranger_Orange_Blossom/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5161
@@ -501,12 +501,12 @@
                 "weight": null,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Fleur_d'Oranger_Orange_Blossom/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Fleur_d'Oranger_Orange_Blossom/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Fleur_d'Oranger_(Orange_Blossom)/Fleur_d'Oranger_(Orange_Blossom)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Fleur_d'Oranger_Orange_Blossom/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Fleur_d'Oranger_Orange_Blossom/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5171
@@ -530,12 +530,12 @@
                 "weight": "200ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Tubéreuse_Tuberose/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Tubéreuse_Tuberose/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Tubéreuse_(Tuberose)/Tubéreuse_(Tuberose)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Tubéreuse_Tuberose/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Tubéreuse_Tuberose/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5181
@@ -559,12 +559,12 @@
                 "weight": "75ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Roses/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Roses/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Roses/Roses_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Roses/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Roses/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5191
@@ -588,13 +588,13 @@
                 "weight": "200ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_3.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/detail/detail_3.jpg"
                     ]
                 },
                 "optionId": 5201
@@ -618,11 +618,11 @@
                 "weight": "150ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_1.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/detail/detail_1.jpg"
                     ]
                 },
                 "optionId": 5211
@@ -646,12 +646,12 @@
                 "weight": "35g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5221
@@ -675,12 +675,12 @@
                 "weight": null,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Figuier_Fig_Tree/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Figuier_Fig_Tree/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Figuier_Fig_Tree/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Figuier_Fig_Tree/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5231
@@ -704,15 +704,15 @@
                 "weight": null,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_2.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_3.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_4.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_5.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/detail/detail_2.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/detail/detail_3.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/detail/detail_4.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/detail/detail_5.jpg"
                     ]
                 },
                 "optionId": 5241
@@ -736,12 +736,12 @@
                 "weight": "150ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Figuier_Fig_Tree/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Figuier_Fig_Tree/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Figuier_Fig_Tree/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Figuier_Fig_Tree/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5251
@@ -765,12 +765,12 @@
                 "weight": null,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5261
@@ -794,12 +794,12 @@
                 "weight": "75ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5271
@@ -823,12 +823,12 @@
                 "weight": "35g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Figuier_Fig_Tree/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Figuier_Fig_Tree/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Figuier_Fig_Tree/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Figuier_Fig_Tree/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5281
@@ -852,12 +852,12 @@
                 "weight": "75ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Figuier_Fig_Tree/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Figuier_Fig_Tree/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Figuier_Fig_Tree/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Figuier_Fig_Tree/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5291
@@ -881,12 +881,12 @@
                 "weight": null,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5301
@@ -910,12 +910,12 @@
                 "weight": null,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Figuier_Fig_Tree/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Figuier_Fig_Tree/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Figuier_(Fig_Tree)/Figuier_(Fig_Tree)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Figuier_Fig_Tree/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Figuier_Fig_Tree/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5311
@@ -939,12 +939,12 @@
                 "weight": "200ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5321
@@ -968,11 +968,11 @@
                 "weight": null,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Baies_(Berries)/Baies_(Berries)_detail_1.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Baies_Berries/detail/detail_1.jpg"
                     ]
                 },
                 "optionId": 5331
@@ -996,12 +996,12 @@
                 "weight": "75ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Gingembre_Ginger/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Gingembre_Ginger/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Gingembre_Ginger/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Gingembre_Ginger/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5341
@@ -1025,12 +1025,12 @@
                 "weight": "150ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Gingembre_Ginger/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Gingembre_Ginger/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Gingembre_Ginger/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Gingembre_Ginger/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5351
@@ -1054,12 +1054,12 @@
                 "weight": null,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Gingembre_Ginger/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Gingembre_Ginger/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Gingembre_(Ginger)/Gingembre_(Ginger)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Gingembre_Ginger/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Gingembre_Ginger/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5361
@@ -1083,11 +1083,11 @@
                 "weight": "150ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/34_boulevard_Saint_Germain/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/34_boulevard_Saint_Germain/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_1.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/34_boulevard_Saint_Germain/detail/detail_1.jpg"
                     ]
                 },
                 "optionId": 5371
@@ -1111,12 +1111,12 @@
                 "weight": null,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/34_boulevard_Saint_Germain/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/34_boulevard_Saint_Germain/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/34_boulevard_Saint_Germain/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/34_boulevard_Saint_Germain/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5381
@@ -1140,12 +1140,12 @@
                 "weight": null,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/34_boulevard_Saint_Germain/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/34_boulevard_Saint_Germain/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/34_boulevard_Saint_Germain/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/34_boulevard_Saint_Germain/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5391
@@ -1169,12 +1169,12 @@
                 "weight": "75ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/34_boulevard_Saint_Germain/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/34_boulevard_Saint_Germain/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/34_boulevard_Saint_Germain/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/34_boulevard_Saint_Germain/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5401
@@ -1198,12 +1198,12 @@
                 "weight": "35g",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/34_boulevard_Saint_Germain/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/34_boulevard_Saint_Germain/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/34_boulevard_Saint_Germain/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/34_boulevard_Saint_Germain/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5411
@@ -1227,11 +1227,11 @@
                 "weight": "150ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Ambre_(Amber)/Ambre_(Amber)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Ambre_(Amber)/Ambre_(Amber)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Ambre_Amber/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Ambre_Amber/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Ambre_(Amber)/Ambre_(Amber)_detail_1.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Ambre_Amber/detail/detail_1.jpg"
                     ]
                 },
                 "optionId": 5421
@@ -1255,12 +1255,12 @@
                 "weight": "200ml",
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/34_boulevard_Saint_Germain/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/34_boulevard_Saint_Germain/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/34_boulevard_Saint_Germain/34_boulevard_Saint_Germain_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/34_boulevard_Saint_Germain/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/34_boulevard_Saint_Germain/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5431
@@ -1284,12 +1284,12 @@
                 "weight": null,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Ambre_(Amber)/Ambre_(Amber)_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Ambre_(Amber)/Ambre_(Amber)_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Ambre_Amber/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Ambre_Amber/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Ambre_(Amber)/Ambre_(Amber)_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Ambre_(Amber)/Ambre_(Amber)_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Ambre_Amber/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Ambre_Amber/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5441
@@ -1313,12 +1313,12 @@
                 "weight": null,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Electric_Diffuser/Electric_Diffuser_default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Electric_Diffuser/Electric_Diffuser_hover.jpg"
+                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Electric_Diffuser/thumbnail/default.jpg",
+                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Electric_Diffuser/thumbnail/hover.jpg"
                     },
                     "detail": [
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Electric_Diffuser/Electric_Diffuser_detail_1.jpg",
-                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic/main/images/diffuser/Electric_Diffuser/Electric_Diffuser_detail_2.jpg"
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Electric_Diffuser/detail/detail_1.jpg",
+                        "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/diffuser/Electric_Diffuser/detail/detail_2.jpg"
                     ]
                 },
                 "optionId": 5451
