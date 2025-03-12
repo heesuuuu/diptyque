@@ -8,7 +8,7 @@ const CollectionMenu = () => {
 
   return (
     <div className="collection-menu">
-      <ul className="space-y-2">
+      <ul className="space-y-[10px]">
         {allCollectionNames.map((collection, index) => (
           <li key={index}>
             <Link
