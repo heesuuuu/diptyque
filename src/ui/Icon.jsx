@@ -1,7 +1,7 @@
-const Icon = ({ name, size = 24, className = '' }) => {
+const Icon = ({ name, size = 24, color = '', className = '' }) => {
   return (
     <span
-      className={`material-symbols-sharp ${className}`}
+      className={`material-symbols-sharp ${className} ${color}`}
       style={{
         fontSize: `${size}px`,
         fontVariationSettings: "'wght' 300",

@@ -4,7 +4,7 @@ import candleMockupData from '../../data/candle_updated.json';
 import diffuserMockupData from '../../data/diffuser_updated.json';
 import perfumeMockupData from '../../data/perfume_updated.json';
 
-const categoryData = [
+const categoryInfo = [
   {
     category: 'eauxdeparfum',
     title: 'Eaux de parfum',
@@ -37,7 +37,7 @@ const categoryData = [
   },
   {
     category: 'bodycare',
-    tilte: 'Body care',
+    title: 'Body care',
     desc: 'The Maison Diptyque has placed all of its perfuming expertise in the service of natural beauty. Fresh lotion, shower gel, satin oil, body balm … With its skin-friendly formulations, the collection of sensorial skincare products for the body invites you to enjoy a break – one given over to well-being and harmony.',
   },
   {
@@ -49,16 +49,53 @@ const categoryData = [
 
 const initialState = {
   productData: [],
+  perfumeData: perfumeMockupData,
+  candleData: candleMockupData,
+  diffuserData: diffuserMockupData,
+  bodyData: bodyMockupData,
   allProductData: [...perfumeMockupData, ...candleMockupData, ...diffuserMockupData, ...bodyMockupData],
+  categoryData: [],
   categoryInfo: {},
 };
+
 export const productSlice = createSlice({
   name: 'product',
   initialState,
   reducers: {
     setCategory: (state, action) => {
       const category = action.payload;
-      state.categoryInfo = categoryData.find((data) => data.category === category);
+      state.categoryInfo = categoryInfo.find((info) => info.category === category);
+    },
+    getCategory: (state, action) => {
+      const category = action.payload;
+      switch (category) {
+        case 'eauxdeparfum':
+          state.categoryData = state.perfumeData.filter((data) => data.type === 'Eau de parfum');
+          break;
+        case 'eauxdetoilette':
+          state.categoryData = state.perfumeData.filter((data) => data.type === 'Eau de toilette');
+          break;
+        case 'solidperfumes':
+          state.categoryData = state.perfumeData.filter((data) => data.type === 'Refillable solid perfume');
+          break;
+        case 'candles':
+          state.categoryData = state.candleData;
+          break;
+        case 'diffusers':
+          state.categoryData = state.diffuserData;
+          break;
+        case 'handcare':
+          state.categoryData = state.bodyData.filter((data) => data.type.includes('hand'));
+          break;
+        case 'bodycare':
+          state.categoryData = state.bodyData.filter(
+            (data) => !data.type.includes('hand') && !data.type.includes('Scented soap')
+          );
+          break;
+        case 'scentedsoaps':
+          state.categoryData = state.bodyData.filter((data) => data.type.includes('Scented soap'));
+          break;
+      }
     },
     setProduct: (state, action) => {
       const id = action.payload;
