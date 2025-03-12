@@ -48,7 +48,22 @@ const categoryInfo = [
 ];
 
 const initialState = {
-  productData: [],
+  productData: {
+    id: '',
+    olfactory: {},
+    name: '',
+    type: '',
+    notes: {},
+    keyword: {},
+    description: '',
+    story: '',
+    options: [
+      { size: '', price: '', weight: '', images: { thumbnail: { default: '', hover: '' }, detail: '' }, optionId: '' },
+    ],
+    collection: '',
+    sales: '',
+    inStock: '',
+  },
   perfumeData: perfumeMockupData,
   candleData: candleMockupData,
   diffuserData: diffuserMockupData,
@@ -99,7 +114,7 @@ export const productSlice = createSlice({
     },
     setProduct: (state, action) => {
       const id = action.payload;
-      state.productData = allProductData.find((data) => data.id === id);
+      state.productData = state.categoryData.find((data) => data.id === id);
     },
     resetProduct: (state, action) => {
       state.productData = [];

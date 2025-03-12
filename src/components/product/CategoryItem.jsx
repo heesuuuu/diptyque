@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const CategoryItem = ({ item }) => {
+  const location = useLocation();
   const { id, name, description, options, sales, inStock } = item;
   const price = options[0].price;
   const thumbImg = options[0].images.thumbnail.default;
@@ -44,7 +45,10 @@ const CategoryItem = ({ item }) => {
   }, [description, maxChars]);
 
   return (
-    <Link to={`/product/${id}`} className="relative flex flex-col justify-between gap-2 cursor-pointer group">
+    <Link
+      to={`${location.pathname}/${id}`}
+      className="relative flex flex-col justify-between gap-2 cursor-pointer group"
+    >
       <img
         className="mb-2 object-cover w-full group-hover:opacity-0 transition-all ease-in-out duration-700"
         src={thumbImg}

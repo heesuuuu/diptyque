@@ -7,7 +7,7 @@ import Icon from '../../ui/Icon';
 
 const ProductDetail = () => {
   const dispatch = useDispatch();
-  const { categoryName, productId } = useParams();
+  const { productId } = useParams();
   const { productData } = useSelector((state) => state.product);
   const { id, olfactory, name, type, notes, description, story, options, collection } = productData;
 
