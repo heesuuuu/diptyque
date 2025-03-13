@@ -5,7 +5,7 @@ import { cartActions } from '../../store/modules/cartSlice';
 import { Icon } from '../../ui';
 
 const CartItem = ({ item }) => {
-  const { id, name, type, options, quantity, engraving, totalPrice, selected, inStock } = item;
+  const { id, name, type, options, quantity, engraving, totalPrice, selected, inStock, category } = item;
   const { selectCartItem } = useSelector((state) => state.cart);
   const dispatch = useDispatch();
   const editRef = useRef();
@@ -42,7 +42,7 @@ const CartItem = ({ item }) => {
         {selected ? <Icon name="check_box" /> : <Icon name="check_box_outline_blank" />}
       </div>
       <div className="cart-item flex flex-row gap-6 w-full items-center h-full">
-        <Link to={`/product/${id}`} className="block w-[200px] h-auto flex-shrink-0">
+        <Link to={`/product/${category}/${id}`} className="block w-[200px] h-auto flex-shrink-0">
           <img src={options[0].images.thumbnail.default} alt={name} className="w-full h-auto" />
         </Link>
 
