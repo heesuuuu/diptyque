@@ -16,7 +16,7 @@ const SearchResult = () => {
   );
 
   return (
-    <div className="max-w-[1360px] mx-auto">
+    <div className="max-w-[1360px] mx-auto px-6">
       <SearchForm onChange={onChange} text={text} />
       <SearchList filteredData={filteredData} />
     </div>
