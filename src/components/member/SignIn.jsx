@@ -75,15 +75,43 @@ const SignIn = () => {
    * Google 로그인
    */
   const googleLogin = useGoogleLogin({
-    onSuccess: async (tokenResponse) => {
-      const userData = jwtDecode(tokenResponse.credential);
-      console.log('Google User:', userData);
+    flow: 'auth-code',
+    onSuccess: async (response) => {
+      console.log('Google Login Response:', response);
+      if (!response || !response.code) {
+        console.error('Invalid response from Google:', response);
+        alert('Google login failed. Please try again.');
+        return;
+      }
+
+      const tokenData = await fetch('https://oauth2.googleapis.com/token', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams({
+          code: response.code,
+          client_id: import.meta.env.VITE_GOOGLE_CLIENT_ID,
+          client_secret: import.meta.env.VITE_GOOGLE_CLIENT_SECRET,
+          redirect_uri: 'postmessage',
+          grant_type: 'authorization_code',
+        }),
+      }).then((res) => res.json());
+
+      console.log('Google Token Data:', tokenData);
+
+      if (!tokenData.id_token) {
+        console.error('No id_token received:', tokenData);
+        alert('Google login failed. Please try again.');
+        return;
+      }
+
+      const userData = jwtDecode(tokenData.id_token);
+      console.log('Decoded Google User:', userData);
 
       const googleUser = {
         email: userData.email,
         name: userData.name,
         picture: userData.picture,
-        token: tokenResponse.credential,
+        token: tokenData.id_token,
       };
 
       localStorage.setItem('user', JSON.stringify(googleUser));
