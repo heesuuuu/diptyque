@@ -430,8 +430,63 @@
 },
 {
     "noteId": 87,
-    "note": "Rosemary",
-    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Rosemary.jpg"
+    "note": "Fig leaves",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Fig-leaves.jpg"
+},
+{
+    "noteId": 88,
+    "note": "Fig sap",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Fig-sap.jpg"
+},
+{
+    "noteId": 89,
+    "note": "Fig tree wood",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Fig-tree-wood.jpg"
+},
+{
+    "noteId": 90,
+    "note": "Cypress",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Cypress.jpg"
+},
+{
+    "noteId": 91,
+    "note": "Coriander",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Coriander.jpg"
+},
+{
+    "noteId": 92,
+    "note": "Myrtle",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Myrtle.jpg"
+},
+{
+    "noteId": 93,
+    "note": "Mate",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Mate.jpg"
+},
+{
+    "noteId": 94,
+    "note": "Violet",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Violet.jpg"
+},
+{
+    "noteId": 95,
+    "note": "Vetiver from Java",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Vetiver-from-Java.jpg"
+},
+{
+    "noteId": 96,
+    "note": "Vetiver from Haiti",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Vetiver-from-Haiti.jpg"
+},
+{
+    "noteId": 97,
+    "note": "Grapefruit",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Grapefruit.jpg"
+},
+{
+    "noteId": 98,
+    "note": "Grapefruit",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Grapefruit.jpg"
 },
 
 ]

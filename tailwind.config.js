@@ -62,6 +62,9 @@ export default {
         'tablet': { max: '1023px' },
         'mobile': { max: '767px' },
       },
+      height: {
+        'header-h': '128px',
+      },
     },
   },
   plugins: [],
