@@ -62,7 +62,7 @@ const Register = () => {
     <div className="flex justify-center items-center h-screen bg-white">
       <div className="bg-white p-8 w-full max-w-[450px]">
         <h2 className="font-diptyque text-heading1 text-center mb-8">Create an Account</h2>
-        <form onSubmit={handleSubmit} className="space-y-4">
+        <form onSubmit={handleSubmit} className="space-y-5">
           {/* ✅ 이름 입력 필드 */}
           <div className="flex gap-3">
             <div className="w-1/2">
@@ -176,7 +176,7 @@ const Register = () => {
 
           {/* ✅ 마케팅 동의 체크박스 */}
           <div>
-            <p className="text-gray-700 text-sm">Get news and thoughtful gifts selected just for you</p>
+            <p className="text-gray-700 text-sm mb-5">Get news and thoughtful gifts selected just for you</p>
             {/* ✅ By Email과 By SMS를 양 끝으로 정렬 */}
             <div className="flex justify-between items-center mt-2">
               {['email', 'sms and phone'].map((type) => (

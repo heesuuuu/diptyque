@@ -28,10 +28,10 @@ const SignIn = () => {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen bg-white">
+    <div className="flex justify-center items-center h-screen bg-white ">
       <div className="bg-white p-8 w-full max-w-[450px]">
-        <h2 className="font-diptyque text-heading1 text-center mb-8">Sign In</h2>
-        <form onSubmit={handleSubmit} className="space-y-4">
+        <h2 className="font-diptyque text-heading1 text-center mb-10">Sign In</h2>
+        <form onSubmit={handleSubmit} className="space-y-5">
           {/* ✅ 이메일 입력 */}
           <div>
             <label className="text-sm font-semibold text-gray-900 block mb-1">Email Address *</label>

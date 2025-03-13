@@ -22,6 +22,8 @@ function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/register" element={<Register />} />
+        <Route path="/signin" element={<SignIn />} />
         <Route path="/" element={<Layout />}>
           <Route index element={<Maison />} />
           <Route path="/promotion" element={<Promotion />} />
@@ -36,8 +38,6 @@ function App() {
           <Route path="/guestorder" element={<GuestOrder />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/searchresult" element={<SearchResult />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/signin" element={<SignIn />} />
         </Route>
       </Routes>
     </Router>
