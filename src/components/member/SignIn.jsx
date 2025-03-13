@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import checkedIcon from '../../assets/icons/checkbox-checked.svg';
 import uncheckedIcon from '../../assets/icons/checkbox-unchecked.svg';
+import googleIcon from '../../assets/icons/Vector.png';
 import { login } from '../../store/modules/memberSlice';
 
 const SignIn = () => {
@@ -104,23 +105,35 @@ const SignIn = () => {
             )}
           </div>
 
-          {/*체크박스*/}
-          <div
-            className="flex items-center gap-3 cursor-pointer"
-            onClick={() => setForm({ ...form, rememberMe: !form.rememberMe })}
-          >
-            <img src={form.rememberMe ? checkedIcon : uncheckedIcon} alt="Remember Me" className="w-5 h-5" />
-            <span className="text-sm">Remember me</span>
+          {/* ✅ 체크박스 (Remember me) & Forgotten password */}
+          <div className="flex justify-between items-center cursor-pointer">
+            <div className="flex items-center gap-3" onClick={() => setForm({ ...form, rememberMe: !form.rememberMe })}>
+              <img src={form.rememberMe ? checkedIcon : uncheckedIcon} alt="Remember Me" className="w-5 h-5" />
+              <span className="text-sm">Remember me</span>
+            </div>
+            <span className="text-sm cursor-pointer text-gray-600 hover:text-black">Forgotten password?</span>
           </div>
 
           {/*로그인 버튼*/}
           <button
             type="submit"
-            className="w-full h-[42px] flex justify-center items-center bg-black text-white text-body3 active:bg-grey-4"
+            className="w-full h-[42px] flex justify-center items-center bg-black text-white text-body3 active:bg-grey-4 mt-2"
           >
             Sign in
           </button>
-          <p className="text-center text-sm mt-4">Or</p>
+          <div className="flex items-center my-4">
+            <div className="flex-grow h-[1px] bg-[#D8D8D8]"></div>
+            <p className="text-center text-sm mx-4">Or</p>
+            <div className="flex-grow h-[1px] bg-[#D8D8D8]"></div>
+          </div>
+          {/* ✅ 구글 로그인 버튼 추가 */}
+          <button
+            type="button"
+            className="w-full h-[42px] flex items-center justify-center border border-black text-black text-body3 hover:bg-gray-100"
+          >
+            <img src={googleIcon} alt="Google Logo" className="w-6 h-6 mr-4" /> {/* 24x24 Google 아이콘 추가 */}
+            Continue with Google
+          </button>
           {/*회원가입 버튼*/}
           <button
             type="button"
