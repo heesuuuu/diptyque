@@ -8,24 +8,18 @@ import Icon from '../../ui/Icon';
 const ProductDetail = () => {
   const dispatch = useDispatch();
   const { productId } = useParams();
-  const { productData } = useSelector((state) => state.product);
+  const { productData, loading } = useSelector((state) => state.product);
   const { id, olfactory, name, type, notes, keyword, description, story, options, collection } = productData;
-  console.log(productData);
-  console.log('keyword type:', typeof keyword, keyword);
-  console.log('notes type:', typeof notes, notes);
-  console.log('olfactory type:', typeof olfactory, olfactory);
+  // console.log(productData);
+  // console.log('keyword type:', typeof keyword, keyword);
+  // console.log('notes type:', typeof notes, notes);
+  // console.log('olfactory type:', typeof olfactory, olfactory);
 
   useEffect(() => {
-    dispatch(productActions.setProduct(Number(productId)));
-
     return () => {
       dispatch(productActions.resetProduct());
     };
-  }, [dispatch, productId]);
-
-  // if (!productData) {
-  //   return <div>Loading . . . </div>;
-  // }
+  }, [dispatch, productId, loading]);
 
   // 안전한 렌더링 함수 추가
   const safeRender = (value) => {
@@ -35,6 +29,8 @@ const ProductDetail = () => {
     if (typeof value === 'object') return Object.values(value).join(', ');
     return String(value);
   };
+
+  if (loading) return <div>Loading . . . </div>;
 
   return (
     <>

@@ -7,18 +7,22 @@ import CategoryItem from './CategoryItem';
 const CategoryList = () => {
   const param = useParams();
   const dispatch = useDispatch();
-  const { categoryData } = useSelector((state) => state.product);
+  const { categoryData, loading } = useSelector((state) => state.product);
   const { categoryName } = param;
 
   useEffect(() => {
     dispatch(productActions.getCategory(categoryName));
-  }, [param]);
+  }, [param, loading]);
+
+  if (loading) {
+    return <div>Loading . . . </div>;
+  }
 
   return (
     <>
       <div className="grid grid-cols-3 gap-10">
         {categoryData.map((item) => (
-          <CategoryItem key={item.id} item={item} />
+          <CategoryItem key={item.id} item={item} category={categoryName} />
         ))}
       </div>
     </>

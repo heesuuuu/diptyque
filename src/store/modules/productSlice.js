@@ -77,6 +77,7 @@ const initialState = {
   allProductData: [...perfumeMockupData, ...candleMockupData, ...diffuserMockupData, ...bodyMockupData],
   categoryData: [],
   categoryInfo: {},
+  loading: false,
 };
 
 export const productSlice = createSlice({
@@ -85,6 +86,7 @@ export const productSlice = createSlice({
   reducers: {
     setCategory: (state, action) => {
       const category = action.payload;
+      state.loading = true;
       state.categoryInfo = categoryInfo.find((info) => info.category === category);
     },
     getCategory: (state, action) => {
@@ -117,14 +119,19 @@ export const productSlice = createSlice({
           state.categoryData = state.bodyData.filter((data) => data.type.includes('Scented soap'));
           break;
       }
+      state.loading = false;
     },
     setProduct: (state, action) => {
       const id = action.payload;
+      state.loading = true;
       const selectedProduct = state.allProductData.find((data) => data.id === id);
       state.productData = {
         ...state.productData,
         ...selectedProduct,
       };
+    },
+    getProduct: (state, action) => {
+      state.loading = false;
     },
     resetProduct: (state, action) => {
       state.productData = {};
