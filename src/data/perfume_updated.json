@@ -1772,8 +1772,8 @@
                 "price": 88,
                 "images": {
                     "thumbnail": {
-                        "default": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Orphéon/thumbnail/default.jpg",
-                        "hover": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Orphéon/thumbnail/hover.jpg"
+                        "default": "https://www.diptyqueparis.com/media/catalog/product/e/d/edp-orpheon_orpheon-2025_75ml_r25orph75el_rvb_hd_fond-gris_spec-ecom_3055x2292px_4-3_1_diptyque.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=&format=webp&width=1024&quality=90",
+                        "hover": "https://www.diptyqueparis.com/media/catalog/product/e/d/edp-orpheon_orpheon-2025_75ml_r25orph75el_rvb_hd_fond-gris_spec-ecom_2_diptyque.jpg?format=webp&width=860&quality=90"
                     },
                     "detail": [
                         "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/main/images/product/perfume/Eau_de_parfum/Orphéon/detail/detail_1.jpg",
