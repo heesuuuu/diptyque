@@ -39,8 +39,8 @@ const ProductList = () => {
           <p className="text-body2/[160%] tablet:text-body2-m/[150%]">{desc}</p>
         </div>
 
-        <div className="flex gap-[139px]">
-          <ul className="flex ml-auto olfactory">
+        <div className="flex">
+          <ul className="flex flex-grow olfactory">
             <li>
               <button>WOODY</button>
             </li>
@@ -54,7 +54,11 @@ const ProductList = () => {
               <button>CYTRUS</button>
             </li>
           </ul>
-          <select name="" id="" className="mr-0">
+          <select
+            name=""
+            id=""
+            className="flex justify-between w-[12.875rem] h-[2.8125rem] ml-auto px-4 py-[0.6563rem]"
+          >
             <option value="">Sort</option>
             <option value="">Recent</option>
             <option value="">Popular</option>
