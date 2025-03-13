@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import checkedIcon from '../../assets/icons/checkbox-checked.svg';
@@ -11,7 +11,13 @@ const SignIn = () => {
   const navigate = useNavigate();
   const [form, setForm] = useState({ email: '', password: '', rememberMe: false });
   const [errors, setErrors] = useState({ email: '', password: '' });
-
+  // Remember Me 기능
+  useEffect(() => {
+    const rememberedEmail = localStorage.getItem('rememberedUser');
+    if (rememberedEmail) {
+      setForm((prev) => ({ ...prev, email: JSON.parse(rememberedEmail), rememberMe: true }));
+    }
+  }, []);
   // 이메일 유효성 검사
   const validateEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -56,6 +62,11 @@ const SignIn = () => {
     if (storedUser && storedUser.email === form.email && storedUser.password === form.password) {
       dispatch(login(storedUser));
       alert('Login successful!');
+      if (form.rememberMe) {
+        localStorage.setItem('rememberedUser', JSON.stringify(form.email));
+      } else {
+        localStorage.removeItem('rememberedUser');
+      }
       navigate('/');
     } else {
       alert('Invalid email or password.');
