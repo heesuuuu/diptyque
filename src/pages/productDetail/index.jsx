@@ -55,7 +55,7 @@ const ProductDetail = () => {
 
   return (
     <>
-      <div className="flex">
+      <div className="flex mt-header-h">
         <div className="w-1/2">
           {options &&
             options[0].images.detail &&
