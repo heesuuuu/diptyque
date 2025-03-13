@@ -13,10 +13,10 @@ const CartEmpty = () => {
 
   useEffect(() => {
     if (allProductData?.length) {
-      const sortedData = [...allProductData].sort((a, b) => b.sales - a.sales);
+      const sortedData = allProductData.filter((item) => item.inStock).sort((a, b) => b.sales - a.sales);
       setBestSeller(sortedData.slice(0, 10));
     }
-  }, [allProductData]); // Redux 상태 변경 시 업데이트
+  }, [allProductData]);
 
   return (
     <div>
