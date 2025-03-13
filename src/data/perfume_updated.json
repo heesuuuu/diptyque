@@ -32,7 +32,8 @@
         ],
         "collection": [],
         "sales": 400,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-12-01"
     },
     {
         "id": 701,
@@ -67,7 +68,8 @@
         ],
         "collection": [],
         "sales": 295,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-07-04"
     },
     {
         "id": 702,
@@ -122,7 +124,8 @@
             }
         ],
         "sales": 200,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-03-22"
     },
     {
         "id": 703,
@@ -161,7 +164,8 @@
             }
         ],
         "sales": 358,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-05-16"
     },
     {
         "id": 704,
@@ -199,7 +203,8 @@
             }
         ],
         "sales": 30,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-09-15"
     },
     {
         "id": 705,
@@ -238,7 +243,8 @@
             }
         ],
         "sales": 50,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-08-08"
     },
     {
         "id": 706,
@@ -277,7 +283,8 @@
             }
         ],
         "sales": 49,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-07-30"
     },
     {
         "id": 707,
@@ -316,7 +323,8 @@
             }
         ],
         "sales": 26,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-11-09"
     },
     {
         "id": 708,
@@ -356,7 +364,8 @@
             }
         ],
         "sales": 225,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-04-27"
     },
     {
         "id": 709,
@@ -396,7 +405,8 @@
             }
         ],
         "sales": 475,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-02-12"
     },
     {
         "id": 710,
@@ -435,7 +445,8 @@
             }
         ],
         "sales": 414,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-09-27"
     },
     {
         "id": 711,
@@ -474,7 +485,8 @@
             }
         ],
         "sales": 351,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-10-18"
     },
     {
         "id": 712,
@@ -529,7 +541,8 @@
             }
         ],
         "sales": 327,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-09-14"
     },
     {
         "id": 713,
@@ -567,7 +580,8 @@
             }
         ],
         "sales": 460,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-05-14"
     },
     {
         "id": 714,
@@ -607,7 +621,8 @@
             }
         ],
         "sales": 408,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-08-13"
     },
     {
         "id": 715,
@@ -645,7 +660,8 @@
             }
         ],
         "sales": 28,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-11-28"
     },
     {
         "id": 716,
@@ -700,7 +716,8 @@
             }
         ],
         "sales": 298,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-09-01"
     },
     {
         "id": 717,
@@ -739,7 +756,8 @@
             }
         ],
         "sales": 30,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-06-22"
     },
     {
         "id": 718,
@@ -779,7 +797,8 @@
             }
         ],
         "sales": 199,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-10-31"
     },
     {
         "id": 719,
@@ -834,7 +853,8 @@
             }
         ],
         "sales": 330,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-11-17"
     },
     {
         "id": 720,
@@ -871,7 +891,8 @@
             }
         ],
         "sales": 30,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-09-08"
     },
     {
         "id": 721,
@@ -910,7 +931,8 @@
             }
         ],
         "sales": 450,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-06-14"
     },
     {
         "id": 722,
@@ -949,7 +971,8 @@
             }
         ],
         "sales": 344,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-07-16"
     },
     {
         "id": 723,
@@ -987,7 +1010,8 @@
             }
         ],
         "sales": 96,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-07-15"
     },
     {
         "id": 724,
@@ -1040,7 +1064,8 @@
             }
         ],
         "sales": 31,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-07-18"
     },
     {
         "id": 725,
@@ -1078,7 +1103,8 @@
             }
         ],
         "sales": 71,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-06-05"
     },
     {
         "id": 726,
@@ -1117,7 +1143,8 @@
             }
         ],
         "sales": 473,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-06-06"
     },
     {
         "id": 727,
@@ -1172,7 +1199,8 @@
             }
         ],
         "sales": 175,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-01-01"
     },
     {
         "id": 728,
@@ -1212,7 +1240,8 @@
             }
         ],
         "sales": 300,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-06-22"
     },
     {
         "id": 729,
@@ -1252,7 +1281,8 @@
             }
         ],
         "sales": 391,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-12-02"
     },
     {
         "id": 730,
@@ -1291,7 +1321,8 @@
             }
         ],
         "sales": 433,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-05-11"
     },
     {
         "id": 731,
@@ -1330,7 +1361,8 @@
             }
         ],
         "sales": 73,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-04-03"
     },
     {
         "id": 732,
@@ -1385,7 +1417,8 @@
             }
         ],
         "sales": 151,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-12-19"
     },
     {
         "id": 733,
@@ -1423,7 +1456,8 @@
             }
         ],
         "sales": 157,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-09-07"
     },
     {
         "id": 734,
@@ -1461,7 +1495,8 @@
             }
         ],
         "sales": 184,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-06-28"
     },
     {
         "id": 735,
@@ -1499,7 +1534,8 @@
             }
         ],
         "sales": 175,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-03-04"
     },
     {
         "id": 736,
@@ -1539,7 +1575,8 @@
             }
         ],
         "sales": 168,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-05-21"
     },
     {
         "id": 737,
@@ -1578,7 +1615,8 @@
             }
         ],
         "sales": 46,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-01-11"
     },
     {
         "id": 738,
@@ -1617,7 +1655,8 @@
             }
         ],
         "sales": 497,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-09-09"
     },
     {
         "id": 739,
@@ -1674,7 +1713,8 @@
             }
         ],
         "sales": 173,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-06-19"
     },
     {
         "id": 740,
@@ -1712,7 +1752,8 @@
             }
         ],
         "sales": 235,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-12-20"
     },
     {
         "id": 741,
@@ -1751,7 +1792,8 @@
             }
         ],
         "sales": 78,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-06-24"
     },
     {
         "id": 742,
@@ -1824,7 +1866,8 @@
             }
         ],
         "sales": 185,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-12-08"
     },
     {
         "id": 743,
@@ -1862,7 +1905,8 @@
             }
         ],
         "sales": 420,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-04-03"
     },
     {
         "id": 744,
@@ -1901,7 +1945,8 @@
             }
         ],
         "sales": 351,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-11-04"
     },
     {
         "id": 745,
@@ -1957,7 +2002,8 @@
             }
         ],
         "sales": 444,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-06-07"
     },
     {
         "id": 746,
@@ -1995,7 +2041,8 @@
             }
         ],
         "sales": 37,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-03-31"
     },
     {
         "id": 747,
@@ -2034,7 +2081,8 @@
             }
         ],
         "sales": 460,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-09-06"
     },
     {
         "id": 748,
@@ -2089,7 +2137,8 @@
             }
         ],
         "sales": 278,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-09-08"
     },
     {
         "id": 749,
@@ -2128,7 +2177,8 @@
             }
         ],
         "sales": 209,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-10-31"
     },
     {
         "id": 750,
@@ -2167,7 +2217,8 @@
             }
         ],
         "sales": 264,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-06-05"
     },
     {
         "id": 751,
@@ -2222,6 +2273,7 @@
             }
         ],
         "sales": 29,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-05-27"
     }
 ]

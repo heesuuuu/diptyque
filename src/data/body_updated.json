@@ -31,7 +31,8 @@
         ],
         "collection": "34 Boulevard Saint Germain",
         "sales": 213,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-07-18"
     },
     {
         "id": 101,
@@ -65,7 +66,8 @@
         ],
         "collection": "Do Son",
         "sales": 467,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-06-21"
     },
     {
         "id": 102,
@@ -99,7 +101,8 @@
         ],
         "collection": "Do Son",
         "sales": 91,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-07-10"
     },
     {
         "id": 103,
@@ -133,7 +136,8 @@
         ],
         "collection": "Do Son",
         "sales": 26,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-06-22"
     },
     {
         "id": 104,
@@ -167,7 +171,8 @@
         ],
         "collection": "Do Son",
         "sales": 469,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-09-05"
     },
     {
         "id": 105,
@@ -199,9 +204,14 @@
                 "optionId": 1051
             }
         ],
-        "collection": [{"collectionName":"Eau Capitale"}],
+        "collection": [
+            {
+                "collectionName": "Eau Capitale"
+            }
+        ],
         "sales": 300,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-01-09"
     },
     {
         "id": 106,
@@ -234,9 +244,14 @@
                 "optionId": 1061
             }
         ],
-        "collection": [{"collectionName":"Eau des Sens"}],
+        "collection": [
+            {
+                "collectionName": "Eau des Sens"
+            }
+        ],
         "sales": 399,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-11-02"
     },
     {
         "id": 107,
@@ -269,9 +284,14 @@
                 "optionId": 1071
             }
         ],
-        "collection": [{"collectionName":"Eau des Sens"}],
+        "collection": [
+            {
+                "collectionName": "Eau des Sens"
+            }
+        ],
         "sales": 303,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-09-23"
     },
     {
         "id": 108,
@@ -304,9 +324,14 @@
                 "optionId": 1081
             }
         ],
-        "collection": [{"collectionName": "Eau Rihla"}],
+        "collection": [
+            {
+                "collectionName": "Eau Rihla"
+            }
+        ],
         "sales": 235,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-01-18"
     },
     {
         "id": 109,
@@ -341,7 +366,8 @@
         ],
         "collection": "Eau Rose",
         "sales": 148,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-09-24"
     },
     {
         "id": 110,
@@ -375,7 +401,8 @@
         ],
         "collection": "Eau Rose",
         "sales": 207,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-12-06"
     },
     {
         "id": 111,
@@ -409,7 +436,8 @@
         ],
         "collection": "Eau Rose",
         "sales": 302,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-09-11"
     },
     {
         "id": 112,
@@ -443,7 +471,8 @@
         ],
         "collection": "Eau Rose",
         "sales": 323,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-09-12"
     },
     {
         "id": 113,
@@ -477,7 +506,8 @@
         ],
         "collection": "Exfoliating",
         "sales": 95,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-08-02"
     },
     {
         "id": 114,
@@ -511,7 +541,8 @@
         ],
         "collection": "Exfoliating",
         "sales": 262,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-02-01"
     },
     {
         "id": 115,
@@ -544,9 +575,14 @@
                 "optionId": 1151
             }
         ],
-        "collection":[{"collectionName": "Fleur de Peau"}],
+        "collection": [
+            {
+                "collectionName": "Fleur de Peau"
+            }
+        ],
         "sales": 189,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-12-08"
     },
     {
         "id": 116,
@@ -579,9 +615,14 @@
                 "optionId": 1161
             }
         ],
-        "collection": [{"collectionName":"Fleur de Peau"}],
+        "collection": [
+            {
+                "collectionName": "Fleur de Peau"
+            }
+        ],
         "sales": 406,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-04-27"
     },
     {
         "id": 117,
@@ -613,9 +654,14 @@
                 "optionId": 1171
             }
         ],
-        "collection": [{"collectionName":"Fleur de Peau"}],
+        "collection": [
+            {
+                "collectionName": "Fleur de Peau"
+            }
+        ],
         "sales": 407,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-09-29"
     },
     {
         "id": 118,
@@ -647,9 +693,14 @@
                 "optionId": 1181
             }
         ],
-        "collection": [{"collectionName":"Fleur de Peau"}],
+        "collection": [
+            {
+                "collectionName": "Fleur de Peau"
+            }
+        ],
         "sales": 111,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-09-23"
     },
     {
         "id": 119,
@@ -683,7 +734,8 @@
         ],
         "collection": null,
         "sales": 407,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-12-24"
     },
     {
         "id": 120,
@@ -716,9 +768,14 @@
                 "optionId": 1201
             }
         ],
-        "collection": [{"collectionName":"L'Eau Papier"}],
+        "collection": [
+            {
+                "collectionName": "L'Eau Papier"
+            }
+        ],
         "sales": 48,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-07-01"
     },
     {
         "id": 121,
@@ -752,7 +809,8 @@
         ],
         "collection": "L'Ombre dans l'Eau",
         "sales": 446,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-12-06"
     },
     {
         "id": 122,
@@ -786,7 +844,8 @@
         ],
         "collection": null,
         "sales": 42,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-06-27"
     },
     {
         "id": 123,
@@ -819,9 +878,14 @@
                 "optionId": 1231
             }
         ],
-        "collection": [{"collectionName":"Orphéon"}],
+        "collection": [
+            {
+                "collectionName": "Orphéon"
+            }
+        ],
         "sales": 5,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-09-28"
     },
     {
         "id": 124,
@@ -854,9 +918,14 @@
                 "optionId": 1241
             }
         ],
-        "collection": [{"collectionName":"Philosykos"}],
+        "collection": [
+            {
+                "collectionName": "Philosykos"
+            }
+        ],
         "sales": 322,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-06-17"
     },
     {
         "id": 125,
@@ -891,7 +960,8 @@
         ],
         "collection": "Philosykos",
         "sales": 195,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-01-27"
     },
     {
         "id": 126,
@@ -924,9 +994,14 @@
                 "optionId": 1261
             }
         ],
-        "collection": [{"collectionName":"Philosykos"}],
+        "collection": [
+            {
+                "collectionName": "Philosykos"
+            }
+        ],
         "sales": 75,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-04-23"
     },
     {
         "id": 127,
@@ -960,7 +1035,8 @@
         ],
         "collection": "Refill",
         "sales": 191,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-07-24"
     },
     {
         "id": 128,
@@ -994,7 +1070,8 @@
         ],
         "collection": "Refill",
         "sales": 366,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-11-26"
     },
     {
         "id": 129,
@@ -1028,7 +1105,8 @@
         ],
         "collection": "Refill",
         "sales": 72,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-04-22"
     },
     {
         "id": 130,
@@ -1062,7 +1140,8 @@
         ],
         "collection": null,
         "sales": 372,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-03-13"
     },
     {
         "id": 131,
@@ -1096,7 +1175,8 @@
         ],
         "collection": null,
         "sales": 119,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-08-28"
     },
     {
         "id": 132,
@@ -1130,7 +1210,8 @@
         ],
         "collection": null,
         "sales": 359,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-12-12"
     },
     {
         "id": 133,
@@ -1164,7 +1245,8 @@
         ],
         "collection": null,
         "sales": 70,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-04-18"
     },
     {
         "id": 134,
@@ -1197,7 +1279,8 @@
         ],
         "collection": null,
         "sales": 315,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-08-22"
     },
     {
         "id": 135,
@@ -1231,7 +1314,8 @@
         ],
         "collection": null,
         "sales": 135,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-02-02"
     },
     {
         "id": 136,
@@ -1263,9 +1347,14 @@
                 "optionId": 1361
             }
         ],
-        "collection": [{"collectionName":"Tam Dao"}],
+        "collection": [
+            {
+                "collectionName": "Tam Dao"
+            }
+        ],
         "sales": 86,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-10-16"
     },
     {
         "id": 137,
@@ -1299,7 +1388,8 @@
         ],
         "collection": null,
         "sales": 145,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-03-03"
     },
     {
         "id": 138,
@@ -1333,7 +1423,8 @@
         ],
         "collection": null,
         "sales": 36,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-10-05"
     },
     {
         "id": 139,
@@ -1363,6 +1454,7 @@
         ],
         "collection": null,
         "sales": 113,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-01-25"
     }
 ]
