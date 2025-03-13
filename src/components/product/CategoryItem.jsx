@@ -50,6 +50,7 @@ const CategoryItem = ({ item, category }) => {
   const goProductPage = () => {
     dispatch(productActions.setProduct(id));
     dispatch(productActions.getProduct());
+    dispatch(productActions.getPopularProducts());
     navigate(`/product/${category}/${id}`);
   };
 

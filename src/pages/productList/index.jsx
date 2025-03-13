@@ -34,7 +34,7 @@ const ProductList = () => {
       {/* contents inner */}
       <div className="px-[280px] tablet:px-[60px] mobile:px-4">
         {/* 카테고리 소개 섹션 */}
-        <div className="flex flex-col justify-center items-center gap-10 w-[898px] tablet:w-[498px] mobile:w-[358px] m-auto my-[280px] tablet:my-[150px] mobile:my-[100px]">
+        <div className="flex flex-col justify-center items-center gap-10 w-[898px] tablet:w-[498px] mobile:w-[358px] m-auto my-[280px] tablet:smy-[150px] mobile:my-[100px]">
           <h1 className="text-heading1/[160%] tablet:text-heading1-m text-center">{title}</h1>
           <p className="text-body2/[160%] tablet:text-body2-m/[150%]">{desc}</p>
         </div>
