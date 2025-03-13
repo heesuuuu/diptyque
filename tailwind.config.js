@@ -62,7 +62,7 @@ export default {
         'tablet': { max: '1023px' },
         'mobile': { max: '767px' },
       },
-      height: {
+      spacing: {
         'header-h': '128px',
       },
     },
