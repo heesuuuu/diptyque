@@ -6,14 +6,15 @@ import {
   Collection,
   GuestOrder,
   Maison,
-  Member,
   Mypage,
   Payment,
   ProductDetail,
   ProductList,
   Promotion,
+  Register,
   SearchResult,
   Service,
+  SignIn,
 } from './pages';
 import './styles/globals.scss';
 
@@ -30,12 +31,13 @@ function App() {
           <Route path="/product/:categoryName/:productId" element={<ProductDetail />} />
           <Route path="/collection" element={<Collection />} />
           <Route path="/service" element={<Service />} />
-          <Route path="/member" element={<Member />} />
           <Route path="/mypage" element={<Mypage />} />
           <Route path="/payment" element={<Payment />} />
           <Route path="/guestorder" element={<GuestOrder />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/searchresult" element={<SearchResult />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/signin" element={<SignIn />} />
         </Route>
       </Routes>
     </Router>
