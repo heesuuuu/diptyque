@@ -24,7 +24,7 @@ const Nav = () => {
       </ul>
       {/* 2뎁스 메뉴 */}
       <div
-        className={`nav-two-depth flex flex-row gap-[60px] justify-center absolute top-[45px] w-full h-0 transition-all ${menuData.find((menu) => menu.id === activeMenu)?.twodepth && '!h-auto pt-[30px] pb-5 transition-all bg-white'} `}
+        className={`nav-two-depth flex flex-row gap-[60px] justify-center absolute z-50 top-[44px] w-full h-0 transition-all ${menuData.find((menu) => menu.id === activeMenu)?.twodepth && '!h-auto pt-[30px] pb-5 transition-all bg-white'} `}
       >
         {menuData
           .find((menu) => menu.id === activeMenu)

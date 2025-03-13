@@ -7,8 +7,8 @@ import './styles.scss';
 const CartPage = () => {
   const { cartData } = useSelector((state) => state.cart);
   return (
-    <div className="cart-inner">
-      <div className="pb-[80px] text-heading1 font-diptyque">Shopping Bag</div>
+    <div className="cart-inner overflow-x-hidden">
+      <div className="mt-[120px] text-heading1 font-diptyque">Shopping Bag</div>
       {cartData.length > 0 ? <CartList /> : <CartEmpty />}
     </div>
   );

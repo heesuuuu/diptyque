@@ -126,7 +126,7 @@ const cartdata = [
 ];
 
 const initialState = {
-  cartData: cartdata,
+  cartData: [],
   totalCartQuantity: 0,
   totalCartPrice: 0,
   selectCartItem: false,

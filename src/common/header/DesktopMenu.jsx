@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { navActions } from '../../store/modules/navSlice';
@@ -6,41 +7,50 @@ import { Icon } from '../../ui';
 const DesktopMenu = () => {
   const { menuOpen } = useSelector((state) => state.nav);
   const dispatch = useDispatch();
+  const menuRef = useRef(null);
 
-  const menuStyle = 'flex justify-center items-center h-[44px] w-[44px] border border-darkgrey-3 cursor-pointer ';
+  const menuStyle =
+    'flex justify-center items-center h-[44px] w-[44px] border border-darkgrey-3 cursor-pointer hover:bg-darkgrey-3 hover:text-white';
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        dispatch(navActions.closeMenu());
+      }
+    };
+
+    if (menuOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [menuOpen, dispatch]);
 
   return (
-    <div className="flex flex-col absolute top-[42px] right-10">
+    <div ref={menuRef} className="flex flex-col absolute top-[42px] right-10 z-50">
       <div className={menuStyle} onClick={() => dispatch(navActions.toggleMenu())}>
         <Icon name={menuOpen ? 'close' : 'menu'} />
       </div>
       {menuOpen && (
-        <>
-          <div className="">
-            <div
-              className={`nav-search hover:bg-darkgrey-3 ${menuStyle}`}
-              onClick={() => dispatch(navActions.toggleMenu())}
-            >
+        <div className="bg-white">
+          <Link to="/searchresult">
+            <div className={`nav-search ${menuStyle}`} onClick={() => dispatch(navActions.toggleMenu())}>
               <Icon name="search" />
             </div>
-            <Link to="/mypage">
-              <div
-                className={`nav-search hover:bg-darkgrey-3 ${menuStyle}`}
-                onClick={() => dispatch(navActions.toggleMenu())}
-              >
-                <Icon name="person" />
-              </div>
-            </Link>
-            <Link to="/cart">
-              <div
-                className={`nav-search hover:bg-darkgrey-3 ${menuStyle}`}
-                onClick={() => dispatch(navActions.toggleMenu())}
-              >
-                <Icon name="shopping_bag" />
-              </div>
-            </Link>
-          </div>
-        </>
+          </Link>
+          <Link to="/mypage">
+            <div className={`mypage ${menuStyle}`} onClick={() => dispatch(navActions.toggleMenu())}>
+              <Icon name="person" className="hover:text-white" />
+            </div>
+          </Link>
+          <Link to="/cart">
+            <div className={`cart ${menuStyle}`} onClick={() => dispatch(navActions.toggleMenu())}>
+              <Icon name="shopping_bag" className="hover:text-white" />
+            </div>
+          </Link>
+        </div>
       )}
     </div>
   );
