@@ -413,5 +413,25 @@
     "note": "Blonde woods accord",
     "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Blonde-woods-accord.jpg"
 },
+{
+    "noteId": 84,
+    "note": "Rice steam accord",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Rice-steam-accord.jpg"
+},
+{
+    "noteId": 85,
+    "note": "Myrrh",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Myrrh.jpg"
+},
+{
+    "noteId": 86,
+    "note": "Rosemary",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Rosemary.jpg"
+},
+{
+    "noteId": 87,
+    "note": "Rosemary",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Rosemary.jpg"
+},
 
 ]
