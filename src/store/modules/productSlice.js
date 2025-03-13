@@ -77,14 +77,48 @@ const initialState = {
   allProductData: [...perfumeMockupData, ...candleMockupData, ...diffuserMockupData, ...bodyMockupData],
   categoryData: [],
   categoryInfo: {},
+  popularProducts: [],
+  loading: false,
 };
 
 export const productSlice = createSlice({
   name: 'product',
   initialState,
   reducers: {
+    // filterCategory: (state, action) => {
+    //   const category = action.payload;
+    //   switch (category) {
+    //     case 'eauxdeparfum':
+    //       state.categoryData = state.perfumeData.filter((data) => data.type === 'Eau de parfum');
+    //       break;
+    //     case 'eauxdetoilette':
+    //       state.categoryData = state.perfumeData.filter((data) => data.type === 'Eau de toilette');
+    //       break;
+    //     case 'solidperfumes':
+    //       state.categoryData = state.perfumeData.filter((data) => data.type === 'Refillable solid perfume');
+    //       break;
+    //     case 'candles':
+    //       state.categoryData = state.candleData;
+    //       break;
+    //     case 'diffusers':
+    //       state.categoryData = state.diffuserData;
+    //       break;
+    //     case 'handcare':
+    //       state.categoryData = state.bodyData.filter((data) => data.type.includes('hand'));
+    //       break;
+    //     case 'bodycare':
+    //       state.categoryData = state.bodyData.filter(
+    //         (data) => !data.type.includes('hand') && !data.type.includes('Scented soap')
+    //       );
+    //       break;
+    //     case 'scentedsoaps':
+    //       state.categoryData = state.bodyData.filter((data) => data.type.includes('Scented soap'));
+    //       break;
+    //   }
+    // },
     setCategory: (state, action) => {
       const category = action.payload;
+      state.loading = true;
       state.categoryInfo = categoryInfo.find((info) => info.category === category);
     },
     getCategory: (state, action) => {
@@ -117,15 +151,21 @@ export const productSlice = createSlice({
           state.categoryData = state.bodyData.filter((data) => data.type.includes('Scented soap'));
           break;
       }
+      state.loading = false;
     },
     setProduct: (state, action) => {
       const id = action.payload;
+      state.loading = true;
       const selectedProduct = state.allProductData.find((data) => data.id === id);
       state.productData = {
         ...state.productData,
         ...selectedProduct,
       };
     },
+    getProduct: (state, action) => {
+      state.loading = false;
+    },
+    getPopularProducts: (state, action) => {},
     resetProduct: (state, action) => {
       state.productData = {};
     },
