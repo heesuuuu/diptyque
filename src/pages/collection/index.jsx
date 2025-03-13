@@ -3,7 +3,6 @@ import React from 'react';
 import CollectionMenu from '../../components/collection/CollectionMenu';
 import CollectionProducts from '../../components/collection/collectionProducts';
 
-
 const Collection = () => {
   return (
     <>
@@ -26,18 +25,23 @@ const Collection = () => {
         </section>
 
         {/* Collection 상품 Sec */}
-        <section className="my-[200px] lg:w-[1168px] lg:mx-auto">
+        <section className=" lg:w-full lg:mx-auto">
           <div className="flex flex-col md:flex-row">
             {/* 왼쪽 메뉴 */}
             <div className="md:w-1/4 mb-8 md:mb-0">
               <CollectionMenu />
             </div>
 
-            {/* 오른쪽 상품 목록 */}
-            <div className="md:w-3/4 md:pl-10">
+            {/* 오른쪽 상품 목록/상세 정보 */}
+            <div className="md:w-3/4 lg:ml-[115px] md:ml-[24px]">
               <CollectionProducts />
             </div>
           </div>
+        </section>
+
+        {/* most popular Sec */}
+        <section>
+          
         </section>
       </div>
     </>
