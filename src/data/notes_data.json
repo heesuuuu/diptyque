@@ -1,177 +1,172 @@
 [{
     "noteId": 1,
     "note": "Benzoin",
-    "img": ""
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Benzoin.jpg"
 },
 {
     "noteId": 2,
     "note": "Peru balsam",
-    "img": ""
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Peru-balsam,.jpg"
 },
 {
     "noteId": 3,
     "note": "Rockrose",
-    "img": ""
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Rockrose.jpg"
 },
 {
     "noteId": 4,
     "note": "Patchouli",
-    "img": ""
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Patchouli.jpg"
 },
 {
     "noteId": 5,
     "note": "Vanilla",
-    "img": ""
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/vanilla.jpg"
 },
 {
     "noteId": 6,
     "note": "Pink peppercorn",
-    "img": ""
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/pinkpeppercorn.jpg"
 },
 {
     "noteId": 7,
     "note": "Cypriol",
-    "img": ""
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Cypriol.jpg"
 },
 {
     "noteId": 8,
     "note": "Incense",
-    "img": ""
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Incense.jpg"
 },
 {
     "noteId": 9,
     "note": "Calamus",
-    "img": ""
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Calamus.jpg"
 },
 {
     "noteId": 10,
     "note": "Opoponax",
-    "img": ""
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Opoponax.jpg"
 },
 {
     "noteId": 11,
     "note": "Cedar",
-    "img": ""
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Cedar-core.jpg"
 },
 {
     "noteId": 12,
     "note": "Cinnamon",
-    "img": ""
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Cinnamon.jpg"
 },
 {
     "noteId": 13,
     "note": "Red tangerine",
-    "img": ""
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Red-tangerine.jpg"
 },
 {
     "noteId": 14,
     "note": "Bergamot",
-    "img": ""
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Bergamot.jpg"
 },
 {
     "noteId": 15,
     "note": "Petitgrain",
-    "img": ""
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Petitgrain.jpg"
 },
 {
     "noteId": 16,
-    "note": "Petitgrain",
-    "img": ""
+    "note": "Leather",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Leather.jpg"
 },
 {
     "noteId": 17,
-    "note": "Leather",
-    "img": ""
+    "note": "Iris",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Iris.jpg"
 },
 {
     "noteId": 18,
-    "note": "Iris",
-    "img": ""
+    "note": "Cedar core",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Cedar-core.jpg"
 },
 {
     "noteId": 19,
-    "note": "Cedar core",
-    "img": ""
+    "note": "Raspberry",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Raspberry.jpg"
 },
 {
     "noteId": 20,
-    "note": "Raspberry",
-    "img": ""
+    "note": "Nutmeg",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Nutmeg.jpg"
 },
 {
     "noteId": 21,
-    "note": "Nutmeg",
-    "img": ""
+    "note": "Cumin",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Cumin.jpg"
 },
 {
     "noteId": 22,
-    "note": "Cumin",
-    "img": ""
+    "note": "Caraway",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Caraway.jpg"
 },
 {
     "noteId": 23,
-    "note": "Caraway",
-    "img": ""
+    "note": "Clary sage",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Clary-sage.jpg"
 },
 {
     "noteId": 24,
-    "note": "Clary sage",
-    "img": ""
+    "note": "Geranium",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Geranium.jpg"
 },
 {
     "noteId": 25,
-    "note": "Geranium",
-    "img": ""
+    "note": "Clove",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Clove.jpg"
 },
 {
     "noteId": 26,
-    "note": "Clove",
-    "img": ""
+    "note": "Ginger",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Ginger.jpg"
 },
 {
     "noteId": 27,
-    "note": "Ginger",
-    "img": ""
+    "note": "Cardamom",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Cardamom.jpg"
 },
 {
     "noteId": 28,
-    "note": "Cardamom",
-    "img": ""
+    "note": "violet leaves",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Violet.jpg"
 },
 {
     "noteId": 29,
-    "note": "violet leaves",
-    "img": ""
+    "note": "Honey",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Honeysuckle.jpg"
 },
 {
     "noteId": 30,
-    "note": "Honey",
-    "img": ""
+    "note": "Iris accord",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Iris.jpg"
 },
 {
     "noteId": 31,
-    "note": "Iris accord",
-    "img": ""
+    "note": "Tuberose",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Tuberose.jpg"
 },
 {
     "noteId": 32,
-    "note": "Tuberose",
-    "img": ""
+    "note": "Orange blossom",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Orange-blossom.jpg"
 },
 {
     "noteId": 33,
-    "note": "Orange blossom",
-    "img": ""
+    "note": "Jasmine",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Jasmine.jpg"
 },
 {
     "noteId": 34,
-    "note": "Jasmine",
-    "img": ""
-},
-{
-    "noteId": 35,
     "note": "Amberwood",
-    "img": ""
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Amber-patchouli-accord.jpg"
 },
 {
     "noteId": 36,
