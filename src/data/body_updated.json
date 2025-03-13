@@ -199,7 +199,7 @@
                 "optionId": 1051
             }
         ],
-        "collection": "Eau Capitale",
+        "collection": [{"collectionName":"Eau Capitale"}],
         "sales": 300,
         "inStock": false
     },
@@ -234,7 +234,7 @@
                 "optionId": 1061
             }
         ],
-        "collection": "Eau des Sens",
+        "collection": [{"collectionName":"Eau des Sens"}],
         "sales": 399,
         "inStock": true
     },
@@ -269,7 +269,7 @@
                 "optionId": 1071
             }
         ],
-        "collection": "Eau des Sens",
+        "collection": [{"collectionName":"Eau des Sens"}],
         "sales": 303,
         "inStock": true
     },
@@ -304,7 +304,7 @@
                 "optionId": 1081
             }
         ],
-        "collection": "Eau Rihla",
+        "collection": [{"collectionName": "Eau Rihla"}],
         "sales": 235,
         "inStock": true
     },
@@ -544,7 +544,7 @@
                 "optionId": 1151
             }
         ],
-        "collection": "Fleur de Peau",
+        "collection":[{"collectionName": "Fleur de Peau"}],
         "sales": 189,
         "inStock": false
     },
@@ -579,7 +579,7 @@
                 "optionId": 1161
             }
         ],
-        "collection": "Fleur de Peau",
+        "collection": [{"collectionName":"Fleur de Peau"}],
         "sales": 406,
         "inStock": true
     },
@@ -613,7 +613,7 @@
                 "optionId": 1171
             }
         ],
-        "collection": "Fleur de Peau",
+        "collection": [{"collectionName":"Fleur de Peau"}],
         "sales": 407,
         "inStock": false
     },
@@ -647,7 +647,7 @@
                 "optionId": 1181
             }
         ],
-        "collection": "Fleur de Peau",
+        "collection": [{"collectionName":"Fleur de Peau"}],
         "sales": 111,
         "inStock": true
     },
@@ -716,7 +716,7 @@
                 "optionId": 1201
             }
         ],
-        "collection": "L'Eau Papier",
+        "collection": [{"collectionName":"L'Eau Papier"}],
         "sales": 48,
         "inStock": false
     },
@@ -819,7 +819,7 @@
                 "optionId": 1231
             }
         ],
-        "collection": "Orphéon",
+        "collection": [{"collectionName":"Orphéon"}],
         "sales": 5,
         "inStock": false
     },
@@ -854,7 +854,7 @@
                 "optionId": 1241
             }
         ],
-        "collection": "Philosykos",
+        "collection": [{"collectionName":"Philosykos"}],
         "sales": 322,
         "inStock": false
     },
@@ -924,7 +924,7 @@
                 "optionId": 1261
             }
         ],
-        "collection": "Philosykos",
+        "collection": [{"collectionName":"Philosykos"}],
         "sales": 75,
         "inStock": true
     },
@@ -1263,7 +1263,7 @@
                 "optionId": 1361
             }
         ],
-        "collection": "Tam Dao",
+        "collection": [{"collectionName":"Tam Dao"}],
         "sales": 86,
         "inStock": false
     },
