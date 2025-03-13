@@ -80,7 +80,8 @@
         ],
         "collection": "Roses",
         "sales": 423,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-02-26"
     },
     {
         "id": 301,
@@ -177,7 +178,8 @@
         ],
         "collection": "Tubéreuse",
         "sales": 235,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-09-29"
     },
     {
         "id": 302,
@@ -223,7 +225,8 @@
         ],
         "collection": "Mimosa",
         "sales": 400,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-03-11"
     },
     {
         "id": 303,
@@ -269,7 +272,8 @@
         ],
         "collection": null,
         "sales": 89,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-01-13"
     },
     {
         "id": 304,
@@ -298,7 +302,8 @@
         ],
         "collection": null,
         "sales": 368,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-07-29"
     },
     {
         "id": 305,
@@ -327,7 +332,8 @@
         ],
         "collection": null,
         "sales": 13,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-09-01"
     },
     {
         "id": 306,
@@ -356,7 +362,8 @@
         ],
         "collection": null,
         "sales": 463,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-04-30"
     },
     {
         "id": 307,
@@ -385,7 +392,8 @@
         ],
         "collection": null,
         "sales": 271,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-09-01"
     },
     {
         "id": 308,
@@ -414,7 +422,8 @@
         ],
         "collection": null,
         "sales": 104,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-11-15"
     },
     {
         "id": 309,
@@ -443,7 +452,8 @@
         ],
         "collection": null,
         "sales": 37,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-09-08"
     },
     {
         "id": 310,
@@ -472,7 +482,8 @@
         ],
         "collection": null,
         "sales": 21,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-12-18"
     },
     {
         "id": 311,
@@ -501,7 +512,8 @@
         ],
         "collection": null,
         "sales": 191,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-06-05"
     },
     {
         "id": 312,
@@ -547,7 +559,8 @@
         ],
         "collection": null,
         "sales": 102,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-04-18"
     },
     {
         "id": 313,
@@ -576,7 +589,8 @@
         ],
         "collection": null,
         "sales": 343,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-01-30"
     },
     {
         "id": 314,
@@ -673,7 +687,8 @@
         ],
         "collection": "Feu de Bois (Wood Fire)",
         "sales": 268,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-05-16"
     },
     {
         "id": 315,
@@ -736,7 +751,8 @@
         ],
         "collection": "34 Boulevard Saint Germain",
         "sales": 384,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-09-05"
     },
     {
         "id": 316,
@@ -835,7 +851,8 @@
         ],
         "collection": "Ambre (Amber)",
         "sales": 435,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-12-04"
     },
     {
         "id": 317,
@@ -864,7 +881,8 @@
         ],
         "collection": null,
         "sales": 76,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-07-14"
     },
     {
         "id": 318,
@@ -893,7 +911,8 @@
         ],
         "collection": null,
         "sales": 133,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-06-10"
     },
     {
         "id": 319,
@@ -922,7 +941,8 @@
         ],
         "collection": null,
         "sales": 365,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-07-21"
     },
     {
         "id": 320,
@@ -951,7 +971,8 @@
         ],
         "collection": null,
         "sales": 270,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-04-11"
     },
     {
         "id": 321,
@@ -980,7 +1001,8 @@
         ],
         "collection": null,
         "sales": 198,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-12-17"
     },
     {
         "id": 322,
@@ -1009,7 +1031,8 @@
         ],
         "collection": null,
         "sales": 429,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-10-21"
     },
     {
         "id": 323,
@@ -1038,7 +1061,8 @@
         ],
         "collection": null,
         "sales": 135,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-09-09"
     },
     {
         "id": 324,
@@ -1084,7 +1108,8 @@
         ],
         "collection": null,
         "sales": 105,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-10-05"
     },
     {
         "id": 325,
@@ -1112,7 +1137,8 @@
         ],
         "collection": null,
         "sales": 83,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-06-15"
     },
     {
         "id": 326,
@@ -1141,7 +1167,8 @@
         ],
         "collection": null,
         "sales": 359,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-04-13"
     },
     {
         "id": 327,
@@ -1170,7 +1197,8 @@
         ],
         "collection": null,
         "sales": 157,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-05-05"
     },
     {
         "id": 328,
@@ -1199,7 +1227,8 @@
         ],
         "collection": null,
         "sales": 321,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-08-28"
     },
     {
         "id": 329,
@@ -1228,7 +1257,8 @@
         ],
         "collection": null,
         "sales": 460,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-04-18"
     },
     {
         "id": 330,
@@ -1326,7 +1356,8 @@
         ],
         "collection": "Baies (Berries)",
         "sales": 439,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-11-04"
     },
     {
         "id": 331,
@@ -1355,7 +1386,8 @@
         ],
         "collection": null,
         "sales": 210,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-04-07"
     },
     {
         "id": 332,
@@ -1436,7 +1468,8 @@
         ],
         "collection": "Figuier (Fig Tree)",
         "sales": 111,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-04-29"
     },
     {
         "id": 333,
@@ -1465,7 +1498,8 @@
         ],
         "collection": null,
         "sales": 21,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-04-15"
     },
     {
         "id": 334,
@@ -1494,7 +1528,8 @@
         ],
         "collection": null,
         "sales": 302,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-08-08"
     },
     {
         "id": 335,
@@ -1523,7 +1558,8 @@
         ],
         "collection": null,
         "sales": 440,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-09-16"
     },
     {
         "id": 336,
@@ -1552,7 +1588,8 @@
         ],
         "collection": null,
         "sales": 265,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-05-07"
     },
     {
         "id": 337,
@@ -1581,7 +1618,8 @@
         ],
         "collection": null,
         "sales": 84,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-02-27"
     },
     {
         "id": 338,
@@ -1610,7 +1648,8 @@
         ],
         "collection": null,
         "sales": 332,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-06-14"
     },
     {
         "id": 339,
@@ -1639,7 +1678,8 @@
         ],
         "collection": null,
         "sales": 20,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-11-18"
     },
     {
         "id": 340,
@@ -1685,7 +1725,8 @@
         ],
         "collection": null,
         "sales": 349,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2024-12-25"
     },
     {
         "id": 341,
@@ -1731,7 +1772,8 @@
         ],
         "collection": null,
         "sales": 455,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-06-09"
     },
     {
         "id": 342,
@@ -1760,7 +1802,8 @@
         ],
         "collection": null,
         "sales": 140,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-05-11"
     },
     {
         "id": 343,
@@ -1788,7 +1831,8 @@
         ],
         "collection": null,
         "sales": 443,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-02-13"
     },
     {
         "id": 344,
@@ -1817,7 +1861,8 @@
         ],
         "collection": null,
         "sales": 277,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-03-17"
     },
     {
         "id": 345,
@@ -1863,7 +1908,8 @@
         ],
         "collection": null,
         "sales": 17,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-05-16"
     },
     {
         "id": 346,
@@ -1892,7 +1938,8 @@
         ],
         "collection": null,
         "sales": 35,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-10-09"
     },
     {
         "id": 347,
@@ -1921,7 +1968,8 @@
         ],
         "collection": null,
         "sales": 19,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2023-11-14"
     },
     {
         "id": 348,
@@ -1950,7 +1998,8 @@
         ],
         "collection": null,
         "sales": 85,
-        "inStock": true
+        "inStock": true,
+        "created_at": "2024-03-03"
     },
     {
         "id": 349,
@@ -1979,6 +2028,7 @@
         ],
         "collection": null,
         "sales": 188,
-        "inStock": false
+        "inStock": false,
+        "created_at": "2023-03-27"
     }
 ]
