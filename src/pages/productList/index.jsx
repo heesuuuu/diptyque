@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Outlet, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { productActions } from '../../store/modules/productSlice';
@@ -14,6 +14,29 @@ const ProductList = () => {
   const location = useLocation();
   const path = location.pathname.split('/');
 
+  // 스크롤 관련 상태 추가
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const [isScrollingUp, setIsScrollingUp] = useState(false);
+  const [isAtTop, setIsAtTop] = useState(true);
+
+  // 스크롤 이벤트 핸들러
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentPosition = window.pageYOffset;
+
+      // 페이지 최상단 여부 확인
+      setIsAtTop(currentPosition <= 50);
+
+      // 스크롤 방향 감지
+      setIsScrollingUp(scrollPosition > currentPosition);
+
+      setScrollPosition(currentPosition);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [scrollPosition]);
+
   useEffect(() => {
     if (path.length === 2) {
       navigate('/product/eauxdeparfum');
@@ -22,11 +45,27 @@ const ProductList = () => {
     }
   }, [location.pathname]);
 
+  // 변환 클래스 계산
+  const getTransformClass = () => {
+    if (isAtTop) {
+      // 최상단에 있을 때는 원래 위치
+      return 'translate-y-0';
+    } else if (isScrollingUp) {
+      // 스크롤을 올릴 때는 아래로 이동
+      return 'translate-y-header-h';
+    } else {
+      // 스크롤을 내릴 때는 원래 위치
+      return 'translate-y-0';
+    }
+  };
+
   return (
     <>
-      <div className="">
+      <div className="mt-header-h">
         {/* 카테고리 위치 상태 바 */}
-        <div className="sticky top-0 left-0 z-10 flex items-center w-full h-[50px] tablet:h-11 px-[280px] tablet:px-[60px] mobile:px-4 border-t border-b border-grey-1 text-grey-3 bg-white">
+        <div
+          className={`sticky top-0 left-0 z-10 flex items-center w-full h-[50px] tablet:h-11 px-[280px] tablet:px-[60px] mobile:px-4 border-t border-b border-grey-1 text-grey-3 bg-white transition-transform duration-300 ${getTransformClass()}`}
+        >
           <p className="text-body3 tablet:text-body3-m">
             Products <Icon name="chevron_right" className="mx-[10px]" /> {title}
           </p>
