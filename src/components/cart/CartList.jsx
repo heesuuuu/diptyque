@@ -30,7 +30,7 @@ const CartList = () => {
   const priceStyle = 'flex flex-row justify-between w-full';
 
   return (
-    <>
+    <div className="mt-[80px] ">
       <div className="cart-select-btn flex flex-row gap-6 pb-10">
         <span className="cursor-pointer" onClick={() => dispatch(cartActions.toggleSelectCartItem())}>
           Select
@@ -70,7 +70,7 @@ const CartList = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -47,7 +47,6 @@
 /* 기본 폰트 설정 */
 html,
 body {
-  overflow-x: hidden;
   font-size: 16px;
   line-height: 1.6;
   font-family: "Inter", sans-serif;
@@ -67,4 +66,8 @@ h4,
 h5,
 h6 {
   font-family: Diptyque, serif;
+}
+
+input {
+  outline: none;
 }/*# sourceMappingURL=globals.css.map */

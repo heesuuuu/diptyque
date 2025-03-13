@@ -55,6 +55,9 @@ export const navSlice = createSlice({
     toggleMenu: (state, action) => {
       state.menuOpen = !state.menuOpen;
     },
+    closeMenu: (state, action) => {
+      state.menuOpen = false;
+    },
   },
 });
 export const navActions = navSlice.actions;
