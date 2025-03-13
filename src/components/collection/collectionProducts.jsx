@@ -1,8 +1,9 @@
 // components/collection/CollectionProducts.jsx
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { BarButton, Icon } from '../../ui';
 import { Link } from 'react-router-dom';
+import { BarButton, Icon } from '../../ui';
+import Accordion from '../../ui/Accordion';
 
 const CollectionProducts = () => {
   const { collectionProducts, selectedCollection } = useSelector((state) => state.collection);
@@ -19,7 +20,7 @@ const CollectionProducts = () => {
                 <img
                   src={product.options[0].images.thumbnail.default}
                   alt={product.name}
-                  className="w-full h-auto object-cover"
+                  className="w-full h-[803px] object-cover"
                 />
               )}
             </div>
@@ -42,12 +43,23 @@ const CollectionProducts = () => {
               </div>
 
               {/* 아코디언 설명 */}
-              <div className="flex place-content-between items-center h-[48px] border-solid  border-darkgrey-3 border-b-[1px] cursor-pointer w-full">
-                <div className="text-body3">Direction for use</div>
-                <div>
-                  <Icon name="keyboard_arrow_down" />
-                </div>
+              {/* Direction for use */}
+              <div>
+                <Accordion
+                  title="Directions for use"
+                  content="After washing your hair, rinse with cold water to strengthen the capillary fibres. This will help your hair absorb the Hair mist more effectively."
+                />
+                {/* Ingredients */}
+
+                <Accordion
+                  title="Ingredients"
+                  content="alcohol denat. (sd alcohol 40-b), aqua (water), parfum (fragrance),
+                        peg-40 hydrogenated castor oil, coco-caprylate/caprate, ethylhexyl methoxycinnamate, limonene, 
+                        camellia oleifera seed oil, ethylhexyl salicylate, butyl methoxydibenzoylmethane, linalool, 
+                        alpha-isomethyl ionone, farnesol, geraniol, citral, bht, tocopherol"
+                />
               </div>
+
               {/* 상품 옵션 */}
               <div className="mb-6">
                 {/* <h4 className="font-medium mb-2">Options:</h4> */}
