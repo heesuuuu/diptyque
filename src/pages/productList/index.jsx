@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Outlet, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { productActions } from '../../store/modules/productSlice';
 import Icon from '../../ui/Icon';
+import './style.scss';
 
 const ProductList = () => {
   const navigate = useNavigate();
@@ -36,6 +37,29 @@ const ProductList = () => {
         <div className="flex flex-col justify-center items-center gap-10 w-[898px] tablet:w-[498px] mobile:w-[358px] m-auto my-[280px] tablet:my-[150px] mobile:my-[100px]">
           <h1 className="text-heading1/[160%] tablet:text-heading1-m text-center">{title}</h1>
           <p className="text-body2/[160%] tablet:text-body2-m/[150%]">{desc}</p>
+        </div>
+
+        <div className="flex gap-[139px]">
+          <ul className="flex ml-auto olfactory">
+            <li>
+              <button>WOODY</button>
+            </li>
+            <li>
+              <button>FLORAL</button>
+            </li>
+            <li>
+              <button>AMBER</button>
+            </li>
+            <li>
+              <button>CYTRUS</button>
+            </li>
+          </ul>
+          <select name="" id="" className="mr-0">
+            <option value="">Sort</option>
+            <option value="">Recent</option>
+            <option value="">Popular</option>
+            <option value="">Name</option>
+          </select>
         </div>
 
         {/* 제품 리스트 */}
