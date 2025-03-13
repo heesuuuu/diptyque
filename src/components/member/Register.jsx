@@ -98,6 +98,7 @@ const Register = () => {
   //전화번호 입력 핸들러
   const handlePhoneChange = (e) => {
     const phoneNumber = e.target.value.replace(/^\+\d+\s*/, '');
+
     setForm((prev) => ({
       ...prev,
       phone: prev.phoneCode + ' ' + phoneNumber,
@@ -105,7 +106,7 @@ const Register = () => {
 
     setErrors((prevErrors) => ({
       ...prevErrors,
-      phone: validateField('phone', prev.phoneCode + ' ' + phoneNumber),
+      phone: validateField('phone', phoneNumber),
     }));
   };
 
