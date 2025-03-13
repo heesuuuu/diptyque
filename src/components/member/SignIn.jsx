@@ -1,3 +1,5 @@
+import { useGoogleLogin } from '@react-oauth/google';
+import { jwtDecode } from 'jwt-decode';
 import React, { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
@@ -11,44 +13,42 @@ const SignIn = () => {
   const navigate = useNavigate();
   const [form, setForm] = useState({ email: '', password: '', rememberMe: false });
   const [errors, setErrors] = useState({ email: '', password: '' });
-  // Remember Me 기능
+
+  /*
+   * Remember Me
+   */
   useEffect(() => {
     const rememberedEmail = localStorage.getItem('rememberedUser');
     if (rememberedEmail) {
       setForm((prev) => ({ ...prev, email: JSON.parse(rememberedEmail), rememberMe: true }));
     }
   }, []);
-  // 이메일 유효성 검사
-  const validateEmail = (email) => {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailRegex.test(email);
-  };
 
-  // 입력값 변경 핸들러
+  /*
+   * 이메일 유효성 검사
+   */
+  const validateEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+
+  /*
+   *  입력값 변경
+   */
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
     setForm({ ...form, [name]: type === 'checkbox' ? checked : value });
 
-    // 실시간 유효성 검사
     if (name === 'email') {
-      setErrors((prev) => ({
-        ...prev,
-        email: validateEmail(value) ? '' : 'Invalid email format.',
-      }));
+      setErrors((prev) => ({ ...prev, email: validateEmail(value) ? '' : 'Invalid email format.' }));
     }
     if (name === 'password') {
-      setErrors((prev) => ({
-        ...prev,
-        password: value.length >= 6 ? '' : 'Password must be at least 6 characters.',
-      }));
+      setErrors((prev) => ({ ...prev, password: value.length >= 6 ? '' : 'Password must be at least 6 characters.' }));
     }
   };
 
-  // 로그인 제출 핸들러
+  /*
+   * 로그인 제출
+   */
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // 최종 유효성 검사
     if (!validateEmail(form.email)) {
       setErrors((prev) => ({ ...prev, email: 'Invalid email format.' }));
       return;
@@ -62,16 +62,39 @@ const SignIn = () => {
     if (storedUser && storedUser.email === form.email && storedUser.password === form.password) {
       dispatch(login(storedUser));
       alert('Login successful!');
-      if (form.rememberMe) {
-        localStorage.setItem('rememberedUser', JSON.stringify(form.email));
-      } else {
-        localStorage.removeItem('rememberedUser');
-      }
+      form.rememberMe
+        ? localStorage.setItem('rememberedUser', JSON.stringify(form.email))
+        : localStorage.removeItem('rememberedUser');
       navigate('/');
     } else {
       alert('Invalid email or password.');
     }
   };
+
+  /*
+   * Google 로그인
+   */
+  const googleLogin = useGoogleLogin({
+    onSuccess: async (tokenResponse) => {
+      const userData = jwtDecode(tokenResponse.credential);
+      console.log('Google User:', userData);
+
+      const googleUser = {
+        email: userData.email,
+        name: userData.name,
+        picture: userData.picture,
+        token: tokenResponse.credential,
+      };
+
+      localStorage.setItem('user', JSON.stringify(googleUser));
+      dispatch(login(googleUser));
+      alert(`Welcome, ${userData.name}!`);
+      navigate('/');
+    },
+    onError: () => {
+      alert('Google login failed. Please try again.');
+    },
+  });
 
   return (
     <div className="flex justify-center items-center h-screen bg-white">
@@ -90,11 +113,7 @@ const SignIn = () => {
               className="w-full p-3 border border-gray-900 rounded-none text-sm"
               required
             />
-            {errors.email && (
-              <p className="text-sm mt-1" style={{ color: '#D12F37' }}>
-                {errors.email}
-              </p>
-            )}
+            {errors.email && <p className="text-sm mt-1 text-red-600">{errors.email}</p>}
           </div>
 
           {/*비밀번호 입력*/}
@@ -109,14 +128,10 @@ const SignIn = () => {
               className="w-full p-3 border border-gray-900 rounded-none text-sm"
               required
             />
-            {errors.password && (
-              <p className="text-sm mt-1" style={{ color: '#D12F37' }}>
-                {errors.password}
-              </p>
-            )}
+            {errors.password && <p className="text-sm mt-1 text-red-600">{errors.password}</p>}
           </div>
 
-          {/* ✅ 체크박스 (Remember me) & Forgotten password */}
+          {/*Remember me & Forgotten password*/}
           <div className="flex justify-between items-center cursor-pointer">
             <div className="flex items-center gap-3" onClick={() => setForm({ ...form, rememberMe: !form.rememberMe })}>
               <img src={form.rememberMe ? checkedIcon : uncheckedIcon} alt="Remember Me" className="w-5 h-5" />
@@ -125,27 +140,31 @@ const SignIn = () => {
             <span className="text-sm cursor-pointer text-gray-600 hover:text-black">Forgotten password?</span>
           </div>
 
-          {/*로그인 버튼*/}
+          {/*로그인*/}
           <button
             type="submit"
             className="w-full h-[42px] flex justify-center items-center bg-black text-white text-body3 active:bg-grey-4 mt-2"
           >
             Sign in
           </button>
+
           <div className="flex items-center my-4">
             <div className="flex-grow h-[1px] bg-[#D8D8D8]"></div>
             <p className="text-center text-sm mx-4">Or</p>
             <div className="flex-grow h-[1px] bg-[#D8D8D8]"></div>
           </div>
-          {/* ✅ 구글 로그인 버튼 추가 */}
+
+          {/*Google 로그인*/}
           <button
             type="button"
             className="w-full h-[42px] flex items-center justify-center border border-black text-black text-body3 hover:bg-gray-100"
+            onClick={() => googleLogin()}
           >
-            <img src={googleIcon} alt="Google Logo" className="w-6 h-6 mr-4" /> {/* 24x24 Google 아이콘 추가 */}
+            <img src={googleIcon} alt="Google Logo" className="w-6 h-6 mr-4" />
             Continue with Google
           </button>
-          {/*회원가입 버튼*/}
+
+          {/*회원가입*/}
           <button
             type="button"
             className="w-full h-[42px] flex justify-center items-center border border-black text-black text-body3 hover:bg-gray-100"
