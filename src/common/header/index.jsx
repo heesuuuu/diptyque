@@ -35,7 +35,7 @@ const Header = () => {
             <img
               src="https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/9ab0719bafcda454bd1c18f5310108f3bcc2d6fa/images/common/logo.svg"
               alt="DIPTYQUE"
-              className="w-[146px] py-5"
+              className="h-[44px] my-5"
             />
           </Link>
         </h1>

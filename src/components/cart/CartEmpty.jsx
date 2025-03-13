@@ -20,7 +20,7 @@ const CartEmpty = () => {
 
   return (
     <div>
-      <div className="flex flex-col items-center gap-6 w-[300px] mx-auto pb-[80px]">
+      <div className="flex flex-col items-center gap-6 w-[300px] mx-auto my-[120px]">
         <p className="text-heading3">Discover Your Scent</p>
         <Link to="/product" className="w-full">
           <BarButton text="CONTINUE SHOPPING" type="filled" />
