@@ -64,6 +64,9 @@ export default {
       },
       spacing: {
         'header-h': '128px',
+        'sec-gap-pc': '200px',
+        'sec-gap-t': '150px',
+        'sec-gap-m': '100px',
       },
     },
   },
