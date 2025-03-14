@@ -10,10 +10,6 @@ const ProductDetail = () => {
   const { productId } = useParams();
   const { productData, loading } = useSelector((state) => state.product);
   const { id, olfactory, name, type, notes, keyword, description, story, options, collection } = productData;
-  // console.log(productData);
-  // console.log('keyword type:', typeof keyword, keyword);
-  // console.log('notes type:', typeof notes, notes);
-  // console.log('olfactory type:', typeof olfactory, olfactory);
 
   useEffect(() => {
     if (productId) {
@@ -74,7 +70,9 @@ const ProductDetail = () => {
             </p>
             <hr />
             <p>
-              {notes && safeRender(notes)}
+              {/* {notes && safeRender(notes)} */}
+              {Array.isArray(notes) &&
+                notes.map((note, idx) => (notes.length - 1 === idx ? `${note.note}` : `${note.note}, `))}
               {keyword && safeRender(keyword)}
             </p>
             <p>{description}</p>
@@ -106,13 +104,15 @@ const ProductDetail = () => {
       </div>
       <div className="pl-[3.125rem]">
         {Array.isArray(notes) && (
-          <div className="w-full">
-            <h2>Story of Our Blend</h2>
-            <div></div>
+          <div className="w-full my-sec-gap-pc">
+            <h2 className="text-center">Story of Our Blend</h2>
+            <div className="h-80 bg-black">
+              <div>{/* <img src="" alt="" /> */}</div>
+            </div>
           </div>
         )}
         <div className="w-full">
-          <h2>Our most beloved</h2>
+          <h2 className="text-center">Our most beloved</h2>
           <div></div>
         </div>
       </div>
