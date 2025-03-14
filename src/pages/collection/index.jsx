@@ -2,6 +2,7 @@
 import React from 'react';
 import CollectionMenu from '../../components/collection/CollectionMenu';
 import CollectionProducts from '../../components/collection/collectionProducts';
+import PopularProduct from '../../components/collection/PopularProduct';
 
 const Collection = () => {
   return (
@@ -40,8 +41,8 @@ const Collection = () => {
         </section>
 
         {/* most popular Sec */}
-        <section>
-          
+        <section className="mt-[80px] mb-[200px] lg:w-full lg:mx-auto">
+          <PopularProduct />
         </section>
       </div>
     </>

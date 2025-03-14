@@ -73,7 +73,7 @@ const CollectionProducts = () => {
                     {isExpanded && (
                       <button
                         onClick={() => toggleDescription(product.id)}
-                        className="text-body3 text-darkgrey-3 underline mt-2 block transition-opacity duration-500 ease-in-out"
+                        className=" text-body3 text-darkgrey-3 underline transition-opacity duration-500 ease-in-out"
                       >
                         Less
                       </button>
