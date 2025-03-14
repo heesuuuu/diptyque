@@ -70,10 +70,14 @@ const ProductDetail = () => {
             </p>
             <hr />
             <p>
-              {/* {notes && safeRender(notes)} */}
-              {Array.isArray(notes) &&
+              {notes !== undefined &&
+                Array.isArray(notes) &&
                 notes.map((note, idx) => (notes.length - 1 === idx ? `${note.note}` : `${note.note}, `))}
-              {keyword && safeRender(keyword)}
+              {notes !== undefined && typeof notes === 'string' && `${notes}`}
+              {keyword !== undefined &&
+                Array.isArray(keyword) &&
+                keyword.map((word, idx) => (keyword.length - 1 === idx ? `${word.note}` : `${word.note}, `))}
+              {keyword !== undefined && typeof keyword === 'string' && `${keyword}`}
             </p>
             <p>{description}</p>
             <div>
@@ -106,6 +110,7 @@ const ProductDetail = () => {
         {Array.isArray(notes) && (
           <div className="w-full my-sec-gap-pc">
             <h2 className="text-center">Story of Our Blend</h2>
+            {/* notes 최대개수 5개 : pc는 고정크기, tab,mobile은 swiper로 처리 */}
             <div className="h-80 bg-black">
               <div>{/* <img src="" alt="" /> */}</div>
             </div>
