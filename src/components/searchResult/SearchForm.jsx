@@ -8,8 +8,12 @@ const SearchForm = ({ onChange, text }) => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center pt-[128px] my-[120px] w-[668px] mx-auto">
-      <p className="text-heading1 font-diptyque text-center">What Are You Searching For?</p>
+    <div className="flex flex-col items-center pt-[128px] my-[120px] w-[full mx-auto">
+      <p className="text-heading1 font-diptyque text-center mb-5">
+        Let us guide you to a world of scented elegance.
+        <br />
+        What are you searching for?
+      </p>
       <form className=" relative  ">
         <input
           type="text"
