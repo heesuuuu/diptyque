@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import { productActions } from '../../store/modules/productSlice';
 import BarButton from '../../ui/BarButton';
 import Icon from '../../ui/Icon';
+import './style.scss';
 
 const ProductDetail = () => {
   const dispatch = useDispatch();
@@ -46,26 +47,28 @@ const ProductDetail = () => {
             ))}
         </div>
         <div className="w-1/2">
-          <div className="sticky top-0 right-0">
-            <h1>{name}</h1>
-            <p>
-              {`${type} `}
-              <span>
-                {options[0].size} {typeof options[0].size === 'number' && 'ml'} | €{options[0].price}
-              </span>
-            </p>
-            <hr />
-            <p>
-              {notes !== undefined &&
-                Array.isArray(notes) &&
-                notes.map((note, idx) => (notes.length - 1 === idx ? `${note.note}` : `${note.note}, `))}
-              {notes !== undefined && typeof notes === 'string' && `${notes}`}
-              {keyword !== undefined &&
-                Array.isArray(keyword) &&
-                keyword.map((word, idx) => (keyword.length - 1 === idx ? `${word.note}` : `${word.note}, `))}
-              {keyword !== undefined && typeof keyword === 'string' && `${keyword}`}
-            </p>
-            <p>{description}</p>
+          <div className="sticky top-0 right-0 p-[11.25rem]">
+            <h1 className="detail-sec-title detail-sec-prod-name">{name}</h1>
+            <div className="flex flex-col  gap-5 text-body3">
+              <p className="flex justify-between items-center">
+                {type}
+                <span>
+                  {options[0].size} {typeof options[0].size === 'number' && 'ml'} | €{options[0].price}
+                </span>
+              </p>
+              <hr className="border-none h-[.0625rem] bg-darkgrey-3" />
+              <p className="text-grey-4">
+                {notes !== undefined &&
+                  Array.isArray(notes) &&
+                  notes.map((note, idx) => (notes.length - 1 === idx ? `${note.note}` : `${note.note}, `))}
+                {notes !== undefined && typeof notes === 'string' && `${notes}`}
+                {keyword !== undefined &&
+                  Array.isArray(keyword) &&
+                  keyword.map((word, idx) => (keyword.length - 1 === idx ? `${word.note}` : `${word.note}, `))}
+                {keyword !== undefined && typeof keyword === 'string' && `${keyword}`}
+              </p>
+              <p className="text-darkgrey-1">{description}</p>
+            </div>
             <div>
               <label htmlFor="selectOption">Add Personalization</label>
               <select name="selectOption" id="selectOption">
@@ -92,14 +95,14 @@ const ProductDetail = () => {
           </div>
         </div>
       </div>
-      <div className="pl-[3.125rem]">
+      <div className="pl-[50px]">
         {(Array.isArray(notes) || Array.isArray(keyword)) && (
           <div className="w-full my-sec-gap-pc">
-            <h2 className="text-center">Story of Our Blend</h2>
+            <h2 className="detail-sec-title">Story of Our Blend</h2>
             {/* notes 최대개수 5개 : pc는 고정크기, tab,mobile은 swiper로 처리 */}
-            <div className="flex gap-6 justify-center items-center bg-black">
+            <div className="flex gap-6 justify-center items-center">
               {matchingNotesData.map((data) => (
-                <div key={data.noteId} className="w-[345px] h-[345px]">
+                <div key={data.noteId} className="w-[21.5625rem] h-[21.5625rem]">
                   <img src={data.img} alt={data.note} className="h-full object-cover" />
                 </div>
               ))}
@@ -107,7 +110,7 @@ const ProductDetail = () => {
           </div>
         )}
         <div className="w-full">
-          <h2 className="text-center">Our most beloved</h2>
+          <h2 className="detail-sec-title">Our most beloved</h2>
           <div></div>
         </div>
       </div>
