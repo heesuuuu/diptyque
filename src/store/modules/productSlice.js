@@ -2,6 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 import bodyMockupData from '../../data/body_updated.json';
 import candleMockupData from '../../data/candle_updated.json';
 import diffuserMockupData from '../../data/diffuser_updated.json';
+import notesData from '../../data/notes_data.json';
 import perfumeMockupData from '../../data/perfume_updated.json';
 
 const categoryInfo = [
@@ -47,29 +48,29 @@ const categoryInfo = [
   },
 ];
 
+const initialProductData = {
+  id: '',
+  olfactory: {},
+  name: '',
+  type: '',
+  description: '',
+  story: '',
+  options: [
+    {
+      size: '',
+      price: '',
+      weight: '',
+      images: { thumbnail: { default: '', hover: '' }, detail: '' },
+      optionId: '',
+    },
+  ],
+  collection: '',
+  sales: '',
+  inStock: '',
+};
+
 const initialState = {
-  productData: {
-    id: '',
-    olfactory: {},
-    name: '',
-    type: '',
-    notes: {},
-    keyword: {},
-    description: '',
-    story: '',
-    options: [
-      {
-        size: '',
-        price: '',
-        weight: '',
-        images: { thumbnail: { default: '', hover: '' }, detail: '' },
-        optionId: '',
-      },
-    ],
-    collection: '',
-    sales: '',
-    inStock: '',
-  },
+  productData: initialProductData,
   perfumeData: perfumeMockupData,
   candleData: candleMockupData,
   diffuserData: diffuserMockupData,
@@ -78,6 +79,8 @@ const initialState = {
   categoryData: [],
   categoryInfo: {},
   popularProducts: [],
+  notesData: notesData,
+  matchingNotesData: [],
   loading: false,
 };
 
@@ -126,17 +129,33 @@ export const productSlice = createSlice({
       const id = action.payload;
       state.loading = true;
       const selectedProduct = state.allProductData.find((data) => data.id === id);
-      state.productData = {
-        ...state.productData,
-        ...selectedProduct,
-      };
-    },
-    getProduct: (state, action) => {
+
+      if (selectedProduct) {
+        state.productData = selectedProduct;
+
+        // 제품에 notes가 있으면 matchingNotesData도 함께 설정
+        if (selectedProduct.notes && Array.isArray(selectedProduct.notes)) {
+          state.matchingNotesData = selectedProduct.notes
+            .map((note) => {
+              return state.notesData.find((data) => data.note === note.note);
+            })
+            .filter(Boolean); // undefined 값 제거
+        } else if (selectedProduct.keyword && Array.isArray(selectedProduct.keyword)) {
+          state.matchingNotesData = selectedProduct.keyword
+            .map((note) => {
+              return state.notesData.find((data) => data.note === note.note);
+            })
+            .filter(Boolean);
+        } else {
+          state.matchingNotesData = [];
+        }
+      }
       state.loading = false;
     },
     getPopularProducts: (state, action) => {},
     resetProduct: (state, action) => {
-      state.productData = {};
+      state.productData = initialProductData;
+      state.matchingNotesData = [];
     },
   },
 });

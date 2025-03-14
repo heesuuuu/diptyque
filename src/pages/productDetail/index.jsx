@@ -8,46 +8,32 @@ import Icon from '../../ui/Icon';
 const ProductDetail = () => {
   const dispatch = useDispatch();
   const { productId } = useParams();
-  const { productData, loading } = useSelector((state) => state.product);
+  const { productData, matchingNotesData, loading } = useSelector((state) => state.product);
   const { id, olfactory, name, type, notes, keyword, description, story, options, collection } = productData;
 
   useEffect(() => {
     if (productId) {
-      // 데이터 요청
       dispatch(productActions.setProduct(Number(productId)));
 
-      // 데이터가 로드되면 getProduct 액션 디스패치
-      const checkDataTimer = setInterval(() => {
-        if (productData && productData.id) {
-          clearInterval(checkDataTimer);
-          dispatch(productActions.getProduct());
-        }
-      }, 100);
-
-      // 5초 타임아웃
-      const timeoutId = setTimeout(() => {
-        clearInterval(checkDataTimer);
-        // console.log('Timeout reached, data may not be fully loaded');
-      }, 5000);
-
       return () => {
-        clearInterval(checkDataTimer);
-        clearTimeout(timeoutId);
         dispatch(productActions.resetProduct());
       };
     }
-  }, [dispatch, productId, productData.id]);
+  }, [dispatch, productId]);
 
   // 안전한 렌더링 함수 추가
-  const safeRender = (value) => {
-    if (value === null || value === undefined) return '';
-    if (typeof value === 'string' || typeof value === 'number') return value;
-    if (Array.isArray(value)) return value.join(', ');
-    if (typeof value === 'object') return Object.values(value).join(', ');
-    return String(value);
-  };
+  // const safeRender = (value) => {
+  //   if (value === null || value === undefined) return '';
+  //   if (typeof value === 'string' || typeof value === 'number') return value;
+  //   if (Array.isArray(value)) return value.join(', ');
+  //   if (typeof value === 'object') return Object.values(value).join(', ');
+  //   return String(value);
+  // };
 
   if (loading) return <div>Loading . . . </div>;
+
+  // 옵션이 없는 경우 처리
+  if (!options || options.length === 0) return <div>Product information not available</div>;
 
   return (
     <>
@@ -63,7 +49,7 @@ const ProductDetail = () => {
           <div className="sticky top-0 right-0">
             <h1>{name}</h1>
             <p>
-              {type}
+              {`${type} `}
               <span>
                 {options[0].size} {typeof options[0].size === 'number' && 'ml'} | €{options[0].price}
               </span>
@@ -107,12 +93,16 @@ const ProductDetail = () => {
         </div>
       </div>
       <div className="pl-[3.125rem]">
-        {Array.isArray(notes) && (
+        {(Array.isArray(notes) || Array.isArray(keyword)) && (
           <div className="w-full my-sec-gap-pc">
             <h2 className="text-center">Story of Our Blend</h2>
             {/* notes 최대개수 5개 : pc는 고정크기, tab,mobile은 swiper로 처리 */}
-            <div className="h-80 bg-black">
-              <div>{/* <img src="" alt="" /> */}</div>
+            <div className="flex gap-6 justify-center items-center bg-black">
+              {matchingNotesData.map((data) => (
+                <div key={data.noteId} className="w-[345px] h-[345px]">
+                  <img src={data.img} alt={data.note} className="h-full object-cover" />
+                </div>
+              ))}
             </div>
           </div>
         )}
