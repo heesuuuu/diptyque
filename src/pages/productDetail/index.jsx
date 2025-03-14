@@ -47,8 +47,8 @@ const ProductDetail = () => {
             ))}
         </div>
         <div className="w-1/2">
-          <div className="sticky top-0 right-0 p-[11.25rem]">
-            <h1 className="detail-sec-title detail-sec-prod-name">{name}</h1>
+          <div className="sticky top-0 right-0 flex flex-col gap-5 p-[11.25rem]">
+            <h1 className="mb-0 text-left detail-sec-title ">{name}</h1>
             <div className="flex flex-col  gap-5 text-body3">
               <p className="flex justify-between items-center">
                 {type}
