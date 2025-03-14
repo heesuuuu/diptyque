@@ -1,4 +1,3 @@
-// store/modules/collectionSlice.js
 import { createSlice } from '@reduxjs/toolkit';
 import perfumeData from '../../data/perfume_updated.json';
 import diffuserData from '../../data/diffuser_updated.json';
@@ -13,12 +12,26 @@ const allProducts = [
   ...bodyData.map((item) => ({ ...item, category: 'body' })),
 ];
 
+// 키워드 배열을 notes 문자열로 변환하는 함수
+const processProducts = (products) => {
+  return products.map(product => {
+    if (product.keyword && Array.isArray(product.keyword)) {
+      const notes = product.keyword
+        .map(item => typeof item === 'object' && item.note ? item.note : '')
+        .filter(Boolean)
+        .join(', ');
+      
+      return { ...product, notes };
+    }
+    return { ...product, notes: '' }; 
+  });
+};
+
 // collectionName만 추출하는 함수
 const getCollectionNames = () => {
   const collectionNames = [];
 
   allProducts.forEach((product) => {
-    // collection이 배열인 경우 (예: [{collectionName: "Eau Rose"}])
     if (Array.isArray(product.collection)) {
       product.collection.forEach((col) => {
         if (col && typeof col === 'object' && col.collectionName) {
@@ -26,19 +39,19 @@ const getCollectionNames = () => {
         }
       });
     }
-    // collection이 객체인 경우 (예: {collectionName: "Eau Rose"})
     else if (product.collection && typeof product.collection === 'object' && product.collection.collectionName) {
       collectionNames.push(product.collection.collectionName);
     }
   });
 
-  // 중복 제거 및 정렬
   return [...new Set(collectionNames)].sort();
 };
 
+const processedProducts = processProducts(allProducts);
+
 const initialState = {
   allCollectionNames: getCollectionNames(),
-  allProducts,
+  allProducts: processedProducts,
   selectedCollection: null,
   collectionProducts: [],
   loading: false,
@@ -54,13 +67,11 @@ export const collectionSlice = createSlice({
 
       // 선택된 collectionName에 해당하는 제품 필터링
       state.collectionProducts = state.allProducts.filter((product) => {
-        // collection이 배열인 경우
         if (Array.isArray(product.collection)) {
           return product.collection.some(
             (col) => col && typeof col === 'object' && col.collectionName === action.payload
           );
         }
-        // collection이 객체인 경우
         else if (product.collection && typeof product.collection === 'object') {
           return product.collection.collectionName === action.payload;
         }

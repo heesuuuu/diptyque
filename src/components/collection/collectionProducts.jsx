@@ -11,7 +11,7 @@ const CollectionProducts = () => {
   const toggleDescription = (productId) => {
     setExpandedProducts((prev) => ({
       ...prev,
-      [productId]: !prev[productId], // 특정 상품의 설명을 열거나 닫음
+      [productId]: !prev[productId],
     }));
   };
     
@@ -22,7 +22,7 @@ const CollectionProducts = () => {
       <div className="space-y-12 position">
         {collectionProducts.map((product) => {
           const isExpanded = expandedProducts[product.id] || false;
-          const maxLength = 150; // 초기 표시 글자 수
+          const maxLength = 150; 
 
           return (
             <div key={product.id} className="flex flex-col md:flex-row gap-8">
@@ -80,7 +80,10 @@ const CollectionProducts = () => {
                 </div>
 
                 {/* 상세페이지 이동 버튼 */}
-                <Link className="text-body2 flex place-content-between h-[50px] cursor-pointer items-center">
+                <Link
+                  to={`/product/${product.category}/${product.id}`}
+                  className="text-body2 flex place-content-between h-[50px] cursor-pointer items-center"
+                >
                   <div className="text-body3">Detail Page</div>
                   <div>
                     <Icon name="north_east" size={20} />
