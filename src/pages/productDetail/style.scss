@@ -1,0 +1,8 @@
+@import '../../styles/globals';
+
+.detail-sec-title {
+    @include pc-heading1;
+
+    margin-bottom: var(--cont-gap);
+    text-align: center;
+}
