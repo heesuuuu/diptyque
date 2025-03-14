@@ -487,6 +487,16 @@
     "noteId": 98,
     "note": "Grapefruit",
     "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Grapefruit.jpg"
+},
+{
+    "noteId": 99,
+    "note": "Cedarwood Heart",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Cedar-core.jpg"
+},
+{
+    "noteId": 100,
+    "note": "Litchi accord",
+    "img": "https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/notes/Litchi-accord.jpg"
 }
 
 ]
