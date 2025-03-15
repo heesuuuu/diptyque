@@ -1,5 +1,4 @@
-// components/collection/CollectionMenu.jsx
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { selectCollection } from '../../store/modules/collectionSlice';
 
@@ -10,6 +9,12 @@ const CollectionMenu = () => {
   const handleCollectionClick = (collection) => {
     dispatch(selectCollection(collection));
   };
+
+  useEffect(() => {
+    if (allCollectionNames.length > 0 && !selectedCollection) {
+      dispatch(selectCollection(allCollectionNames[0]))
+    }
+  },[allCollectionNames,selectedCollection,dispatch])
 
   return (
     <div className="collection-menu">
