@@ -2,7 +2,9 @@ import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { productActions } from '../../store/modules/productSlice';
+import Accordion from '../../ui/Accordion';
 import BarButton from '../../ui/BarButton';
+import CustomSelect from '../../ui/CustomSelect';
 import Icon from '../../ui/Icon';
 import './style.scss';
 
@@ -11,6 +13,12 @@ const ProductDetail = () => {
   const { productId } = useParams();
   const { productData, matchingNotesData, loading } = useSelector((state) => state.product);
   const { id, olfactory, name, type, notes, keyword, description, story, options, collection } = productData;
+
+  const selectOptions = [
+    { value: '', label: 'Select' },
+    { value: 'classic', label: 'Classic (No Engraving)' },
+    { value: 'engraving', label: 'Personalize Your Own Bottle (Custom Engraving)' },
+  ];
 
   useEffect(() => {
     if (productId) {
@@ -22,18 +30,8 @@ const ProductDetail = () => {
     }
   }, [dispatch, productId]);
 
-  // 안전한 렌더링 함수 추가
-  // const safeRender = (value) => {
-  //   if (value === null || value === undefined) return '';
-  //   if (typeof value === 'string' || typeof value === 'number') return value;
-  //   if (Array.isArray(value)) return value.join(', ');
-  //   if (typeof value === 'object') return Object.values(value).join(', ');
-  //   return String(value);
-  // };
-
   if (loading) return <div>Loading . . . </div>;
 
-  // 옵션이 없는 경우 처리
   if (!options || options.length === 0) return <div>Product information not available</div>;
 
   return (
@@ -69,23 +67,20 @@ const ProductDetail = () => {
               </p>
               <p className="text-darkgrey-1">{description}</p>
             </div>
-            <div>
-              <label htmlFor="selectOption">Add Personalization</label>
-              <select name="selectOption" id="selectOption">
-                <option value="">select</option>
-                <option value=""></option>
-                <option value=""></option>
-              </select>
+            <div className="relative flex justify-between items-center">
+              <p>Add Personalization</p>
+              <CustomSelect
+                options={selectOptions}
+                defaultValue={''}
+                onChange={(option) => console.log('Selected:', option)}
+              />
             </div>
             <div>
-              <p>
-                Story
-                <Icon name="keyboard_arrow_down" />
-              </p>
-              <p>
-                Ingredients
-                <Icon name="keyboard_arrow_down" />
-              </p>
+              <Accordion title="Story" content={story} />
+              <Accordion
+                title="Ingredients"
+                content="alcohol denat., parfum (fragrance), aqua (water), coumarin, linalool, ethylhexyl methoxycinnamate, alpha-isomethyl ionone, limonene, ethylhexyl salicylate, geraniol, butyl methoxydibenzoylmethane, cinnamyl alcohol, farnesol, citral"
+              />
             </div>
             <BarButton type="filled" text="ADD TO BAG" />
             <div className="flex justify-center items-center bg-black text-white">
