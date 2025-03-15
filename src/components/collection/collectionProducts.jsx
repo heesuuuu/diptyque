@@ -5,7 +5,7 @@ import { BarButton, Icon } from '../../ui';
 import Accordion from '../../ui/Accordion';
 
 const CollectionProducts = () => {
-  const { collectionProducts } = useSelector((state) => state.collection);
+  const { CollectionProducts } = useSelector((state) => state.collection);
   const [expandedProducts, setExpandedProducts] = useState({});
   const contentRefs = useRef({});
 
@@ -17,15 +17,15 @@ const CollectionProducts = () => {
   };
 
   return (
-    <div>
+    <div className="product-container">
       {/* 상품 목록 */}
-      <div className="space-y-12 position">
-        {collectionProducts.map((product) => {
+      <div className="space-y-12">
+        {CollectionProducts.map((product) => {
           const isExpanded = expandedProducts[product.id] || false;
 
           return (
-            <div key={product.id} className="flex flex-col md:flex-row gap-8">
-              {/* 왼쪽: 상품 이미지 */}
+            <div key={product.id} className="flex flex-col md:flex-row gap-8 relative">
+              {/* 왼쪽: 상품 이미지 (스크롤 될 부분) */}
               <div className="md:w-1/2">
                 {product.options && product.options[0]?.images?.thumbnail?.default && (
                   <img
@@ -36,8 +36,11 @@ const CollectionProducts = () => {
                 )}
               </div>
 
-              {/* 오른쪽: 상품 정보 */}
-              <div className="md:w-[500px] ml-[90px]  h-[800px] inline-grid relative">
+              {/* 오른쪽: 상품 정보 (고정될 부분) */}
+              <div
+                className="md:w-[500px] ml-[90px] h-[800px] inline-grid sticky"
+                style={{ position: 'sticky', top: '20vh', zIndex: 10 }}
+              >
                 <div className="space-y-5">
                   <h3 className="font-diptyque lg:text-heading1 md:text-heading3 h-[58px]">{product.name}</h3>
                   <div className="flex">
@@ -101,7 +104,7 @@ const CollectionProducts = () => {
                   </div>
                 </div>
 
-                <div className='absolute bottom-0 w-full space-y-5'>
+                <div className="absolute bottom-0 w-full space-y-5">
                   {/* 상세페이지 이동 버튼 */}
                   <Link
                     to={`/product/${product.category}/${product.id}`}

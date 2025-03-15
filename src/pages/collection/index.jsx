@@ -1,5 +1,3 @@
-// pages/collection/index.jsx
-import React from 'react';
 import CollectionMenu from '../../components/collection/CollectionMenu';
 import CollectionProducts from '../../components/collection/collectionProducts';
 import PopularProduct from '../../components/collection/PopularProduct';
@@ -26,10 +24,10 @@ const Collection = () => {
         </section>
 
         {/* Collection 상품 Sec */}
-        <section className=" lg:w-full lg:mx-auto">
+        <section className="lg:w-full lg:mx-auto relative">
           <div className="flex flex-col md:flex-row">
             {/* 왼쪽 메뉴 */}
-            <div className="md:w-1/4 mb-8 md:mb-0">
+            <div className="md:w-1/4 mb-8 md:mb-0 sticky top-[10vh] h-fit">
               <CollectionMenu />
             </div>
 

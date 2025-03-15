@@ -53,7 +53,7 @@ const initialState = {
   allCollectionNames: getCollectionNames(),
   allProducts: processedProducts,
   selectedCollection: null,
-  collectionProducts: [],
+  CollectionProducts: [],
   loading: false,
   error: null,
 };
@@ -66,13 +66,12 @@ export const collectionSlice = createSlice({
       state.selectedCollection = action.payload;
 
       // 선택된 collectionName에 해당하는 제품 필터링
-      state.collectionProducts = state.allProducts.filter((product) => {
+      state.CollectionProducts = state.allProducts.filter((product) => {
         if (Array.isArray(product.collection)) {
           return product.collection.some(
             (col) => col && typeof col === 'object' && col.collectionName === action.payload
           );
-        }
-        else if (product.collection && typeof product.collection === 'object') {
+        } else if (product.collection && typeof product.collection === 'object') {
           return product.collection.collectionName === action.payload;
         }
         return false;
@@ -80,7 +79,7 @@ export const collectionSlice = createSlice({
     },
     clearSelection: (state) => {
       state.selectedCollection = null;
-      state.collectionProducts = [];
+      state.CollectionProducts = [];
     },
   },
 });
