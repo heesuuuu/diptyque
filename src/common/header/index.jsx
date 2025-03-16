@@ -1,16 +1,19 @@
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import DesktopMenu from './DesktopMenu';
 import Nav from './nav';
 
 const Header = () => {
   const [scrollDirection, setScrollDirection] = useState('up');
   const [lastScrollY, setLastScrollY] = useState(0);
+  const location = useLocation(); // 현재 경로 가져오기
+
+  const isMain = location.pathname === '/';
 
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      if (currentScrollY > lastScrollY && currentScrollY > 50) {
+      if (!isMain && currentScrollY > lastScrollY && currentScrollY > 50) {
         setScrollDirection('down'); // 스크롤 내릴 때 숨김
       } else {
         setScrollDirection('up'); // 스크롤 올릴 때 나타남
@@ -26,9 +29,9 @@ const Header = () => {
     <div
       className={`fixed top-0 w-full z-20 bg-white transition-transform duration-300 ${
         scrollDirection === 'down' ? '-translate-y-full' : 'translate-y-0'
-      }`}
+      } ${isMain && 'bottom-0 bg-transparent pointer-events-none'}`}
     >
-      <div className="header bg-white relative">
+      <div className={`header bg-white ${isMain && 'bg-transparent'}`}>
         <h1 className="flex justify-center">
           <span className="sr-only">DIPTYQUE</span>
           <Link to="/">
@@ -39,8 +42,8 @@ const Header = () => {
             />
           </Link>
         </h1>
-        <Nav />
-        <DesktopMenu />
+        <Nav isMain={isMain} />
+        <DesktopMenu isMain={isMain} />
       </div>
     </div>
   );

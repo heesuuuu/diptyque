@@ -6,6 +6,7 @@ import {
   Cart,
   Collection,
   GuestOrder,
+  Main,
   Maison,
   Mypage,
   Payment,
@@ -29,7 +30,8 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/signin" element={<SignIn />} />
           <Route path="/" element={<Layout />}>
-            <Route index element={<Maison />} />
+            <Route index element={<Main />} />
+            <Route path="/maison" element={<Maison />} />
             <Route path="/promotion" element={<Promotion />} />
             <Route path="/product" element={<ProductList />}>
               <Route path=":categoryName" element={<CategoryList />} />
