@@ -37,7 +37,7 @@ function App() {
               <Route path=":categoryName" element={<CategoryList />} />
             </Route>
             <Route path="/product/:categoryName/:productId" element={<ProductDetail />} />
-            <Route path="/collection/:collectionName" element={<Collection />} />
+            <Route path="/collection" element={<Collection />} />
             <Route path="/service" element={<Service />} />
             <Route path="/mypage" element={<Mypage />} />
             <Route path="/payment" element={<Payment />} />
