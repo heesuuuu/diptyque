@@ -10,14 +10,6 @@ const CategoryList = () => {
   const { categoryData, loading } = useSelector((state) => state.product);
   const { categoryName } = param;
 
-  useEffect(() => {
-    dispatch(productActions.getCategory(categoryName));
-  }, [param, loading]);
-
-  if (loading) {
-    return <div>Loading . . . </div>;
-  }
-
   return (
     <>
       <div className="grid grid-cols-3 gap-10">

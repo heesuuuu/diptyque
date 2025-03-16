@@ -8,10 +8,16 @@ import CustomSelect from '../../ui/CustomSelect';
 import Icon from '../../ui/Icon';
 import './style.scss';
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import { FreeMode } from 'swiper/modules';
+import BelovedItem from '../../components/product/BelovedItem';
+
 const ProductDetail = () => {
   const dispatch = useDispatch();
   const { productId } = useParams();
-  const { productData, matchingNotesData, loading } = useSelector((state) => state.product);
+  const { productData, matchingNotesData, loading, popularProducts } = useSelector((state) => state.product);
   const { id, olfactory, name, type, notes, keyword, description, story, options, collection } = productData;
 
   const selectOptions = [
@@ -22,12 +28,14 @@ const ProductDetail = () => {
 
   useEffect(() => {
     if (productId) {
-      dispatch(productActions.setProduct(Number(productId)));
-
-      return () => {
-        dispatch(productActions.resetProduct());
-      };
+      dispatch(productActions.getProduct(Number(productId)));
+      dispatch(productActions.getPopularProducts(Number(productId)));
     }
+
+    return () => {
+      dispatch(productActions.resetCategory());
+      dispatch(productActions.resetProduct());
+    };
   }, [dispatch, productId]);
 
   if (loading) return <div>Loading . . . </div>;
@@ -45,7 +53,7 @@ const ProductDetail = () => {
             ))}
         </div>
 
-        <div className="w-1/2 tablet:text-body2-m">
+        <div className="w-1/2 text-body3">
           <div className="sticky top-0 right-0 flex flex-col gap-5 p-[11.25rem] tablet:px-6 tablet:py-10">
             {/* 기본 제품정보 */}
             <h1 className="mb-0 text-left detail-sec-title ">{name}</h1>
@@ -113,9 +121,23 @@ const ProductDetail = () => {
             </div>
           </div>
         )}
-        <div className="w-full">
+
+        {/* best seller section */}
+        <div className="w-full mb-[12.5rem]">
           <h2 className="detail-sec-title">Our most beloved</h2>
-          <div></div>
+          <Swiper
+            slidesPerView={4.2}
+            spaceBetween={30}
+            freeMode={true}
+            modules={[FreeMode]}
+            className="mySwiper product-detail-beloved-swiper"
+          >
+            {popularProducts.map((item) => (
+              <SwiperSlide key={item.id} className="w-[27.3125rem] h-[40.125rem]">
+                <BelovedItem item={item} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </div>
     </>

@@ -42,7 +42,12 @@ const ProductList = () => {
       navigate('/product/eauxdeparfum');
     } else if (path.length === 3) {
       dispatch(productActions.setCategory(categoryName));
+      dispatch(productActions.getCategory(categoryName));
     }
+
+    return () => {
+      dispatch(productActions.resetCategory());
+    };
   }, [location.pathname]);
 
   // 변환 클래스 계산

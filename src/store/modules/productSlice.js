@@ -125,7 +125,11 @@ export const productSlice = createSlice({
       }
       state.loading = false;
     },
-    setProduct: (state, action) => {
+    resetCategory: (state, action) => {
+      state.categoryInfo = {};
+      state.categoryData = [];
+    },
+    getProduct: (state, action) => {
       const id = action.payload;
       state.loading = true;
       const selectedProduct = state.allProductData.find((data) => data.id === id);
@@ -152,7 +156,22 @@ export const productSlice = createSlice({
       }
       state.loading = false;
     },
-    getPopularProducts: (state, action) => {},
+    getPopularProducts: (state, action) => {
+      const id = action.payload;
+      state.loading = true;
+      let data = [];
+      if (id >= 700) {
+        data = state.perfumeData;
+      } else if (id >= 500) {
+        data = state.diffuserData;
+      } else if (id >= 300) {
+        data = state.candleData;
+      } else if (id >= 100) {
+        data = state.bodyData;
+      }
+      state.popularProducts = data.sort((a, b) => b.sales - a.sales).slice(0, 8);
+      state.loading = false;
+    },
     resetProduct: (state, action) => {
       state.productData = initialProductData;
       state.matchingNotesData = [];
