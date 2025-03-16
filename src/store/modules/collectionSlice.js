@@ -46,13 +46,44 @@ const getCollectionNames = () => {
   return [...new Set(collectionNames)].sort();
 };
 
+// 컬렉션별 설명 데이터 추출
+const extractCollectionDescriptions = () => {
+  const descriptions = {};
+
+  allProducts.forEach((product) => {
+    let collectionNames = [];
+
+    if (Array.isArray(product.collection)) {
+      product.collection.forEach((col) => {
+        if (col && typeof col === 'object' && col.collectionName) {
+          collectionNames.push(col.collectionName);
+        }
+      });
+    } else if (product.collection && typeof product.collection === 'object' && product.collection.collectionName) {
+      collectionNames.push(product.collection.collectionName);
+    }
+
+    collectionNames.forEach((collectionName) => {
+      if (!descriptions[collectionName]) {
+        descriptions[collectionName] = product.story || product.description || '';
+      }
+    });
+  });
+
+  return descriptions;
+};
+
 const processedProducts = processProducts(allProducts);
+const collectionNames = getCollectionNames();
+const collectionsDescriptions = extractCollectionDescriptions();
 
 const initialState = {
-  allCollectionNames: getCollectionNames(),
+  allCollectionNames: collectionNames,
   allProducts: processedProducts,
-  selectedCollection: null,
+  selectedCollection: collectionNames.length > 0 ? collectionNames[0] : null,
   CollectionProducts: [],
+  selectedCollectionDescription: collectionNames.length > 0 ? collectionsDescriptions[collectionNames[0]] || '' : '',
+  collectionsDescriptions: collectionsDescriptions,
   loading: false,
   error: null,
 };
@@ -63,6 +94,9 @@ export const collectionSlice = createSlice({
   reducers: {
     selectCollection: (state, action) => {
       state.selectedCollection = action.payload;
+
+      // 선택된 컬렉션의 설명 업데이트
+      state.selectedCollectionDescription = state.collectionsDescriptions[action.payload] || '';
 
       // 선택된 collectionName에 해당하는 제품 필터링
       state.CollectionProducts = state.allProducts.filter((product) => {
@@ -80,6 +114,7 @@ export const collectionSlice = createSlice({
     clearSelection: (state) => {
       state.selectedCollection = null;
       state.CollectionProducts = [];
+      state.selectedCollectionDescription = '';
     },
 
     // 스크롤 위치에 기반하여 컬렉션만 변경 (상품 목록은 변경하지 않음)
@@ -88,16 +123,28 @@ export const collectionSlice = createSlice({
 
       if (collectionName && collectionName !== state.selectedCollection) {
         state.selectedCollection = collectionName;
+        state.selectedCollectionDescription = state.collectionsDescriptions[collectionName] || '';
       }
     },
 
     updateSelectedCollectionOnly: (state, action) => {
       state.selectedCollection = action.payload;
+      state.selectedCollectionDescription = state.collectionsDescriptions[action.payload] || '';
+    },
+
+    // 컬렉션 설명 데이터 업데이트 리듀서 추가
+    updateCollectionDescriptions: (state, action) => {
+      state.collectionsDescriptions = action.payload;
     },
   },
 });
 
-export const { selectCollection, clearSelection, updateCurrentCollection, updateSelectedCollectionOnly } =
-  collectionSlice.actions;
+export const {
+  selectCollection,
+  clearSelection,
+  updateCurrentCollection,
+  updateSelectedCollectionOnly,
+  updateCollectionDescriptions,
+} = collectionSlice.actions;
 
 export default collectionSlice.reducer;

@@ -4,9 +4,14 @@ import { selectCollection } from '../../store/modules/collectionSlice';
 
 const CollectionMenu = () => {
   const dispatch = useDispatch();
-  const { allCollectionNames, selectedCollection } = useSelector((state) => state.collection);
+  const {
+    allCollectionNames,
+    selectedCollection,
+    collectionsDescriptions, // 컬렉션 설명 데이터 불러오기
+  } = useSelector((state) => state.collection);
 
   const handleCollectionClick = (collectionName) => {
+    // 컬렉션 선택 액션 디스패치 (이 액션에서 설명도 함께 설정됨)
     dispatch(selectCollection(collectionName));
 
     // URL 업데이트

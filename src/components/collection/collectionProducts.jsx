@@ -318,7 +318,7 @@ const CollectionProducts = () => {
                   <img
                     src={product.options[0].images.thumbnail.default}
                     alt={product.name}
-                    className="w-full h-[803px] object-cover"
+                    className="w-full h-[803px] object-contain mx-auto"
                   />
                 )}
               </div>
