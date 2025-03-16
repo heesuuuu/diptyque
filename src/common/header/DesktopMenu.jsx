@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { navActions } from '../../store/modules/navSlice';
 import { Icon } from '../../ui';
 
-const DesktopMenu = () => {
+const DesktopMenu = ({ isMain }) => {
   const { menuOpen } = useSelector((state) => state.nav);
   const dispatch = useDispatch();
   const menuRef = useRef(null);
@@ -29,7 +29,7 @@ const DesktopMenu = () => {
   }, [menuOpen, dispatch]);
 
   return (
-    <div ref={menuRef} className="flex flex-col absolute top-[42px] right-10 z-50">
+    <div ref={menuRef} className={`flex flex-col absolute top-[42px] right-10 z-50 ${isMain && 'hidden'}`}>
       <div className={menuStyle} onClick={() => dispatch(navActions.toggleMenu())}>
         <Icon name={menuOpen ? 'close' : 'menu'} />
       </div>
