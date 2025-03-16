@@ -5,4 +5,8 @@
 
     margin-bottom: var(--cont-gap);
     text-align: center;
+
+    @include desktop-less {
+        @include tm-heading2;
+    }
 }
