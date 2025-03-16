@@ -1,9 +1,8 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import React, { useEffect, useRef, useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { BarButton, Icon } from '../../ui';
 import Accordion from '../../ui/Accordion';
-import { updateCurrentCollection, selectCollection } from '../../store/modules/collectionSlice';
 
 const CollectionProducts = () => {
   const dispatch = useDispatch();
@@ -300,7 +299,7 @@ const CollectionProducts = () => {
 
   return (
     <div className="product-container">
-      <div className="flex flex-col md:flex-row gap-8 relative">
+      <div className="flex flex-col md:flex-row relative">
         {/* 왼쪽: 상품 이미지 (스크롤 될 부분) */}
         <div className="md:w-1/2">
           <div className="space-y-12">
@@ -328,7 +327,7 @@ const CollectionProducts = () => {
         </div>
 
         {/* 오른쪽: 상품 정보 (섹션 내 sticky로 설정) */}
-        <div className="md:w-1/2 relative">
+        <div className="relative">
           {/* 상품 정보 컨테이너 */}
           <div
             ref={productInfoRef}
@@ -338,11 +337,19 @@ const CollectionProducts = () => {
             {currentProduct && (
               <div
                 key={currentProduct.id}
-                className={`space-y-5 transition-all duration-300 ease-in-out ${getTransitionClass()}`}
+                className={`space-y-5 transition-all duration-500 ease-in-out ${getTransitionClass()}`}
               >
                 <h3 className="font-diptyque lg:text-heading1 md:text-heading3 h-[58px]">{currentProduct.name}</h3>
-                <div className="flex">
-                  <div className="text-grey-4 text-body3">{currentProduct.type}</div>
+                <div className="flex place-content-between">
+                  <div className="text-darkgrey-3 text-body3">{currentProduct.type}</div>
+
+                  {currentProduct.options && currentProduct.options.length > 0 && (
+                    <div className="flex text-body3 text-darkgrey-3">
+                      <div>{currentProduct.options[0].price} €</div>
+                      <div className='mx-1'>|</div>
+                      <div>{currentProduct.options[0].size}</div>
+                    </div>
+                  )}
                 </div>
                 <div className="text-body3 border-solid border-b-[1px] w-full bg-slate-400 border-darkgrey-3"></div>
                 <div className="text-body3 text-grey-4 mb-4">{currentProduct.notes}</div>

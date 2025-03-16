@@ -32,7 +32,7 @@ const Collection = () => {
             </div>
 
             {/* 오른쪽 상품 목록/상세 정보 */}
-            <div className="md:w-3/4 lg:ml-[115px] md:ml-[24px]">
+            <div className=" lg:ml-[115px] md:ml-[24px]">
               <CollectionProducts />
             </div>
           </div>

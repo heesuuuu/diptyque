@@ -27,7 +27,7 @@ const CollectionMenu = () => {
             <div
               onClick={() => handleCollectionClick(collectionName)}
               className={`font-diptyque text-heading2 transition-colors cursor-pointer ${
-                selectedCollection === collectionName ? 'text-primary' : 'text-gray-200'
+                selectedCollection === collectionName ? 'text-gray-200' : ' text-primary'
               }`}
             >
               {collectionName}
