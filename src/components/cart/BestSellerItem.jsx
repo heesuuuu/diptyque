@@ -44,7 +44,7 @@ const BestSellerItem = ({ item }) => {
   }, [description, maxChars]);
 
   return (
-    <Link to={`/product/${id}`} className="relative flex flex-col justify-between gap-2 cursor-pointer group">
+    <Link to={`/product/detail/${id}`} className="relative flex flex-col justify-between gap-2 cursor-pointer group">
       <img
         className="mb-2 object-cover w-full group-hover:opacity-0 transition-all ease-in-out duration-700"
         src={thumbImg}

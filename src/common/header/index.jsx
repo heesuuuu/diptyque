@@ -32,7 +32,7 @@ const Header = () => {
       } ${isMain && 'bottom-0 bg-transparent pointer-events-none'}`}
     >
       <div className={`header bg-white ${isMain && 'bg-transparent'}`}>
-        <h1 className="flex justify-center">
+        <h1 className="flex justify-center pointer-events-auto">
           <span className="sr-only">DIPTYQUE</span>
           <Link to="/">
             <img
