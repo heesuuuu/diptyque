@@ -14,16 +14,16 @@ const allProducts = [
 
 // 키워드 배열을 notes 문자열로 변환하는 함수
 const processProducts = (products) => {
-  return products.map(product => {
+  return products.map((product) => {
     if (product.keyword && Array.isArray(product.keyword)) {
       const notes = product.keyword
-        .map(item => typeof item === 'object' && item.note ? item.note : '')
+        .map((item) => (typeof item === 'object' && item.note ? item.note : ''))
         .filter(Boolean)
         .join(', ');
-      
+
       return { ...product, notes };
     }
-    return { ...product, notes: '' }; 
+    return { ...product, notes: '' };
   });
 };
 
@@ -38,8 +38,7 @@ const getCollectionNames = () => {
           collectionNames.push(col.collectionName);
         }
       });
-    }
-    else if (product.collection && typeof product.collection === 'object' && product.collection.collectionName) {
+    } else if (product.collection && typeof product.collection === 'object' && product.collection.collectionName) {
       collectionNames.push(product.collection.collectionName);
     }
   });
@@ -77,12 +76,28 @@ export const collectionSlice = createSlice({
         return false;
       });
     },
+
     clearSelection: (state) => {
       state.selectedCollection = null;
       state.CollectionProducts = [];
     },
+
+    // 스크롤 위치에 기반하여 컬렉션만 변경 (상품 목록은 변경하지 않음)
+    updateCurrentCollection: (state, action) => {
+      const collectionName = action.payload;
+
+      if (collectionName && collectionName !== state.selectedCollection) {
+        state.selectedCollection = collectionName;
+      }
+    },
+
+    updateSelectedCollectionOnly: (state, action) => {
+      state.selectedCollection = action.payload;
+    },
   },
 });
 
-export const { selectCollection, clearSelection } = collectionSlice.actions;
+export const { selectCollection, clearSelection, updateCurrentCollection, updateSelectedCollectionOnly } =
+  collectionSlice.actions;
+
 export default collectionSlice.reducer;
