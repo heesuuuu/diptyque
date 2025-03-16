@@ -1,21 +1,15 @@
-import { useNavigate } from 'react-router-dom';
-import { BarButton } from '../../ui';
+import { Link } from 'react-router-dom';
 
 const BelovedItem = ({ item }) => {
-  const navigate = useNavigate();
   const { id, name, options, type } = item;
   const price = options[0].price;
   const thumbImg = options[0].images.thumbnail.default;
   const hoverImg = options[0].images.thumbnail.hover;
 
-  const goProductPage = () => {
-    navigate(`/product/detail/${id}`);
-  };
-
   return (
     <>
-      <div
-        onClick={goProductPage}
+      <Link
+        to={`/product/detail/${id}`}
         className="relative flex flex-col justify-between gap-[0.625rem] cursor-pointer group"
       >
         <img
@@ -35,8 +29,7 @@ const BelovedItem = ({ item }) => {
             {options[0].size} | €{price}
           </span>
         </p>
-      </div>
-      <BarButton type="filled" text="ADD TO BAG" className="mt-5" />
+      </Link>
     </>
   );
 };

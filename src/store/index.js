@@ -1,5 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 import cart from './modules/cartSlice';
+import category from './modules/categorySlice';
 import collection from './modules/collectionSlice';
 import guestOrder from './modules/guestOrderSlice';
 import maison from './modules/maisonSlice';
@@ -15,6 +16,7 @@ import service from './modules/serviceSlice';
 const store = configureStore({
   reducer: {
     cart,
+    category,
     collection,
     guestOrder,
     maison,

@@ -1,14 +1,14 @@
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Outlet, useLocation, useNavigate, useParams } from 'react-router-dom';
-import { productActions } from '../../store/modules/productSlice';
 import Icon from '../../ui/Icon';
 import './style.scss';
+import { categoryActions } from '../../store/modules/categorySlice';
 
 const ProductList = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const { categoryInfo } = useSelector((state) => state.product);
+  const { categoryInfo } = useSelector((state) => state.category);
   const { title, desc } = categoryInfo;
   const { categoryName } = useParams();
   const location = useLocation();
@@ -41,12 +41,12 @@ const ProductList = () => {
     if (path.length === 2) {
       navigate('/product/eauxdeparfum');
     } else if (path.length === 3) {
-      dispatch(productActions.setCategory(categoryName));
-      dispatch(productActions.getCategory(categoryName));
+      dispatch(categoryActions.setCategory(categoryName));
+      dispatch(categoryActions.getCategory(categoryName));
     }
 
     return () => {
-      dispatch(productActions.resetCategory());
+      dispatch(categoryActions.resetCategory());
     };
   }, [location.pathname]);
 

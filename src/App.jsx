@@ -1,7 +1,6 @@
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Layout from './common/Layout';
-import CategoryList from './components/product/CategoryList';
 import {
   Cart,
   Collection,
@@ -20,6 +19,7 @@ import {
 } from './pages';
 import './styles/globals.scss';
 import ScrollToTop from './utils/ScrollToTop';
+import CategoryList from './components/productList/CategoryList';
 
 const GOOGLE_CLIENT_ID = '938549800295-jauqqv8g7482gt4o5k7sm9l5kbbhbhid.apps.googleusercontent.com';
 
