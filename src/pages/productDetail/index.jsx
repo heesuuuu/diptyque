@@ -44,8 +44,10 @@ const ProductDetail = () => {
               <img key={idx} src={img} alt={name} className="w-full h-auto" />
             ))}
         </div>
-        <div className="w-1/2">
+
+        <div className="w-1/2 tablet:text-body2-m">
           <div className="sticky top-0 right-0 flex flex-col gap-5 p-[11.25rem] tablet:px-6 tablet:py-10">
+            {/* 기본 제품정보 */}
             <h1 className="mb-0 text-left detail-sec-title ">{name}</h1>
             <div className="flex flex-col  gap-5 text-body3">
               <p className="flex justify-between items-center">
@@ -67,14 +69,18 @@ const ProductDetail = () => {
               </p>
               <p className="text-darkgrey-1">{description}</p>
             </div>
-            <div className="relative flex justify-between items-center">
-              <p>Add Personalization</p>
+
+            {/* 각인 선택 */}
+            <div className="relative flex tablet:flex-col justify-between items-center">
+              <p className="tablet:w-full tablet:mb-[0.625rem]">Add Personalization</p>
               <CustomSelect
                 options={selectOptions}
                 defaultValue={''}
                 onChange={(option) => console.log('Selected:', option)}
               />
             </div>
+
+            {/* 아코디언 : 상세정보 */}
             <div>
               <Accordion title="Story" content={story} />
               <Accordion
@@ -82,7 +88,9 @@ const ProductDetail = () => {
                 content="alcohol denat., parfum (fragrance), aqua (water), coumarin, linalool, ethylhexyl methoxycinnamate, alpha-isomethyl ionone, limonene, ethylhexyl salicylate, geraniol, butyl methoxydibenzoylmethane, cinnamyl alcohol, farnesol, citral"
               />
             </div>
+
             <BarButton type="filled" text="ADD TO BAG" />
+
             <div className="flex justify-center items-center bg-black text-white">
               <Icon name="keyboard_arrow_down" />
               ADDED TO BAG
@@ -90,6 +98,7 @@ const ProductDetail = () => {
           </div>
         </div>
       </div>
+
       <div className="pl-[50px]">
         {(Array.isArray(notes) || Array.isArray(keyword)) && (
           <div className="w-full my-sec-gap-pc">

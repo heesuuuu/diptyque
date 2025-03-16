@@ -27,13 +27,13 @@ const CustomSelect = ({ options, defaultValue, onChange }) => {
   };
 
   return (
-    <div className="relative w-64" ref={dropdownRef}>
+    <div className="relative w-64 tablet:w-full " ref={dropdownRef}>
       {/* 선택 버튼 */}
       <button
-        className="flex items-center justify-between px-4 py-3 text-left bg-white border border-gray-300   hover:bg-gray-50 focus:outline-none"
+        className="flex items-center justify-between tablet:w-full px-4 py-3 text-left bg-white border border-gray-300 hover:bg-gray-50 focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <span>{selectedOption.label}</span>
+        <span className={selectedOption.label === 'Select' && 'text-grey-4'}>{selectedOption.label}</span>
         <Icon
           name="keyboard_arrow_down"
           className={`w-5 h-5 transition-transform duration-200 ${isOpen ? 'transform rotate-180' : ''}`}

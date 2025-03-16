@@ -4,40 +4,16 @@
     "plugin:react/recommended",
     "plugin:prettier/recommended",
     "plugin:react/jsx-runtime",
-    "plugin:tailwindcss/recommended",
-    "plugin:unused-imports/recommended"
+    "plugin:tailwindcss/recommended"
   ],
-  "plugins": ["react", "react-hooks", "react-refresh", "tailwindcss", "unused-imports", "prettier"],
+  "plugins": ["react", "react-hooks", "react-refresh", "tailwindcss"],
   "rules": {
     "react/react-in-jsx-scope": "off",
     "react/jsx-no-target-blank": "off",
     "react-refresh/only-export-components": ["warn", { "allowConstantExport": true }],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "tailwindcss/classnames-order": "warn",
-    "no-unused-vars": "off",
-    "unused-imports/no-unused-imports": "warn",
-    "unused-imports/no-unused-vars": [
-      "warn",
-      {
-        "vars": "all",
-        "varsIgnorePattern": "^_",
-        "args": "after-used",
-        "argsIgnorePattern": "^_"
-      }
-    ],
-    "prettier/prettier": [
-      "warn",
-      {
-        "endOfLine": "auto",
-        "singleQuote": true,
-        "trailingComma": "all",
-        "printWidth": 120,
-        "tabWidth": 2,
-        "semi": true,
-        "arrowParens": "always"
-      }
-    ]
+    "tailwindcss/classnames-order": "warn"
   },
   "parserOptions": {
     "ecmaVersion": "latest",
