@@ -28,8 +28,7 @@ const Collection = () => {
     console.log(`Current scroll position: ${window.scrollY}px`);
   };
 
-  useEffect(() => {
-  }, []);
+  useEffect(() => {}, []);
 
   return (
     <>
@@ -76,8 +75,8 @@ const Collection = () => {
         </section>
 
         {/* Most popular section */}
-        <section className="mt-[80px] mb-[200px] lg:w-full lg:mx-auto overflow-visible">
-          <PopularProduct onChangeCollection={handleCollectionChange} isMouseOverMenu={isMouseOverMenu} />
+        <section className="mt-[80px] mb-[200px] lg:w-full lg:mx-auto">
+          <PopularProduct />
         </section>
       </div>
     </>

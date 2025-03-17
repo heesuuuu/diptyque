@@ -1,10 +1,16 @@
 import React, { useMemo } from 'react';
-import { BarButton } from '../../ui';
-import { useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
+import { useSelector, useDispatch } from 'react-redux';
+import { productActions } from '../../store/modules/productSlice';
+import PopularItem from './PopularItem';
+import BarButton from '../../ui/BarButton';
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { FreeMode } from 'swiper/modules';
 
 const PopularProduct = () => {
   const { allProducts } = useSelector((state) => state.collection);
+  const dispatch = useDispatch();
 
   const topProducts = useMemo(() => {
     if (!allProducts || allProducts.length === 0) {
@@ -23,40 +29,35 @@ const PopularProduct = () => {
       .slice(0, 5);
   }, [allProducts]);
 
-  return (
-    <div className="text-center">
-      <div className="text-heading1 font-diptyque mb-10">Our most popular products</div>
+  const addToBag = () => {
+    dispatch(productActions.setIsAdded());
+    setTimeout(() => {
+      dispatch(productActions.resetIsAdded());
+    }, 3000);
+  };
 
-      <div className="overflow-x-auto max-w-full">
-        <div className="flex flex-nowrap space-x-6 px-4 pb-4">
+  return (
+    <div className="w-full mb-[12.5rem] overflow-visible">
+      <h2 className="detail-sec-title text-heading1 font-diptyque mb-10">Our most popular products</h2>
+
+      <div className="overflow-visible w-full">
+        <Swiper
+          slidesPerView={4.2}
+          spaceBetween={30}
+          freeMode={true}
+          modules={[FreeMode]}
+          className="mySwiper overflow-visible"
+          style={{ overflow: 'visible' }}
+        >
           {topProducts.map((product) => (
-            <div key={product.id} className="flex-none w-[423px]">
-              <Link to={`/product/${product.category}/${product.id}`}>
-                <div className="h-[504px] w-full bg-slate-100 overflow-hidden">
-                  {product.options[0].images?.thumbnail?.default && (
-                    <img
-                      src={product.options[0].images.thumbnail.default}
-                      alt={product.name}
-                      className="w-full h-full object-contain"
-                    />
-                  )}
-                </div>
-              </Link>
-              <div className="text-heading3 font-diptyque text-darkgrey-3 w-full text-left mt-4">{product.name}</div>
-              <div className="flex place-content-between mt-[10px]">
-                <div className="text-body3 text-darkgray-3">{product.type}</div>
-                <div className="flex text-body3 text-darkgrey-3">
-                  <div>{product.options[0].size}</div>
-                  <div className="mx-1">|</div>
-                  <div>{product.options[0].price} €</div>
-                </div>
+            <SwiperSlide key={product.id} className="w-[27.3125rem] h-auto overflow-visible">
+              <PopularItem product={product} />
+              <div onClick={addToBag} className="mt-5">
+                <BarButton type="filled" text="ADD TO BAG" />
               </div>
-              <div className="mt-5">
-                <BarButton text="ADD TO BAG" type="filled" />
-              </div>
-            </div>
+            </SwiperSlide>
           ))}
-        </div>
+        </Swiper>
       </div>
     </div>
   );
