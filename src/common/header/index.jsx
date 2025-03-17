@@ -29,9 +29,9 @@ const Header = () => {
     <div
       className={`fixed top-0 w-full z-20 bg-white transition-transform duration-300 ${
         scrollDirection === 'down' ? '-translate-y-full' : 'translate-y-0'
-      } ${isMain && 'bottom-0 bg-transparent pointer-events-none'}`}
+      } ${isMain && 'bottom-0 !bg-transparent pointer-events-none'}`}
     >
-      <div className={`header bg-white ${isMain && 'bg-transparent'}`}>
+      <div className={`header bg-white ${isMain && '!bg-transparent'}`}>
         <h1 className="flex justify-center pointer-events-auto">
           <span className="sr-only">DIPTYQUE</span>
           <Link to="/">
