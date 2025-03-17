@@ -8,6 +8,7 @@ const PopularItem = ({ product }) => {
 
   const { id, name, options, type, category } = product;
   const price = options[0].price;
+  const size = options[0].size;
   const thumbImg = options[0].images.thumbnail.default;
   const hoverImg = options[0].images.thumbnail.hover || thumbImg;
 
@@ -31,7 +32,7 @@ const PopularItem = ({ product }) => {
         <p className="flex justify-between text-body3/[150%]">
           {name}
           <span className="ml-auto">
-            {options[0].size} | €{price}
+            {size ? `${size} | ` : ''}€{price}
           </span>
         </p>
       </Link>
