@@ -4,14 +4,16 @@ import { Outlet, useLocation, useNavigate, useParams } from 'react-router-dom';
 import Icon from '../../ui/Icon';
 import './style.scss';
 import { categoryActions } from '../../store/modules/categorySlice';
+import CustomSelect from '../../ui/CustomSelect';
+import OlfactoryItem from '../../components/productList/OlfactoryItem';
 
 const ProductList = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
+  const location = useLocation();
+  const { categoryName } = useParams();
   const { categoryInfo } = useSelector((state) => state.category);
   const { title, desc } = categoryInfo;
-  const { categoryName } = useParams();
-  const location = useLocation();
   const path = location.pathname.split('/');
 
   // 스크롤 관련 상태 추가
@@ -64,6 +66,15 @@ const ProductList = () => {
     }
   };
 
+  const options = [
+    { value: '', label: 'Sort' },
+    { value: 'created_at', label: 'Recent' },
+    { value: 'sales', label: 'Popular' },
+    { value: 'name', label: 'Name' },
+  ];
+
+  const olfactories = [{ name: 'woody' }, { name: 'floral' }, { name: 'amber' }, { name: 'cytrus' }];
+
   return (
     <>
       <div className="mt-header-h">
@@ -77,38 +88,30 @@ const ProductList = () => {
         </div>
 
         {/* contents inner */}
-        <div className="px-[280px] tablet:px-[60px] mobile:px-4">
+        <div className="px-[280px] pb-sec-gap-pc tablet:px-[60px] mobile:px-4">
           {/* 카테고리 소개 섹션 */}
-          <div className="flex flex-col justify-center items-center gap-10 w-[898px] tablet:w-[498px] mobile:w-[358px] m-auto my-[280px] tablet:smy-[150px] mobile:my-[100px]">
+          <div className="flex flex-col justify-center items-center gap-10 w-[56.125rem] tablet:w-[31.125rem] mobile:w-[22.375rem] m-auto my-[12.5rem] tablet:my-[9.375rem] mobile:my-[6.25rem]">
             <h1 className="text-heading1/[160%] tablet:text-heading1-m text-center">{title}</h1>
             <p className="text-body2/[160%] tablet:text-body2-m/[150%]">{desc}</p>
           </div>
 
-          <div className="flex">
-            <ul className="flex flex-grow olfactory">
-              <li>
-                <button>WOODY</button>
-              </li>
-              <li>
-                <button>FLORAL</button>
-              </li>
-              <li>
-                <button>AMBER</button>
-              </li>
-              <li>
-                <button>CYTRUS</button>
-              </li>
-            </ul>
-            <select
-              name=""
-              id=""
-              className="flex justify-between w-[12.875rem] h-[2.8125rem] ml-auto px-4 py-[0.6563rem]"
-            >
-              <option value="">Sort</option>
-              <option value="">Recent</option>
-              <option value="">Popular</option>
-              <option value="">Name</option>
-            </select>
+          <div className="relative mb-[6.25rem]">
+            {(title === 'Eaux de parfum' || title === 'Eaux de toilette' || title === 'Solid perfumes') && (
+              <ul className="flex olfactory justify-center">
+                {olfactories.map((item, idx) => (
+                  <OlfactoryItem key={idx} item={item} />
+                ))}
+              </ul>
+            )}
+
+            <div className="absolute top-0 right-0 w-[12.875rem] h-[2.8125rem]">
+              <CustomSelect
+                options={options}
+                defaultValue={options[0]}
+                onChange={(option) => console.log('Selected:', option)}
+                className="px-4 py-[0.625rem]"
+              />
+            </div>
           </div>
 
           {/* 제품 리스트 */}

@@ -5,11 +5,12 @@ import CartList from './CartList';
 import './styles.scss';
 
 const CartPage = () => {
-  const { cartData } = useSelector((state) => state.cart);
+  const { localCartData } = useSelector((state) => state.cart);
+
   return (
     <div className="cart-inner overflow-x-hidden">
       <div className="mt-[120px] text-heading1 font-diptyque">Shopping Bag</div>
-      {cartData.length > 0 ? <CartList /> : <CartEmpty />}
+      {localCartData.length > 0 ? <CartList /> : <CartEmpty />}
     </div>
   );
 };

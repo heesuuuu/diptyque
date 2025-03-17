@@ -127,23 +127,34 @@ const cartdata = [
 
 const initialState = {
   cartData: [],
+  localCartData: (() => {
+    try {
+      const storedCartData = localStorage.getItem('cartData');
+      return storedCartData ? JSON.parse(storedCartData) : [];
+    } catch (error) {
+      console.error('localStorage JSON parsing error:', error);
+      return [];
+    }
+  })(),
   totalCartQuantity: 0,
   totalCartPrice: 0,
   selectCartItem: false,
   totalSelectedPrice: 0,
+  cartLoading: false,
 };
 export const cartSlice = createSlice({
   name: 'cart',
   initialState,
   reducers: {
     totalCartAmount: (state, action) => {
-      state.totalCartPrice = state.cartData.reduce((acc, curr) => acc + curr.totalPrice, 0);
+      state.totalCartPrice = state.localCartData.reduce((acc, curr) => acc + curr.totalPrice, 0);
     },
     addToCart: (state, action) => {
+      state.cartLoading = true;
       const newItem = action.payload;
-      const existingItem = state.cartData.find((item) => item.id === newItem.id);
+      const existingItem = state.localCartData.find((item) => item.id === newItem.id);
       if (!existingItem) {
-        state.cartData.push({
+        state.localCartData.push({
           ...newItem,
           quantity: 1,
           totalPrice: newItem.options[0].price,
@@ -153,53 +164,76 @@ export const cartSlice = createSlice({
       } else {
         existingItem.quantity++;
         existingItem.totalPrice += existingItem.options[0].price;
+        state.localCartData = state.localCartData.map((data) =>
+          data.id === existingItem.id
+            ? { ...data, quantity: existingItem.quantity, totalPrice: existingItem.totalPrice }
+            : data
+        );
       }
-      state.totalCartPrice = state.cartData.reduce((acc, curr) => acc + curr.totalPrice, 0);
-      state.totalCartQuantity = state.cartData.reduce((acc, curr) => acc + curr.quantity, 0);
+      localStorage.setItem('cartData', JSON.stringify(state.localCartData));
+
+      state.totalCartPrice = state.localCartData.reduce((acc, curr) => acc + curr.totalPrice, 0);
+      state.totalCartQuantity = state.localCartData.reduce((acc, curr) => acc + curr.quantity, 0);
+      state.cartLoading = false;
     },
     reduceQuantity: (state, action) => {
       const id = action.payload;
-      const newItem = state.cartData.find((item) => item.id === id);
+      const newItem = state.localCartData.find((item) => item.id === id);
       if (newItem.quantity === 1) return;
       else {
         newItem.quantity--;
         newItem.totalPrice -= newItem.options[0].price;
+
+        state.localCartData = state.localCartData.map((data) =>
+          data.id === newItem.id ? { ...data, quantity: newItem.quantity, totalPrice: newItem.totalPrice } : data
+        );
       }
-      state.totalCartPrice = state.cartData.reduce((acc, curr) => acc + curr.totalPrice, 0);
-      state.totalCartQuantity = state.cartData.reduce((acc, curr) => acc + curr.quantity, 0);
+      localStorage.setItem('cartData', JSON.stringify(state.localCartData));
+
+      state.totalCartPrice = state.localCartData.reduce((acc, curr) => acc + curr.totalPrice, 0);
+      state.totalCartQuantity = state.localCartData.reduce((acc, curr) => acc + curr.quantity, 0);
     },
     removeFromCart: (state, action) => {
       const newItem = action.payload;
-      state.cartData = state.cartData.filter((item) => item.id !== newItem.id);
+      state.localCartData = state.localCartData.filter((item) => item.id !== newItem.id);
 
-      state.totalCartPrice = state.cartData.reduce((acc, curr) => acc + curr.totalPrice, 0);
-      state.totalCartQuantity = state.cartData.reduce((acc, curr) => acc + curr.quantity, 0);
+      state.totalCartPrice = state.localCartData.reduce((acc, curr) => acc + curr.totalPrice, 0);
+      state.totalCartQuantity = state.localCartData.reduce((acc, curr) => acc + curr.quantity, 0);
+
+      localStorage.setItem('cartData', JSON.stringify(state.localCartData));
     },
     toggleSelectCartItem: (state, action) => {
       state.selectCartItem = !state.selectCartItem;
-      state.cartData = state.cartData.map((item) => ({
+      state.localCartData = state.localCartData.map((item) => ({
         ...item,
         selected: false,
       }));
-      state.totalSelectedPrice = state.cartData
+      state.totalSelectedPrice = state.localCartData
         .filter((item) => item.selected)
         .reduce((acc, curr) => acc + curr.totalPrice, 0);
+      localStorage.setItem('cartData', JSON.stringify(state.localCartData));
     },
     toggleSelected: (state, action) => {
       const id = action.payload;
-      state.cartData = state.cartData.map((item) => (item.id === id ? { ...item, selected: !item.selected } : item));
-      state.totalSelectedPrice = state.cartData
+      state.localCartData = state.localCartData.map((item) =>
+        item.id === id ? { ...item, selected: !item.selected } : item
+      );
+      localStorage.setItem('cartData', JSON.stringify(state.localCartData));
+
+      state.totalSelectedPrice = state.localCartData
         .filter((item) => item.selected)
         .reduce((acc, curr) => acc + curr.totalPrice, 0);
     },
     removeSelected: (state, action) => {
-      state.cartData = state.cartData.filter((item) => item.selected === false);
+      state.localCartData = state.localCartData.filter((item) => item.selected === false);
       state.selectCartItem = false;
-      state.totalCartPrice = state.cartData.reduce((acc, curr) => acc + curr.totalPrice, 0);
+      state.totalCartPrice = state.localCartData.reduce((acc, curr) => acc + curr.totalPrice, 0);
+      localStorage.setItem('cartData', JSON.stringify(state.localCartData));
     },
     updateEngrave: (state, action) => {
       const { id, text } = action.payload;
-      state.cartData = state.cartData.map((item) => (item.id === id ? { ...item, engraving: text } : item));
+      state.localCartData = state.localCartData.map((item) => (item.id === id ? { ...item, engraving: text } : item));
+      localStorage.setItem('cartData', JSON.stringify(state.localCartData));
     },
   },
 });

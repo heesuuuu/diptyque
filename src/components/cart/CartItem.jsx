@@ -36,13 +36,13 @@ const CartItem = ({ item }) => {
       <div
         onClick={() => dispatch(cartActions.toggleSelected(id))}
         className={`checkbox transition-all duration-300 ease-in-out ${
-          selectCartItem ? 'w-[24px] opacity-100 mr-6' : 'w-0 opacity-0 mr-0'
+          selectCartItem ? 'w-[24px] opacity-100 mr-6 cursor-pointer' : 'w-0 opacity-0 mr-0'
         }`}
       >
         {selected ? <Icon name="check_box" /> : <Icon name="check_box_outline_blank" />}
       </div>
       <div className="cart-item flex flex-row gap-6 w-full items-center h-full">
-        <Link to={`/product/${id}`} className="block w-[200px] h-auto flex-shrink-0">
+        <Link to={`/product/detail/${id}`} className="block w-[200px] h-auto flex-shrink-0">
           <img src={options[0].images.thumbnail.default} alt={name} className="w-full h-auto" />
         </Link>
 

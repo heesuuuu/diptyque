@@ -6,7 +6,7 @@ import { BarButton } from '../../ui';
 import CartItem from './CartItem';
 
 const CartList = () => {
-  const { cartData, totalCartPrice, selectCartItem, totalSelectedPrice } = useSelector((state) => state.cart);
+  const { localCartData, totalCartPrice, selectCartItem, totalSelectedPrice } = useSelector((state) => state.cart);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -16,10 +16,10 @@ const CartList = () => {
   const navigate = useNavigate();
 
   const handleCheckout = (e) => {
-    if (!selectCartItem && cartData.some((item) => !item.inStock)) {
+    if (!selectCartItem && localCartData.some((item) => !item.inStock)) {
       e.preventDefault();
       alert('선택한 상품 중 품절된 상품이 있습니다.');
-    } else if (selectCartItem && cartData.some((item) => item.selected && !item.inStock)) {
+    } else if (selectCartItem && localCartData.some((item) => item.selected && !item.inStock)) {
       e.preventDefault();
       alert('선택한 상품 중 품절된 상품이 있습니다.');
     } else {
@@ -44,7 +44,7 @@ const CartList = () => {
       </div>
       <div className="cart-item-list-wrap flex flex-row justify-between gap-[10vw]">
         <div className="cart-item-list flex flex-col gap-6 w-[65vw] max-w-[1004px]">
-          {cartData.map((item) => (
+          {localCartData.map((item) => (
             <CartItem key={item.id} item={item} />
           ))}
         </div>
