@@ -214,9 +214,6 @@ const CollectionProducts = ({ onChangeCollection }) => {
           // 컬렉션이 변경되었음을 저장
           setLastVisibleCollection(productCollectionName);
 
-          // URL 업데이트 (히스토리 변경 없이)
-          window.history.replaceState(null, '', `/collection/${productCollectionName}`);
-
           // Redux 상태 업데이트
           if (productCollectionName !== selectedCollection) {
             dispatch({

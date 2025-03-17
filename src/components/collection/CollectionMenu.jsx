@@ -14,8 +14,6 @@ const CollectionMenu = () => {
     // 컬렉션 선택 액션 디스패치 (이 액션에서 설명도 함께 설정됨)
     dispatch(selectCollection(collectionName));
 
-    // URL 업데이트
-    window.history.pushState(null, '', `/collection/${collectionName}`);
   };
 
   useEffect(() => {
