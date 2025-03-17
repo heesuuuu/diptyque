@@ -88,23 +88,23 @@ const ProductList = () => {
         </div>
 
         {/* contents inner */}
-        <div className="px-[280px] tablet:px-[60px] mobile:px-4">
+        <div className="px-[280px] pb-sec-gap-pc tablet:px-[60px] mobile:px-4">
           {/* 카테고리 소개 섹션 */}
-          <div className="flex flex-col justify-center items-center gap-10 w-[898px] tablet:w-[498px] mobile:w-[358px] m-auto my-[280px] tablet:smy-[150px] mobile:my-[100px]">
+          <div className="flex flex-col justify-center items-center gap-10 w-[56.125rem] tablet:w-[31.125rem] mobile:w-[22.375rem] m-auto my-[12.5rem] tablet:my-[9.375rem] mobile:my-[6.25rem]">
             <h1 className="text-heading1/[160%] tablet:text-heading1-m text-center">{title}</h1>
             <p className="text-body2/[160%] tablet:text-body2-m/[150%]">{desc}</p>
           </div>
 
-          <div className="flex">
+          <div className="relative mb-[6.25rem]">
             {(title === 'Eaux de parfum' || title === 'Eaux de toilette' || title === 'Solid perfumes') && (
-              <ul className="flex flex-grow olfactory">
+              <ul className="flex olfactory justify-center">
                 {olfactories.map((item, idx) => (
                   <OlfactoryItem key={idx} item={item} />
                 ))}
               </ul>
             )}
 
-            <div className="w-[12.875rem] h-[2.8125rem]">
+            <div className="absolute top-0 right-0 w-[12.875rem] h-[2.8125rem]">
               <CustomSelect
                 options={options}
                 defaultValue={options[0]}

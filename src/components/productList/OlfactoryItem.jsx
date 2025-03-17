@@ -1,18 +1,20 @@
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { categoryActions } from '../../store/modules/categorySlice';
 import { useEffect, useState } from 'react';
 
 const OlfactoryItem = ({ item }) => {
   const dispatch = useDispatch();
+  const { selectedOlfactoryFilters } = useSelector((state) => state.category);
   const [selected, setSelected] = useState(false);
   const { name } = item;
-  const data = { name, selected };
 
-  useEffect(() => {}, [{ item }]);
+  useEffect(() => {
+    const isSelected = selectedOlfactoryFilters.includes(name.toLowerCase());
+    setSelected(isSelected);
+  }, [selectedOlfactoryFilters, name]);
 
   const selectOlfactory = () => {
-    dispatch(categoryActions.getOlfactoryData(data));
-    setSelected(!selected);
+    dispatch(categoryActions.getOlfactoryData({ name, selected }));
   };
 
   return (
