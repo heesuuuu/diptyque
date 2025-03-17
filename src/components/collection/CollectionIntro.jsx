@@ -148,17 +148,14 @@ const CollectionIntro = () => {
   };
 
   return (
-    <>
-      <div className="w-full mt-28 h-[741px] flex items-center justify-center overflow-hidden pt-46">
-        <img
-          src={getCollectionImage()}
-          alt={selectedCollection || 'Philosykos'}
-          className="object-cover"
-        />
+      <>
+          <div className=' tablet:h-0 mobile:h-0' ></div>
+      <div className=" w-full  h-full  flex items-center justify-center">
+        <img src={getCollectionImage()} alt={selectedCollection || 'Philosykos'} className="object-cover h-[641px] w-full" />
       </div>
 
       <section
-        className={`mt-[80px] mb-[200px] lg:w-[1168px] lg:mx-auto transition-opacity duration-500 ${
+        className={` mobile:mt-[100px] lg:w-[1168px] lg:mx-auto transition-opacity duration-500 ${
           isFading ? 'opacity-50' : 'opacity-100'
         }`}
       >
