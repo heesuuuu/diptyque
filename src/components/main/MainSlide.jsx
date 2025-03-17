@@ -54,24 +54,25 @@ const MainSlide = () => {
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
-    offset: ['start start', 'end start'],
+    offset: ['start start', 'end end'],
   });
 
   // 가로 크기 계산 (16:9 비율 유지)
   const imageWidth = viewportHeight * (16 / 9);
-  const totalWidth = `-${mainSlideSrc.length * imageWidth}px`;
+  const totalWidth = mainSlideSrc.length * imageWidth - window.innerWidth;
+
+  console.log(totalWidth);
 
   // 세로 스크롤 값을 가로 스크롤 값으로 변환
-  const x = useTransform(scrollYProgress, [0, 1], ['0px', totalWidth]);
+  const x = useTransform(scrollYProgress, [0, 1], ['0px', `-${totalWidth}px`]);
 
   return (
-    <div ref={containerRef} className="relative overflow-hidden" style={{ height: `${mainSlideSrc.length * 100}vh` }}>
-      <motion.div style={{ x }} className="flex fixed left-0 top-0 h-screen items-center">
+    <div ref={containerRef} className="main-scroll overflow-hidden" style={{ height: `${totalWidth}px` }}>
+      <motion.div style={{ x }} className="flex fixed left-0 top-0">
         {mainSlideSrc.map((item, idx) => (
           <div
             key={idx}
-            className="h-screen flex-shrink-0"
-            style={{ width: `${imageWidth}px` }}
+            className={`flex-shrink-0`}
             onMouseEnter={() => setHoveredItem(item.name)}
             onMouseLeave={() => setHoveredItem(null)}
           >
@@ -91,7 +92,7 @@ const MainSlide = () => {
             top: cursorPos.y - 35,
           }}
           initial={{
-            scale: 0.5,
+            scale: 0.2,
             opacity: 0,
           }}
           animate={{
