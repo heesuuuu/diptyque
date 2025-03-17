@@ -4,6 +4,7 @@ import { Outlet, useLocation, useNavigate, useParams } from 'react-router-dom';
 import Icon from '../../ui/Icon';
 import './style.scss';
 import { categoryActions } from '../../store/modules/categorySlice';
+import CustomSelect from '../../ui/CustomSelect';
 
 const ProductList = () => {
   const navigate = useNavigate();
@@ -64,6 +65,13 @@ const ProductList = () => {
     }
   };
 
+  const options = [
+    { value: '', label: 'Sort' },
+    { value: 'created_at', label: 'Recent' },
+    { value: 'sales', label: 'Popular' },
+    { value: 'name', label: 'Name' },
+  ];
+
   return (
     <>
       <div className="mt-header-h">
@@ -99,16 +107,15 @@ const ProductList = () => {
                 <button>CYTRUS</button>
               </li>
             </ul>
-            <select
-              name=""
-              id=""
-              className="flex justify-between w-[12.875rem] h-[2.8125rem] ml-auto px-4 py-[0.6563rem]"
-            >
-              <option value="">Sort</option>
-              <option value="">Recent</option>
-              <option value="">Popular</option>
-              <option value="">Name</option>
-            </select>
+
+            <div className="w-[12.875rem] h-[2.8125rem]">
+              <CustomSelect
+                options={options}
+                defaultValue={options[0]}
+                onChange={(option) => console.log('Selected:', option)}
+                className="px-4 py-[0.625rem]"
+              />
+            </div>
           </div>
 
           {/* 제품 리스트 */}

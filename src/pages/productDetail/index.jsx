@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { productActions } from '../../store/modules/productSlice';
@@ -12,7 +12,8 @@ import NotesSection from '../../components/productDetail/NotesSection';
 const ProductDetail = () => {
   const dispatch = useDispatch();
   const { productId } = useParams();
-  const { productData, loading, popularProducts, cartLoading } = useSelector((state) => state.product);
+  const { productData, loading, popularProducts } = useSelector((state) => state.product);
+  const { cartLoading } = useSelector((state) => state.cart);
   const { name, notes, keyword, options } = productData;
 
   useEffect(() => {

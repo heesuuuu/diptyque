@@ -25,13 +25,16 @@ const SelectOption = () => {
         className={`relative flex tablet:flex-col justify-between items-center mt-[3.75rem] ${selectedOption === 'engraving' ? 'mb-0' : 'mb-[7.5rem]'}`}
       >
         <p className="tablet:w-full tablet:mb-[0.625rem]">Add Personalization</p>
-        <CustomSelect
-          options={selectOptions}
-          defaultValue={''}
-          onChange={(option) => {
-            setSelectedOption(option.value);
-          }}
-        />
+        <div className="w-[28rem] h-12">
+          <CustomSelect
+            options={selectOptions}
+            defaultValue={''}
+            onChange={(option) => {
+              setSelectedOption(option.value);
+            }}
+            className="px-4 py-3"
+          />
+        </div>
       </div>
       {selectedOption === 'engraving' && (
         <div className="relative flex tablet:flex-col justify-between items-center mt-[.625rem] mb-[7.5rem]">

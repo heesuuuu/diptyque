@@ -1,10 +1,24 @@
 import { Link } from 'react-router-dom';
+import BarButton from '../../ui/BarButton';
+import { useDispatch, useSelector } from 'react-redux';
+import { cartActions } from '../../store/modules/cartSlice';
 
 const BelovedItem = ({ item }) => {
+  const dispatch = useDispatch();
+  const { cartLoading } = useSelector((state) => state.cart);
   const { id, name, options, type } = item;
   const price = options[0].price;
   const thumbImg = options[0].images.thumbnail.default;
   const hoverImg = options[0].images.thumbnail.hover;
+
+  const addToBag = () => {
+    if (cartLoading) {
+      alert('Processing your previous request. Please hold for a moment.');
+      return;
+    } else {
+      dispatch(cartActions.addToCart(item));
+    }
+  };
 
   return (
     <>
@@ -30,6 +44,10 @@ const BelovedItem = ({ item }) => {
           </span>
         </p>
       </Link>
+
+      <div onClick={addToBag}>
+        <BarButton type="filled" text="ADD TO BAG" className="mt-5" />
+      </div>
     </>
   );
 };

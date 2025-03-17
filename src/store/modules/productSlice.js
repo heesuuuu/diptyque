@@ -38,7 +38,6 @@ const initialState = {
   matchingNotesData: [],
   engravingTxt: '',
   loading: false,
-  cartLoading: false,
 };
 
 export const productSlice = createSlice({
@@ -95,12 +94,6 @@ export const productSlice = createSlice({
     setEngravingTxt: (state, action) => {
       const txt = action.payload;
       state.engravingTxt = txt;
-    },
-    setCartLoading: (state, action) => {
-      state.cartLoading = true;
-    },
-    unsetCartLoading: (state, action) => {
-      state.cartLoading = false;
     },
   },
 });

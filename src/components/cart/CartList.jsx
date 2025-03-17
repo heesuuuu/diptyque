@@ -16,10 +16,10 @@ const CartList = () => {
   const navigate = useNavigate();
 
   const handleCheckout = (e) => {
-    if (!selectCartItem && cartData.some((item) => !item.inStock)) {
+    if (!selectCartItem && localCartData.some((item) => !item.inStock)) {
       e.preventDefault();
       alert('선택한 상품 중 품절된 상품이 있습니다.');
-    } else if (selectCartItem && cartData.some((item) => item.selected && !item.inStock)) {
+    } else if (selectCartItem && localCartData.some((item) => item.selected && !item.inStock)) {
       e.preventDefault();
       alert('선택한 상품 중 품절된 상품이 있습니다.');
     } else {

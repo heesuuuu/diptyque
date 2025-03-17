@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import Icon from './Icon';
 
-const CustomSelect = ({ options, defaultValue, onChange }) => {
+const CustomSelect = ({ options, defaultValue, onChange, className }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(defaultValue || options[0]);
   const dropdownRef = useRef(null);
@@ -27,10 +27,10 @@ const CustomSelect = ({ options, defaultValue, onChange }) => {
   };
 
   return (
-    <div className="relative w-[28rem] tablet:w-full" ref={dropdownRef}>
+    <div className="relative w-full h-full" ref={dropdownRef}>
       {/* 선택 버튼 */}
       <button
-        className="flex items-center justify-between w-full px-4 py-3 text-left bg-white border border-gray-300 hover:bg-gray-50 focus:outline-none"
+        className={`flex items-center justify-between w-full text-left bg-white border border-gray-300 hover:bg-gray-50 focus:outline-none ${className ? className : ''}`}
         onClick={() => setIsOpen(!isOpen)}
       >
         <span className={selectedOption.label === 'Select' ? 'text-grey-4' : ''}>{selectedOption.label}</span>
@@ -78,7 +78,7 @@ const Component = () => {
   ];
 
   return (
-    <CustomSelect options={options} defaultValue={options[0]} onChange={(option) => console.log('Selected:', option)} />
+    <CustomSelect options={options} defaultValue={options[0]} onChange={(option) => console.log('Selected:', option)} className={style code} />
   );
 };
 

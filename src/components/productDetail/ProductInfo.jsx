@@ -4,12 +4,11 @@ import { useDispatch, useSelector } from 'react-redux';
 import { productActions } from '../../store/modules/productSlice';
 import SelectOption from './SelectOption';
 import { cartActions } from '../../store/modules/cartSlice';
-import { useState } from 'react';
 
 const ProductInfo = ({ productData }) => {
   const dispatch = useDispatch();
   const { engravingTxt } = useSelector((state) => state.product);
-  const { cartLoading } = useSelector((state) => state.product);
+  const { cartLoading } = useSelector((state) => state.cart);
 
   const { name, type, notes, keyword, description, story, options } = productData;
 
@@ -24,11 +23,6 @@ const ProductInfo = ({ productData }) => {
       } else {
         dispatch(cartActions.addToCart(productData));
       }
-      dispatch(productActions.setCartLoading());
-
-      setTimeout(() => {
-        dispatch(productActions.unsetCartLoading());
-      }, 3000);
     }
   };
 
