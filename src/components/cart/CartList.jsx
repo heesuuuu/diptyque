@@ -6,7 +6,7 @@ import { BarButton } from '../../ui';
 import CartItem from './CartItem';
 
 const CartList = () => {
-  const { cartData, totalCartPrice, selectCartItem, totalSelectedPrice } = useSelector((state) => state.cart);
+  const { localCartData, totalCartPrice, selectCartItem, totalSelectedPrice } = useSelector((state) => state.cart);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -44,7 +44,7 @@ const CartList = () => {
       </div>
       <div className="cart-item-list-wrap flex flex-row justify-between gap-[10vw]">
         <div className="cart-item-list flex flex-col gap-6 w-[65vw] max-w-[1004px]">
-          {cartData.map((item) => (
+          {localCartData.map((item) => (
             <CartItem key={item.id} item={item} />
           ))}
         </div>
