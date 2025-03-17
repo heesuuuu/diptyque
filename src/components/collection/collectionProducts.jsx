@@ -1,15 +1,15 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
+import { selectCollection } from '../../store/modules/collectionSlice';
 import { BarButton, Icon } from '../../ui';
 import Accordion from '../../ui/Accordion';
 
-const CollectionProducts = () => {
+const CollectionProducts = ({ onChangeCollection }) => {
   const dispatch = useDispatch();
   const {
-    CollectionProducts,
-    selectedCollection,
     allCollectionNames,
+    selectedCollection,
     allProducts: globalAllProducts,
   } = useSelector((state) => state.collection);
 
@@ -20,8 +20,12 @@ const CollectionProducts = () => {
   const [transitionState, setTransitionState] = useState('stable');
   const [hasScrolled, setHasScrolled] = useState(false);
 
-  // 중요: 모든 상품들을 한 번에 렌더링하는 방식으로 변경
+  // 컬렉션별로 상품 데이터 구조화
+  const [productsByCollection, setProductsByCollection] = useState({});
+  // 현재 표시되는 모든 상품 목록 (현재 컬렉션 + 다음 컬렉션)
   const [displayedProducts, setDisplayedProducts] = useState([]);
+  // 마지막으로 보여진 상품의 컬렉션
+  const [lastVisibleCollection, setLastVisibleCollection] = useState(null);
 
   // 다양한 참조 변수들
   const contentRefs = useRef({});
@@ -31,6 +35,7 @@ const CollectionProducts = () => {
   const scrollPositionRef = useRef(0);
   const isInitialLoadRef = useRef(true);
   const hasManuallyChangedRef = useRef(false);
+  const collectionBoundaryRefs = useRef({});
 
   // 현재 선택된 컬렉션의 인덱스 찾기
   const currentCollectionIndex = allCollectionNames.indexOf(selectedCollection);
@@ -41,19 +46,25 @@ const CollectionProducts = () => {
 
   // 제품과 컬렉션 매핑
   const productCollectionMap = useRef({});
-
   // 제품 ID와 객체 매핑
   const productsMap = useRef({});
 
-  // 모든 컬렉션 상품을 한 번에 준비
+  // 모든 상품을 컬렉션별로 그룹화
   useEffect(() => {
     if (globalAllProducts.length > 0) {
-      const productsByCollection = {};
+      // 컬렉션별 상품 그룹화
+      const groupedProducts = {};
 
-      // 모든 상품을 컬렉션별로 분류
+      // 모든 컬렉션 초기화
+      allCollectionNames.forEach((name) => {
+        groupedProducts[name] = [];
+      });
+
+      // 상품을 적절한 컬렉션에 할당
       globalAllProducts.forEach((product) => {
         let collectionName = null;
 
+        // 컬렉션 정보 추출
         if (Array.isArray(product.collection)) {
           const collectionObj = product.collection.find((col) => col && typeof col === 'object' && col.collectionName);
           if (collectionObj) {
@@ -63,33 +74,49 @@ const CollectionProducts = () => {
           collectionName = product.collection.collectionName;
         }
 
-        if (collectionName) {
-          if (!productsByCollection[collectionName]) {
-            productsByCollection[collectionName] = [];
-          }
-          productsByCollection[collectionName].push(product);
+        // 해당 컬렉션이 있으면 상품 추가
+        if (collectionName && groupedProducts[collectionName]) {
+          groupedProducts[collectionName].push({ ...product });
         }
       });
 
-      // 컬렉션 순서대로 모든 상품 준비
-      const allProductsInOrder = [];
-      allCollectionNames.forEach((collectionName) => {
-        if (productsByCollection[collectionName]) {
-          allProductsInOrder.push(...productsByCollection[collectionName]);
-        }
-      });
-
-      // 모든 상품을 한 번에 설정
-      setDisplayedProducts(allProductsInOrder);
+      setProductsByCollection(groupedProducts);
     }
   }, [globalAllProducts, allCollectionNames]);
+
+  // 표시할 상품 목록 업데이트 (현재 컬렉션 + 다음 컬렉션)
+  useEffect(() => {
+    if (selectedCollection) {
+      let products = [];
+
+      // 현재 컬렉션의 상품 추가
+      if (productsByCollection[selectedCollection]) {
+        products = [...productsByCollection[selectedCollection]];
+      }
+
+      // 다음 컬렉션이 있으면 해당 상품도 추가
+      if (nextCollectionName && productsByCollection[nextCollectionName]) {
+        products = [...products, ...productsByCollection[nextCollectionName]];
+      }
+
+      setDisplayedProducts(products);
+
+      // 최초 로드 시 현재 상품 설정
+      if (products.length > 0 && (currentVisibleProduct === null || !productsMap.current[currentVisibleProduct])) {
+        setTimeout(() => {
+          const firstProductId = String(products[0].id);
+          setCurrentVisibleProduct(firstProductId);
+          lastVisibleProductRef.current = firstProductId;
+        }, 0);
+      }
+    }
+  }, [selectedCollection, nextCollectionName, productsByCollection]);
 
   // 상품 맵 초기화
   useEffect(() => {
     const pMap = {};
     const cMap = {};
 
-    // 모든 상품 매핑
     displayedProducts.forEach((product) => {
       const productId = String(product.id);
       pMap[productId] = product;
@@ -121,7 +148,7 @@ const CollectionProducts = () => {
     }));
   };
 
-  // 스크롤 이벤트 핸들러 - 스크롤 위치에 따라 현재 보이는 상품 결정
+  // 스크롤 이벤트 핸들러
   const handleScroll = () => {
     if (displayedProducts.length === 0) return;
 
@@ -136,7 +163,7 @@ const CollectionProducts = () => {
 
     // 화면 중앙의 위치 계산
     const windowHeight = window.innerHeight;
-    const windowCenter = windowHeight / 2;
+    const windowMiddle = window.scrollY + windowHeight / 2;
 
     // 어떤 요소가 화면 중앙에 가장 가까운지 확인
     let closestProduct = null;
@@ -146,12 +173,10 @@ const CollectionProducts = () => {
     Object.keys(productRefs.current).forEach((productId) => {
       const element = productRefs.current[productId];
       if (element) {
-        // 요소의 화면 내 위치 계산
         const rect = element.getBoundingClientRect();
-        const elementCenter = rect.top + rect.height / 2;
-        const distance = Math.abs(windowCenter - elementCenter);
+        const elementMiddle = window.scrollY + rect.top + rect.height / 2;
+        const distance = Math.abs(windowMiddle - elementMiddle);
 
-        // 더 가까운 요소를 찾으면 업데이트
         if (distance < minDistance) {
           minDistance = distance;
           closestProduct = productId;
@@ -159,111 +184,96 @@ const CollectionProducts = () => {
       }
     });
 
-    // 가장 가까운 상품이 현재 표시 중인 상품과 다른 경우
+    // 가장 가까운 상품이 변경된 경우
     if (closestProduct && closestProduct !== lastVisibleProductRef.current) {
       lastVisibleProductRef.current = closestProduct;
 
-      // 확인: 이 ID가 productsMap에 있는지 체크
+      // 현재 상품 업데이트
       if (productsMap.current[closestProduct]) {
         setPreviousProduct(currentVisibleProduct);
         setCurrentVisibleProduct(closestProduct);
 
-        // 트랜지션 상태 변경
+        // 애니메이션 효과
         setTransitionState('fadeOut');
-
         requestAnimationFrame(() => {
           setTransitionState('changing');
-
           requestAnimationFrame(() => {
             setTransitionState('fadeIn');
           });
         });
 
-        // 현재 상품의 컬렉션 이름 확인
+        // 현재 상품의 컬렉션 확인
         const productCollectionName = productCollectionMap.current[closestProduct];
 
-        // 다른 컬렉션으로 변경되었음을 감지하되 Redux 상태만 변경 (DOM 변경 없음)
-        if (productCollectionName && productCollectionName !== selectedCollection && !hasManuallyChangedRef.current) {
-          // URL만 업데이트 (브라우저 히스토리 변경 없이)
-          window.history.replaceState(null, '', `/collection/${productCollectionName}`);
+        // 컬렉션이 변경된 경우 (사용자가 수동으로 변경하지 않은 경우에만)
+        if (
+          productCollectionName &&
+          productCollectionName !== lastVisibleCollection &&
+          !hasManuallyChangedRef.current
+        ) {
+          // 컬렉션이 변경되었음을 저장
+          setLastVisibleCollection(productCollectionName);
 
-          // Redux 상태 업데이트 - 단, 렌더링에 영향을 주는 상품 목록은 변경하지 않음
-          dispatch({
-            type: 'collection/updateSelectedCollectionOnly',
-            payload: productCollectionName,
-          });
+          // Redux 상태 업데이트
+          if (productCollectionName !== selectedCollection) {
+            dispatch({
+              type: 'collection/updateSelectedCollectionOnly',
+              payload: productCollectionName,
+            });
+
+            // 부모 컴포넌트에 변경 알림
+            if (onChangeCollection) {
+              onChangeCollection(productCollectionName);
+            }
+          }
         }
       }
     }
   };
 
-  // 컴포넌트 마운트 시 설정
+  // 스크롤 이벤트 리스너 설정
   useEffect(() => {
-    // 컴포넌트 마운트 시 첫 번째 상품을 기본 표시 상품으로 설정
-    if (displayedProducts.length > 0 && currentVisibleProduct === null) {
-      const firstProductId = String(displayedProducts[0].id);
-      lastVisibleProductRef.current = firstProductId;
-      setCurrentVisibleProduct(firstProductId);
-    }
-
-    // 스크롤 이벤트 리스너 등록
     window.addEventListener('scroll', handleScroll, { passive: true });
 
-    // 컴포넌트 언마운트 시 이벤트 리스너 제거
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, [displayedProducts]);
+  }, [displayedProducts, selectedCollection]);
 
-  // 메뉴 클릭으로 컬렉션 변경 시 해당 컬렉션의 첫 상품으로 스크롤
+  // 컬렉션 변경 시 해당 컬렉션의 첫 상품으로 스크롤
   useEffect(() => {
-    if (selectedCollection && displayedProducts.length > 0 && !isInitialLoadRef.current) {
-      // 수동 컬렉션 변경 플래그 설정
+    if (
+      selectedCollection &&
+      productsByCollection[selectedCollection] &&
+      productsByCollection[selectedCollection].length > 0 &&
+      !isInitialLoadRef.current
+    ) {
+      // 수동 변경 플래그 설정
       hasManuallyChangedRef.current = true;
 
-      // 선택된 컬렉션의 첫 번째 상품 찾기
-      const collectionFirstProduct = displayedProducts.find((product) => {
-        let productCollection = null;
+      // 선택된 컬렉션의 첫 상품 찾기
+      const firstProduct = productsByCollection[selectedCollection][0];
 
-        if (Array.isArray(product.collection)) {
-          const collectionObj = product.collection.find(
-            (col) => col && typeof col === 'object' && col.collectionName === selectedCollection
-          );
-          if (collectionObj) {
-            productCollection = collectionObj.collectionName;
-          }
-        } else if (
-          product.collection &&
-          typeof product.collection === 'object' &&
-          product.collection.collectionName === selectedCollection
-        ) {
-          productCollection = product.collection.collectionName;
-        }
-
-        return productCollection === selectedCollection;
-      });
-
-      if (collectionFirstProduct) {
-        // 첫 번째 상품의 DOM 요소 찾기
-        const productId = String(collectionFirstProduct.id);
+      if (firstProduct) {
+        const productId = String(firstProduct.id);
         const element = productRefs.current[productId];
 
         if (element) {
-          // 해당 요소로 부드럽게 스크롤
+          // 해당 요소로 스크롤
           element.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
-          // 현재 표시 상품 업데이트
+          // 현재 상품 업데이트
           setCurrentVisibleProduct(productId);
           lastVisibleProductRef.current = productId;
 
-          // 플래그 초기화를 위한 타이머 설정 (스크롤 완료 후)
+          // 플래그 초기화 타이머
           setTimeout(() => {
             hasManuallyChangedRef.current = false;
           }, 1000);
         }
       }
     }
-  }, [selectedCollection, displayedProducts]);
+  }, [selectedCollection, productsByCollection]);
 
   // 현재 상품 객체 찾기
   const currentProduct = currentVisibleProduct
@@ -279,7 +289,6 @@ const CollectionProducts = () => {
 
   // 트랜지션 클래스 결정
   const getTransitionClass = () => {
-    // 스크롤 하지 않은 경우 트랜지션 효과 없이 기본 상태로 표시
     if (!hasScrolled) {
       return 'transform translate-x-0 opacity-100';
     }
@@ -303,30 +312,73 @@ const CollectionProducts = () => {
         {/* 왼쪽: 상품 이미지 (스크롤 될 부분) */}
         <div className="md:w-1/2">
           <div className="space-y-12">
-            {/* 모든 상품을 한 번에 렌더링 */}
-            {displayedProducts.map((product) => (
-              <div
-                key={product.id}
-                ref={(el) => {
-                  if (el) productRefs.current[String(product.id)] = el;
-                }}
-                data-product-id={String(product.id)}
-                data-collection={productCollectionMap.current[String(product.id)]}
-                className="mb-12"
-              >
-                {product.options && product.options[0]?.images?.thumbnail?.default && (
-                  <img
-                    src={product.options[0].images.thumbnail.default}
-                    alt={product.name}
-                    className="w-full h-[803px] object-contain mx-auto"
-                  />
-                )}
+            {/* 현재 컬렉션의 상품 렌더링 */}
+            {selectedCollection && productsByCollection[selectedCollection] && (
+              <div className="collection-group" data-collection={selectedCollection}>
+                {productsByCollection[selectedCollection].map((product, index) => (
+                  <div
+                    key={product.id}
+                    ref={(el) => {
+                      if (el) {
+                        productRefs.current[String(product.id)] = el;
+
+                        // 첫 번째 상품은 컬렉션 경계로 표시
+                        if (index === 0) {
+                          collectionBoundaryRefs.current[selectedCollection] = el;
+                        }
+                      }
+                    }}
+                    data-product-id={String(product.id)}
+                    data-collection={selectedCollection}
+                    className="mb-12"
+                  >
+                    {product.options && product.options[0]?.images?.thumbnail?.default && (
+                      <img
+                        src={product.options[0].images.thumbnail.default}
+                        alt={product.name}
+                        className="w-full h-[803px] object-contain mx-auto"
+                      />
+                    )}
+                  </div>
+                ))}
               </div>
-            ))}
+            )}
+
+            {/* 다음 컬렉션의 상품 렌더링 (있는 경우) */}
+            {nextCollectionName && productsByCollection[nextCollectionName] && (
+              <div className="collection-group" data-collection={nextCollectionName}>
+                {productsByCollection[nextCollectionName].map((product, index) => (
+                  <div
+                    key={product.id}
+                    ref={(el) => {
+                      if (el) {
+                        productRefs.current[String(product.id)] = el;
+
+                        // 첫 번째 상품은 컬렉션 경계로 표시
+                        if (index === 0) {
+                          collectionBoundaryRefs.current[nextCollectionName] = el;
+                        }
+                      }
+                    }}
+                    data-product-id={String(product.id)}
+                    data-collection={nextCollectionName}
+                    className="mb-12"
+                  >
+                    {product.options && product.options[0]?.images?.thumbnail?.default && (
+                      <img
+                        src={product.options[0].images.thumbnail.default}
+                        alt={product.name}
+                        className="w-full h-[803px] object-contain mx-auto"
+                      />
+                    )}
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         </div>
 
-        {/* 오른쪽: 상품 정보 (섹션 내 sticky로 설정) */}
+        {/* 오른쪽: 상품 정보 (고정된 위치) */}
         <div className="relative">
           {/* 상품 정보 컨테이너 */}
           <div
@@ -346,7 +398,7 @@ const CollectionProducts = () => {
                   {currentProduct.options && currentProduct.options.length > 0 && (
                     <div className="flex text-body3 text-darkgrey-3">
                       <div>{currentProduct.options[0].price} €</div>
-                      <div className='mx-1'>|</div>
+                      <div className="mx-1">|</div>
                       <div>{currentProduct.options[0].size}</div>
                     </div>
                   )}
@@ -418,7 +470,7 @@ const CollectionProducts = () => {
                 <div className="absolute bottom-0 w-full space-y-5">
                   {/* 상세페이지 이동 버튼 */}
                   <Link
-                    to={`/product/${currentProduct.category}/${currentProduct.id}`}
+                    to={`/product/detail/${currentProduct.id}`}
                     className="text-body2 flex place-content-between h-[50px] cursor-pointer items-center"
                   >
                     <div className="text-body3">Detail Page</div>
