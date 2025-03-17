@@ -470,7 +470,7 @@ const CollectionProducts = ({ onChangeCollection }) => {
                 <div className="absolute bottom-0 w-full space-y-5">
                   {/* 상세페이지 이동 버튼 */}
                   <Link
-                    to={`/product/${currentProduct.category}/${currentProduct.id}`}
+                    to={`/product/detail/${currentProduct.id}`}
                     className="text-body2 flex place-content-between h-[50px] cursor-pointer items-center"
                   >
                     <div className="text-body3">Detail Page</div>

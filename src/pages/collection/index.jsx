@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import CollectionMenu from '../../components/collection/CollectionMenu';
-import CollectionProducts from '../../components/collection/CollectionProducts';
+import CollectionProducts from '../../components/collection/collectionProducts';
 import PopularProduct from '../../components/collection/PopularProduct';
 import CollectionIntro from '../../components/collection/CollectionIntro';
 
