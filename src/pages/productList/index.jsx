@@ -5,14 +5,15 @@ import Icon from '../../ui/Icon';
 import './style.scss';
 import { categoryActions } from '../../store/modules/categorySlice';
 import CustomSelect from '../../ui/CustomSelect';
+import OlfactoryItem from '../../components/productList/OlfactoryItem';
 
 const ProductList = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
+  const location = useLocation();
+  const { categoryName } = useParams();
   const { categoryInfo } = useSelector((state) => state.category);
   const { title, desc } = categoryInfo;
-  const { categoryName } = useParams();
-  const location = useLocation();
   const path = location.pathname.split('/');
 
   // 스크롤 관련 상태 추가
@@ -72,6 +73,8 @@ const ProductList = () => {
     { value: 'name', label: 'Name' },
   ];
 
+  const olfactories = [{ name: 'woody' }, { name: 'floral' }, { name: 'amber' }, { name: 'cytrus' }];
+
   return (
     <>
       <div className="mt-header-h">
@@ -93,20 +96,13 @@ const ProductList = () => {
           </div>
 
           <div className="flex">
-            <ul className="flex flex-grow olfactory">
-              <li>
-                <button>WOODY</button>
-              </li>
-              <li>
-                <button>FLORAL</button>
-              </li>
-              <li>
-                <button>AMBER</button>
-              </li>
-              <li>
-                <button>CYTRUS</button>
-              </li>
-            </ul>
+            {(title === 'Eaux de parfum' || title === 'Eaux de toilette' || title === 'Solid perfumes') && (
+              <ul className="flex flex-grow olfactory">
+                {olfactories.map((item, idx) => (
+                  <OlfactoryItem key={idx} item={item} />
+                ))}
+              </ul>
+            )}
 
             <div className="w-[12.875rem] h-[2.8125rem]">
               <CustomSelect

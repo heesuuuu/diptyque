@@ -54,6 +54,8 @@ const initialState = {
   bodyData: bodyMockupData,
   categoryData: [],
   categoryInfo: {},
+  olfactoryData: [],
+  selectedOlfactory: false,
   loading: false,
 };
 
@@ -101,6 +103,21 @@ export const categorySlice = createSlice({
     resetCategory: (state, action) => {
       state.categoryInfo = {};
       state.categoryData = [];
+    },
+    getOlfactoryData: (state, action) => {
+      const { name, selected } = action.payload;
+      if (selected) {
+        // 이미 선택된 경우 해제
+        state.olfactoryData = state.olfactoryData.filter((data) => data.olfactory.toLowerCase() !== name);
+        state.selectedOlfactory = false;
+      } else {
+        // 필터 적용
+        if (state.olfactoryData.some((data) => data.olfactory.toLowerCase() !== name)) {
+          const newData = [...state.categoryData].filter((data) => data.olfactory.toLowerCase() === name);
+          state.olfactoryData = [...state.olfactoryData, ...newData];
+          state.selectedOlfactory = true;
+        }
+      }
     },
   },
 });
