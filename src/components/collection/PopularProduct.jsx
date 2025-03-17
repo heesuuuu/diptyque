@@ -26,7 +26,7 @@ const PopularProduct = () => {
           product.options[0].images?.thumbnail?.default
       )
       .sort((a, b) => (b.sales || 0) - (a.sales || 0))
-      .slice(0, 5);
+      .slice(0, 8);
   }, [allProducts]);
 
   const addToBag = () => {
