@@ -1,12 +1,8 @@
 import { useEffect, useState } from 'react';
-import { useDispatch } from 'react-redux';
-import { useNavigate } from 'react-router-dom';
-import { productActions } from '../../store/modules/productSlice';
+import { Link } from 'react-router-dom';
 
-const CategoryItem = ({ item, category }) => {
-  const navigate = useNavigate();
-  const dispatch = useDispatch();
-  const { id, name, description, options, sales, inStock } = item;
+const CategoryItem = ({ item }) => {
+  const { id, name, description, options, inStock } = item;
   const price = options[0].price;
   const thumbImg = options[0].images.thumbnail.default;
   const hoverImg = options[0].images.thumbnail.hover;
@@ -47,14 +43,8 @@ const CategoryItem = ({ item, category }) => {
     setDesc(result);
   }, [description, maxChars]);
 
-  const goProductPage = () => {
-    dispatch(productActions.setProduct(id));
-    dispatch(productActions.getPopularProducts());
-    navigate(`/product/${category}/${id}`);
-  };
-
   return (
-    <div onClick={goProductPage} className="relative flex flex-col justify-between gap-2 cursor-pointer group">
+    <Link to={`/product/detail/${id}`} className="relative flex flex-col justify-between gap-2 cursor-pointer group">
       <img
         className="mb-2 object-cover w-full group-hover:opacity-0 transition-all ease-in-out duration-700"
         src={thumbImg}
@@ -71,7 +61,7 @@ const CategoryItem = ({ item, category }) => {
         {inStock && 'Out of Stock'}
         <span className="ml-auto">€{price}</span>
       </p>
-    </div>
+    </Link>
   );
 };
 

@@ -1,22 +1,11 @@
-import { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
-import { productActions } from '../../store/modules/productSlice';
 import CategoryItem from './CategoryItem';
 
 const CategoryList = () => {
   const param = useParams();
-  const dispatch = useDispatch();
-  const { categoryData, loading } = useSelector((state) => state.product);
+  const { categoryData } = useSelector((state) => state.category);
   const { categoryName } = param;
-
-  useEffect(() => {
-    dispatch(productActions.getCategory(categoryName));
-  }, [param, loading]);
-
-  if (loading) {
-    return <div>Loading . . . </div>;
-  }
 
   return (
     <>

@@ -1,7 +1,6 @@
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Layout from './common/Layout';
-import CategoryList from './components/product/CategoryList';
 import {
   Cart,
   Collection,
@@ -19,6 +18,8 @@ import {
   SignIn,
 } from './pages';
 import './styles/globals.scss';
+import ScrollToTop from './utils/ScrollToTop';
+import CategoryList from './components/productList/CategoryList';
 
 const GOOGLE_CLIENT_ID = '938549800295-jauqqv8g7482gt4o5k7sm9l5kbbhbhid.apps.googleusercontent.com';
 
@@ -26,6 +27,7 @@ function App() {
   return (
     <GoogleOAuthProvider clientId={GOOGLE_CLIENT_ID}>
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route path="/register" element={<Register />} />
           <Route path="/signin" element={<SignIn />} />
@@ -36,7 +38,7 @@ function App() {
             <Route path="/product" element={<ProductList />}>
               <Route path=":categoryName" element={<CategoryList />} />
             </Route>
-            <Route path="/product/:categoryName/:productId" element={<ProductDetail />} />
+            <Route path="/product/detail/:productId" element={<ProductDetail />} />
             <Route path="/collection" element={<Collection />} />
             <Route path="/service" element={<Service />} />
             <Route path="/mypage" element={<Mypage />} />

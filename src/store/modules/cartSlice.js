@@ -147,7 +147,7 @@ export const cartSlice = createSlice({
           ...newItem,
           quantity: 1,
           totalPrice: newItem.options[0].price,
-          engraving: '',
+          engraving: newItem.engraving,
           selected: false,
         });
       } else {
