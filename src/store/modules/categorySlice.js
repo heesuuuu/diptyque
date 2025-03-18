@@ -128,6 +128,23 @@ export const categorySlice = createSlice({
       }
       state.selectedOlfactory = state.selectedOlfactoryFilters.length > 0;
     },
+    resetOlfactoryData: (state, action) => {
+      state.selectedOlfactory = false;
+      state.olfactoryData = [];
+    },
+    setSortedList: (state, action) => {
+      const sort = action.payload;
+
+      if (sort === 'name') {
+        state.categoryData = state.categoryData.sort((a, b) => a[sort].localeCompare(b[sort]));
+      } else if (sort === 'created_at') {
+        state.categoryData = state.categoryData.sort((a, b) => new Date(b[sort]) - new Date(a[sort]));
+      } else if (sort === 'sales') {
+        state.categoryData = state.categoryData.sort((a, b) => b[sort] - a[sort]);
+      } else {
+        state.categoryData = state.categoryData.sort((a, b) => a['id'] - b['id']);
+      }
+    },
   },
 });
 export const categoryActions = categorySlice.actions;

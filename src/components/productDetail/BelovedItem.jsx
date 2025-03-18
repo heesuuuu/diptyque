@@ -5,19 +5,23 @@ import { cartActions } from '../../store/modules/cartSlice';
 
 const BelovedItem = ({ item }) => {
   const dispatch = useDispatch();
-  const { cartLoading } = useSelector((state) => state.cart);
+  const { addedToBag } = useSelector((state) => state.cart);
   const { id, name, options, type } = item;
   const price = options[0].price;
   const thumbImg = options[0].images.thumbnail.default;
   const hoverImg = options[0].images.thumbnail.hover;
 
   const addToBag = () => {
-    if (cartLoading) {
+    if (addedToBag) {
       alert('Processing your previous request. Please hold for a moment.');
       return;
-    } else {
-      dispatch(cartActions.addToCart(item));
     }
+
+    dispatch(cartActions.addToCart(item));
+
+    setTimeout(() => {
+      dispatch(cartActions.resetAddedToBag());
+    }, 3000);
   };
 
   return (

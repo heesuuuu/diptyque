@@ -22,7 +22,7 @@ const SelectOption = () => {
   return (
     <div>
       <div
-        className={`relative flex tablet:flex-col justify-between items-center mt-[3.75rem] ${selectedOption === 'engraving' ? 'mb-0' : 'mb-[7.5rem]'}`}
+        className={`relative flex tablet:flex-col justify-between items-center mt-[3.75rem] ${selectedOption === 'engraving' ? 'mb-0' : 'mb-20'}`}
       >
         <p className="tablet:w-full tablet:mb-[0.625rem]">Add Personalization</p>
         <div className="w-[28rem] h-12">
@@ -37,7 +37,7 @@ const SelectOption = () => {
         </div>
       </div>
       {selectedOption === 'engraving' && (
-        <div className="relative flex tablet:flex-col justify-between items-center mt-[.625rem] mb-[7.5rem]">
+        <div className="relative flex tablet:flex-col justify-between items-center mt-[.625rem] mb-20">
           <label htmlFor="customInput">Custom Engraving</label>
           <input
             onChange={changeInput}

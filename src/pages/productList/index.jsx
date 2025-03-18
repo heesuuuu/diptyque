@@ -12,6 +12,8 @@ const ProductList = () => {
   const dispatch = useDispatch();
   const location = useLocation();
   const { categoryName } = useParams();
+  const [sortTxt, setSortTxt] = useState('');
+  const [clickedFilter, setClickedFilter] = useState(false);
   const { categoryInfo } = useSelector((state) => state.category);
   const { title, desc } = categoryInfo;
   const path = location.pathname.split('/');
@@ -36,8 +38,15 @@ const ProductList = () => {
     };
 
     window.addEventListener('scroll', handleScroll);
+
     return () => window.removeEventListener('scroll', handleScroll);
   }, [scrollPosition]);
+
+  useEffect(() => {
+    if (!clickedFilter) {
+      dispatch(categoryActions.resetOlfactoryData());
+    }
+  }, [clickedFilter]);
 
   useEffect(() => {
     if (path.length === 2) {
@@ -51,6 +60,10 @@ const ProductList = () => {
       dispatch(categoryActions.resetCategory());
     };
   }, [location.pathname]);
+
+  useEffect(() => {
+    dispatch(categoryActions.setSortedList(sortTxt));
+  }, [sortTxt]);
 
   // 변환 클래스 계산
   const getTransformClass = () => {
@@ -67,7 +80,7 @@ const ProductList = () => {
   };
 
   const options = [
-    { value: '', label: 'Sort' },
+    { value: '', label: 'Reset' },
     { value: 'created_at', label: 'Recent' },
     { value: 'sales', label: 'Popular' },
     { value: 'name', label: 'Name' },
@@ -97,20 +110,36 @@ const ProductList = () => {
 
           <div className="relative mb-[6.25rem]">
             {(title === 'Eaux de parfum' || title === 'Eaux de toilette' || title === 'Solid perfumes') && (
-              <ul className="flex olfactory justify-center">
+              <ul
+                className={`flex olfactory justify-center  mobile:justify-start mobile:${clickedFilter ? 'flex' : 'hidden'}`}
+              >
+                <li className="flex justify-center items-center w-[2.8125rem] h-[2.8125rem] border border-black border-r-0 mobile:hidden">
+                  <Icon name="tune" size={22} />
+                </li>
                 {olfactories.map((item, idx) => (
                   <OlfactoryItem key={idx} item={item} />
                 ))}
               </ul>
             )}
 
-            <div className="absolute top-0 right-0 w-[12.875rem] h-[2.8125rem]">
-              <CustomSelect
-                options={options}
-                defaultValue={options[0]}
-                onChange={(option) => console.log('Selected:', option)}
-                className="px-4 py-[0.625rem]"
-              />
+            <div className="flex justify-between">
+              <div
+                onClick={() => {
+                  setClickedFilter(!clickedFilter);
+                }}
+                className="justify-center items-center w-[2.8125rem] h-[2.8125rem] border border-black cursor-pointer border-r hidden mobile:flex"
+              >
+                <Icon name="tune" size={22} />
+              </div>
+
+              <div className="absolute top-0 right-0 w-[12.875rem] h-[2.8125rem] mobile:static">
+                <CustomSelect
+                  options={options}
+                  defaultValue={options[0]}
+                  onChange={(option) => setSortTxt(option.value)}
+                  className="px-4 py-[0.625rem]"
+                />
+              </div>
             </div>
           </div>
 
