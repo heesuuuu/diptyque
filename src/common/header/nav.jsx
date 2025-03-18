@@ -8,7 +8,7 @@ const Nav = ({ isMain }) => {
 
   return (
     <nav
-      className={`flex justify-center pb-5 relative ${isMain && '!absolute bottom-0 px-8 pointer-events-auto !pb-0 pt-1 mb-10 left-1/2 -translate-x-1/2 bg-white'}`}
+      className={`flex justify-center pb-5 relative ${isMain && '!absolute bottom-0 px-8 pointer-events-auto !pb-0 pt-1 mb-10 left-1/2 -translate-x-1/2 bg-white'} tablet:hidden`}
       onMouseLeave={() => dispatch(navActions.clearMenu())}
     >
       {/* 1뎁스 메뉴 */}

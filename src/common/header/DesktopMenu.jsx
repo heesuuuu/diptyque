@@ -29,7 +29,10 @@ const DesktopMenu = ({ isMain }) => {
   }, [menuOpen, dispatch]);
 
   return (
-    <div ref={menuRef} className={`flex flex-col absolute top-[42px] right-10 z-50 ${isMain && 'hidden'}`}>
+    <div
+      ref={menuRef}
+      className={`flex flex-col absolute top-[42px] right-10 z-50 ${isMain && 'hidden'} tablet:hidden`}
+    >
       <div className={menuStyle} onClick={() => dispatch(navActions.toggleMenu())}>
         <Icon name={menuOpen ? 'close' : 'menu'} />
       </div>

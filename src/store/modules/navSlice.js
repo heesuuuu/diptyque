@@ -35,6 +35,8 @@ const menuData = [
   },
   { id: 4, menuName: 'COLLECTION', url: '/collection' },
   { id: 5, menuName: 'SERVICES', url: '/service' },
+  { id: 6, menuName: 'SEARCH', url: '/searchresult' },
+  { id: 7, menuName: 'MYPAGE', url: '/mypage' },
 ];
 
 const initialState = {
