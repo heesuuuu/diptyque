@@ -14,7 +14,6 @@ const ProductList = () => {
   const { categoryName } = useParams();
   const [sortTxt, setSortTxt] = useState('');
   const [clickedFilter, setClickedFilter] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
   const { categoryInfo } = useSelector((state) => state.category);
   const { title, desc } = categoryInfo;
   const path = location.pathname.split('/');
@@ -23,10 +22,6 @@ const ProductList = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isScrollingUp, setIsScrollingUp] = useState(false);
   const [isAtTop, setIsAtTop] = useState(true);
-
-  useEffect(() => {
-    setIsMobile(isMobileScreen());
-  }, [window.innerWidth]);
 
   // 스크롤 이벤트 핸들러
   useEffect(() => {
@@ -46,6 +41,12 @@ const ProductList = () => {
 
     return () => window.removeEventListener('scroll', handleScroll);
   }, [scrollPosition]);
+
+  useEffect(() => {
+    if (!clickedFilter) {
+      dispatch(categoryActions.resetOlfactoryData());
+    }
+  }, [clickedFilter]);
 
   useEffect(() => {
     if (path.length === 2) {
@@ -78,13 +79,8 @@ const ProductList = () => {
     }
   };
 
-  // 화면이 모바일 크기인지 확인
-  const isMobileScreen = () => {
-    return window.innerWidth <= 768;
-  };
-
   const options = [
-    { value: '', label: 'Sort' },
+    { value: '', label: 'Reset' },
     { value: 'created_at', label: 'Recent' },
     { value: 'sales', label: 'Popular' },
     { value: 'name', label: 'Name' },
@@ -114,37 +110,36 @@ const ProductList = () => {
 
           <div className="relative mb-[6.25rem]">
             {(title === 'Eaux de parfum' || title === 'Eaux de toilette' || title === 'Solid perfumes') && (
-              <>
-                <ul
-                  className={`flex olfactory justify-center mobile:justify-start mobile:-translate-y-full mobile:pb-5 ${clickedFilter ? 'absolute' : 'hidden'}`}
-                >
-                  <li className="flex justify-center items-center w-[2.8125rem] h-[2.8125rem] border border-black border-r-0 mobile:hidden">
-                    <Icon name="tune" size={22} />
-                  </li>
-                  {olfactories.map((item, idx) => (
-                    <OlfactoryItem key={idx} item={item} />
-                  ))}
-                </ul>
-                {isMobile && (
-                  <div
-                    onClick={() => {
-                      setClickedFilter(!clickedFilter);
-                    }}
-                    className="flex justify-center items-center w-[2.8125rem] h-[2.8125rem] border border-black cursor-pointer border-r"
-                  >
-                    <Icon name="tune" size={22} />
-                  </div>
-                )}
-              </>
+              <ul
+                className={`flex olfactory justify-center  mobile:justify-start mobile:${clickedFilter ? 'flex' : 'hidden'}`}
+              >
+                <li className="flex justify-center items-center w-[2.8125rem] h-[2.8125rem] border border-black border-r-0 mobile:hidden">
+                  <Icon name="tune" size={22} />
+                </li>
+                {olfactories.map((item, idx) => (
+                  <OlfactoryItem key={idx} item={item} />
+                ))}
+              </ul>
             )}
 
-            <div className="absolute top-0 right-0 w-[12.875rem] h-[2.8125rem]">
-              <CustomSelect
-                options={options}
-                defaultValue={options[0]}
-                onChange={(option) => setSortTxt(option.value)}
-                className="px-4 py-[0.625rem]"
-              />
+            <div className="flex justify-between">
+              <div
+                onClick={() => {
+                  setClickedFilter(!clickedFilter);
+                }}
+                className="justify-center items-center w-[2.8125rem] h-[2.8125rem] border border-black cursor-pointer border-r hidden mobile:flex"
+              >
+                <Icon name="tune" size={22} />
+              </div>
+
+              <div className="absolute top-0 right-0 w-[12.875rem] h-[2.8125rem] mobile:static">
+                <CustomSelect
+                  options={options}
+                  defaultValue={options[0]}
+                  onChange={(option) => setSortTxt(option.value)}
+                  className="px-4 py-[0.625rem]"
+                />
+              </div>
             </div>
           </div>
 

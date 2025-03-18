@@ -20,7 +20,7 @@ const OlfactoryItem = ({ item }) => {
   return (
     <li
       onClick={selectOlfactory}
-      className={`w-[10.49rem] h-[2.8125rem] border border-black text-black  ${selected ? 'bg-black text-white' : ''} ${name !== 'cytrus' && 'border-r-0'}`}
+      className={`w-[10.49rem] h-[2.8125rem] border border-black text-black ${selected ? 'bg-black text-white' : ''} ${name !== 'cytrus' && 'border-r-0'}`}
     >
       <button className="w-full h-full">{name.toUpperCase()}</button>
     </li>

@@ -30,7 +30,7 @@ const CustomSelect = ({ options, defaultValue, onChange, className }) => {
     <div className="relative w-full h-full" ref={dropdownRef}>
       {/* 선택 버튼 */}
       <button
-        className={`flex items-center justify-between w-full text-left bg-white border border-gray-300 hover:bg-gray-50 focus:outline-none ${className ? className : ''}`}
+        className={`flex items-center justify-between w-full text-left text-body3 bg-white border border-darkgrey-3 hover:bg-gray-50 focus:outline-none ${className ? className : ''}`}
         onClick={() => setIsOpen(!isOpen)}
       >
         <span className={selectedOption.label === 'Select' ? 'text-grey-4' : ''}>{selectedOption.label}</span>
@@ -48,8 +48,8 @@ const CustomSelect = ({ options, defaultValue, onChange, className }) => {
               <li
                 key={option.value}
                 className={`px-4 py-2 cursor-pointer hover:bg-lightgrey-1 ${
-                  selectedOption.value === option.value ? 'text-darkgrey-3 font-bold' : 'text-darkgrey-1'
-                }`}
+                  selectedOption.value === option.value && option.value === '' && 'text-darkgrey-1'
+                } ${selectedOption.value === option.value && option.value !== '' && 'text-darkgrey-3 font-bold'} `}
                 onClick={() => handleOptionClick(option)}
               >
                 {option.label}
