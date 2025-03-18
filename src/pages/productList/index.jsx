@@ -13,6 +13,8 @@ const ProductList = () => {
   const location = useLocation();
   const { categoryName } = useParams();
   const [sortTxt, setSortTxt] = useState('');
+  const [clickedFilter, setClickedFilter] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const { categoryInfo } = useSelector((state) => state.category);
   const { title, desc } = categoryInfo;
   const path = location.pathname.split('/');
@@ -21,6 +23,10 @@ const ProductList = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isScrollingUp, setIsScrollingUp] = useState(false);
   const [isAtTop, setIsAtTop] = useState(true);
+
+  useEffect(() => {
+    setIsMobile(isMobileScreen());
+  }, [window.innerWidth]);
 
   // 스크롤 이벤트 핸들러
   useEffect(() => {
@@ -37,6 +43,7 @@ const ProductList = () => {
     };
 
     window.addEventListener('scroll', handleScroll);
+
     return () => window.removeEventListener('scroll', handleScroll);
   }, [scrollPosition]);
 
@@ -71,6 +78,11 @@ const ProductList = () => {
     }
   };
 
+  // 화면이 모바일 크기인지 확인
+  const isMobileScreen = () => {
+    return window.innerWidth <= 768;
+  };
+
   const options = [
     { value: '', label: 'Sort' },
     { value: 'created_at', label: 'Recent' },
@@ -102,11 +114,28 @@ const ProductList = () => {
 
           <div className="relative mb-[6.25rem]">
             {(title === 'Eaux de parfum' || title === 'Eaux de toilette' || title === 'Solid perfumes') && (
-              <ul className="flex olfactory justify-center">
-                {olfactories.map((item, idx) => (
-                  <OlfactoryItem key={idx} item={item} />
-                ))}
-              </ul>
+              <>
+                <ul
+                  className={`flex olfactory justify-center mobile:justify-start mobile:-translate-y-full mobile:pb-5 ${clickedFilter ? 'absolute' : 'hidden'}`}
+                >
+                  <li className="flex justify-center items-center w-[2.8125rem] h-[2.8125rem] border border-black border-r-0 mobile:hidden">
+                    <Icon name="tune" size={22} />
+                  </li>
+                  {olfactories.map((item, idx) => (
+                    <OlfactoryItem key={idx} item={item} />
+                  ))}
+                </ul>
+                {isMobile && (
+                  <div
+                    onClick={() => {
+                      setClickedFilter(!clickedFilter);
+                    }}
+                    className="flex justify-center items-center w-[2.8125rem] h-[2.8125rem] border border-black cursor-pointer border-r"
+                  >
+                    <Icon name="tune" size={22} />
+                  </div>
+                )}
+              </>
             )}
 
             <div className="absolute top-0 right-0 w-[12.875rem] h-[2.8125rem]">
