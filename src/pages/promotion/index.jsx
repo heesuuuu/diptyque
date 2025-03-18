@@ -10,16 +10,16 @@ const Promotion = () => {
       {/* 프로모션 인트로 section */}
       <PromotionIntro />
 
-      {/* Promotion 설명 section */ }
-      <div>
+      {/* Promotion 설명 section */}
+      <div></div>
 
+      <div className="ml-[50px] space-y-[200px]">
+        {/* 시즌 hover section */}
+        <SeasonIntroSec />
+
+        {/* 계절별 상품 section */}
+        <ProductSec />
       </div>
-
-      {/* 시즌 hover section */}
-      <SeasonIntroSec />
-
-      {/* 계절별 상품 section */}
-      <ProductSec />
 
       {/* End Section */}
       <EndSec />

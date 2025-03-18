@@ -2,7 +2,11 @@ import React from 'react';
 
 const SeasonIntroSec = () => {
   const imgList = [
-    'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/c-01.png?raw=true',
+    {
+      img: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/c-01.png?raw=true',
+      season: 'summer',
+      notes:'rose',
+     },
     'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/c-02.png?raw=true',
     'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/c-03.png?raw=true',
     'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/c-04.png?raw=true',
@@ -12,7 +16,7 @@ const SeasonIntroSec = () => {
     <div className="flex  ">
       {/* left Hover Section */}
       <div className="w-[533px] mr-[190px]">
-        <div className="text-center space-y-[75px]">
+        <div className="items-center flex flex-col space-y-[75px]">
           <img
             src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/item-line01.png?raw=true"
             alt=""
@@ -30,7 +34,7 @@ const SeasonIntroSec = () => {
       </div>
 
       {/* right  */}
-      <div className="w-[1028px]">
+      <div className="w-[1028px] ">
         {/* Spring */}
         <div className=" border-t-[1px] border-solid border-lightgrey-3 cursor-pointer">
           <div className="flex mt-5 mb-11">
