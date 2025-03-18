@@ -1,6 +1,8 @@
-@charset "UTF-8";
-/* Inter 폰트 로드 - CDN 사용 */
-@import 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap';
+.olfactory button {
+  font-size: var(--font-size-body3-pc);
+  line-height: 150%;
+  padding: 12px 55px;
+}/*# sourceMappingURL=style.css.map */=swap';
 /* Diptyque 폰트 로드 - 로컬 파일 사용 */
 @font-face {
   font-family: Diptyque;
@@ -102,4 +104,21 @@ h6 {
 
 input {
   outline: none;
-}/*# sourceMappingURL=globals.css.map */
+}
+
+.detail-sec-title {
+  font-size: 36px;
+  line-height: 1.6;
+  font-family: "Diptyque", serif;
+  font-weight: 400;
+  margin-bottom: var(--cont-gap);
+  text-align: center;
+}
+@media screen and (max-width: 1023px) {
+  .detail-sec-title {
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: "Diptyque", serif;
+    font-weight: 400;
+  }
+}/*# sourceMappingURL=style.css.map */
