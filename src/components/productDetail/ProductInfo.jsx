@@ -8,12 +8,12 @@ import { useEffect, useState } from 'react';
 const ProductInfo = ({ productData }) => {
   const dispatch = useDispatch();
   const { engravingTxt } = useSelector((state) => state.product);
+  const { cartLoading } = useSelector((state) => state.cart);
   const [clickedMore, setClickedMore] = useState(false);
-  const [succeedAddToCart, setSucceedAddToCart] = useState();
 
   const { name, type, notes, keyword, description, story, options } = productData;
 
-  const maxChars = 167;
+  const maxChars = 166;
   const [desc, setDesc] = useState('');
 
   useEffect(() => {
@@ -30,19 +30,15 @@ const ProductInfo = ({ productData }) => {
     if (cartLoading) {
       alert('Processing your previous request. Please hold for a moment.');
       return;
-    } else {
-      try {
-        if (engravingTxt) {
-          const updatedProductData = { ...productData, engraving: engravingTxt };
-          dispatch(cartActions.addToCart(updatedProductData));
-        } else {
-          dispatch(cartActions.addToCart(productData));
-        }
-        setSucceedAddToCart(true);
-      } catch (error) {
-        console.log(error);
-      }
     }
+
+    const updatedProductData = engravingTxt ? { ...productData, engraving: engravingTxt } : productData;
+
+    dispatch(cartActions.addToCart(updatedProductData));
+
+    setTimeout(() => {
+      dispatch(cartActions.resetAddedToBag());
+    }, 3000);
   };
 
   return (
@@ -66,7 +62,7 @@ const ProductInfo = ({ productData }) => {
             keyword.map((word, idx) => (keyword.length - 1 === idx ? `${word.note}` : `${word.note}, `))}
           {keyword !== undefined && typeof keyword === 'string' && `${keyword}`}
         </p>
-        <p className={`text-darkgrey-1 h-[42px] ${clickedMore ? 'h-fit' : ''} transition-all`}>
+        <p className=" text-darkgrey-1">
           {clickedMore && desc.length > 0 ? `${description} ` : desc}
           <span>
             <span

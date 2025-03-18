@@ -140,7 +140,7 @@ const initialState = {
   totalCartPrice: 0,
   selectCartItem: false,
   totalSelectedPrice: 0,
-  // cartLoading: false,
+  addedToBag: false,
 };
 export const cartSlice = createSlice({
   name: 'cart',
@@ -150,7 +150,6 @@ export const cartSlice = createSlice({
       state.totalCartPrice = state.localCartData.reduce((acc, curr) => acc + curr.totalPrice, 0);
     },
     addToCart: (state, action) => {
-      // state.cartLoading = true;
       const newItem = action.payload;
       const existingItem = state.localCartData.find((item) => item.id === newItem.id);
       if (!existingItem) {
@@ -174,7 +173,10 @@ export const cartSlice = createSlice({
 
       state.totalCartPrice = state.localCartData.reduce((acc, curr) => acc + curr.totalPrice, 0);
       state.totalCartQuantity = state.localCartData.reduce((acc, curr) => acc + curr.quantity, 0);
-      // state.cartLoading = false;
+      state.addedToBag = true;
+    },
+    resetAddedToBag: (state) => {
+      state.addedToBag = false;
     },
     reduceQuantity: (state, action) => {
       const id = action.payload;

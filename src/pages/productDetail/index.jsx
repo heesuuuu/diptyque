@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { productActions } from '../../store/modules/productSlice';
@@ -12,8 +12,9 @@ import NotesSection from '../../components/productDetail/NotesSection';
 const ProductDetail = () => {
   const dispatch = useDispatch();
   const { productId } = useParams();
+  const [loadingAddCart, setLoadingAddCart] = useState(false);
   const { productData, loading, popularProducts } = useSelector((state) => state.product);
-  const { cartLoading } = useSelector((state) => state.cart);
+  const { cartLoading, addedToBag } = useSelector((state) => state.cart);
   const { name, notes, keyword, options } = productData;
 
   useEffect(() => {
@@ -26,7 +27,7 @@ const ProductDetail = () => {
       dispatch(categoryActions.resetCategory());
       dispatch(productActions.resetProduct());
     };
-  }, [dispatch, productId, cartLoading]);
+  }, [dispatch, productId, addedToBag]);
 
   if (loading) return <div>Loading . . . </div>;
 
@@ -59,7 +60,7 @@ const ProductDetail = () => {
       </div>
 
       <div
-        className={`fixed bottom-[2rem] right-[11.25rem] justify-center items-center w-[37.0313rem] h-[3.625rem] bg-black text-white z-10 transition-all duration-300 ease-in hidden opacity-0 ${cartLoading && 'flex opacity-100'}`}
+        className={`fixed bottom-[2rem] right-[11.25rem] justify-center items-center w-[37.0313rem] h-[3.625rem] bg-black text-white z-10 transition-all duration-300 ease-in hidden opacity-0 ${addedToBag && 'flex opacity-100'}`}
       >
         <Icon name="keyboard_arrow_down" />
         ADDED TO BAG
