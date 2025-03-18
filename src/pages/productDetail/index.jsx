@@ -26,7 +26,7 @@ const ProductDetail = () => {
       dispatch(categoryActions.resetCategory());
       dispatch(productActions.resetProduct());
     };
-  }, [dispatch, productId]);
+  }, [dispatch, productId, cartLoading]);
 
   if (loading) return <div>Loading . . . </div>;
 
@@ -44,7 +44,7 @@ const ProductDetail = () => {
         </div>
 
         <div className="w-1/2 text-body3">
-          <div className="sticky top-0 right-0 flex flex-col gap-5 p-[11.25rem] tablet:px-6 tablet:py-10">
+          <div className="sticky top-0 right-0 flex flex-col gap-5 p-[11.25rem] pt-20 tablet:px-6 tablet:py-10">
             <ProductInfo productData={productData} />
           </div>
         </div>
@@ -59,7 +59,7 @@ const ProductDetail = () => {
       </div>
 
       <div
-        className={`fixed bottom-[2rem] right-[11.25rem] flex justify-center items-center w-[37.0313rem] h-[3.625rem] bg-black text-white z-10 transition-all duration-300 ease-in opacity-0 ${cartLoading && 'opacity-100'}`}
+        className={`fixed bottom-[2rem] right-[11.25rem] justify-center items-center w-[37.0313rem] h-[3.625rem] bg-black text-white z-10 transition-all duration-300 ease-in hidden opacity-0 ${cartLoading && 'flex opacity-100'}`}
       >
         <Icon name="keyboard_arrow_down" />
         ADDED TO BAG
