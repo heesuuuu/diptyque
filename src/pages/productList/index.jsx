@@ -12,6 +12,7 @@ const ProductList = () => {
   const dispatch = useDispatch();
   const location = useLocation();
   const { categoryName } = useParams();
+  const [sortTxt, setSortTxt] = useState('');
   const { categoryInfo } = useSelector((state) => state.category);
   const { title, desc } = categoryInfo;
   const path = location.pathname.split('/');
@@ -51,6 +52,10 @@ const ProductList = () => {
       dispatch(categoryActions.resetCategory());
     };
   }, [location.pathname]);
+
+  useEffect(() => {
+    dispatch(categoryActions.setSortedList(sortTxt));
+  }, [sortTxt]);
 
   // 변환 클래스 계산
   const getTransformClass = () => {
@@ -108,7 +113,7 @@ const ProductList = () => {
               <CustomSelect
                 options={options}
                 defaultValue={options[0]}
-                onChange={(option) => console.log('Selected:', option)}
+                onChange={(option) => setSortTxt(option.value)}
                 className="px-4 py-[0.625rem]"
               />
             </div>
