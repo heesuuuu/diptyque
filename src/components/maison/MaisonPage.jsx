@@ -82,7 +82,7 @@ const AnimatedUpward = ({ children, className }) => {
       ref={ref}
       initial={{ y: 100, opacity: 0 }}
       animate={isInView && { y: 1, opacity: 1 }}
-      transition={{ duration: 0.5, ease: 'easeOut' }}
+      transition={{ duration: 0.8, ease: 'easeOut' }}
       className={className}
     >
       {children}
@@ -117,17 +117,20 @@ const Animatedcentered = ({ children, className }) => {
   );
 };
 
+const maisonSectionStyle = 'max-w-[1256px] mx-[172px] ';
+const maisonLessDesktopStyle = 'tablet:mx-[60px] ';
+
 const MaisonPage = () => {
   return (
-    <div className="maison-page flex flex-col items-center gap-[300px] mt-[128px] mb-[120px] ">
-      <section className="maison-section-1 relative mt-[300px] max-w-[1440px] mx-[80px]">
+    <div className="maison-page flex flex-col items-center gap-[300px] tablet:gap-[200px] mt-[128px] mb-[120px] ">
+      <section className={`maison-section-1 relative mt-[300px] max-w-[1440px] mx-[80px] ${maisonLessDesktopStyle}`}>
         <AnimatedTextBox className="absolute inset-0 bg-white" />
         <p className="text-display1 font-diptyque mb-20">Do you speak Diptyque?</p>
         <p className="text-display3/[130%] font-diptyque text-right">
           “The writing crafted by the Maison tells the story of a heritage that grows richer by the day.”
         </p>
       </section>
-      <section className="maison-section-2 max-w-[1440px] mx-[80px]">
+      <section className={`maison-section-2 max-w-[1440px] mx-[80px] ${maisonLessDesktopStyle}`}>
         <div className="flex flex-row justify-between gap-[208px]">
           <AnimatedUpward className="maison-section-2-desc">
             <h3 className="text-heading2 mb-10">The name “Diptyque”</h3>
@@ -155,7 +158,7 @@ const MaisonPage = () => {
               pagination={true}
               loop={true}
               modules={[Pagination]}
-              className="Swiper w-full max-w-[616px] min-w-[460px] "
+              className="Swiper max-w-[616px] w-[35vw] min-w-[320px] "
             >
               {sec2ImgSrcList.map((src, idx) => (
                 <SwiperSlide key={idx}>
@@ -166,7 +169,7 @@ const MaisonPage = () => {
           </AnimatedUpward>
         </div>
       </section>
-      <section className="maison-section-3 max-w-[1256px] mx-[172px]">
+      <section className={`maison-section-3 ${maisonSectionStyle} ${maisonLessDesktopStyle}`}>
         <div className="relative">
           <AnimatedTextBox className="absolute inset-0 bg-white" />
           <h3 className="text-display2 mb-20">Inspirations</h3>
@@ -189,28 +192,39 @@ const MaisonPage = () => {
           ))}
         </div>
       </section>
-      <section className="maison-section-4">
-        <video src="" className="h-[860px] bg-grey-4 mb-[80px]"></video>
-        <div className="relative max-w-[1256px] mx-[172px]">
-          <AnimatedTextBox className="absolute inset-0 bg-white" />
-          <h3 className="text-display2 font-bold">“We were artists.</h3>
-          <p className="font-diptyque font-bold text-display3/[130%] w-[60vw] mb-5">
-            We were not driven by ambition, but rather by passion, imagination, creativity and the desire to do
-            something with true integrity”
-          </p>
-          <div className="flex flex-row justify-end font-diptyque text-heading2">- CHRISTIANE MONTADRE-GAUTROT</div>
+      <section className="maison-section-4 w-full">
+        <div className={`${maisonSectionStyle} ${maisonLessDesktopStyle}`}>
+          <video
+            src="src/assets/video/Sec4_Video.mp4"
+            autoPlay={true}
+            loop={true}
+            controls={true}
+            muted={true}
+            className="w-full mb-[80px] aspect-video object-cover"
+          ></video>
+          <div className="relative ">
+            <AnimatedTextBox className="absolute inset-0 bg-white" />
+            <h3 className="text-display2 font-bold">“We were artists.</h3>
+            <p className="font-diptyque font-bold text-display3/[130%] w-[60vw] mb-5">
+              We were not driven by ambition, but rather by passion, imagination, creativity and the desire to do
+              something with true integrity”
+            </p>
+            <div className="flex flex-row justify-end font-diptyque text-heading2">- CHRISTIANE MONTADRE-GAUTROT</div>
+          </div>
         </div>
       </section>
-      <section className="maison-section-5 w-full max-w-[1256px] mx-[172px]">
-        <AnimatedUpward className="flex justify-end">
-          <img
-            src="https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/page/maison/Img1.avif"
-            alt=""
-            className=" w-[55vw]"
-          />
-        </AnimatedUpward>
+      <section className="maison-section-5 w-full ">
+        <div className={`${maisonSectionStyle} ${maisonLessDesktopStyle}`}>
+          <AnimatedUpward className="flex justify-end">
+            <img
+              src="https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/page/maison/Img1.avif"
+              alt=""
+              className=" w-[50vw]"
+            />
+          </AnimatedUpward>
+        </div>
       </section>
-      <section className="maison-section-6 max-w-[1256px] mx-[172px]">
+      <section className={`maison-section-6 ${maisonSectionStyle} ${maisonLessDesktopStyle}`}>
         <div className="relative">
           <AnimatedTextBox className="absolute inset-0 bg-white" />
           <h3 className="text-display2 font-bold mb-[80px]">History</h3>
@@ -295,7 +309,7 @@ const MaisonPage = () => {
           />
         </AnimatedUpward>
       </section>
-      <section className="maison-section-8 max-w-[1256px] mx-[172px]">
+      <section className={`maison-section-8 ${maisonSectionStyle} ${maisonLessDesktopStyle}`}>
         <div className="relative">
           <AnimatedTextBox className="absolute inset-0 bg-white" />
           <h3 className="text-display2 text-bold text-center mb-[80px]">Explore the world of Diptyque</h3>
