@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react';
 const ProductInfo = ({ productData }) => {
   const dispatch = useDispatch();
   const { engravingTxt } = useSelector((state) => state.product);
-  const { cartLoading } = useSelector((state) => state.cart);
+  const { addedToBag } = useSelector((state) => state.cart);
   const [clickedMore, setClickedMore] = useState(false);
 
   const { name, type, notes, keyword, description, story, options } = productData;
@@ -27,7 +27,7 @@ const ProductInfo = ({ productData }) => {
   }, [description]);
 
   const addToBag = () => {
-    if (cartLoading) {
+    if (addedToBag) {
       alert('Processing your previous request. Please hold for a moment.');
       return;
     }

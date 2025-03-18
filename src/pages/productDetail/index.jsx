@@ -12,9 +12,8 @@ import NotesSection from '../../components/productDetail/NotesSection';
 const ProductDetail = () => {
   const dispatch = useDispatch();
   const { productId } = useParams();
-  const [loadingAddCart, setLoadingAddCart] = useState(false);
   const { productData, loading, popularProducts } = useSelector((state) => state.product);
-  const { cartLoading, addedToBag } = useSelector((state) => state.cart);
+  const { addedToBag } = useSelector((state) => state.cart);
   const { name, notes, keyword, options } = productData;
 
   useEffect(() => {
@@ -27,7 +26,7 @@ const ProductDetail = () => {
       dispatch(categoryActions.resetCategory());
       dispatch(productActions.resetProduct());
     };
-  }, [dispatch, productId, addedToBag]);
+  }, [dispatch, productId]);
 
   if (loading) return <div>Loading . . . </div>;
 
@@ -60,7 +59,7 @@ const ProductDetail = () => {
       </div>
 
       <div
-        className={`fixed bottom-[2rem] right-[11.25rem] justify-center items-center w-[37.0313rem] h-[3.625rem] bg-black text-white z-10 transition-all duration-300 ease-in hidden opacity-0 ${addedToBag && 'flex opacity-100'}`}
+        className={`flex fixed bottom-[2rem] right-[11.25rem] justify-center items-center w-[37.0313rem] h-[3.625rem] bg-black text-white transition-all duration-300 ease-in opacity-0 z-0 ${addedToBag && 'opacity-100 z-10'}`}
       >
         <Icon name="keyboard_arrow_down" />
         ADDED TO BAG
