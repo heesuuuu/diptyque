@@ -59,8 +59,9 @@ export default {
         'body3-m': '12px',
       },
       screens: {
-        'tablet': { max: '1023px' },
-        'mobile': { max: '767px' },
+        desktop: { min: '1024px' },
+        tablet: { max: '1023px' },
+        mobile: { max: '767px' },
       },
       spacing: {
         // pc헤더높이

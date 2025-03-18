@@ -57,6 +57,23 @@ const sec8SrcList = [
   },
 ];
 
+const maisonSec6Text = [
+  {
+    title: 'Diptyque’s founders: A trio of artists and friends',
+    desc1:
+      'Paris, 1949. The story begins. Desmond is a painter, a graduate of the École des Beaux-Arts, the Paris school of fine arts. Christiane is an interior architect, trained at the French national school of decorative arts, the Arts décoratifs. One is an accomplished artist; the other has a passion for craftsmanship. Each is the mirror image of the other. Their inevitable friendship is shaped by memories of Desmond’s summers in the South of France, and Christiane’s childhood garden on the fringes of Fontainebleau. With taste and discernment, they work together to create designs for upholstery fabrics sold at Liberty and Sanderson in London.',
+    desc2:
+      'A decade later, by a twist of fate, they cross paths with Yves Coueslant. This globe-trotting son of a banker raised in Indochina (present-day Vietnam) establishes an immediate rapport with Christiane and Desmond, himself heir to a British noble family. Together, they make an inseparable trio of friends. And from this encounter springs a creative ambition – the dream of founding their own Maison.',
+  },
+  {
+    title: '1961: the The kindling of an imagination',
+    desc1:
+      'Three artists, three free spirits, one vision. At the turn of the Sixties, at a time of tremendous excitement and optimism marked by a strong desire for modernity, Desmond Knox-Leet, Christiane Montadre-Gautrot and Yves Coueslant invented a new kind of space; a space made in their image; a celebration of the senses; a tribute to daring, where their creativity shone alongside objects sourced from around the world. Bound by a sense of beauty, a love of nature, and an insatiable curiosity, the three friends brought Diptyque to vivid life.',
+    desc2:
+      "Part artist's studio, part cabinet of curiosities, Diptyque opened in Paris’s 5th arrondissement, a bohemian haven where heritage merged with modernity. At 34 boulevard Saint-Germain, the three friends became purveyors of trifles. Over the course of their encounters and travels, they unearthed antiques, decorated and refashioned exotic and everyday objects, and filled the shelves of this concept store ahead of its time.",
+  },
+];
+
 const AnimatedTextBox = ({ children, className }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-50% 0px' });
@@ -82,7 +99,7 @@ const AnimatedUpward = ({ children, className }) => {
       ref={ref}
       initial={{ y: 100, opacity: 0 }}
       animate={isInView && { y: 1, opacity: 1 }}
-      transition={{ duration: 0.5, ease: 'easeOut' }}
+      transition={{ duration: 0.8, ease: 'easeOut' }}
       className={className}
     >
       {children}
@@ -117,166 +134,199 @@ const Animatedcentered = ({ children, className }) => {
   );
 };
 
+const maisonSectionStyle = 'w-full max-w-[1600px] px-[172px] ';
+const maisonLessDesktopStyle = 'tablet:px-[60px] mobile:px-[16px] ';
+
 const MaisonPage = () => {
   return (
-    <div className="maison-page flex flex-col items-center gap-[300px] mt-[128px] mb-[120px] ">
-      <section className="maison-section-1 relative mt-[300px] max-w-[1440px] mx-[80px]">
+    <div className="maison-page flex flex-col items-center gap-[300px] tablet:gap-[200px] mt-[128px] tablet:mt-[100px] mb-[300px] tablet:mb-[200px] ">
+      <section
+        className={`maison-section-1 relative mt-[300px] tablet:mt-[100px] max-w-[1600px] px-[80px] ${maisonLessDesktopStyle}`}
+      >
         <AnimatedTextBox className="absolute inset-0 bg-white" />
-        <p className="text-display1 font-diptyque mb-20">Do you speak Diptyque?</p>
-        <p className="text-display3/[130%] font-diptyque text-right">
+        <p className="text-display1 tablet:text-display1-m font-diptyque font-bold mb-20">Do you speak Diptyque?</p>
+        <p className="text-display3/[130%] tablet:text-display2-m/[160%] font-diptyque font-bold text-right tablet:text-left">
           “The writing crafted by the Maison tells the story of a heritage that grows richer by the day.”
         </p>
       </section>
-      <section className="maison-section-2 max-w-[1440px] mx-[80px]">
-        <div className="flex flex-row justify-between gap-[208px]">
+      <section className={`maison-section-2 max-w-[1600px] px-[80px] ${maisonLessDesktopStyle}`}>
+        <div className="flex flex-row mobile:flex-col justify-between items-center gap-[208px] tablet:gap-6">
+          <Swiper
+            slidesPerView={1}
+            pagination={true}
+            loop={true}
+            modules={[Pagination]}
+            className="w-[90vw] desktop:hidden tablet:hidden mobile:block "
+          >
+            {sec2ImgSrcList.map((src, idx) => (
+              <SwiperSlide key={idx}>
+                <img src={src} alt="" className="w-full" />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+
           <AnimatedUpward className="maison-section-2-desc">
-            <h3 className="text-heading2 mb-10">The name “Diptyque”</h3>
+            <h3 className="text-heading2 tablet:text-heading2-m mb-10">The name “Diptyque”</h3>
             <div className="flex flex-col gap-5">
-              <span>
+              <span className="tablet:text-body2-m">
                 Diptyque is two syllables spoken in a whisper, a melody that fires the imagination and conjures visions
                 of distant shores.
               </span>
-              <span>
+              <span className="tablet:text-body2-m">
                 Diptyque is the founders' tribute to the two-panelled paintings that emerged during the Renaissance, in
                 which subjects dialogue in harmony with each other.
               </span>
-              <span>
+              <span className="tablet:text-body2-m">
                 Diptyque is also the genuine expression of our founders’ aesthetic affinity with the Greek civilisation
                 in which the word is rooted.
               </span>
-              <span>
+              <span className="tablet:text-body2-m">
                 More than a name, it is a place, an echo of the boutique’s original Paris address at 34 boulevard
                 Saint-Germain, with its two windows at right angles, one always echoing the other.
               </span>
             </div>
           </AnimatedUpward>
-          <AnimatedUpward>
-            <Swiper
-              pagination={true}
-              loop={true}
-              modules={[Pagination]}
-              className="Swiper w-full max-w-[616px] min-w-[460px] "
-            >
-              {sec2ImgSrcList.map((src, idx) => (
-                <SwiperSlide key={idx}>
-                  <img src={src} alt="" className="w-full" />
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          </AnimatedUpward>
+          <div className="maison-section-2-swiper mobile:hidden">
+            <AnimatedUpward>
+              <Swiper
+                slidesPerView={1}
+                pagination={true}
+                loop={true}
+                modules={[Pagination]}
+                className="Swiper max-w-[616px] w-[35vw] min-w-[320px] tablet:w-[312px]"
+              >
+                {sec2ImgSrcList.map((src, idx) => (
+                  <SwiperSlide key={idx}>
+                    <img src={src} alt="" className="w-full" />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </AnimatedUpward>
+          </div>
         </div>
       </section>
-      <section className="maison-section-3 max-w-[1256px] mx-[172px]">
+      <section className={`maison-section-3 ${maisonSectionStyle} ${maisonLessDesktopStyle}`}>
         <div className="relative">
           <AnimatedTextBox className="absolute inset-0 bg-white" />
-          <h3 className="text-display2 mb-20">Inspirations</h3>
+          <h3 className="text-display2 tablet:text-display2-m mb-20 tablet:mb-10">Inspirations</h3>
         </div>
 
-        <div className="grid grid-cols-2 gap-[18vw]">
+        <div className="grid grid-cols-2 gap-[10vw] mobile:grid-cols-1 mobile:gap-[60px] tablet:gap-6">
           {sec3SrcList.map((item, idx) => (
-            <div key={idx} className="flex items-center even:row-span-2">
+            <div
+              key={idx}
+              className="flex items-center desktop:even:row-span-2 tablet:even:row-span-2 tablet:first-of-type:mb-[200px] mobile:first-of-type:mb-0"
+            >
               <div>
                 <div className="relative">
                   <Animatedcentered className="absolute inset-0 bg-white" />
                   <img src={item.imgSrc} alt={item.title} className="aspect-[3/4] object-cover mb-5" />
                 </div>
                 <AnimatedUpward>
-                  <p className="mb-5">{item.title}</p>
-                  <span>{item.desc}</span>
+                  <p className="mb-5 tablet:text-body2-m">{item.title}</p>
+                  <span className="tablet:text-body2-m">{item.desc}</span>
                 </AnimatedUpward>
               </div>
             </div>
           ))}
         </div>
       </section>
-      <section className="maison-section-4">
-        <video src="" className="h-[860px] bg-grey-4 mb-[80px]"></video>
-        <div className="relative max-w-[1256px] mx-[172px]">
+      <section className={`maison-section-4  ${maisonSectionStyle} ${maisonLessDesktopStyle}`}>
+        <video
+          src="src/assets/video/Sec4_Video.mp4"
+          autoPlay={true}
+          loop={true}
+          controls={true}
+          muted={true}
+          className="w-full mb-[80px] aspect-video mobile:aspect-auto object-cover"
+        ></video>
+        <div className="relative ">
           <AnimatedTextBox className="absolute inset-0 bg-white" />
-          <h3 className="text-display2 font-bold">“We were artists.</h3>
-          <p className="font-diptyque font-bold text-display3/[130%] w-[60vw] mb-5">
+          <h3 className="text-display2 tablet:text-display1-m font-bold  tablet:mb-5">“We were artists.</h3>
+          <p className="font-diptyque font-bold text-display3/[130%] tablet:text-display2-m/[160%] w-[60vw] tablet:w-full mb-5">
             We were not driven by ambition, but rather by passion, imagination, creativity and the desire to do
             something with true integrity”
           </p>
-          <div className="flex flex-row justify-end font-diptyque text-heading2">- CHRISTIANE MONTADRE-GAUTROT</div>
-        </div>
-      </section>
-      <section className="maison-section-5 w-full max-w-[1256px] mx-[172px]">
-        <AnimatedUpward className="flex justify-end">
-          <img
-            src="https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/page/maison/Img1.avif"
-            alt=""
-            className=" w-[55vw]"
-          />
-        </AnimatedUpward>
-      </section>
-      <section className="maison-section-6 max-w-[1256px] mx-[172px]">
-        <div className="relative">
-          <AnimatedTextBox className="absolute inset-0 bg-white" />
-          <h3 className="text-display2 font-bold mb-[80px]">History</h3>
-        </div>
-        <div className="relative">
-          <AnimatedTextBox className="absolute inset-0 bg-white" />
-          <div className="flex flex-row gap-6">
-            <div>
-              <p className="mb-10">Diptyque’s founders: A trio of artists and friends</p>
-              <p className="mb-5">
-                Paris, 1949. The story begins. Desmond is a painter, a graduate of the École des Beaux-Arts, the Paris
-                school of fine arts. Christiane is an interior architect, trained at the French national school of
-                decorative arts, the Arts décoratifs. One is an accomplished artist; the other has a passion for
-                craftsmanship. Each is the mirror image of the other. Their inevitable friendship is shaped by memories
-                of Desmond’s summers in the South of France, and Christiane’s childhood garden on the fringes of
-                Fontainebleau. With taste and discernment, they work together to create designs for upholstery fabrics
-                sold at Liberty and Sanderson in London.
-              </p>
-              <p>
-                A decade later, by a twist of fate, they cross paths with Yves Coueslant. This globe-trotting son of a
-                banker raised in Indochina (present-day Vietnam) establishes an immediate rapport with Christiane and
-                Desmond, himself heir to a British noble family. Together, they make an inseparable trio of friends. And
-                from this encounter springs a creative ambition – the dream of founding their own Maison.
-              </p>
-            </div>
-            <div>
-              <p className="mb-10">1961: the The kindling of an imagination</p>
-              <p className="mb-5">
-                Three artists, three free spirits, one vision. At the turn of the Sixties, at a time of tremendous
-                excitement and optimism marked by a strong desire for modernity, Desmond Knox-Leet, Christiane
-                Montadre-Gautrot and Yves Coueslant invented a new kind of space; a space made in their image; a
-                celebration of the senses; a tribute to daring, where their creativity shone alongside objects sourced
-                from around the world. Bound by a sense of beauty, a love of nature, and an insatiable curiosity, the
-                three friends brought Diptyque to vivid life.
-              </p>
-              <p>
-                Part artist's studio, part cabinet of curiosities, Diptyque opened in Paris’s 5th arrondissement, a
-                bohemian haven where heritage merged with modernity. At 34 boulevard Saint-Germain, the three friends
-                became ""purveyors of trifles"". Over the course of their encounters and travels, they unearthed
-                antiques, decorated and refashioned exotic and everyday objects, and filled the shelves of this concept
-                store ahead of its time.
-              </p>
-            </div>
+          <div className="flex flex-row justify-end font-diptyque text-heading2 tablet:text-heading3-m">
+            - CHRISTIANE MONTADRE-GAUTROT
           </div>
         </div>
       </section>
-      <section className="maison-section-7 w-[910px] mx-[345px]">
+      <section className={`maison-section-5 ${maisonSectionStyle} ${maisonLessDesktopStyle}`}>
+        <div className="">
+          <AnimatedUpward className="flex justify-end">
+            <img
+              src="https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/page/maison/Img1.avif"
+              alt=""
+              className=" w-[50vw] tablet:w-[65vw] mobile:w-full"
+            />
+          </AnimatedUpward>
+        </div>
+      </section>
+      <section className={`maison-section-6 ${maisonSectionStyle} ${maisonLessDesktopStyle}`}>
+        <div className="relative">
+          <AnimatedTextBox className="absolute inset-0 bg-white" />
+          <h3 className="text-display2 tablet:text-display2-m font-bold mb-[80px] tablet:mb-10">History</h3>
+        </div>
+        <div className="relative">
+          <AnimatedTextBox className="absolute inset-0 bg-white" />
+
+          <Swiper
+            slidesPerView={2}
+            spaceBetween={24}
+            pagination={true}
+            loop={true}
+            modules={[Pagination]}
+            className="maison-sec6-swiper w-full mobile:hidden"
+          >
+            {maisonSec6Text.map((item, idx) => (
+              <SwiperSlide key={idx}>
+                <p className="mb-10 tablet:text-body2-m w-auto">{item.title}</p>
+                <p className="mb-5 tablet:text-body2-m w-auto"> {item.desc1}</p>
+                <p className="tablet:text-body2-m w-auto"> {item.desc2}</p>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={24}
+            pagination={true}
+            loop={true}
+            modules={[Pagination]}
+            className="maison-sec6-swiper w-full desktop:hidden tablet:hidden mobile:block"
+          >
+            {maisonSec6Text.map((item, idx) => (
+              <SwiperSlide key={idx}>
+                <p className="mb-10 tablet:text-body2-m w-auto">{item.title}</p>
+                <p className="mb-5 tablet:text-body2-m w-auto"> {item.desc1}</p>
+                <p className="tablet:text-body2-m w-auto"> {item.desc2}</p>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+      </section>
+      <section
+        className={`maison-section-7 w-[910px] mx-[345px] tablet:w-full tablet:px-[60px] ${maisonLessDesktopStyle} `}
+      >
         <AnimatedUpward>
           <img
             src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/maison/Img2_1.png?raw=true"
             alt=""
-            className="w-[433px]"
+            className="w-[433px] tablet:w-[282px] mobile:w-[222px] tablet:ml-5"
           />
         </AnimatedUpward>
         <AnimatedUpward>
           <img
             src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/maison/Img2_2.png?raw=true"
             alt=""
-            className="-mt-[220px] ml-[216px] w-[228px]"
+            className="-mt-[220px] tablet:-mt-[120px] ml-[216px] tablet:ml-[161px] w-[228px] tablet:w-[167px] mobile:w-[134px] "
           />
         </AnimatedUpward>
         <AnimatedUpward>
           <img
             src="https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/page/maison/Img2_3.avif"
             alt=""
-            className="-mt-[120px] mr-0 ml-auto w-[454px]"
+            className="-mt-[120px] tablet:mt-10 mr-0 ml-auto w-[454px] tablet:w-[380px] mobile:w-[233px] "
           />
         </AnimatedUpward>
         <div className="relative">
@@ -284,26 +334,28 @@ const MaisonPage = () => {
           <img
             src="https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/page/maison/Img2_4.avif"
             alt=""
-            className="mt-[40px] mx-auto w-[536px]"
+            className="mt-10 mx-auto w-[536px] tablet:w-[437px] mobile:w-[337px]"
           />
         </div>
         <AnimatedUpward>
           <img
             src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/maison/Img2_5.png?raw=true"
             alt=""
-            className="mt-[80px] mx-auto w-[340px]"
+            className="mt-20 mx-auto w-[340px] tablet:w-[276px] mobile:w-[214px]"
           />
         </AnimatedUpward>
       </section>
-      <section className="maison-section-8 max-w-[1256px] mx-[172px]">
+      <section className={`maison-section-8 ${maisonSectionStyle} ${maisonLessDesktopStyle}`}>
         <div className="relative">
           <AnimatedTextBox className="absolute inset-0 bg-white" />
-          <h3 className="text-display2 text-bold text-center mb-[80px]">Explore the world of Diptyque</h3>
+          <h3 className="text-display2 tablet:text-display2-m text-bold text-center mb-[80px] tablet:mb-10">
+            Explore the world of Diptyque
+          </h3>
         </div>
-        <div className="maison-section-8-card-item-list flex flex-col gap-10 ">
+        <div className="maison-section-8-card-item-list flex flex-col gap-10">
           {sec8SrcList.map((item, idx) => (
             <AnimatedUpward key={idx} className="maison-section-8-card-item">
-              <img src={item.imgSrc} alt={item.text} className="mb-10" />
+              <img src={item.imgSrc} alt={item.text} className="mb-10 tablet:mb-5" />
               <Link to={item.url}>
                 <BarButton text={item.text} type="border" />
               </Link>
