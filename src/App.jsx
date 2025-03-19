@@ -1,6 +1,7 @@
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Layout from './common/Layout';
+import LayoutMain from './common/LayoutMain';
 import {
   Cart,
   Collection,
@@ -31,8 +32,10 @@ function App() {
         <Routes>
           <Route path="/register" element={<Register />} />
           <Route path="/signin" element={<SignIn />} />
-          <Route path="/" element={<Layout />}>
+          <Route path="/" element={<LayoutMain />}>
             <Route index element={<Main />} />
+          </Route>
+          <Route element={<Layout />}>
             <Route path="/maison" element={<Maison />} />
             <Route path="/promotion" element={<Promotion />} />
             <Route path="/product" element={<ProductList />}>

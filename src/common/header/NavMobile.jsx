@@ -26,10 +26,10 @@ const NavMobile = ({ isOpen, setIsOpen }) => {
       initial={{ x: '-100%', transformOrigin: 'left' }}
       animate={{ x: isOpen ? 0 : '-100%' }}
       transition={{ duration: 0.5, ease: 'easeOut' }}
-      className="nav-window-mobile fixed inset-0 z-20 px-6 py-[282px] bg-white desktop:hidden overflow-y-auto scrollbar-hide"
+      className="nav-window-mobile fixed inset-0 z-20 px-6 mobile:px-4 py-[282px] mobile:py-[193px] bg-white desktop:hidden overflow-y-auto scrollbar-hide"
     >
       <div onClick={closeAndResetActive} className="cursor-pointer">
-        <Icon name="close" className="absolute top-0 right-0 m-6 " />
+        <Icon name="close" className="absolute top-0 right-0 m-6 mobile:m-4" />
       </div>
       <nav className={``}>
         {/* 1뎁스 메뉴 */}
