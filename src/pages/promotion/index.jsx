@@ -57,18 +57,7 @@ const Promotion = () => {
             alt=""
           />
           <div className="relative z-10">
-            <div id="section-spring">
-              <ProductSec season="Spring" />
-            </div>
-            <div id="section-summer">
-              <ProductSec season="Summer" />
-            </div>
-            <div id="section-autumn">
-              <ProductSec season="Autumn" />
-            </div>
-            <div id="section-winter">
-              <ProductSec season="Winter" />
-            </div>
+            <ProductSec />
           </div>
         </div>
       </div>
