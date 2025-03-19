@@ -143,7 +143,7 @@ const MaisonPage = () => {
       <section
         className={`maison-section-1 relative mt-[300px] tablet:mt-[100px] max-w-[1600px] px-[80px] ${maisonLessDesktopStyle}`}
       >
-        <AnimatedTextBox className="absolute inset-0 bg-white" />
+        <AnimatedTextBox className="absolute inset-0 bg-white tablet:hidden" />
         <p className="text-display1 tablet:text-display1-m font-diptyque font-bold mb-20">Do you speak Diptyque?</p>
         <p className="text-display3/[130%] tablet:text-display2-m/[160%] font-diptyque font-bold text-right tablet:text-left">
           “The writing crafted by the Maison tells the story of a heritage that grows richer by the day.”
