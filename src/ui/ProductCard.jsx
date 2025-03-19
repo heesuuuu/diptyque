@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const BestSellerItem = ({ item }) => {
+const ProductCard = ({ item }) => {
   const { id, name, description, options, sales, inStock } = item;
   const price = options[0].price;
   const thumbImg = options[0].images.thumbnail.default;
@@ -44,7 +44,7 @@ const BestSellerItem = ({ item }) => {
   }, [description, maxChars]);
 
   return (
-    <Link to={`/product/${id}`} className="relative flex flex-col justify-between gap-2 cursor-pointer group">
+    <Link to={`/product/detail/${id}`} className="relative flex flex-col justify-between gap-2 cursor-pointer">
       <img
         className="mb-2 object-cover w-full group-hover:opacity-0 transition-all ease-in-out duration-700"
         src={thumbImg}
@@ -55,14 +55,19 @@ const BestSellerItem = ({ item }) => {
         src={hoverImg}
         alt={name}
       />
-      <h2 className="text-heading3/[160%]">{name}</h2>
-      <p className="flex-shrink-0 flex-grow text-body3/[150%] text-grey-4 line-clamp-2">{desc ? desc : description}</p>
-      <p className="flex justify-between text-body3/[150%]">
+      <h2 className="text-heading3/[160%] tablet:text-heading3-m">{name}</h2>
+      <p className="flex-shrink-0 flex-grow text-body3/[150%] tablet:text-body2-m text-grey-4 line-clamp-2 mobile:hidden">
+        {desc ? desc : description}
+      </p>
+      <p className="flex justify-between text-body3/[150%] tablet:hidden">
         {!inStock && 'Out of Stock'}
-        <span className="ml-auto">€{price}</span>
+        <span className="ml-auto tablet:text-body2-m">€{price}</span>
+      </p>
+      <p className=" text-body2-m desktop:hidden tablet:visible">
+        {inStock ? <span className="ml-auto text-body2-m">€{price}</span> : 'Out of Stock'}
       </p>
     </Link>
   );
 };
 
-export default BestSellerItem;
+export default ProductCard;
