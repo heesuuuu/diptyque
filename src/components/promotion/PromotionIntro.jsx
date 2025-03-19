@@ -27,10 +27,10 @@ const PromotionIntro = () => {
             for <br /> every season
           </h3>
         </div>
-        <div className="absolute bottom-0 ">
+        <div className="absolute bottom-0 w-full">
           <img
             src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/main-full.png?raw=true"
-            alt=""
+            alt="" className='w-full'
           />
         </div>
       </section>
