@@ -144,7 +144,7 @@ const ProductSec = () => {
       {SeasonItems.map((season) => {
         const seasonProducts = perfumesByNote[season.note] || [];
         return (
-          <div className="text-center mb-16" key={season.title}>
+          <div className="text-center mb-16 mt-[300px] " key={season.title}>
             <h3 className="text-display3 mb-[150px]">{season.title}</h3>
             <div className="flex flex-col items-center place-content-between md:flex-row gap-8">
               {/* left */}

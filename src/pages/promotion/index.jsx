@@ -18,14 +18,58 @@ const Promotion = () => {
         <SeasonIntroSec />
 
         {/* 계절별 상품 section */}
-        <ProductSec />
+        <div className="relative">
+          {/* 장미 */}
+          <img
+            className="absolute top-0 right-0 z-0"
+            src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-s01-1.png?raw=true"
+            alt=""
+          />
+
+          {/* 오렌지 */}
+          <img
+            className="absolute top-[26%] right-0 z-0"
+            src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-s03.png?raw=true"
+            alt=""
+          />
+          <img
+            className="absolute top-[26%] left-0 z-0 w-[219px] translate-x-[-40%] "
+            src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-s02.png?raw=true"
+            alt=""
+          />
+
+          {/* 나무 */}
+          <img
+            className="absolute top-[52%] left-0 z-0 w-[10%]"
+            src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-a01-01.png?raw=true"
+            alt=""
+          />
+          <img
+            className="absolute top-[54%] right-0 z-0"
+            src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-a01-02.png?raw=true"
+            alt=""
+          />
+          {/* Musk */}
+          <img
+            className="absolute top-[80%] right-0 z-0  translate-x-[22%] w-[35%]"
+            src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-w01.png?raw=true"
+            alt=""
+          />
+          <div className="relative z-10">
+            <ProductSec />
+          </div>
+        </div>
       </div>
 
       {/* End Section */}
-      <EndSec />
+      <div className="mx-[50px]">
+        <EndSec />
+      </div>
 
       {/* 마무리 멘트 section */}
-      <EndDesSec />
+      <div>
+        <EndDesSec />
+      </div>
     </div>
   );
 };
