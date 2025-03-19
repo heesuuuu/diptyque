@@ -13,7 +13,7 @@ const Promotion = () => {
       {/* Promotion 설명 section */}
       <div></div>
 
-      <div className="ml-[50px] space-y-[200px]">
+      <div className="mx-[50px] space-y-[200px]">
         {/* 시즌 hover section */}
         <SeasonIntroSec />
 
