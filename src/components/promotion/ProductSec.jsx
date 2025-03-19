@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { selectPerfumes } from '../../store/modules/promotionSlice';
 import { Link } from 'react-router-dom';
 
-const ProductSec = ({ season }) => {
+const ProductSec = () => {
   const perfumes = useSelector(selectPerfumes);
   const [perfumesByNote, setPerfumesByNote] = useState({
     rose: [],
@@ -107,8 +107,6 @@ const ProductSec = ({ season }) => {
     },
   ];
 
-  const currentSeason = SeasonItems.find((item) => item.title === season) || SeasonItems[0];
-
   useEffect(() => {
     const roseItems = perfumes
       .filter((item) => item.notes && item.notes.some((n) => n.note.toLowerCase().includes('rose')))
@@ -141,48 +139,86 @@ const ProductSec = ({ season }) => {
     });
   }, [perfumes]);
 
-  const seasonProducts = perfumesByNote[currentSeason.note] || [];
+  // 특정 시즌 섹션 렌더링 함수
+  const renderSeasonSection = (season) => {
+    const seasonProducts = perfumesByNote[season.note] || [];
+    if (seasonProducts.length === 0) {
+      return null;
+    }
 
-  return (
-    <div className="text-center mb-16 mt-[300px]" id={`section-${currentSeason.title.toLowerCase()}`}>
-      <h3 className="text-display3 mb-[150px]">{currentSeason.title}</h3>
-      <div className="flex flex-col items-center place-content-between md:flex-row gap-8">
-        {/* left */}
-        <div className="w-full md:w-[437px]">
-          <div className="mb-6">
-            <img
-              src={currentSeason.img.find((img) => img.type === 'color').url}
-              alt={currentSeason.img.find((img) => img.type === 'color').alt}
-              className="mx-auto mb-4"
-            />
-            <div className="text-lg font-medium mt-2 capitalize text-heading2 font-diptyque">{currentSeason.note}</div>
+    return (
+      <div id={`section-${season.title.toLowerCase()}`} className="text-center mb-16 mt-[300px]" key={season.title}>
+        <h3 className="text-display3 mb-[150px]">{season.title}</h3>
+        <div className="flex flex-col items-center place-content-between md:flex-row gap-8">
+          {/* left */}
+          <div className="w-full md:w-[437px]">
+            <div className="mb-6">
+              {season.img && season.img.length > 0 && season.img.find((img) => img.type === 'color') && (
+                <img
+                  src={season.img.find((img) => img.type === 'color').url}
+                  alt={season.img.find((img) => img.type === 'color').alt}
+                  className="mx-auto mb-4"
+                />
+              )}
+              <div className="text-lg font-medium mt-2 capitalize text-heading2 font-diptyque">{season.note}</div>
+            </div>
           </div>
-        </div>
 
-        {/* 오른쪽 - 상품 목록 */}
-        <div>
-          <div className="grid grid-flow-col grid-row-4 gap-4">
-            {seasonProducts.map((perfume) => (
-              <Link to={`/product/detail/${perfume.id}`} key={perfume.id}>
-                <div className="flex flex-col">
-                  {perfume.options && perfume.options[0] && perfume.options[0].images && (
-                    <img src={perfume.options[0].images.thumbnail.default} alt={perfume.name} className="w-[326px]" />
-                  )}
-                  {/* 상품 설명 */}
-                  <div className="w-[326px] space-y-[10px] mt-5">
-                    <h3 className="text-heading3 text-left">{perfume.type}</h3>
-                    <p className="text-body3 text-grey-4 text-left line-clamp-2">{perfume.description}</p>
-                    <div className="text-body3 text-right">
-                      {perfume.options && perfume.options[0] && <span>${perfume.options[0].price}</span>}
+          {/* 오른쪽 - 상품 목록 */}
+          <div>
+            <div className="grid grid-flow-col grid-row-4 gap-4">
+              {seasonProducts.map((perfume) => {
+                if (!perfume || !perfume.options || perfume.options.length === 0) {
+                  return null;
+                }
+
+                const thumbImg = perfume.options[0].images.thumbnail.default;
+                const hoverImg = perfume.options[0].images.thumbnail.hover || thumbImg;
+
+                return (
+                  <Link
+                    to={`/product/detail/${perfume.id}`}
+                    key={perfume.id}
+                    className="relative flex flex-col justify-between gap-[0.625rem] cursor-pointer group"
+                  >
+                    <div className="relative">
+                      <img
+                        className="w-[326px] group-hover:opacity-0 transition-all ease-in-out duration-700"
+                        src={thumbImg}
+                        alt={perfume.name}
+                      />
+                      <img
+                        className="absolute top-0 left-0 w-[326px] opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-700"
+                        src={hoverImg}
+                        alt={perfume.name}
+                      />
                     </div>
-                  </div>
-                </div>
-              </Link>
-            ))}
+
+                    {/* 상품 설명 */}
+                    <div className="w-[326px] space-y-[10px] mt-5">
+                      <h3 className="text-heading3 text-left">{perfume.type}</h3>
+                      <p className="text-body3 text-grey-4 text-left line-clamp-2">{perfume.description}</p>
+                      <div className="text-body3 text-right">
+                        {perfume.options && perfume.options[0] && <span>${perfume.options[0].price}</span>}
+                      </div>
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    );
+  };
+
+  return (
+    <>
+      {renderSeasonSection(SeasonItems[0])}
+      {renderSeasonSection(SeasonItems[1])}
+      {renderSeasonSection(SeasonItems[2])}
+      {renderSeasonSection(SeasonItems[3])}
+    </>
   );
 };
 
