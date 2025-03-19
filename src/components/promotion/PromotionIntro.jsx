@@ -1,45 +1,130 @@
-import React from 'react';
+import React, { useEffect, useState, useRef } from 'react';
+import { motion, useScroll, useSpring } from 'framer-motion';
 
 const PromotionIntro = () => {
-  const imgList = [
-    // autumn - wood
-    'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-a01.png?raw=true',
-    // 바람
-    'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-item01.png?raw=true',
-    'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-item02.png?raw=true',
-    // spring-rose
-    'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-s01.png?raw=true',
-    // summer-orange
-    'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-s02.png?raw=true',
-    'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-s03.png?raw=true',
-    'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-s04.png?raw=true',
-    // winter - musk
-    'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-w01.png?raw=true',
-    // logo img
-    'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-logo01.png?raw=true',
-  ];
+  const [opacity, setOpacity] = useState(0);
+  const introSectionRef = useRef(null);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setOpacity(1);
+    }, 100);
+  }, []);
+
+  const { scrollYProgress: introScrollProgress } = useScroll({
+    target: introSectionRef,
+    offset: ['start end', 'end start'],
+  });
+
+  const smoothIntroProgress = useSpring(introScrollProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  });
+
+  const lines = ['Fragrance designed', 'for', 'every season'];
+
+  const characterVariants = {
+    hidden: { opacity: 0 },
+    visible: (custom) => ({
+      opacity: 1,
+      transition: {
+        delay: custom * 0.05, 
+        duration: 0.1, 
+      },
+    }),
+  };
+
+  const renderLines = () => {
+    let charIndex = 0;
+
+    return (
+      <>
+        {lines.map((line, lineIndex) => (
+          <div key={`line-${lineIndex}`} className="text-center">
+            {line.split('').map((char, index) => (
+              <motion.span
+                key={`char-${lineIndex}-${index}`}
+                variants={characterVariants}
+                initial="hidden"
+                animate="visible"
+                custom={charIndex++}
+                className="inline-block"
+              >
+                {char === ' ' ? '\u00A0' : char}
+              </motion.span>
+            ))}
+            {lineIndex < lines.length - 1 && <br />}
+          </div>
+        ))}
+      </>
+    );
+  };
+
+  const introText =
+    'Experience the art of fragrance through the changing seasons—embrace the romance of spring weddings, the refreshing escape of summer, the cozy warmth of autumn, and the festive magic of winter. Each scent is crafted to capture the essence of every moment, turning memories into timeless experiences.';
+
+  const renderIntroText = () => {
+    const [renderedChars, setRenderedChars] = useState([]);
+
+    useEffect(() => {
+      const updateVisibleChars = () => {
+        const progress = smoothIntroProgress.get();
+        const newVisibleCount = Math.ceil(progress * introText.length * 2);
+
+        setRenderedChars(
+          introText.split('').map((char, index) => ({
+            char: char === ' ' ? '\u00A0' : char,
+            isVisible: index < newVisibleCount,
+          }))
+        );
+      };
+
+      const unsubscribe = smoothIntroProgress.onChange(updateVisibleChars);
+      updateVisibleChars(); 
+
+      return () => unsubscribe();
+    }, []);
+
+    return (
+      <>
+        {renderedChars.map((item, index) => (
+          <span
+            key={`intro-char-${index}`}
+            className="inline-block"
+            style={{
+              opacity: item.isVisible ? 1 : '50%',
+              color: item.isVisible ? '#112856' : '#ccc',
+              transition: 'opacity 0.2s, color 0.3s',
+            }}
+          >
+            {item.char}
+          </span>
+        ))}
+      </>
+    );
+  };
+
   return (
     <>
       <section className="w-full h-[800px] flex justify-center items-center relative">
         <div className="w-full text-center">
-          <h3 className="text-display1 font-diptyque text-primary">
-            Fragrance designed <br />
-            for <br /> every season
+          <h3 className="text-display1 font-diptyque text-primary mt-[110px] leading-[110px] max-w-[996px] mx-auto relative text-center">
+            {renderLines()}
           </h3>
         </div>
-        <div className="absolute bottom-0 w-full">
+        <div className="absolute bottom-0 w-full translate-y-[2%]">
           <img
             src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/main-full.png?raw=true"
-            alt="" className='w-full'
+            alt="Seasonal fragrances"
+            className="w-full"
+            style={{ opacity: opacity, transition: 'opacity 1.5s ease-in' }}
           />
         </div>
       </section>
-      {/* intro 소개 desc */}
-      <section className="w-full items-center flex justify-center items-center">
-        <div className="text-heading1 font-diptyque text-center w-[896px] items-center">
-          Experience the art of fragrance through the changing seasons—embrace the romance of spring weddings, the
-          refreshing escape of summer, the cozy warmth of autumn, and the festive magic of winter. Each scent is crafted
-          to capture the essence of every moment, turning memories into timeless experiences.
+      <section ref={introSectionRef} className="w-full flex justify-center items-center py-16">
+        <div className="text-heading1 font-diptyque text-center w-[896px] items-center leading-relaxed">
+          {renderIntroText()}
         </div>
       </section>
     </>
