@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const SeasonIntroSec = () => {
-const SesonItem = [
+  const [hoveredSeason, setHoveredSeason] = useState('Spring');
+  const [currentImageUrl, setCurrentImageUrl] = useState('');
+  const [currentImageAlt, setCurrentImageAlt] = useState('');
+  const [isTransitioning, setIsTransitioning] = useState(false);
+
+  const SesonItem = [
     {
       title: 'Spring',
       series: 'Floral Series',
@@ -95,37 +100,107 @@ const SesonItem = [
       ],
     },
   ];
+
+  const getColorImageUrl = (seasonTitle) => {
+    const season = SesonItem.find((item) => item.title === seasonTitle);
+    if (season) {
+      const colorImage = season.img.find((img) => img.type === 'color');
+      return colorImage ? colorImage.url : '';
+    }
+    return '';
+  };
+
+  const getColorImageAlt = (seasonTitle) => {
+    const season = SesonItem.find((item) => item.title === seasonTitle);
+    if (season) {
+      const colorImage = season.img.find((img) => img.type === 'color');
+      return colorImage ? colorImage.alt : '';
+    }
+    return '';
+  };
+
+  const scrollToSection = (seasonTitle) => {
+    const sectionId = `section-${seasonTitle.toLowerCase()}`;
+    const section = document.getElementById(sectionId);
+
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  useEffect(() => {
+    setCurrentImageUrl(getColorImageUrl('Spring'));
+    setCurrentImageAlt(getColorImageAlt('Spring'));
+  }, []);
+
+  useEffect(() => {
+    const newImageUrl = getColorImageUrl(hoveredSeason);
+
+    if (newImageUrl !== currentImageUrl) {
+      setIsTransitioning(true);
+
+      const timer = setTimeout(() => {
+        setCurrentImageUrl(newImageUrl);
+        setCurrentImageAlt(getColorImageAlt(hoveredSeason));
+
+        setTimeout(() => {
+          setIsTransitioning(false);
+        }, 5);
+      }, 150);
+
+      return () => clearTimeout(timer);
+    }
+  }, [hoveredSeason]);
+
   return (
-    <div className="flex align-center justify-center ">
+    <div className="flex align-center justify-center">
       {/* left Hover Section */}
-      <div className="w-[533px] mr-[190px]">
-        <div className="items-center flex flex-col space-y-[75px]">
+      <div className="w-[533px] mr-[190px] flex items-start">
+        <div className="flex flex-col justify-between h-[680px] w-full">
           <img
             src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/item-line01.png?raw=true"
             alt=""
+            className="w-full"
           />
-          <img
-            src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/c-01.png?raw=true"
-            alt=" spring-rose"
-            className="h-[468px]"
-          />
+          <div className="flex items-center justify-center">
+            <img
+              src={currentImageUrl}
+              alt={currentImageAlt}
+              className={`h-[300px] transition-opacity duration-200 ease-in-out ${
+                isTransitioning ? 'opacity-0' : 'opacity-100'
+              }`}
+            />
+          </div>
           <img
             src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/item-line01.png?raw=true"
             alt=""
+            className="w-full"
           />
         </div>
       </div>
 
-      {/* right  */}
-      <div className="w-[1028px] ">
-        {/* Spring */}
+      {/* right */}
+      <div className="w-[1028px]">
         {SesonItem.map((item) => (
-          <div key={item.title} className=" border-t-[1px] border-solid border-lightgrey-3 cursor-pointer">
+          <div
+            key={item.title}
+            className={`border-t-[1px] border-solid ${hoveredSeason === item.title ? 'border-primary' : 'border-lightgrey-3'} cursor-pointer transition-colors duration-300`}
+            onMouseEnter={() => setHoveredSeason(item.title)}
+            onClick={() => scrollToSection(item.title)}
+          >
             <div className="flex mt-5 mb-11">
-              <div className="font-diptyque text-display2 w-[583px] ">{item.title}</div>
-              <div>
+              <div
+                className={`font-diptyque text-display2 w-[583px] transition-colors duration-300 ${
+                  hoveredSeason === item.title ? 'text-primary' : 'text-black'
+                }`}
+              >
+                {item.title}
+              </div>
+              <div
+                className={`transition-colors duration-300 ${hoveredSeason === item.title ? 'text-primary' : 'text-black'}`}
+              >
                 <div>{item.series}</div>
-                <div>{ item.day }</div>
+                <div>{item.day}</div>
               </div>
             </div>
           </div>

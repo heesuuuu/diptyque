@@ -1,3 +1,4 @@
+import React from 'react';
 import EndDesSec from '../../components/promotion/EndDesSec';
 import EndSec from '../../components/promotion/EndSec';
 import ProductSec from '../../components/promotion/ProductSec';
@@ -51,12 +52,23 @@ const Promotion = () => {
           />
           {/* Musk */}
           <img
-            className="absolute top-[80%] right-0 z-0  translate-x-[22%] w-[35%]"
+            className="absolute top-[80%] right-0 z-0 translate-x-[22%] w-[35%]"
             src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-w01.png?raw=true"
             alt=""
           />
           <div className="relative z-10">
-            <ProductSec />
+            <div id="section-spring">
+              <ProductSec season="Spring" />
+            </div>
+            <div id="section-summer">
+              <ProductSec season="Summer" />
+            </div>
+            <div id="section-autumn">
+              <ProductSec season="Autumn" />
+            </div>
+            <div id="section-winter">
+              <ProductSec season="Winter" />
+            </div>
           </div>
         </div>
       </div>
