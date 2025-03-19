@@ -102,4 +102,25 @@ h6 {
 
 input {
   outline: none;
-}/*# sourceMappingURL=globals.css.map */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.detail-sec-title {
+  font-size: 36px;
+  line-height: 1.6;
+  font-family: "Diptyque", serif;
+  font-weight: 400;
+  margin-bottom: var(--cont-gap);
+  text-align: center;
+}
+@media screen and (max-width: 1023px) {
+  .detail-sec-title {
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: "Diptyque", serif;
+    font-weight: 400;
+  }
+}/*# sourceMappingURL=style.css.map */

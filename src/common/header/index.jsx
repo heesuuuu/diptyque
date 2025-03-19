@@ -33,9 +33,9 @@ const Header = () => {
       <div
         className={`fixed top-0 w-full z-20 bg-white transition-transform duration-500 ${
           scrollDirection === 'down' ? '-translate-y-full' : 'translate-y-0'
-        } ${isMain && 'bottom-0 !bg-transparent pointer-events-none'}`}
+        } ${isMain && '!bg-transparent pointer-events-none'}`}
       >
-        <div className={`header relative bg-white ${isMain && '!bg-transparent tablet:!bg-white'}`}>
+        <div className={`header relative bg-white ${isMain && '!bg-transparent desktop:h-screen tablet:!bg-white'}`}>
           <h1 className="flex justify-center pointer-events-auto ">
             <span className="sr-only">DIPTYQUE</span>
             <Link to="/">
@@ -48,7 +48,7 @@ const Header = () => {
           </h1>
           <Nav isMain={isMain} />
           <DesktopMenu isMain={isMain} />
-          <div className="nav-tablet absolute inset-0">
+          <div className="pointer-events-none nav-tablet absolute inset-0 desktop:hidden">
             <div onClick={() => setIsOpen(true)} className="pointer-events-auto cursor-pointer">
               <Icon name="menu" className=" absolute top-1/2 -translate-y-1/2 left-6 mobile:left-4" />
             </div>

@@ -5,7 +5,6 @@ import 'swiper/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { BarButton } from '../../ui';
 import BestSellerItem from './BestSellerItem';
-import './styles.scss';
 
 const CartEmpty = () => {
   const { allProductData } = useSelector((state) => state.product);

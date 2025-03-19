@@ -13,7 +13,7 @@ const Nav = ({ isMain }) => {
     >
       {/* 1뎁스 메뉴 */}
       <ul className="flex flex-row">
-        {menuData.map((menu) => (
+        {menuData.slice(0, 5).map((menu) => (
           <li
             key={menu.id}
             className={`px-4 text-heading3 font-diptyque `}

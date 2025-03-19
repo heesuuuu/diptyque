@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const menuData = [
   { id: 1, menuName: 'MAISON', url: '/maison' },
-  { id: 2, menuName: 'PROMOTION', url: '/promotion', twodepth: [{ depthName: 'SPRING | WEDDING' }] },
+  { id: 2, menuName: 'PROMOTION', url: '/promotion', twodepth: [{ depthName: 'FOUR SEASONS' }] },
   {
     id: 3,
     menuName: 'PRODUCTS',

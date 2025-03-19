@@ -5,7 +5,7 @@
 :root {
   --background: #{$white};
   --foreground: #{$darkgrey-3};
-  
+
   // colors
   --white: #fff;
   --black: #000;
@@ -24,7 +24,7 @@
   --darkgrey-1: #{$darkgrey-1};
   --darkgrey-2: #{$darkgrey-2};
   --darkgrey-3: #{$darkgrey-3};
-  
+
   // layout
   --hd-height: 128px;
   --cont-gap: 40px;
@@ -39,7 +39,7 @@
   --font-weight-base: 400;
   --font-weight-bold: 700;
 
-  // PC 폰트 설정 
+  // PC 폰트 설정
   --font-size-display1-pc: 120px;
   --font-size-display2-pc: 80px;
   --font-size-display3-pc: 60px;
@@ -65,7 +65,6 @@
   // breakpoints
   --breakpoint-sm: 768px;
   --breakpoint-lg: 1024px;
-
 }
 
 /* 기본 폰트 설정 */
@@ -91,4 +90,8 @@ h6 {
 
 input {
   outline: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }
