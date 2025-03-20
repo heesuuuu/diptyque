@@ -14,7 +14,7 @@ const Promotion = () => {
       {/* Promotion 설명 section */}
       <div></div>
 
-      <div className="desktop:mx-[50px]  space-y-[150px]">
+      <div className="desktop:mx-[50px] mobile:mx-[16px]  space-y-[150px]">
         {/* 시즌 hover section */}
         <SeasonIntroSec />
 
@@ -29,7 +29,7 @@ const Promotion = () => {
 
           {/* 오렌지 */}
           <img
-            className="absolute top-[26%] right-0 z-0 tablet:w-[30%]"
+            className="absolute top-[26%] right-0 z-0 w-[35%] tablet:w-[30%]"
             src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-s03.png?raw=true"
             alt=""
           />
@@ -63,7 +63,7 @@ const Promotion = () => {
       </div>
 
       {/* End Section */}
-      <div className="mx-[50px]">
+      <div className="mx-[50px] tablet:mx-0">
         <EndSec />
       </div>
 

@@ -149,10 +149,10 @@ const ProductSec = () => {
     return (
       <div
         id={`section-${season.title.toLowerCase()}`}
-        className="text-center mb-16 mt-[300px] tablet:mt-[150px] "
+        className="text-center mb-16 mt-[300px] tablet:mt-[150px] mobile:mt-[100px] "
         key={season.title}
       >
-        <h3 className="text-display3 mb-[80px]">{season.title}</h3>
+        <h3 className="text-display3 mb-[80px] mobile:text-heading1">{season.title}</h3>
         <div className="flex flex-col items-center justify-between place-content-between tablet:flex-row gap-8 tablet:gap-4">
           {/* left */}
           <div className="w-full md:w-[437px] tablet:hidden">
@@ -170,7 +170,7 @@ const ProductSec = () => {
 
           {/* 오른쪽 - 상품 목록 */}
           <div className="overflow-hidden tablet:w-[648px] mx-auto">
-            <div className="grid grid-flow-col grid-row-4 gap-4  ">
+            <div className="grid grid-flow-col grid-row-4 gap-4 mobile:gap-[16px] ">
               {seasonProducts.map((perfume) => {
                 if (!perfume || !perfume.options || perfume.options.length === 0) {
                   return null;
@@ -187,24 +187,24 @@ const ProductSec = () => {
                   >
                     <div className="relative">
                       <img
-                        className="w-[326px] tablet:w-[200px] group-hover:opacity-0 transition-all ease-in-out duration-700"
+                        className="w-[326px] tablet:w-[200px] mobile:w-[170px] group-hover:opacity-0 transition-all ease-in-out duration-700"
                         src={thumbImg}
                         alt={perfume.name}
                       />
                       <img
-                        className="absolute top-0 left-0 w-[326px] tablet:w-[200px] opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-700"
+                        className="absolute top-0 left-0 w-[326px] tablet:w-[200px] mobile:w-[170px] opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-700"
                         src={hoverImg}
                         alt={perfume.name}
                       />
                     </div>
 
                     {/* 상품 설명 */}
-                    <div className="w-[326px] tablet:w-[200px] space-y-[10px] mt-5">
-                      <h3 className="text-heading3 text-left ">{perfume.type}</h3>
-                      <p className="text-body3 text-grey-4 text-left line-clamp-2 tablet:line-clamp-4">
+                    <div className="w-[326px] tablet:w-[200px] mobile:w-[170px] space-y-[10px] mt-5 mobile:mt-[10px] mobile:space-y-[10px]">
+                      <h3 className="text-heading3 text-left  ">{perfume.name}</h3>
+                      <p className="text-body3 text-grey-4 text-left line-clamp-2 tablet:line-clamp-4 mobile:hidden">
                         {perfume.description}
                       </p>
-                      <div className="text-body3 text-right">
+                      <div className="text-body3 text-right mobile:text-body3">
                         {perfume.options && perfume.options[0] && <span>${perfume.options[0].price}</span>}
                       </div>
                     </div>

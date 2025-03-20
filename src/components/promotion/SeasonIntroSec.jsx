@@ -153,7 +153,7 @@ const SeasonIntroSec = () => {
   }, [hoveredSeason]);
 
   return (
-    <div className="flex align-center justify-center justify-between mx-[50px] tablet:mx-[60px] ">
+    <div className="flex align-center  justify-between mx-[50px] tablet:mx-[60px] mobile:mx-0 ">
       {/* left Hover Section */}
       <div className="w-[533px] tablet:hidden mr-[190px] tablet:mr-0 flex items-start ">
         <div className="flex flex-col justify-between h-[680px] tablet:h-[100px]  w-full ">
@@ -180,15 +180,15 @@ const SeasonIntroSec = () => {
       </div>
 
       {/* right */}
-      <div className="w-[1028px]">
+      <div className="w-[1028px] mobile:w-full">
         {SesonItem.map((item) => (
           <div
             key={item.title}
-            className={`border-t-[1px] border-solid tablet:b ${hoveredSeason === item.title ? 'border-primary' : 'border-lightgrey-3'} cursor-pointer transition-colors duration-300`}
+            className={`border-t-[1px] border-solid  ${hoveredSeason === item.title ? 'border-primary' : 'border-lightgrey-3'} cursor-pointer transition-colors duration-300`}
             onMouseEnter={() => setHoveredSeason(item.title)}
             onClick={() => scrollToSection(item.title)}
           >
-            <div className="flex mt-5 mb-11 tablet:flex flex-col">
+            <div className="flex mt-5 mb-11 tablet:flex flex-col mobile:my-[50px] mobile:place-content-end">
               <div
                 className={`font-diptyque text-display2  w-[583px] transition-colors duration-300 tablet:text-heading1  ${
                   hoveredSeason === item.title ? 'text-primary' : 'text-black'
@@ -197,7 +197,7 @@ const SeasonIntroSec = () => {
                 {item.title}
               </div>
               <div
-                className={`transition-colors duration-300 tablet:mt-5 space-y-[10px] ${hoveredSeason === item.title ? 'text-primary' : 'text-black'}`}
+                className={`transition-colors duration-300 tablet:mt-5 space-y-[10px] mobile:text-body3 mobile:space-y-[5px] ${hoveredSeason === item.title ? 'text-primary' : 'text-black'}`}
               >
                 <div>{item.series}</div>
                 <div>{item.day}</div>
