@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { cartActions } from '../../store/modules/cartSlice';
 import { Icon } from '../../ui';
 
-const CartItem = ({ item }) => {
+const CartItem = ({ item, className }) => {
   const { id, name, type, options, quantity, engraving, totalPrice, selected, inStock } = item;
   const { selectCartItem } = useSelector((state) => state.cart);
   const dispatch = useDispatch();
@@ -32,7 +32,7 @@ const CartItem = ({ item }) => {
   };
 
   return (
-    <div className="cart-item-selectitem flex flex-row items-center ">
+    <div className={`cart-item-selectitem flex flex-row items-center ${className}`}>
       <div
         onClick={() => dispatch(cartActions.toggleSelected(id))}
         className={`checkbox transition-all duration-300 ease-in-out ${
@@ -63,9 +63,9 @@ const CartItem = ({ item }) => {
             {inStock ? (
               <div className="cart-item-custom flex flex-col gap-2">
                 <div className="cart-item-engraving-wrap flex flex-row">
-                  <span className="mr-5 tablet:text-body2-m">Engraving</span>
+                  <span className="mr-5 tablet:text-body2-m mobile:hidden">Engraving</span>
 
-                  {!isEdit && engraving && <span className="text-grey-4 mr-5">{text}</span>}
+                  {!isEdit && engraving && <span className="text-grey-4 mr-5 tablet:text-body2-m">{text}</span>}
 
                   <input
                     value={text}
