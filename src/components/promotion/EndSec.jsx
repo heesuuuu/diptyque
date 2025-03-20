@@ -60,7 +60,7 @@ const EndSec = () => {
     <div ref={sectionRef} className="w-full h-[975px] bg-primary relative overflow-hidden">
       {/* 장미 */}
       <img
-        className="absolute bottom-0 translate-y-[10%]"
+        className="absolute bottom-0 translate-y-[10%] tablet:w-[50%]"
         src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-s01.png?raw=true"
         alt=""
       />

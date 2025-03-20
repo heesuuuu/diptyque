@@ -147,12 +147,16 @@ const ProductSec = () => {
     }
 
     return (
-      <div id={`section-${season.title.toLowerCase()}`} className="text-center mb-16 mt-[300px]" key={season.title}>
-        <h3 className="text-display3 mb-[150px]">{season.title}</h3>
-        <div className="flex flex-col items-center place-content-between md:flex-row gap-8">
+      <div
+        id={`section-${season.title.toLowerCase()}`}
+        className="text-center mb-16 mt-[300px] tablet:mt-[150px] "
+        key={season.title}
+      >
+        <h3 className="text-display3 mb-[80px]">{season.title}</h3>
+        <div className="flex flex-col items-center justify-between place-content-between tablet:flex-row gap-8 tablet:gap-4">
           {/* left */}
-          <div className="w-full md:w-[437px]">
-            <div className="mb-6">
+          <div className="w-full md:w-[437px] tablet:hidden">
+            <div className="mb-6 tablet:mb-0">
               {season.img && season.img.length > 0 && season.img.find((img) => img.type === 'color') && (
                 <img
                   src={season.img.find((img) => img.type === 'color').url}
@@ -165,8 +169,8 @@ const ProductSec = () => {
           </div>
 
           {/* 오른쪽 - 상품 목록 */}
-          <div>
-            <div className="grid grid-flow-col grid-row-4 gap-4">
+          <div className="overflow-hidden tablet:w-[648px] mx-auto">
+            <div className="grid grid-flow-col grid-row-4 gap-4  ">
               {seasonProducts.map((perfume) => {
                 if (!perfume || !perfume.options || perfume.options.length === 0) {
                   return null;
@@ -179,25 +183,27 @@ const ProductSec = () => {
                   <Link
                     to={`/product/detail/${perfume.id}`}
                     key={perfume.id}
-                    className="relative flex flex-col justify-between gap-[0.625rem] cursor-pointer group"
+                    className="relative flex flex-col justify-between gap-[0.625rem] cursor-pointer group tablet:"
                   >
                     <div className="relative">
                       <img
-                        className="w-[326px] group-hover:opacity-0 transition-all ease-in-out duration-700"
+                        className="w-[326px] tablet:w-[200px] group-hover:opacity-0 transition-all ease-in-out duration-700"
                         src={thumbImg}
                         alt={perfume.name}
                       />
                       <img
-                        className="absolute top-0 left-0 w-[326px] opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-700"
+                        className="absolute top-0 left-0 w-[326px] tablet:w-[200px] opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-700"
                         src={hoverImg}
                         alt={perfume.name}
                       />
                     </div>
 
                     {/* 상품 설명 */}
-                    <div className="w-[326px] space-y-[10px] mt-5">
-                      <h3 className="text-heading3 text-left">{perfume.type}</h3>
-                      <p className="text-body3 text-grey-4 text-left line-clamp-2">{perfume.description}</p>
+                    <div className="w-[326px] tablet:w-[200px] space-y-[10px] mt-5">
+                      <h3 className="text-heading3 text-left ">{perfume.type}</h3>
+                      <p className="text-body3 text-grey-4 text-left line-clamp-2 tablet:line-clamp-4">
+                        {perfume.description}
+                      </p>
                       <div className="text-body3 text-right">
                         {perfume.options && perfume.options[0] && <span>${perfume.options[0].price}</span>}
                       </div>
