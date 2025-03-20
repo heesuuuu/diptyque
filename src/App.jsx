@@ -1,7 +1,6 @@
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Layout from './common/Layout';
-import LayoutMain from './common/LayoutMain';
 import {
   Cart,
   Collection,
@@ -21,6 +20,10 @@ import {
 import './styles/globals.scss';
 import ScrollToTop from './utils/ScrollToTop';
 import CategoryList from './components/productList/CategoryList';
+import MyPageInfoEdit from './components/mypage/MyPageInfoEdit';
+import MyPageMyAsk from './components/mypage/MyPageMyAsk';
+import MyPageMyPayment from './components/mypage/MyPageMyPayment';
+import MyPageOrder from './components/mypage/MyPageOrder';
 
 const GOOGLE_CLIENT_ID = '938549800295-jauqqv8g7482gt4o5k7sm9l5kbbhbhid.apps.googleusercontent.com';
 
@@ -32,10 +35,8 @@ function App() {
         <Routes>
           <Route path="/register" element={<Register />} />
           <Route path="/signin" element={<SignIn />} />
-          <Route path="/" element={<LayoutMain />}>
+          <Route path="/" element={<Layout />}>
             <Route index element={<Main />} />
-          </Route>
-          <Route element={<Layout />}>
             <Route path="/maison" element={<Maison />} />
             <Route path="/promotion" element={<Promotion />} />
             <Route path="/product" element={<ProductList />}>
@@ -45,6 +46,10 @@ function App() {
             <Route path="/collection" element={<Collection />} />
             <Route path="/service" element={<Service />} />
             <Route path="/mypage" element={<Mypage />} />
+            <Route path="/mypage/info" element={<MyPageInfoEdit />} />
+            <Route path="/mypage/order" element={<MyPageOrder />} />
+            <Route path="/mypage/payment" element={<MyPageMyPayment />} />
+            <Route path="/mypage/ask" element={<MyPageMyAsk />} />
             <Route path="/payment" element={<Payment />} />
             <Route path="/guestorder" element={<GuestOrder />} />
             <Route path="/cart" element={<Cart />} />
