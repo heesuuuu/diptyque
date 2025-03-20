@@ -307,7 +307,7 @@ const CollectionProducts = ({ onChangeCollection }) => {
   };
 
   return (
-    <div className="product-container">
+    <div className="product-container ">
       <div className="flex flex-col md:flex-row relative">
         {/* 왼쪽: 상품 이미지 (스크롤 될 부분) */}
         <div className="md:w-1/2">
@@ -336,7 +336,7 @@ const CollectionProducts = ({ onChangeCollection }) => {
                       <img
                         src={product.options[0].images.thumbnail.default}
                         alt={product.name}
-                        className="w-full h-[803px] object-contain mx-auto"
+                        className="w-full h-[803px] mobile:h-[225px] object-contain mx-auto"
                       />
                     )}
                   </div>
@@ -379,11 +379,11 @@ const CollectionProducts = ({ onChangeCollection }) => {
         </div>
 
         {/* 오른쪽: 상품 정보 (고정된 위치) */}
-        <div className="relative">
+        <div className="relative tablet:w-[200px]">
           {/* 상품 정보 컨테이너 */}
           <div
             ref={productInfoRef}
-            className="md:w-[500px] ml-[90px] h-[800px] inline-grid sticky"
+            className="md:w-[500px] ml-[90px] h-[800px] tablet:h-0 inline-grid sticky"
             style={{ position: 'sticky', top: '10vh', zIndex: 10 }}
           >
             {currentProduct && (
@@ -391,15 +391,17 @@ const CollectionProducts = ({ onChangeCollection }) => {
                 key={currentProduct.id}
                 className={`space-y-5 transition-all duration-500 ease-in-out ${getTransitionClass()}`}
               >
-                <h3 className="font-diptyque lg:text-heading1 md:text-heading3 h-[58px]">{currentProduct.name}</h3>
-                <div className="flex place-content-between">
-                  <div className="text-darkgrey-3 text-body3">{currentProduct.type}</div>
+                <h3 className="font-diptyque lg:text-heading1 md:text-heading3 h-[58px] tablet:text-heading1">
+                  {currentProduct.name}
+                </h3>
+                <div className="flex place-content-between ">
+                  <div className="text-darkgrey-3 text-body3 ">{currentProduct.type}</div>
 
                   {currentProduct.options && currentProduct.options.length > 0 && (
                     <div className="flex text-body3 text-darkgrey-3">
                       <div>{currentProduct.options[0].price} €</div>
-                      <div className="mx-1">|</div>
-                      <div>{currentProduct.options[0].size}</div>
+                      <div className="mx-1 tablet:hidden ">|</div>
+                      <div className="tablet:hidden">{currentProduct.options[0].size}</div>
                     </div>
                   )}
                 </div>
@@ -407,7 +409,7 @@ const CollectionProducts = ({ onChangeCollection }) => {
                 <div className="text-body3 text-grey-4 mb-4">{currentProduct.notes}</div>
 
                 {/* 상품 설명 - 아코디언과 같은 애니메이션 적용 */}
-                <div className="relative mb-4">
+                <div className="relative mb-4 tablet:hidden">
                   {/* 전체 설명 컨테이너 */}
                   <div
                     ref={(el) => {
@@ -447,13 +449,13 @@ const CollectionProducts = ({ onChangeCollection }) => {
                   )}
                 </div>
 
-                <div className="space-y-[10px]">
+                <div className="space-y-[10px] tablet:hidden">
                   <div>Free Returns</div>
                   <div>2 free samples of your choice with every order</div>
                 </div>
 
                 {/* 아코디언 설명 */}
-                <div>
+                <div className="tablet:hidden">
                   <Accordion
                     title="Directions for use"
                     content="After washing your hair, rinse with cold water to strengthen the capillary fibres. This will help your hair absorb the Hair mist more effectively."
@@ -467,7 +469,7 @@ const CollectionProducts = ({ onChangeCollection }) => {
                   />
                 </div>
 
-                <div className="absolute bottom-0 w-full space-y-5">
+                <div className="absolute bottom-0 w-full space-y-5 tablet:hidden">
                   {/* 상세페이지 이동 버튼 */}
                   <Link
                     to={`/product/detail/${currentProduct.id}`}
@@ -480,7 +482,7 @@ const CollectionProducts = ({ onChangeCollection }) => {
                   </Link>
 
                   {/* 장바구니 버튼 */}
-                  <BarButton text="ADD TO BAG" type="filled" className="text-body3" />
+                  <BarButton text="ADD TO BAG" type="filled" className="text-body3 " />
                 </div>
               </div>
             )}

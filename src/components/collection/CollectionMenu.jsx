@@ -29,7 +29,7 @@ const CollectionMenu = () => {
           <li key={collectionName}>
             <div
               onClick={() => handleCollectionClick(collectionName)}
-              className={`font-diptyque text-heading2 transition-colors cursor-pointer ${
+              className={`font-diptyque text-heading2 transition-colors cursor-pointer tablet:text-heading3 mobile:text-center ${
                 selectedCollection === collectionName ? 'text-gray-200' : ' text-primary'
               }`}
             >

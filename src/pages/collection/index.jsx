@@ -25,12 +25,12 @@ const Collection = () => {
   }, [selectedCollection]);
 
   return (
-    <div className="top-0 space-y-[150px] tablet:space-y-[150px] mobile:space-y-[100px]">
+    <div className="top-0 space-y-[150px] tablet:space-y-[150px] mobile:space-y-[100px]  ">
       {/* 상단 배너 및 소개 */}
       <CollectionIntro />
 
       {/* Collection 상품 영역 */}
-      <div className="w-full px-[80px] tablet:px-[60px]  space-y-[200px] tablet:space-y-[150px]">
+      <div className="w-full px-[80px] tablet:px-0  space-y-[200px] tablet:space-y-[150px] tablet:mx-[60px] mobile:mx-[16px]">
         <section className="lg:w-full lg:mx-auto relative">
           <div className="flex flex-col md:flex-row">
             {/* Left menu */}
@@ -51,9 +51,9 @@ const Collection = () => {
         </section>
 
         {/* Most popular section */}
-        <section className="mt-[80px] lg:w-full lg:mx-auto overflow-visible">
+        {/* <section className="mt-[80px] lg:w-full lg:mx-auto overflow-visible">
           <PopularProduct />
-        </section>
+        </section> */}
       </div>
     </div>
   );

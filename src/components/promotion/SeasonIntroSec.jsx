@@ -20,7 +20,7 @@ const SeasonIntroSec = () => {
           type: 'color',
         },
         {
-          id: 'spring1',
+          id: 'spring2',
           url: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-s01.png?raw=true',
           alt: '드로잉 장미',
           type: 'drawing',
@@ -43,18 +43,6 @@ const SeasonIntroSec = () => {
           id: 'summer2',
           url: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-s02.png?raw=true',
           alt: '드로잉 오렌지 과일',
-          type: 'drawing',
-        },
-        {
-          id: 'summer3',
-          url: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-s04.png?raw=true',
-          alt: '드로잉 오렌지 과일2',
-          type: 'drawing',
-        },
-        {
-          id: 'summer4',
-          url: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-s03.png?raw=true',
-          alt: '드로잉 오렌지 꽃',
           type: 'drawing',
         },
       ],
@@ -88,7 +76,7 @@ const SeasonIntroSec = () => {
         {
           id: 'musk1',
           url: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/c-04.png?raw=true',
-          alt: '색상 장미',
+          alt: '색상 머스크',
           type: 'color',
         },
         {
@@ -101,22 +89,23 @@ const SeasonIntroSec = () => {
     },
   ];
 
-  const getColorImageUrl = (seasonTitle) => {
+  const getImage = (seasonTitle, type) => {
     const season = SesonItem.find((item) => item.title === seasonTitle);
     if (season) {
-      const colorImage = season.img.find((img) => img.type === 'color');
-      return colorImage ? colorImage.url : '';
+      const image = season.img.find((img) => img.type === type);
+      return image ? image : null;
     }
-    return '';
+    return null;
+  };
+
+  const getColorImageUrl = (seasonTitle) => {
+    const image = getImage(seasonTitle, 'color');
+    return image ? image.url : '';
   };
 
   const getColorImageAlt = (seasonTitle) => {
-    const season = SesonItem.find((item) => item.title === seasonTitle);
-    if (season) {
-      const colorImage = season.img.find((img) => img.type === 'color');
-      return colorImage ? colorImage.alt : '';
-    }
-    return '';
+    const image = getImage(seasonTitle, 'color');
+    return image ? image.alt : '';
   };
 
   const scrollToSection = (seasonTitle) => {
@@ -153,54 +142,92 @@ const SeasonIntroSec = () => {
   }, [hoveredSeason]);
 
   return (
-    <div className="flex align-center  justify-between mx-[50px] tablet:mx-[60px] mobile:mx-0 ">
-      {/* left Hover Section */}
-      <div className="w-[533px] tablet:hidden mr-[190px] tablet:mr-0 flex items-start ">
-        <div className="flex flex-col justify-between h-[680px] tablet:h-[100px]  w-full ">
+    <div className="flex items-center justify-between mx-[50px] tablet:mx-[30px] mobile:mx-[16px]">
+      {/* Left  */}
+      <div className="w-[40%] tablet:hidden mobile:hidden mr-[5%]">
+        <div className="flex flex-col justify-between h-[680px] w-full">
           <img
             src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/item-line01.png?raw=true"
-            alt=""
+            alt="Decorative line"
             className="w-full"
           />
           <div className="flex items-center justify-center">
             <img
               src={currentImageUrl}
               alt={currentImageAlt}
-              className={`h-[300px] transition-opacity duration-200 ease-in-out ${
+              className={`max-h-[300px] transition-opacity duration-200 ease-in-out ${
                 isTransitioning ? 'opacity-0' : 'opacity-100'
               }`}
             />
           </div>
           <img
             src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/item-line01.png?raw=true"
-            alt=""
+            alt="Decorative line"
             className="w-full"
           />
         </div>
       </div>
 
-      {/* right */}
-      <div className="w-[1028px] mobile:w-full">
+      {/* Right  */}
+      <div className="w-[55%] tablet:w-full mobile:w-full">
         {SesonItem.map((item) => (
           <div
             key={item.title}
-            className={`border-t-[1px] border-solid  ${hoveredSeason === item.title ? 'border-primary' : 'border-lightgrey-3'} cursor-pointer transition-colors duration-300`}
+            className={`border-t-[1px] border-solid ${
+              hoveredSeason === item.title ? 'border-primary' : 'border-lightgrey-3'
+            } cursor-pointer transition-colors duration-300`}
             onMouseEnter={() => setHoveredSeason(item.title)}
             onClick={() => scrollToSection(item.title)}
           >
-            <div className="flex mt-5 mb-11 tablet:flex flex-col mobile:my-[50px] mobile:place-content-end">
-              <div
-                className={`font-diptyque text-display2  w-[583px] transition-colors duration-300 tablet:text-heading1  ${
-                  hoveredSeason === item.title ? 'text-primary' : 'text-black'
-                }`}
-              >
-                {item.title}
+            <div className="flex items-start mt-5 mb-11 tablet:hidden mobile:hidden">
+              {/* Season 정보 */}
+              <div className="flex flex-1 justify-between">
+                <div
+                  className={`font-diptyque text-display2 transition-colors duration-300 ${
+                    hoveredSeason === item.title ? 'text-primary' : 'text-black'
+                  }`}
+                >
+                  {item.title}
+                </div>
+                <div
+                  className={`transition-colors duration-300 space-y-[10px] ${
+                    hoveredSeason === item.title ? 'text-primary' : 'text-black'
+                  }`}
+                >
+                  <div>{item.series}</div>
+                  <div>{item.day}</div>
+                </div>
               </div>
-              <div
-                className={`transition-colors duration-300 tablet:mt-5 space-y-[10px] mobile:text-body3 mobile:space-y-[5px] ${hoveredSeason === item.title ? 'text-primary' : 'text-black'}`}
-              >
-                <div>{item.series}</div>
-                <div>{item.day}</div>
+            </div>
+
+            {/* tablet,mobile seasonIntroSec layout */ }
+            {/* left */}
+            <div className="hidden tablet:flex mobile:flex items-center mt-5 mb-8 mobile:my-6">
+              <div className="w-full h-auto mr-4 flex justify-center">
+                <img
+                  src={getColorImageUrl(item.title)}
+                  alt={`${item.title} illustration`}
+                  className="object-contain max-w-full max-h-[190px] w-auto tablet:w-[200px] mobile:max-h-[119px] "
+                />
+              </div>
+
+              {/* right */}
+              <div className="w-3/4">
+                <div
+                  className={`font-diptyque text-heading1 mobile:text-heading2 transition-colors duration-300 ${
+                    hoveredSeason === item.title ? 'text-primary' : 'text-black'
+                  }`}
+                >
+                  {item.title}
+                </div>
+                <div
+                  className={`transition-colors duration-300 mt-2 space-y-[5px] mobile:space-y-[2px] text-body2 mobile:text-body3 ${
+                    hoveredSeason === item.title ? 'text-primary' : 'text-black'
+                  }`}
+                >
+                  <div>{item.series}</div>
+                  <div>{item.day}</div>
+                </div>
               </div>
             </div>
           </div>

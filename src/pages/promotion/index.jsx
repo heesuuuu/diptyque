@@ -11,11 +11,8 @@ const Promotion = () => {
       {/* 프로모션 인트로 section */}
       <PromotionIntro />
 
-      {/* Promotion 설명 section */}
-      <div></div>
 
       <div className="desktop:mx-[50px] mobile:mx-[16px]  space-y-[150px]">
-        {/* 시즌 hover section */}
         <SeasonIntroSec />
 
         {/* 계절별 상품 section */}
@@ -63,7 +60,7 @@ const Promotion = () => {
       </div>
 
       {/* End Section */}
-      <div className="mx-[50px] tablet:mx-0">
+      <div className="mx-[50px] tablet:mx-0 mobile:mx-0">
         <EndSec />
       </div>
 
