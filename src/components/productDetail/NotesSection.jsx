@@ -20,11 +20,9 @@ const NotesSection = () => {
         className="mySwiper notes-swiper"
       >
         {matchingNotesData.map((data) => (
-          <>
-            <SwiperSlide key={data.noteId}>
-              <img src={data.img} alt={data.note} className="w-full h-full object-cover" />
-            </SwiperSlide>
-          </>
+          <SwiperSlide key={data.noteId}>
+            <img src={data.img} alt={data.note} className="w-full h-full object-cover" />
+          </SwiperSlide>
         ))}
       </Swiper>
     </div>
