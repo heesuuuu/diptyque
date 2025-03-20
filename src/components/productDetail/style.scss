@@ -64,3 +64,13 @@ html {
   bottom: 50px;
   transform: scaleX(0);
 }
+
+// ============================
+// NotesSection.jsx style
+
+.notes-swiper {
+  .swiper-slide {
+    width: 21.5625rem !important;
+    height: 21.5625rem;
+  }
+}
