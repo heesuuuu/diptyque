@@ -20,9 +20,9 @@ const OlfactoryItem = ({ item }) => {
   return (
     <li
       onClick={selectOlfactory}
-      className={`w-[10.49rem] h-[2.8125rem] border border-black text-black ${selected ? 'bg-black text-white' : ''} ${name !== 'cytrus' && 'border-r-0'}`}
+      className={`flex-grow max-w-[8.7417vw] max-h-[2.3438vw] py-3 border border-black text-black ${selected ? 'bg-black text-white' : ''} ${name !== 'cytrus' && 'border-r-0'}`}
     >
-      <button className="w-full h-full">{name.toUpperCase()}</button>
+      <button className="flex justify-center items-center w-full h-full text-body3">{name.toUpperCase()}</button>
     </li>
   );
 };
