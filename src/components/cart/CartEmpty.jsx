@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import 'swiper/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { BarButton } from '../../ui';
+import { BarButton, ProductCard } from '../../ui';
 import BestSellerItem from './BestSellerItem';
 
 const CartEmpty = () => {
@@ -27,10 +27,18 @@ const CartEmpty = () => {
       </div>
       <button></button>
 
-      <Swiper slidesPerView={4.3} spaceBetween={24} className="mySwiper overflow-visible">
+      <Swiper
+        breakpoints={{
+          390: { slidesPerView: 2.2, spaceBetween: 16 },
+          768: { slidesPerView: 3.2, spaceBetween: 16 },
+          1024: { slidesPerView: 4.2, spaceBetween: 24 },
+        }}
+        spaceBetween={24}
+        className="mySwiper overflow-visible"
+      >
         {bestSeller.map((item) => (
           <SwiperSlide key={item.id}>
-            <BestSellerItem item={item} />
+            <ProductCard item={item} />
           </SwiperSlide>
         ))}
       </Swiper>

@@ -30,7 +30,7 @@ const CartList = () => {
   const priceStyle = 'flex flex-row justify-between w-full';
 
   return (
-    <div className="mt-[80px] tablet:mt-[60px]">
+    <div className=" mt-[80px] tablet:mt-[60px]">
       <div className="cart-select-btn flex flex-row gap-6 tablet:gap-4 pb-10 tablet:pb-6">
         <span
           className="cursor-pointer tablet:text-body2-m"
@@ -46,12 +46,12 @@ const CartList = () => {
         </span>
       </div>
       <div className="cart-item-list-wrap flex flex-row tablet:flex-col justify-between gap-[10vw] tablet:gap-[80px]">
-        <div className="cart-item-list flex flex-col gap-6 w-[65vw] max-w-[1004px] tablet:w-full">
+        <div className="cart-item-list flex flex-col gap-6 w-[65vw] max-w-[1004px] tablet:w-full divide-y divide-lightgrey-4">
           {localCartData.map((item) => (
-            <CartItem key={item.id} item={item} />
+            <CartItem key={item.id} item={item} className="pt-6 first-of-type:pt-0" />
           ))}
         </div>
-        <div className="cart-payment-info w-[25vw] desktop:max-w-[422px] tablet:w-full flex flex-col gap-[60px] tablet:gap-6">
+        <div className="cart-payment-info desktop:sticky desktop:top-10 h-full  w-[25vw] desktop:max-w-[422px] tablet:w-full flex flex-col gap-[60px] tablet:gap-6">
           <div className="cart-sub-and-ship flex flex-col gap-4 tablet:gap-2">
             <div className={`cart-subtotal ${priceStyle}`}>
               <span>Subtotal</span>
