@@ -8,12 +8,12 @@ const useParallax = (value, distance) => {
 
 const ProductImg = ({ index, name, img }) => {
   const ref = useRef(null);
-  const { scrollYProgress } = useScroll({ target: ref });
+  const { scrollYProgress } = useScroll();
   const y = useParallax(scrollYProgress, 300);
 
   return (
     <section className="img-container">
-      <div ref={ref}>
+      <div ref={ref} className="w-[100%] h-[100vh]">
         <img src={img} alt={`${name}${index + 1}`} />
       </div>
       <motion.h2 initial={{ visibility: 'hidden' }} animate={{ visibility: 'visible' }} style={{ y }} />

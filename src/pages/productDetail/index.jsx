@@ -28,7 +28,7 @@ const ProductDetail = () => {
       dispatch(categoryActions.resetCategory());
       dispatch(productActions.resetProduct());
     };
-  }, [dispatch, productId]);
+  }, [productId]);
 
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -43,23 +43,15 @@ const ProductDetail = () => {
 
   return (
     <>
-      <div className="flex mt-header-h">
-        {/* <div className="w-1/2">
-          {options &&
-            options[0].images.detail &&
-            options[0].images.detail.map((img, idx) => (
-              <img key={idx} src={img} alt={name} className="w-full h-auto" />
-            ))}
-        </div> */}
-
-        <div id="example">
+      <div className="flex mt-header-h min-h-screen">
+        <div className=" w-1/2 h-[100vh] overflow-y-auto snap-y snap-mandatory scrollbar-hide">
           {options &&
             options[0].images.detail &&
             options[0].images.detail.map((img, idx) => <ProductImg key={idx} name={name} img={img} />)}
           <motion.div className="progress" style={{ scaleX }} />
         </div>
 
-        <div className="w-1/2 text-body3">
+        <div className="w-1/2 text-body3 ">
           <div className="sticky top-0 right-0 flex flex-col gap-5 p-[11.25rem] pt-20 tablet:px-6 tablet:py-10">
             <ProductInfo productData={productData} />
           </div>
