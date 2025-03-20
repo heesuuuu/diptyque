@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { productActions } from '../../store/modules/productSlice';
@@ -8,6 +8,8 @@ import BelovedSection from '../../components/productDetail/BelovedSection';
 import { categoryActions } from '../../store/modules/categorySlice';
 import ProductInfo from '../../components/productDetail/ProductInfo';
 import NotesSection from '../../components/productDetail/NotesSection';
+import { motion, useScroll, useSpring } from 'framer-motion';
+import ProductImg from '../../components/productDetail/ProductImg';
 
 const ProductDetail = () => {
   const dispatch = useDispatch();
@@ -28,6 +30,13 @@ const ProductDetail = () => {
     };
   }, [dispatch, productId]);
 
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  });
+
   if (loading) return <div>Loading . . . </div>;
 
   if (!options || options.length === 0) return <div>Product information not available</div>;
@@ -35,12 +44,19 @@ const ProductDetail = () => {
   return (
     <>
       <div className="flex mt-header-h">
-        <div className="w-1/2">
+        {/* <div className="w-1/2">
           {options &&
             options[0].images.detail &&
             options[0].images.detail.map((img, idx) => (
               <img key={idx} src={img} alt={name} className="w-full h-auto" />
             ))}
+        </div> */}
+
+        <div id="example">
+          {options &&
+            options[0].images.detail &&
+            options[0].images.detail.map((img, idx) => <ProductImg key={idx} name={name} img={img} />)}
+          <motion.div className="progress" style={{ scaleX }} />
         </div>
 
         <div className="w-1/2 text-body3">
