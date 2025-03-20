@@ -306,15 +306,22 @@ const CollectionProducts = ({ onChangeCollection }) => {
     }
   };
 
+  // 기존 코드에서 태블릿 그리드 관련 부분만 수정
+
+  // 오른쪽 섹션을 태블릿에서 숨기기 위한 코드 수정
+
   return (
-    <div className="product-container ">
+    <div className="product-container">
       <div className="flex flex-col md:flex-row relative">
-        {/* 왼쪽: 상품 이미지 (스크롤 될 부분) */}
-        <div className="md:w-1/2">
+        {/* 왼쪽: 상품 이미지 (스크롤 될 부분) - 태블릿에서는 전체 너비 차지 */}
+        <div className="md:w-1/2 tablet:w-full">
           <div className="space-y-12">
-            {/* 현재 컬렉션의 상품 렌더링 */}
+            {/* 현재 컬렉션의 상품 렌더링 - 태블릿에서 그리드로 표시 */}
             {selectedCollection && productsByCollection[selectedCollection] && (
-              <div className="collection-group" data-collection={selectedCollection}>
+              <div
+                className="collection-group tablet:grid tablet:grid-cols-2 tablet:gap-6"
+                data-collection={selectedCollection}
+              >
                 {productsByCollection[selectedCollection].map((product, index) => (
                   <div
                     key={product.id}
@@ -330,23 +337,32 @@ const CollectionProducts = ({ onChangeCollection }) => {
                     }}
                     data-product-id={String(product.id)}
                     data-collection={selectedCollection}
-                    className="mb-12"
+                    className="mb-12 tablet:mb-6"
                   >
                     {product.options && product.options[0]?.images?.thumbnail?.default && (
-                      <img
-                        src={product.options[0].images.thumbnail.default}
-                        alt={product.name}
-                        className="w-full h-[803px] mobile:h-[225px] object-contain mx-auto"
-                      />
+                      <div className="tablet:flex tablet:flex-col tablet:items-center">
+                        <img
+                          src={product.options[0].images.thumbnail.default}
+                          alt={product.name}
+                          className="w-full h-[803px] tablet:h-[263px] tablet:w-auto mobile:h-[225px] object-contain mx-auto"
+                        />
+                        <div className="hidden tablet:block tablet:mt-3 tablet:text-center">
+                          <h4 className="text-body1 tablet:text-body2">{product.name}</h4>
+                          <p className="text-body3 text-darkgrey-3">{product.options[0].price} €</p>
+                        </div>
+                      </div>
                     )}
                   </div>
                 ))}
               </div>
             )}
 
-            {/* 다음 컬렉션의 상품 렌더링 (있는 경우) */}
+            {/* 다음 컬렉션의 상품 렌더링 - 태블릿에서 그리드로 표시 */}
             {nextCollectionName && productsByCollection[nextCollectionName] && (
-              <div className="collection-group" data-collection={nextCollectionName}>
+              <div
+                className="collection-group tablet:grid tablet:grid-cols-2 tablet:gap-4"
+                data-collection={nextCollectionName}
+              >
                 {productsByCollection[nextCollectionName].map((product, index) => (
                   <div
                     key={product.id}
@@ -362,14 +378,20 @@ const CollectionProducts = ({ onChangeCollection }) => {
                     }}
                     data-product-id={String(product.id)}
                     data-collection={nextCollectionName}
-                    className="mb-12"
+                    className="mb-12 tablet:mb-6"
                   >
                     {product.options && product.options[0]?.images?.thumbnail?.default && (
-                      <img
-                        src={product.options[0].images.thumbnail.default}
-                        alt={product.name}
-                        className="w-full h-[803px] object-contain mx-auto"
-                      />
+                      <div className="tablet:flex tablet:flex-col tablet:items-center">
+                        <img
+                          src={product.options[0].images.thumbnail.default}
+                          alt={product.name}
+                          className="w-full h-[803px] tablet:h-[250px] tablet:w-auto object-contain mx-auto"
+                        />
+                        <div className="hidden tablet:block tablet:mt-3 tablet:text-center">
+                          <h4 className="text-body1 tablet:text-body2">{product.name}</h4>
+                          <p className="text-body3 text-darkgrey-3">{product.options[0].price} €</p>
+                        </div>
+                      </div>
                     )}
                   </div>
                 ))}
@@ -378,38 +400,37 @@ const CollectionProducts = ({ onChangeCollection }) => {
           </div>
         </div>
 
-        {/* 오른쪽: 상품 정보 (고정된 위치) */}
-        <div className="relative tablet:w-[200px]">
+        {/* 오른쪽: 상품 정보 (고정된 위치) - 태블릿에서는 숨김 */}
+        <div className="relative tablet:hidden">
           {/* 상품 정보 컨테이너 */}
           <div
             ref={productInfoRef}
-            className="md:w-[500px] ml-[90px] h-[800px] tablet:h-0 inline-grid sticky"
+            className="md:w-[500px] ml-[90px] h-[800px] inline-grid sticky"
             style={{ position: 'sticky', top: '10vh', zIndex: 10 }}
           >
+            {/* PC에서만 보이는 상세 정보 */}
             {currentProduct && (
               <div
                 key={currentProduct.id}
                 className={`space-y-5 transition-all duration-500 ease-in-out ${getTransitionClass()}`}
               >
-                <h3 className="font-diptyque lg:text-heading1 md:text-heading3 h-[58px] tablet:text-heading1">
-                  {currentProduct.name}
-                </h3>
-                <div className="flex place-content-between ">
-                  <div className="text-darkgrey-3 text-body3 ">{currentProduct.type}</div>
+                {/* 기존 PC 상세 내용 유지 */}
+                <h3 className="font-diptyque lg:text-heading1 md:text-heading3 h-[58px]">{currentProduct.name}</h3>
+                <div className="flex place-content-between">
+                  <div className="text-darkgrey-3 text-body3">{currentProduct.type}</div>
 
                   {currentProduct.options && currentProduct.options.length > 0 && (
                     <div className="flex text-body3 text-darkgrey-3">
                       <div>{currentProduct.options[0].price} €</div>
-                      <div className="mx-1 tablet:hidden ">|</div>
-                      <div className="tablet:hidden">{currentProduct.options[0].size}</div>
+                      <div className="mx-1">|</div>
+                      <div>{currentProduct.options[0].size}</div>
                     </div>
                   )}
                 </div>
                 <div className="text-body3 border-solid border-b-[1px] w-full bg-slate-400 border-darkgrey-3"></div>
                 <div className="text-body3 text-grey-4 mb-4">{currentProduct.notes}</div>
 
-                {/* 상품 설명 - 아코디언과 같은 애니메이션 적용 */}
-                <div className="relative mb-4 tablet:hidden">
+                <div className="relative mb-4">
                   {/* 전체 설명 컨테이너 */}
                   <div
                     ref={(el) => {
@@ -449,13 +470,12 @@ const CollectionProducts = ({ onChangeCollection }) => {
                   )}
                 </div>
 
-                <div className="space-y-[10px] tablet:hidden">
+                <div className="space-y-[10px]">
                   <div>Free Returns</div>
                   <div>2 free samples of your choice with every order</div>
                 </div>
 
-                {/* 아코디언 설명 */}
-                <div className="tablet:hidden">
+                <div>
                   <Accordion
                     title="Directions for use"
                     content="After washing your hair, rinse with cold water to strengthen the capillary fibres. This will help your hair absorb the Hair mist more effectively."
@@ -463,13 +483,13 @@ const CollectionProducts = ({ onChangeCollection }) => {
                   <Accordion
                     title="Ingredients"
                     content="alcohol denat. (sd alcohol 40-b), aqua (water), parfum (fragrance),
-                          peg-40 hydrogenated castor oil, coco-caprylate/caprate, ethylhexyl methoxycinnamate, limonene, 
-                          camellia oleifera seed oil, ethylhexyl salicylate, butyl methoxydibenzoylmethane, linalool, 
-                          alpha-isomethyl ionone, farnesol, geraniol, citral, bht, tocopherol"
+                      peg-40 hydrogenated castor oil, coco-caprylate/caprate, ethylhexyl methoxycinnamate, limonene, 
+                      camellia oleifera seed oil, ethylhexyl salicylate, butyl methoxydibenzoylmethane, linalool, 
+                      alpha-isomethyl ionone, farnesol, geraniol, citral, bht, tocopherol"
                   />
                 </div>
 
-                <div className="absolute bottom-0 w-full space-y-5 tablet:hidden">
+                <div className="absolute bottom-0 w-full space-y-5">
                   {/* 상세페이지 이동 버튼 */}
                   <Link
                     to={`/product/detail/${currentProduct.id}`}
@@ -482,7 +502,7 @@ const CollectionProducts = ({ onChangeCollection }) => {
                   </Link>
 
                   {/* 장바구니 버튼 */}
-                  <BarButton text="ADD TO BAG" type="filled" className="text-body3 " />
+                  <BarButton text="ADD TO BAG" type="filled" className="text-body3" />
                 </div>
               </div>
             )}

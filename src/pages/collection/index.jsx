@@ -35,7 +35,7 @@ const Collection = () => {
           <div className="flex flex-col md:flex-row">
             {/* Left menu */}
             <div
-              className="md:w-1/4 mb-8 md:mb-0 sticky top-[10vh] h-fit"
+              className="w-1/4 mb-8 md:mb-0 sticky top-[10vh] h-fit"
               ref={menuContainerRef}
               onMouseEnter={() => setIsMouseOverMenu(true)}
               onMouseLeave={() => setIsMouseOverMenu(false)}
@@ -44,7 +44,7 @@ const Collection = () => {
             </div>
 
             {/* 상품 상세 */}
-            <div className="md:w-3/4 lg:ml-[115px] md:ml-[24px]">
+            <div className="w-3/4 tablet:ml-[25px] md:ml-[24px]">
               <CollectionProducts isMouseOverMenu={isMouseOverMenu} isFading={isFading} />
             </div>
           </div>
