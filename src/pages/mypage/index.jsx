@@ -1,15 +1,30 @@
 import React, { useEffect, useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 
 const Mypage = () => {
   const [userName, setUserName] = useState('');
+  const navigate = useNavigate();
 
   useEffect(() => {
     const storedUser = JSON.parse(localStorage.getItem('user'));
-    if (storedUser && storedUser.name) {
-      setUserName(storedUser.name);
+
+    if (storedUser) {
+      // `name` 필드가 있으면 그대로 사용 (구글 로그인 포함)
+      if (storedUser.name) {
+        setUserName(storedUser.name);
+      }
+      // `firstName`과 `lastName`이 따로 저장된 경우 결합
+      else if (storedUser.firstName && storedUser.lastName) {
+        setUserName(`${storedUser.firstName} ${storedUser.lastName}`);
+      }
     }
   }, []);
+
+  const handleLogout = () => {
+    localStorage.removeItem('user'); // 유저 정보 삭제
+    window.dispatchEvent(new Event('storage')); // ✅ 로그아웃 즉시 변경사항 반영
+    navigate('/'); // 홈으로 이동
+  };
 
   return (
     <div className="max-w-[422px] mx-auto pt-[219px] pb-[78px] px-[20px]">
@@ -38,8 +53,6 @@ const Mypage = () => {
         ))}
       </nav>
 
-      {/* 내부 페이지 렌더링 */}
-
       {/* Help Center 섹션 */}
       <div className="bg-gray-200 p-8 text-center mt-[50px]">
         <h3 className="font-diptyque text-heading1 mb-2">Need Help?</h3>
@@ -51,8 +64,13 @@ const Mypage = () => {
         <p className="text-black mt-4 underline">Help Center</p>
       </div>
 
-      {/* Sign Out */}
-      <p className="font-diptyque text-center mt-[40px] mb-[10px]">Sign Out</p>
+      {/* Sign Out 버튼 */}
+      <p
+        className="font-diptyque text-center mt-[40px] mb-[10px] cursor-pointer text-black hover:underline"
+        onClick={handleLogout}
+      >
+        Sign Out
+      </p>
     </div>
   );
 };

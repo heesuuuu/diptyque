@@ -24,6 +24,10 @@ import MyPageInfoEdit from './components/mypage/MyPageInfoEdit';
 import MyPageMyAsk from './components/mypage/MyPageMyAsk';
 import MyPageMyPayment from './components/mypage/MyPageMyPayment';
 import MyPageOrder from './components/mypage/MyPageOrder';
+import PaymentLayout from './components/payment/PaymentLayout';
+import ShippingAddress from './components/payment/ShippingAddress';
+import ShippingMethod from './components/payment/ShippingMethod';
+import PaymentMethod from './components/payment/PaymentMethod';
 
 const GOOGLE_CLIENT_ID = '938549800295-jauqqv8g7482gt4o5k7sm9l5kbbhbhid.apps.googleusercontent.com';
 
@@ -50,7 +54,13 @@ function App() {
             <Route path="/mypage/order" element={<MyPageOrder />} />
             <Route path="/mypage/payment" element={<MyPageMyPayment />} />
             <Route path="/mypage/ask" element={<MyPageMyAsk />} />
-            <Route path="/payment" element={<Payment />} />
+
+            <Route path="/payment" element={<PaymentLayout />}>
+              <Route path="shipping-address" element={<ShippingAddress />} />
+              <Route path="shipping-method" element={<ShippingMethod />} />
+              <Route path="payment-method" element={<PaymentMethod />} />
+            </Route>
+
             <Route path="/guestorder" element={<GuestOrder />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/searchresult" element={<SearchResult />} />

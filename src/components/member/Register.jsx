@@ -122,11 +122,17 @@ const Register = () => {
     setErrors(newErrors);
 
     if (Object.values(newErrors).every((err) => err === '')) {
-      const userData = { ...form, phone: `${form.phoneCode} ${form.phone}` };
+      const userData = {
+        ...form,
+        phone: `${form.phoneCode} ${form.phone}`,
+        name: `${form.firstName} ${form.lastName}`, // ✅ name 필드 추가
+      };
+
       localStorage.setItem('user', JSON.stringify(userData));
       dispatch(login(userData));
+      window.dispatchEvent(new Event('login')); // ✅ 로그인 이벤트 트리거
       alert('Welcome to Diptyque!');
-      navigate('/signin');
+      navigate('/mypage'); // 회원가입 후 마이페이지로 이동
     }
   };
 
