@@ -13,12 +13,19 @@ const CollectionMenu = () => {
   const handleCollectionClick = (collectionName) => {
     // 컬렉션 선택 액션 디스패치 (이 액션에서 설명도 함께 설정됨)
     dispatch(selectCollection(collectionName));
-
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
   };
 
   useEffect(() => {
     if (allCollectionNames.length > 0 && !selectedCollection) {
       dispatch(selectCollection(allCollectionNames[0]));
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
     }
   }, [allCollectionNames, selectedCollection, dispatch]);
 
