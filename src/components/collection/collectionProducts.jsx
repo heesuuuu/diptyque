@@ -234,6 +234,10 @@ const CollectionProducts = ({ onChangeCollection }) => {
   // 스크롤 이벤트 리스너 설정
   useEffect(() => {
     window.addEventListener('scroll', handleScroll, { passive: true });
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
