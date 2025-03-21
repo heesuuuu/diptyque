@@ -43,7 +43,7 @@ const ProductDetail = () => {
 
   return (
     <>
-      <div className="flex mt-header-h min-h-screen">
+      <div className="flex mt-header-h min-h-screen ">
         <div className=" w-1/2 h-[100vh] overflow-y-auto snap-y snap-mandatory scrollbar-hide">
           {options &&
             options[0].images.detail &&
