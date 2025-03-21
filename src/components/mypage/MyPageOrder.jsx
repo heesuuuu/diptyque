@@ -1,23 +1,39 @@
-import React, { useState } from 'react';
-import { NavLink, useLocation } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { NavLink, useLocation, Link } from 'react-router-dom';
+import { Icon } from '../../ui';
 
 const MyPageOrder = () => {
-  const [orders, setOrders] = useState([]); // 저장된 주문 내역 리스트
+  const [orders, setOrders] = useState([]);
   const location = useLocation();
-
-  // 현재 페이지의 메뉴명 가져오기
-  const menuTitles = {
-    '/mypage/info': 'My Information',
-    '/mypage/order': 'My Orders',
-    '/mypage/payment': 'My Payment Method',
-    '/mypage/ask': 'Ask for Help',
+  const formatDate = (isoString) => {
+    const date = new Date(isoString);
+    const year = date.getFullYear();
+    const month = `${date.getMonth() + 1}`.padStart(2, '0');
+    const day = `${date.getDate()}`.padStart(2, '0');
+    return `${year}-${month}-${day}`;
   };
-  const currentTitle = menuTitles[location.pathname] || 'My Page';
+
+  const currentTitle =
+    {
+      '/mypage/info': 'My Information',
+      '/mypage/order': 'My Orders',
+      '/mypage/payment': 'My Payment Method',
+      '/mypage/ask': 'Ask for Help',
+    }[location.pathname] || 'My Page';
+
+  useEffect(() => {
+    const user = JSON.parse(localStorage.getItem('user'));
+    const key = user ? `orderHistory_${user.email}` : 'guestOrderHistory';
+    const orderList = JSON.parse(localStorage.getItem(key)) || [];
+
+    const sortedOrders = orderList.sort((a, b) => new Date(b.orderDate) - new Date(a.orderDate));
+
+    setOrders(sortedOrders);
+  }, []);
 
   return (
     <div className="max-w-[1760px] w-full mx-auto pt-[219px] pb-[78px] px-[20px] flex flex-col lg:flex-row">
-      {/* PC에서만 보이는 좌측 네비게이션 */}
-      <nav className="hidden lg:flex w-[300px] flex-shrink-0 flex-col space-y-[10px] ml-[80px]">
+      <nav className="hidden lg:flex flex-col space-y-[10px] absolute left-[80px] top-[219px] w-[300px]">
         <h2 className="font-diptyque text-heading1 mb-[30px] mt-[30px]">My Page</h2>
         {[
           { path: '/mypage/info', label: 'My Information' },
@@ -36,24 +52,61 @@ const MyPageOrder = () => {
         ))}
       </nav>
 
-      {/* 태블릿/모바일에서 보이는 헤더 */}
       <div className="lg:hidden text-center text-[20px] font-diptyque border-b border-gray-300 pb-4">
         My Page | {currentTitle}
       </div>
 
-      {/* 주문 내역 */}
-      <div className="w-full max-w-[535px] h-auto lg:h-[975px] mx-auto mt-[50px] lg:mt-0">
-        <h2 className="hidden lg:block font-diptyque text-heading1 border-b pb-[10px] mb-[30px]">My Orders</h2>
+      <div className="flex-1 flex justify-center">
+        <div className="w-full max-w-[600px] mx-auto">
+          <h2 className="hidden lg:block font-diptyque text-heading1 border-b pb-[10px] mb-[30px]">My Orders</h2>
 
-        {/* 주문 내역이 없을 경우 */}
-        {orders.length === 0 ? (
-          <div className="w-[534px] h-[472px] mx-auto flex flex-col justify-center items-center">
-            <p className="text-gray-600 text-center mb-[170px]">You have no orders.</p>
-            <button className="w-full bg-[#2D3540] text-white py-3 text-center">Shop Now</button>
-          </div>
-        ) : (
-          <div className="w-full">{/* 여기에 주문 내역 리스트 렌더링 */}</div>
-        )}
+          {orders.length === 0 ? (
+            <div className="w-[534px] h-[472px] mx-auto flex flex-col justify-center items-center">
+              <p className="text-gray-600 text-center mb-[170px]">You have no orders.</p>
+              <button className="w-full bg-[#2D3540] text-white py-3 text-center">Shop Now</button>
+            </div>
+          ) : (
+            <div className="flex flex-col gap-10">
+              {orders.map((order, index) => (
+                <div key={index} className="border-b pb-6">
+                  <div className="text-sm text-gray-500 mb-4">
+                    <span>Order Date: {formatDate(order.orderDate)}</span> | <span>Total: €{order.totalPrice}</span>
+                  </div>
+
+                  {order.items.map((item) => (
+                    <div key={item.id} className="cart-item flex flex-row gap-6 items-stretch w-full mb-8">
+                      <Link to={`/product/detail/${item.id}`} className="block w-[200px] flex-shrink-0">
+                        <img
+                          src={item.options[0].images.thumbnail.default}
+                          alt={item.name}
+                          className="w-full h-full object-cover"
+                        />
+                      </Link>
+
+                      <div className="flex flex-col justify-between w-full">
+                        <div className="flex flex-row justify-between">
+                          <div className="flex flex-col gap-2 h-full">
+                            <span className="text-heading2 font-diptyque">
+                              {item.name} - {item.type}
+                            </span>
+                            <span className="text-grey-4">{item.options[0].size}</span>
+                            {item.engraving && <span className="text-grey-4">Engraving: {item.engraving}</span>}
+                            <span className="text-grey-4">Quantity: {item.quantity}</span>
+                          </div>
+                        </div>
+
+                        <div className="flex justify-between items-end mt-4">
+                          <span className="text-lg font-semibold">€{item.totalPrice}</span>
+                          {!item.inStock && <span className="text-red-500">Out of Stock</span>}
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

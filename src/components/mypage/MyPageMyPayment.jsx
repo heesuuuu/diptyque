@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import { NavLink, useLocation } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 
 const MyPageMyPayment = () => {
-  const [paymentMethods, setPaymentMethods] = useState([]); // 저장된 결제 방법 리스트
+  const [paymentMethods, setPaymentMethods] = useState([]);
   const location = useLocation();
+  const navigate = useNavigate();
 
-  // 현재 페이지의 메뉴명 가져오기
   const menuTitles = {
     '/mypage/info': 'My Information',
     '/mypage/order': 'My Orders',
@@ -14,10 +14,19 @@ const MyPageMyPayment = () => {
   };
   const currentTitle = menuTitles[location.pathname] || 'My Page';
 
+  useEffect(() => {
+    const user = JSON.parse(localStorage.getItem('user'));
+    const key = user ? `paymentInfo_${user.email}` : 'guestPaymentInfo';
+    const storedMethod = JSON.parse(localStorage.getItem(key));
+
+    if (storedMethod) {
+      setPaymentMethods([storedMethod]);
+    }
+  }, []);
+
   return (
     <div className="max-w-[1760px] w-full mx-auto pt-[219px] pb-[78px] px-[20px] flex flex-col lg:flex-row">
-      {/* PC에서만 보이는 좌측 네비게이션 */}
-      <nav className="hidden lg:flex w-[300px] flex-shrink-0 flex-col space-y-[10px] ml-[80px]">
+      <nav className="hidden lg:flex flex-col space-y-[10px] absolute left-[80px] top-[219px] w-[300px]">
         <h2 className="font-diptyque text-heading1 mb-[30px] mt-[30px]">My Page</h2>
         {[
           { path: '/mypage/info', label: 'My Information' },
@@ -36,23 +45,29 @@ const MyPageMyPayment = () => {
         ))}
       </nav>
 
-      {/* 태블릿/모바일에서 보이는 헤더 */}
       <div className="lg:hidden text-center text-[20px] font-diptyque border-b border-gray-300 pb-4">
         My Page | {currentTitle}
       </div>
 
-      {/* 결제 방법 */}
-      <div className="w-full max-w-[535px] h-auto lg:h-[975px] mx-auto mt-[50px] lg:mt-0">
+      <div className="w-full max-w-[600px] h-auto lg:h-[975px] mx-auto mt-[50px] lg:mt-0">
         <h2 className="hidden lg:block font-diptyque text-heading1 border-b pb-[10px] mb-[30px]">My Payment Method</h2>
 
-        {/* 등록된 결제 방법이 없을 경우 */}
         {paymentMethods.length === 0 ? (
           <div className="w-[534px] h-[472px] mx-auto flex flex-col justify-center items-center">
             <p className="text-gray-600 text-center mb-[170px]">You have no registered payment methods.</p>
-            <button className="w-full bg-[#2D3540] text-white py-3 text-center">Add payment method</button>
+            <button onClick={() => navigate('/payment')} className="w-full bg-[#2D3540] text-white py-3 text-center">
+              Add payment method
+            </button>
           </div>
         ) : (
-          <div className="w-full">{/* 여기에 등록된 결제 방법 리스트 렌더링 */}</div>
+          <div className="w-full border border-gray-300 p-6 rounded-md shadow-sm">
+            <p className="text-sm mb-2">Card Number: **** **** **** {paymentMethods[0].cardNumber.slice(-4)}</p>
+            <p className="text-sm mb-2">Expiry Date: {paymentMethods[0].expiryDate}</p>
+            <p className="text-sm mb-2">Name on Card: {paymentMethods[0].cardName}</p>
+            <button onClick={() => navigate('/')} className="mt-6 bg-black text-white py-2 px-4 text-sm">
+              Change Payment Method
+            </button>
+          </div>
         )}
       </div>
     </div>

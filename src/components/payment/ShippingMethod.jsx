@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { saveOrderData } from '../../utils/saveOrderData';
 
 const ShippingMethod = () => {
   const navigate = useNavigate();
@@ -15,16 +16,13 @@ const ShippingMethod = () => {
       alert('Please select a shipping method');
       return;
     }
-    console.log('Selected Shipping Method:', selectedMethod);
+    saveOrderData('shippingMethod', selectedMethod);
     navigate('/payment/payment-method');
   };
 
   return (
     <div className="max-w-[643px] mx-auto mt-10">
-      {/* 페이지 제목 */}
       <h2 className="font-diptyque text-heading1 pb-[10px] mb-[30px]">Shipping Method</h2>
-
-      {/* 배송 방법 선택 */}
       <form onSubmit={handleSubmit} className="space-y-6">
         <div className="border border-gray-900 p-5 rounded-md flex items-center gap-3 cursor-pointer">
           <input
@@ -38,8 +36,6 @@ const ShippingMethod = () => {
             ChronoPost - Estimated delivery date: <strong>21.03</strong>
           </label>
         </div>
-
-        {/* 버튼 */}
         <button type="submit" className="w-full bg-black text-white py-3 text-center text-sm">
           Select Payment Method
         </button>

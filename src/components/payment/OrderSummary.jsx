@@ -1,10 +1,10 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { useNavigate } from 'react-router-dom'; // ✅ useNavigate 추가
+import { useNavigate } from 'react-router-dom';
 
 const OrderSummary = () => {
   const { localCartData, totalCartPrice, selectCartItem, totalSelectedPrice } = useSelector((state) => state.cart);
-  const navigate = useNavigate(); // ✅ 네비게이션 훅 추가
+  const navigate = useNavigate();
 
   const displayedSubtotal = selectCartItem ? totalSelectedPrice : totalCartPrice;
   const shippingFee = displayedSubtotal > 0 ? 100 : 0;
@@ -29,7 +29,6 @@ const OrderSummary = () => {
         </div>
       ))}
 
-      {/* 가격 정보 */}
       <div className="mt-20 border-t pt-4">
         <div className="flex justify-between text-lg">
           <span>Subtotal</span>
@@ -45,7 +44,6 @@ const OrderSummary = () => {
         </div>
       </div>
 
-      {/* ✅ 클릭 시 /cart 페이지로 이동 */}
       <button className="w-full bg-black text-white py-3 text-center text-sm mt-5" onClick={() => navigate('/cart')}>
         Edit My Cart
       </button>

@@ -30,7 +30,7 @@ const Mypage = () => {
     <div className="max-w-[422px] mx-auto pt-[219px] pb-[78px] px-[20px]">
       {/* 타이틀 */}
       <h4 className="font-diptyque text-heading1 text-center mb-[10px]">Good to see you again,</h4>
-      <h4 className="font-diptyque text-heading1 text-center mb-[15px]">{userName}</h4>
+      <h4 className="font-diptyque text-heading1 text-center mb-[25px]">{userName}</h4>
 
       {/* 네비게이션 (메뉴 리스트) */}
       <nav className="flex flex-col space-y-[10px] border-b pb-5">

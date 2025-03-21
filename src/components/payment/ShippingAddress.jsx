@@ -1,9 +1,23 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { saveOrderData } from '../../utils/saveOrderData';
 
 const ShippingAddress = () => {
   const navigate = useNavigate();
   const [form, setForm] = useState({ firstName: '', lastName: '', phone: '', address: '' });
+
+  useEffect(() => {
+    const storedUser = JSON.parse(localStorage.getItem('user'));
+    if (storedUser) {
+      setForm((prev) => ({
+        ...prev,
+        firstName: storedUser.firstName || '',
+        lastName: storedUser.lastName || '',
+        phone: storedUser.phone || '',
+        address: '',
+      }));
+    }
+  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -12,16 +26,13 @@ const ShippingAddress = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Shipping Address:', form);
+    saveOrderData('shippingAddress', form);
     navigate('/payment/shipping-method');
   };
 
   return (
     <div className="max-w-[643px] mx-auto mt-10">
-      {/* 페이지 제목 */}
       <h2 className="font-diptyque text-heading1 pb-[10px] mb-[30px]">Shipping Address</h2>
-
-      {/* 배송지 입력 폼 */}
       <form onSubmit={handleSubmit} className="space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
@@ -31,9 +42,8 @@ const ShippingAddress = () => {
               name="firstName"
               value={form.firstName}
               onChange={handleChange}
-              placeholder="Enter first name"
-              className="w-full p-3 border border-gray-900 text-sm"
               required
+              className="w-full p-3 border border-gray-900 text-sm"
             />
           </div>
           <div>
@@ -43,9 +53,8 @@ const ShippingAddress = () => {
               name="lastName"
               value={form.lastName}
               onChange={handleChange}
-              placeholder="Enter last name"
-              className="w-full p-3 border border-gray-900 text-sm"
               required
+              className="w-full p-3 border border-gray-900 text-sm"
             />
           </div>
         </div>
@@ -57,9 +66,8 @@ const ShippingAddress = () => {
             name="phone"
             value={form.phone}
             onChange={handleChange}
-            placeholder="Enter phone number"
-            className="w-full p-3 border border-gray-900 text-sm"
             required
+            className="w-full p-3 border border-gray-900 text-sm"
           />
         </div>
 
@@ -70,13 +78,11 @@ const ShippingAddress = () => {
             name="address"
             value={form.address}
             onChange={handleChange}
-            placeholder="Enter shipping address"
-            className="w-full p-3 border border-gray-900 text-sm"
             required
+            className="w-full p-3 border border-gray-900 text-sm"
           />
         </div>
 
-        {/* 버튼 */}
         <button type="submit" className="w-full bg-black text-white py-3 text-center text-sm">
           Save & Continue
         </button>

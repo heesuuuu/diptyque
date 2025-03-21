@@ -125,14 +125,14 @@ const Register = () => {
       const userData = {
         ...form,
         phone: `${form.phoneCode} ${form.phone}`,
-        name: `${form.firstName} ${form.lastName}`, // ✅ name 필드 추가
+        name: `${form.firstName} ${form.lastName}`,
       };
 
       localStorage.setItem('user', JSON.stringify(userData));
       dispatch(login(userData));
-      window.dispatchEvent(new Event('login')); // ✅ 로그인 이벤트 트리거
+      window.dispatchEvent(new Event('login'));
       alert('Welcome to Diptyque!');
-      navigate('/mypage'); // 회원가입 후 마이페이지로 이동
+      navigate('/mypage');
     }
   };
 

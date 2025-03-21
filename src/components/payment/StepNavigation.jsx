@@ -4,7 +4,6 @@ const StepNavigation = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // 각 단계 정보
   const steps = [
     { label: '1. Shipping Address', path: '/payment/shipping-address' },
     { label: '2. Delivery', path: '/payment/shipping-method' },
