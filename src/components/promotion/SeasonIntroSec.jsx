@@ -142,10 +142,10 @@ const SeasonIntroSec = () => {
   }, [hoveredSeason]);
 
   return (
-    <div className="flex items-center justify-between mx-[50px] tablet:mx-[30px] mobile:mx-[16px]">
+    <div className="flex justify-between mx-[50px] tablet:mx-[30px] mobile:mx-[16px]">
       {/* Left  */}
-      <div className="w-[40%] tablet:hidden mobile:hidden mr-[5%]">
-        <div className="flex flex-col justify-between h-[680px] w-full">
+      <div className="w-[45%] tablet:hidden mobile:hidden mr-[5%]">
+        <div className="flex flex-col justify-between h-[690px] w-full">
           <img
             src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/item-line01.png?raw=true"
             alt="Decorative line"
@@ -181,16 +181,16 @@ const SeasonIntroSec = () => {
           >
             <div className="flex items-start mt-5 mb-11 tablet:hidden mobile:hidden">
               {/* Season 정보 */}
-              <div className="flex flex-1 justify-between">
+              <div className="flex flex-1 gird ">
                 <div
-                  className={`font-diptyque text-display2 transition-colors duration-300 ${
+                  className={`font-diptyque text-display2 w-[60%]  transition-colors duration-300 ${
                     hoveredSeason === item.title ? 'text-primary' : 'text-black'
                   }`}
                 >
                   {item.title}
                 </div>
                 <div
-                  className={`transition-colors duration-300 space-y-[10px] ${
+                  className={`transition-colors duration-300 justify-self-stretch space-y-[10px] ${
                     hoveredSeason === item.title ? 'text-primary' : 'text-black'
                   }`}
                 >
@@ -200,7 +200,7 @@ const SeasonIntroSec = () => {
               </div>
             </div>
 
-            {/* tablet,mobile seasonIntroSec layout */ }
+            {/* tablet,mobile seasonIntroSec layout */}
             {/* left */}
             <div className="hidden tablet:flex mobile:flex items-center mt-5 mb-8 mobile:my-6">
               <div className="w-full h-auto mr-4 flex justify-center">
