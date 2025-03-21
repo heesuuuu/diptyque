@@ -233,7 +233,7 @@ const MaisonPage = () => {
       </section>
       <section className={`maison-section-4  ${maisonSectionStyle} ${maisonLessDesktopStyle}`}>
         <video
-          src="src/assets/video/Sec4_Video.mp4"
+          src="/video/Sec4_Video.mp4"
           autoPlay={true}
           loop={true}
           controls={true}

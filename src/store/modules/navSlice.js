@@ -21,7 +21,7 @@ const menuData = [
   {
     id: 3,
     menuName: 'PRODUCTS',
-    url: '/product',
+    url: '/product/eauxdeparfum',
     imgUrl: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/main/mainslide_3.png?raw=true',
     tabletUrl: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/main/tablet%203.png?raw=true',
     mobileUrl: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/main/Mobile%203.png?raw=true',
