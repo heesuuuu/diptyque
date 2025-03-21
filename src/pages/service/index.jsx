@@ -40,7 +40,7 @@ const Service = () => {
             muted
             loop
             name="media"
-            src="src/assets/video/giftVideo.mp4"
+            src="video/giftVideo.mp4"
             type="video/mp4"
             className="object-cover"
           ></video>
