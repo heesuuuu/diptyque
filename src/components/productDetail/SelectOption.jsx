@@ -37,7 +37,7 @@ const SelectOption = () => {
         </div>
       </div>
       {selectedOption === 'engraving' && (
-        <div className="relative flex tablet:flex-col justify-between items-center mt-[.625rem] mb-20">
+        <div className="relative flex  justify-between items-center mt-[10px] mb-20 tablet:flex-col tablet:items-start tablet:mb-10">
           <label htmlFor="customInput">Custom Engraving</label>
           <input
             onChange={changeInput}
@@ -46,7 +46,7 @@ const SelectOption = () => {
             id="customInput"
             value={engravingTxt}
             placeholder="Your bespoke inscription awaits ..."
-            className="w-[28rem] px-4 py-3  border border-gray-300"
+            className="w-[23.3333vw] px-4 py-3 border border-gray-300 tablet:w-full tablet:mt-[10px]"
           />
         </div>
       )}

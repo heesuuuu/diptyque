@@ -62,7 +62,7 @@ const ProductInfo = ({ productData }) => {
             keyword.map((word, idx) => (keyword.length - 1 === idx ? `${word.note}` : `${word.note}, `))}
           {keyword !== undefined && typeof keyword === 'string' && `${keyword}`}
         </p>
-        <p className=" text-darkgrey-1">
+        <p className="text-darkgrey-1">
           {clickedMore && desc.length > 0 ? `${description} ` : desc}
           <span>
             <span
