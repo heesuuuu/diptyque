@@ -122,11 +122,17 @@ const Register = () => {
     setErrors(newErrors);
 
     if (Object.values(newErrors).every((err) => err === '')) {
-      const userData = { ...form, phone: `${form.phoneCode} ${form.phone}` };
+      const userData = {
+        ...form,
+        phone: `${form.phoneCode} ${form.phone}`,
+        name: `${form.firstName} ${form.lastName}`,
+      };
+
       localStorage.setItem('user', JSON.stringify(userData));
       dispatch(login(userData));
+      window.dispatchEvent(new Event('login'));
       alert('Welcome to Diptyque!');
-      navigate('/signin');
+      navigate('/mypage');
     }
   };
 

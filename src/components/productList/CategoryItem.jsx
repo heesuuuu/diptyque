@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const CategoryItem = ({ item }) => {
-  const { id, name, description, options, inStock } = item;
+  const { id, name, type, description, options, inStock } = item;
   const price = options[0].price;
   const thumbImg = options[0].images.thumbnail.default;
   const hoverImg = options[0].images.thumbnail.hover;
@@ -56,10 +56,13 @@ const CategoryItem = ({ item }) => {
         alt={name}
       />
       <h2 className="text-heading3/[160%]">{name}</h2>
-      <p className="flex-shrink-0 flex-grow text-body3/[150%] text-grey-4 line-clamp-2">{desc ? desc : description}</p>
+      <p className="flex-shrink-0 flex-grow text-body3/[150%] text-grey-4 line-clamp-2 mobile:hidden">
+        {desc ? desc : description}
+      </p>
+      <p className="flex-shrink-0 flex-grow font-diptyque text-heading3-m/[160%] hidden mobile:block">{type}</p>
       <p className="flex justify-between text-body3/[150%]">
-        {inStock && 'Out of Stock'}
-        <span className="ml-auto">€{price}</span>
+        {!inStock && 'Out of Stock'}
+        <span className={`ml-auto tablet:${!inStock ? 'hidden' : 'inline-block ml-0'}`}>€{price}</span>
       </p>
     </Link>
   );

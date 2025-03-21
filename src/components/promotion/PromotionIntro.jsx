@@ -107,9 +107,9 @@ const PromotionIntro = () => {
 
   return (
     <>
-      <section className="w-full h-[800px] flex justify-center items-center relative">
-        <div className="w-full text-center">
-          <h3 className="text-display1 font-diptyque text-primary mt-[110px] leading-[110px] max-w-[996px] mx-auto relative text-center">
+      <section className="w-full h-[800px] flex justify-center items-center relative tablet:h-[343px]">
+        <div className="w-full text-center ">
+          <h3 className="text-display1 tablet:text-heading1 mobile:text-heading2 font-diptyque text-primary mt-[110px] tablet:mt-[20px] leading-[110px] tablet:max-w-[996px] tablet:text-base/8 tabelt:line-hi mx-auto relative text-center">
             {renderLines()}
           </h3>
         </div>
@@ -122,8 +122,11 @@ const PromotionIntro = () => {
           />
         </div>
       </section>
-      <section ref={introSectionRef} className="w-full flex justify-center items-center py-16">
-        <div className="text-heading1 font-diptyque text-center w-[896px] items-center leading-relaxed">
+      <section
+        ref={introSectionRef}
+        className="w-full flex justify-center items-center py-16 tablet:px-[60px] mobile:px-[16px]"
+      >
+        <div className="desktop:text-heading1 tablet:text-heading3 font-diptyque text-center w-[896px] items-center leading-relaxed">
           {renderIntroText()}
         </div>
       </section>

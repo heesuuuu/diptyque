@@ -7,63 +7,60 @@ import SeasonIntroSec from '../../components/promotion/SeasonIntroSec';
 
 const Promotion = () => {
   return (
-    <div className="top-0 space-y-[200px] tablet:space-y-[150px] mobile:space-y-[100px]">
+    <div className="top-0 space-y-[200px] tablet:space-y-[150px]  mobile:space-y-[100px]">
       {/* 프로모션 인트로 section */}
       <PromotionIntro />
 
-      {/* Promotion 설명 section */}
-      <div></div>
 
-      <div className="mx-[50px] space-y-[200px]">
-        {/* 시즌 hover section */}
+      <div className="desktop:mx-[50px] mobile:mx-[16px]  space-y-[150px]">
         <SeasonIntroSec />
 
         {/* 계절별 상품 section */}
         <div className="relative">
           {/* 장미 */}
           <img
-            className="absolute top-0 right-0 z-0"
+            className="absolute top-0 right-0 z-0 w-auto"
             src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-s01-1.png?raw=true"
             alt=""
           />
 
           {/* 오렌지 */}
           <img
-            className="absolute top-[26%] right-0 z-0"
+            className="absolute top-[26%] right-0 z-0 w-[35%] tablet:w-[30%]"
             src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-s03.png?raw=true"
             alt=""
           />
           <img
-            className="absolute top-[26%] left-0 z-0 w-[219px] translate-x-[-40%] "
+            className="absolute top-[26%] left-0 z-0 w-[219px] translate-x-[-40%] tablet:w-[20%] tablet:translate-y-[40%] "
             src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-s02.png?raw=true"
             alt=""
           />
 
           {/* 나무 */}
           <img
-            className="absolute top-[52%] left-0 z-0 w-[10%]"
+            className="absolute top-[52%] left-0 z-0 w-[10%] tablet:w-[20%] tablet:top-[54%]"
             src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-a01-01.png?raw=true"
             alt=""
           />
           <img
-            className="absolute top-[54%] right-0 z-0"
+            className="absolute top-[54%] right-0 z-0 tablet:w-[20%] tablet:top-[55%]"
             src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-a01-02.png?raw=true"
             alt=""
           />
           {/* Musk */}
           <img
-            className="absolute top-[80%] right-0 z-0 translate-x-[22%] w-[35%]"
+            className="absolute top-[80%] right-0 z-0 translate-x-[22%] w-[35%] tablet:w-[20%]"
             src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-w01.png?raw=true"
             alt=""
           />
-          <div className="relative z-10">
+          <div className="relative z-10 ">
             <ProductSec />
           </div>
         </div>
       </div>
 
       {/* End Section */}
-      <div className="mx-[50px]">
+      <div className="mx-[50px] tablet:mx-0 mobile:mx-0">
         <EndSec />
       </div>
 
