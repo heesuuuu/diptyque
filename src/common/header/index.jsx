@@ -1,15 +1,23 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import DesktopMenu from './DesktopMenu';
 import Nav from './nav';
 import { Icon } from '../../ui';
 import NavMobile from './NavMobile';
+import { motion } from 'framer-motion';
 
 const Header = () => {
   const [scrollDirection, setScrollDirection] = useState('up');
   const [lastScrollY, setLastScrollY] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation(); // 현재 경로 가져오기
+  const prevPathRef = useRef(null);
+
+  useEffect(() => {
+    prevPathRef.current = location.pathname;
+  }, [location.pathname]);
+
+  const isPrevMain = prevPathRef.current === '/' && location.pathname !== '/';
 
   const isMain = location.pathname === '/';
 
@@ -35,7 +43,22 @@ const Header = () => {
           scrollDirection === 'down' ? '-translate-y-full' : 'translate-y-0'
         } ${isMain && '!bg-transparent pointer-events-none'}`}
       >
-        <div className={`header relative bg-white ${isMain && '!bg-transparent desktop:h-screen tablet:!bg-white'}`}>
+        {/* <motion.div
+          key={isPrevMain}
+          initial={isPrevMain && { y: 0 }}
+          animate={isPrevMain && { y: '-100%' }}
+          transition={{ duration: 0.5, ease: 'easeInOut' }}
+          className={`${isMain && 'hidden'}`}
+        >
+          <MainSlide />
+        </motion.div> */}
+        <motion.div
+          key={isPrevMain}
+          initial={isPrevMain && { height: '100vh' }}
+          animate={isPrevMain && { height: 'auto' }}
+          transition={{ duration: 0.5, ease: 'easeInOut' }}
+          className={`header relative flex flex-col justify-between bg-white  ${isMain && '!bg-transparent desktop:h-screen tablet:!bg-white'}`}
+        >
           <h1 className="flex justify-center pointer-events-auto ">
             <span className="sr-only">DIPTYQUE</span>
             <Link to="/">
@@ -46,7 +69,7 @@ const Header = () => {
               />
             </Link>
           </h1>
-          <Nav isMain={isMain} />
+          <Nav isMain={isMain} isPrevMain={isPrevMain} />
           <DesktopMenu isMain={isMain} />
           <div className="pointer-events-none nav-tablet absolute inset-0 desktop:hidden">
             <div onClick={() => setIsOpen(true)} className="pointer-events-auto cursor-pointer">
@@ -56,7 +79,7 @@ const Header = () => {
               <Icon name="shopping_bag" className=" absolute top-1/2 -translate-y-1/2 right-6 mobile:right-4" />
             </Link>
           </div>
-        </div>
+        </motion.div>
       </div>
       <NavMobile isOpen={isOpen} setIsOpen={setIsOpen} />
     </>
