@@ -23,7 +23,7 @@ const CartList = () => {
       e.preventDefault();
       alert('선택한 상품 중 품절된 상품이 있습니다.');
     } else {
-      navigate('/payment');
+      navigate('/payment/shipping-address');
     }
   };
 
