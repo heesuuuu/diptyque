@@ -11,14 +11,18 @@ const Header = () => {
   const [scrollDirection, setScrollDirection] = useState('up');
   const [lastScrollY, setLastScrollY] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
-  const location = useLocation(); // 현재 경로 가져오기
-  const prevPathRef = useRef(null);
+  const location = useLocation();
+  const prevPathRef = useRef(location.pathname);
+  const [isPrevMain, setIsPrevMain] = useState(false);
 
   useEffect(() => {
-    prevPathRef.current = location.pathname;
+    if (prevPathRef.current === '/' && location.pathname !== '/') {
+      setIsPrevMain(true);
+    } else {
+      setIsPrevMain(false);
+    }
+    prevPathRef.current = location.pathname; // 항상 업데이트
   }, [location.pathname]);
-
-  const isPrevMain = prevPathRef.current === '/' && location.pathname !== '/';
 
   const isMain = location.pathname === '/';
 
