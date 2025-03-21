@@ -59,8 +59,21 @@ export default {
         'body3-m': '12px',
       },
       screens: {
-        sm: '768px',
-        lg: '1024px',
+        desktop: { min: '1024px' },
+        tablet: { max: '1023px' },
+        mobile: { max: '767px' },
+      },
+      spacing: {
+        // pc헤더높이
+        'header-h': '128px',
+
+        // 제목-내용 사이 간격
+        'cont-gap': '40px',
+
+        // 섹션별 간격
+        'sec-gap-pc': '200px',
+        'sec-gap-t': '150px',
+        'sec-gap-m': '100px',
       },
     },
   },

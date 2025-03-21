@@ -1,0 +1,163 @@
+@import '../../styles/globals';
+
+.service-page-container {
+  padding: 0 240px;
+
+  section {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+  }
+
+  .first-sec {
+    margin-top: 280px;
+  }
+
+  h2 {
+    @include pc-heading1;
+
+    margin-bottom: 40px;
+  }
+
+  p {
+    @include pc-body2;
+  }
+}
+
+.flex-col-align-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-align-box {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-sec-img-size1 {
+  width: 44.25rem;
+  height: 49.9375rem;
+}
+
+.gift-sec-swiper {
+  width: 67.125rem;
+
+  .swiper-slide {
+    width: 21.375rem;
+
+    div {
+      width: 100%;
+      height: 22.4375rem;
+    }
+
+    p {
+      width: 100%;
+      margin-top: 24px;
+    }
+  }
+}
+
+.store-info-swiper {
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    ul {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      margin-bottom: 40px;
+
+      div {
+        width: 100%;
+        height: 12.4375rem;
+        margin-bottom: 24px;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+
+    li {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      width: 9.9375rem;
+      height: 16.1875rem;
+
+      p {
+        @include pc-body4;
+      }
+    }
+  }
+}
+
+.store-info-desc {
+  flex-grow: 1;
+}
+
+.store-info-btn {
+  height: 60px !important;
+
+  p {
+    @include pc-body3;
+  }
+}
+
+.store-img-swiper {
+  .store-img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .swiper-pagination-bullets {
+    bottom: 20px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+  }
+}
+
+.refill-img {
+  width: 27.0625rem;
+  height: 27.0625rem;
+  margin-bottom: 24px;
+}
+
+.online-img-ul {
+  display: flex;
+  gap: 24px;
+
+  div {
+    width: 220px;
+    height: 281px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 24px;
+  }
+}
+
+.goto-register-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    width: 21.375rem;
+    margin-top: 40px;
+  }
+
+  p {
+    @include pc-body3;
+  }
+}
