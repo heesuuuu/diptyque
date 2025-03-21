@@ -92,7 +92,7 @@ const MainSlide = () => {
       </div>
       <div className="main-scroll-tablet-mobile desktop:hidden tablet:visible">
         <Swiper slidesPerView={1} navigation={true} modules={[Navigation]} className="Swiper w-screen h-screen">
-          {menuData.map((item) => (
+          {menuData.slice(0, 5).map((item) => (
             <SwiperSlide key={item.id} className="w-full h-full">
               <Link to={item.url}>
                 <img src={item.tabletUrl} alt={item.menuName} className="mobile:hidden w-full h-full object-cover" />

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const footerInfo1 = [
   'Website terms of use',
@@ -43,9 +43,13 @@ const snsIconSrc = [
 ];
 
 const Footer = () => {
+  const location = useLocation();
+  const isMain = location.pathname === '/';
   const footerTextStyle = 'text-body4 text-lightgrey-1';
   return (
-    <footer className="mx-auto w-full px-10 py-[50px] bg-darkgrey-3 tablet:py-0 tablet:px-[60px] mobile:px-4">
+    <footer
+      className={`mx-auto w-full px-10 py-[50px] bg-darkgrey-3 tablet:py-0 tablet:px-[60px] mobile:px-4 ${isMain && 'hidden'}`}
+    >
       <div className="footer-info flex flex-row justify-between items-center px-[80px] py-[100px] tablet:py-[80px] tablet:flex-col tablet:gap-[80px] tablet:px-0 mobile:py-[60px]">
         <Link to="/" className="footer-logo-area">
           <h1>
