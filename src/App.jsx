@@ -24,6 +24,7 @@ import MyPageInfoEdit from './components/mypage/MyPageInfoEdit';
 import MyPageMyAsk from './components/mypage/MyPageMyAsk';
 import MyPageMyPayment from './components/mypage/MyPageMyPayment';
 import MyPageOrder from './components/mypage/MyPageOrder';
+import LayoutMain from './common/LayoutMain';
 
 const GOOGLE_CLIENT_ID = '938549800295-jauqqv8g7482gt4o5k7sm9l5kbbhbhid.apps.googleusercontent.com';
 
@@ -35,8 +36,10 @@ function App() {
         <Routes>
           <Route path="/register" element={<Register />} />
           <Route path="/signin" element={<SignIn />} />
-          <Route path="/" element={<Layout />}>
+          <Route path="/" element={<LayoutMain />}>
             <Route index element={<Main />} />
+          </Route>
+          <Route element={<Layout />}>
             <Route path="/maison" element={<Maison />} />
             <Route path="/promotion" element={<Promotion />} />
             <Route path="/product" element={<ProductList />}>

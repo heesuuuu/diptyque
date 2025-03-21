@@ -5,6 +5,7 @@ import Nav from './nav';
 import { Icon } from '../../ui';
 import NavMobile from './NavMobile';
 import { motion } from 'framer-motion';
+import MainSlide from '../../components/main/MainSlide';
 
 const Header = () => {
   const [scrollDirection, setScrollDirection] = useState('up');
@@ -43,20 +44,11 @@ const Header = () => {
           scrollDirection === 'down' ? '-translate-y-full' : 'translate-y-0'
         } ${isMain && '!bg-transparent pointer-events-none'}`}
       >
-        {/* <motion.div
-          key={isPrevMain}
-          initial={isPrevMain && { y: 0 }}
-          animate={isPrevMain && { y: '-100%' }}
-          transition={{ duration: 0.5, ease: 'easeInOut' }}
-          className={`${isMain && 'hidden'}`}
-        >
-          <MainSlide />
-        </motion.div> */}
         <motion.div
           key={isPrevMain}
           initial={isPrevMain && { height: '100vh' }}
           animate={isPrevMain && { height: 'auto' }}
-          transition={{ duration: 0.5, ease: 'easeInOut' }}
+          transition={{ delay: 0.2, duration: 0.5, ease: 'easeInOut' }}
           className={`header relative flex flex-col justify-between bg-white  ${isMain && '!bg-transparent desktop:h-screen tablet:!bg-white'}`}
         >
           <h1 className="flex justify-center pointer-events-auto ">
