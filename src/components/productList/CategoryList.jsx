@@ -25,7 +25,7 @@ const CategoryList = () => {
 
   return (
     <>
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid grid-cols-3  mobile:grid-cols-2 gap-10 tablet:gap-6 mobile:gap-4">
         {noResults ? (
           <div className="col-span-3 text-center py-10">No Result</div>
         ) : (

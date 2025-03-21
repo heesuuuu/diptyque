@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { productActions } from '../../store/modules/productSlice';
@@ -8,6 +8,8 @@ import BelovedSection from '../../components/productDetail/BelovedSection';
 import { categoryActions } from '../../store/modules/categorySlice';
 import ProductInfo from '../../components/productDetail/ProductInfo';
 import NotesSection from '../../components/productDetail/NotesSection';
+import { motion, useScroll, useSpring } from 'framer-motion';
+import ProductImg from '../../components/productDetail/ProductImg';
 
 const ProductDetail = () => {
   const dispatch = useDispatch();
@@ -26,7 +28,14 @@ const ProductDetail = () => {
       dispatch(categoryActions.resetCategory());
       dispatch(productActions.resetProduct());
     };
-  }, [dispatch, productId]);
+  }, [productId]);
+
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  });
 
   if (loading) return <div>Loading . . . </div>;
 
@@ -34,16 +43,15 @@ const ProductDetail = () => {
 
   return (
     <>
-      <div className="flex mt-header-h">
-        <div className="w-1/2">
+      <div className="flex mt-header-h min-h-screen ">
+        <div className=" w-1/2 h-[100vh] overflow-y-auto snap-y snap-mandatory scrollbar-hide">
           {options &&
             options[0].images.detail &&
-            options[0].images.detail.map((img, idx) => (
-              <img key={idx} src={img} alt={name} className="w-full h-auto" />
-            ))}
+            options[0].images.detail.map((img, idx) => <ProductImg key={idx} name={name} img={img} />)}
+          <motion.div className="progress" style={{ scaleX }} />
         </div>
 
-        <div className="w-1/2 text-body3">
+        <div className="w-1/2 text-body3 ">
           <div className="sticky top-0 right-0 flex flex-col gap-5 p-[11.25rem] pt-20 tablet:px-6 tablet:py-10">
             <ProductInfo productData={productData} />
           </div>
