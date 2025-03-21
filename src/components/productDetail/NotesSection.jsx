@@ -4,12 +4,13 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 import { FreeMode } from 'swiper/modules';
+import './style.scss';
 
 const NotesSection = () => {
   const { matchingNotesData } = useSelector((state) => state.product);
 
   return (
-    <div className="flex flex-col w-full my-sec-gap-pc">
+    <div className="flex flex-col w-full my-sec-gap-pc tablet:my-sec-gap-t mobile:my-sec-gap-m">
       <h2 className="detail-sec-title">Story of Our Blend</h2>
 
       <Swiper

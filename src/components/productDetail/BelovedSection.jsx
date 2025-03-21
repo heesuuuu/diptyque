@@ -16,7 +16,7 @@ const BelovedSection = ({ popularProducts }) => {
         }}
         freeMode={true}
         modules={[FreeMode]}
-        className="mySwiper z-0"
+        className="mySwiper"
       >
         {popularProducts.map((item) => (
           <SwiperSlide key={item.id} className="max-w-[437px] max-h-[642px] tablet:max-w-[200px] tablet:max-h-[423px]">
