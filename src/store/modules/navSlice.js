@@ -1,12 +1,30 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const menuData = [
-  { id: 1, menuName: 'MAISON', url: '/maison' },
-  { id: 2, menuName: 'PROMOTION', url: '/promotion', twodepth: [{ depthName: 'FOUR SEASONS' }] },
+  {
+    id: 1,
+    menuName: 'MAISON',
+    url: '/maison',
+    imgUrl: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/main/mainslide_1.png?raw=true',
+    tabletUrl: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/main/tablet%201.png?raw=true',
+    mobileUrl: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/main/Mobile%201.png?raw=true',
+  },
+  {
+    id: 2,
+    menuName: 'PROMOTION',
+    url: '/promotion',
+    imgUrl: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/main/mainslide_2.png?raw=true',
+    tabletUrl: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/main/tablet%202.png?raw=true',
+    mobileUrl: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/main/Mobile%202.png?raw=true',
+    twodepth: [{ depthName: 'FOUR SEASONS' }],
+  },
   {
     id: 3,
     menuName: 'PRODUCTS',
     url: '/product',
+    imgUrl: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/main/mainslide_3.png?raw=true',
+    tabletUrl: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/main/tablet%203.png?raw=true',
+    mobileUrl: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/main/Mobile%203.png?raw=true',
     twodepth: [
       {
         depthName: 'PERFUMES',
@@ -33,8 +51,22 @@ const menuData = [
       },
     ],
   },
-  { id: 4, menuName: 'COLLECTION', url: '/collection' },
-  { id: 5, menuName: 'SERVICES', url: '/service' },
+  {
+    id: 4,
+    menuName: 'COLLECTION',
+    url: '/collection',
+    imgUrl: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/main/mainslide_4.png?raw=true',
+    tabletUrl: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/main/tablet%204.png?raw=true',
+    mobileUrl: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/main/Mobile%204.png?raw=true',
+  },
+  {
+    id: 5,
+    menuName: 'SERVICES',
+    url: '/service',
+    imgUrl: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/main/mainslide_5.png?raw=true',
+    tabletUrl: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/main/tablet%205.png?raw=true',
+    mobileUrl: 'https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/main/Mobile%205.png?raw=true',
+  },
   { id: 6, menuName: 'SEARCH', url: '/searchresult' },
   { id: 7, menuName: 'MYPAGE', url: '/mypage' },
 ];

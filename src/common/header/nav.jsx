@@ -1,18 +1,20 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { navActions } from '../../store/modules/navSlice';
+import { motion } from 'framer-motion';
 
-const Nav = ({ isMain }) => {
+const Nav = ({ isMain, isPrevMain }) => {
   const { menuData, activeMenu } = useSelector((state) => state.nav);
   const dispatch = useDispatch();
 
   return (
     <nav
-      className={`flex justify-center pb-5 relative ${isMain && '!absolute bottom-0 px-8 pointer-events-auto !pb-0 pt-1 mb-10 left-1/2 -translate-x-1/2 bg-white'} tablet:hidden`}
+      transition={{ duration: 0.5, ease: 'easeInOut' }}
+      className={`flex justify-center pb-5 relative tablet:hidden ${isMain && 'left-1/2 -translate-x-1/2'}`}
       onMouseLeave={() => dispatch(navActions.clearMenu())}
     >
       {/* 1뎁스 메뉴 */}
-      <ul className="flex flex-row">
+      <ul className={`flex flex-row ${isMain && 'px-8 pointer-events-auto !pb-0 pt-1 mb-10 bg-white'}`}>
         {menuData.slice(0, 5).map((menu) => (
           <li
             key={menu.id}
