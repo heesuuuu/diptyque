@@ -25,17 +25,17 @@ const Collection = () => {
   }, [selectedCollection]);
 
   return (
-    <div className="top-0 space-y-[150px] tablet:space-y-[150px] mobile:space-y-[100px]">
+    <div className="top-0 space-y-[150px] tablet:space-y-[150px] mobile:space-y-[100px]  ">
       {/* 상단 배너 및 소개 */}
       <CollectionIntro />
 
       {/* Collection 상품 영역 */}
-      <div className="w-full px-[80px] tablet:px-[60px]  space-y-[200px] tablet:space-y-[150px]">
+      <div className="w-full px-[80px] tablet:px-0  space-y-[200px] tablet:space-y-[150px] tablet:mx-[60px] mobile:mx-[16px]">
         <section className="lg:w-full lg:mx-auto relative">
           <div className="flex flex-col md:flex-row">
             {/* Left menu */}
             <div
-              className="md:w-1/4 mb-8 md:mb-0 sticky top-[10vh] h-fit"
+              className="w-1/4 mb-8 md:mb-0 sticky top-[10vh] h-fit"
               ref={menuContainerRef}
               onMouseEnter={() => setIsMouseOverMenu(true)}
               onMouseLeave={() => setIsMouseOverMenu(false)}
@@ -44,16 +44,16 @@ const Collection = () => {
             </div>
 
             {/* 상품 상세 */}
-            <div className="md:w-3/4 lg:ml-[115px] md:ml-[24px]">
+            <div className="w-3/4 tablet:ml-[25px] md:ml-[24px]">
               <CollectionProducts isMouseOverMenu={isMouseOverMenu} isFading={isFading} />
             </div>
           </div>
         </section>
 
         {/* Most popular section */}
-        <section className="mt-[80px] lg:w-full lg:mx-auto overflow-visible">
+        {/* <section className="mt-[80px] lg:w-full lg:mx-auto overflow-visible">
           <PopularProduct />
-        </section>
+        </section> */}
       </div>
     </div>
   );

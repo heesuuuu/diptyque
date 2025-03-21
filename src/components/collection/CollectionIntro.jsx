@@ -148,22 +148,26 @@ const CollectionIntro = () => {
   };
 
   return (
-      <>
-          <div className=' tablet:h-0 mobile:h-0' ></div>
-      <div className=" w-full  h-full  flex items-center justify-center">
-        <img src={getCollectionImage()} alt={selectedCollection || 'Philosykos'} className="object-cover h-[641px] w-full" />
+    <>
+      <div className=" tablet:h-0 mobile:h-0"></div>
+      <div className=" w-full  h-full   flex items-center justify-center">
+        <img
+          src={getCollectionImage()}
+          alt={selectedCollection || 'Philosykos'}
+          className="object-cover h-[641px] w-full tablet:h-[532px]"
+        />
       </div>
 
       <section
-        className={` mobile:mt-[100px] lg:w-[1168px] lg:mx-auto transition-opacity duration-500 ${
+        className={` mobile:mt-[100px] lg:w-[1168px] lg:mx-auto transition-opacity duration-500 tablet:mx-[60px] mobile:mx-[16px] ${
           isFading ? 'opacity-50' : 'opacity-100'
         }`}
       >
         {/* 상단 title*/}
-        <div className="font-diptyque text-heading1 text-center">{selectedCollection || 'Philosykos'}</div>
+        <div className="font-diptyque text-heading1 text-center  ">{selectedCollection || 'Philosykos'}</div>
 
         {/* Introduction description*/}
-        <div ref={descriptionRef} className="mt-[40px] text-center transition-all duration-500">
+        <div ref={descriptionRef} className="mt-[40px] text-center transition-all duration-500 tablet:text-body3 mobile:w-full">
           {selectedCollectionDescription || collectionData.find((item) => item.name === 'Philosykos')?.description}
         </div>
       </section>
