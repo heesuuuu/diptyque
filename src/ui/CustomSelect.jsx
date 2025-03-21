@@ -30,7 +30,7 @@ const CustomSelect = ({ options, defaultValue, onChange, className }) => {
     <div className="relative " ref={dropdownRef}>
       {/* 선택 버튼 */}
       <button
-        className={`flex items-center justify-between w-[10.7292vw] h-[2.3438vw] px-4 py-[10px] text-left text-body3 bg-white border border-darkgrey-3 hover:bg-gray-50 focus:outline-none ${className ? className : ''}`}
+        className={`flex items-center justify-between text-left text-body3 bg-white border border-darkgrey-3 hover:bg-gray-50 focus:outline-none ${className ? className : ''}`}
         onClick={() => setIsOpen(!isOpen)}
       >
         <span className={selectedOption.value === '' ? 'text-grey-2' : ''}>{selectedOption.label}</span>

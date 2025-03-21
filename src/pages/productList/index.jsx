@@ -92,7 +92,7 @@ const ProductList = () => {
       <div className="mt-header-h w-[100%] ">
         {/* 카테고리 위치 상태 바 */}
         <div
-          className={`sticky top-0 left-0 z-10 flex items-center w-full h-[50px] tablet:h-11 px-[280px] tablet:px-[60px] mobile:px-4 border-t border-b border-grey-1 text-grey-3 bg-white transition-transform duration-300 ${getTransformClass()}`}
+          className={`sticky top-0 left-0 z-10 flex items-center w-full h-[50px] tablet:h-11 px-[14.5833vw] tablet:px-[60px] mobile:px-4 border-t border-b border-grey-1 text-grey-3 bg-white transition-transform duration-300 ${getTransformClass()}`}
         >
           <p className="text-body3 tablet:text-body3-m">
             <Link to="/product">Products</Link> <Icon name="chevron_right" className="mx-[10px]" />
@@ -101,7 +101,7 @@ const ProductList = () => {
         </div>
 
         {/* contents inner */}
-        <div className="px-[280px] pb-sec-gap-pc tablet:px-[60px] mobile:px-4">
+        <div className="px-[14.5833vw] pb-sec-gap-pc tablet:px-[60px] mobile:px-4">
           {/* 카테고리 소개 섹션 */}
           <div className="flex flex-col justify-center items-center gap-10  m-auto my-[200px] tablet:my-[150px] mobile:my-[100px]">
             <h1 className="text-heading1/[160%] tablet:text-heading1-m text-center">{title}</h1>
@@ -114,7 +114,7 @@ const ProductList = () => {
           <div className="relative mb-[100px] w-full">
             {(title === 'Eaux de parfum' || title === 'Eaux de toilette' || title === 'Solid perfumes') && (
               <ul
-                className={`flex justify-center m-auto tablet:w-full mobile:justify-start mobile:${clickedFilter ? 'flex' : 'hidden'}`}
+                className={`flex justify-center m-auto tablet:w-full mobile:justify-start mobile:opacity-0 ${clickedFilter && 'mobile:opacity-100'} transition-all ease-in`}
               >
                 <li className="flex justify-center items-center w-[2.8125rem] h-[2.8125rem] border border-black border-r-0 mobile:hidden">
                   <Icon name="tune" size={22} />
@@ -140,7 +140,7 @@ const ProductList = () => {
                   options={options}
                   defaultValue={options[0]}
                   onChange={(option) => setSortTxt(option.value)}
-                  className={`w-[206px] tablet:w-[200px] h-[45px] px-4 py-[10px]`}
+                  className={`w-[10.7292vw] tablet:w-[200px] h-[45px] px-4 py-[10px]`}
                 />
               </div>
             </div>
