@@ -89,7 +89,7 @@ const ProductList = () => {
 
   return (
     <>
-      <div className="mt-header-h">
+      <div className="mt-header-h w-[100%] ">
         {/* 카테고리 위치 상태 바 */}
         <div
           className={`sticky top-0 left-0 z-10 flex items-center w-full h-[50px] tablet:h-11 px-[280px] tablet:px-[60px] mobile:px-4 border-t border-b border-grey-1 text-grey-3 bg-white transition-transform duration-300 ${getTransformClass()}`}
@@ -101,20 +101,22 @@ const ProductList = () => {
         </div>
 
         {/* contents inner */}
-        <div className="px-[14.5833vw] pb-sec-gap-pc tablet:px-[60px] mobile:px-4">
+        <div className="px-[280px] pb-sec-gap-pc tablet:px-[60px] mobile:px-4">
           {/* 카테고리 소개 섹션 */}
-          <div className="flex flex-col justify-center items-center gap-10 w-[56.125rem] tablet:w-[31.125rem] mobile:w-[22.375rem] m-auto my-[12.5rem] tablet:my-[9.375rem] mobile:my-[6.25rem]">
+          <div className="flex flex-col justify-center items-center gap-10  m-auto my-[200px] tablet:my-[150px] mobile:my-[100px]">
             <h1 className="text-heading1/[160%] tablet:text-heading1-m text-center">{title}</h1>
-            <p className="text-body2/[160%] tablet:text-body2-m/[150%]">{desc}</p>
+            <p className="text-body2/[160%] tablet:text-body2-m/[150%] max-w-[898px] tablet:max-w-[498px] mobile:max-w-[358px]">
+              {desc}
+            </p>
           </div>
 
           {/* filter & sort */}
-          <div className="relative mb-[6.25rem]">
+          <div className="relative mb-[100px] w-full">
             {(title === 'Eaux de parfum' || title === 'Eaux de toilette' || title === 'Solid perfumes') && (
               <ul
-                className={`flex justify-center max-w-[44.5625rem] m-auto mobile:justify-start mobile:${clickedFilter ? 'flex' : 'hidden'}`}
+                className={`flex justify-center m-auto tablet:w-full mobile:justify-start mobile:${clickedFilter ? 'flex' : 'hidden'}`}
               >
-                <li className="flex justify-center items-center w-[2.3438vw] h-[2.3438vw] border border-black border-r-0 mobile:hidden">
+                <li className="flex justify-center items-center w-[2.8125rem] h-[2.8125rem] border border-black border-r-0 mobile:hidden">
                   <Icon name="tune" size={22} />
                 </li>
                 {olfactories.map((item, idx) => (
@@ -123,21 +125,22 @@ const ProductList = () => {
               </ul>
             )}
 
-            <div className="flex justify-between">
+            <div className="flex justify-between items-end">
               <div
                 onClick={() => {
                   setClickedFilter(!clickedFilter);
                 }}
-                className="justify-center items-center w-[2.3438vw] h-[2.3438vw] border border-black cursor-pointer border-r hidden mobile:flex"
+                className="justify-center items-center w-[45px] h-[45px] border border-black cursor-pointer border-r hidden mobile:flex"
               >
                 <Icon name="tune" size={22} />
               </div>
 
-              <div className="absolute top-0 right-0 mobile:static">
+              <div className="absolute top-0 right-0 tablet:static tablet:ml-auto tablet:mt-10">
                 <CustomSelect
                   options={options}
                   defaultValue={options[0]}
                   onChange={(option) => setSortTxt(option.value)}
+                  className={`w-[206px] tablet:w-[200px] h-[45px] px-4 py-[10px]`}
                 />
               </div>
             </div>
