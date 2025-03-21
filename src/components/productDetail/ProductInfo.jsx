@@ -43,8 +43,8 @@ const ProductInfo = ({ productData }) => {
 
   return (
     <>
-      <h1 className="mb-0 text-left detail-sec-title ">{name}</h1>
-      <div className="flex flex-col  gap-5 text-body3">
+      <h1 className="mb-0 text-left detail-sec-title tablet:text-heading2-m">{name}</h1>
+      <div className="flex flex-col gap-5 text-body3">
         <p className="flex justify-between items-center">
           {type}
           <span>

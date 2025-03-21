@@ -70,7 +70,29 @@ html {
 
 .notes-swiper {
   .swiper-slide {
-    width: 21.5625rem !important;
-    height: 21.5625rem;
+    width: 345px !important;
+    height: 345px;
+
+    @include desktop-less {
+      width: 200px !important;
+      height: 200px;
+    }
+  }
+}
+
+// ==============================
+// BelovedSection, BelovedItem.jsx style
+
+.beloved-sec {
+  img {
+    width: 100%;
+    height: 504px;
+    transition: all;
+    transition-duration: 700ms;
+    transition-timing-function: ease-in-out;
+
+    @include desktop-less {
+      height: 263px;
+    }
   }
 }

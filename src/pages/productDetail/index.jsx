@@ -43,7 +43,7 @@ const ProductDetail = () => {
 
   return (
     <>
-      <div className="flex mt-header-h min-h-screen ">
+      <div className="flex mt-header-h min-h-screen">
         <div className=" w-1/2 h-[100vh] overflow-y-auto snap-y snap-mandatory scrollbar-hide">
           {options &&
             options[0].images.detail &&
@@ -52,13 +52,13 @@ const ProductDetail = () => {
         </div>
 
         <div className="w-1/2 text-body3 ">
-          <div className="sticky top-0 right-0 flex flex-col gap-5 p-[11.25rem] pt-20 tablet:px-6 tablet:py-10">
+          <div className="sticky top-0 right-0 flex flex-col gap-5 p-[9.3750vw] pt-20 tablet:px-6 tablet:py-10">
             <ProductInfo productData={productData} />
           </div>
         </div>
       </div>
 
-      <div className="pl-[50px]">
+      <div className="pl-[50px] overflow-hidden">
         {/* Notes section */}
         {(Array.isArray(notes) || Array.isArray(keyword)) && <NotesSection />}
 

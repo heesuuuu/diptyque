@@ -24,8 +24,8 @@ const SelectOption = () => {
       <div
         className={`relative flex tablet:flex-col justify-between items-center mt-[60px] ${selectedOption === 'engraving' ? 'mb-0' : 'mb-20'}`}
       >
-        <p className="w-[1.0938vw] mr-[1.0417vw] tablet:w-full tablet:mb-[10px]">Add Personalization</p>
-        <div className="w-[23.3333vw] h-12">
+        <p className="w-[30%] tablet:w-full tablet:mb-[10px]">Add Personalization</p>
+        <div className="w-[22vw] h-12 tablet:w-full">
           <CustomSelect
             options={selectOptions}
             defaultValue={''}

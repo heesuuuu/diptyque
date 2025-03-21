@@ -9,12 +9,15 @@ const NotesSection = () => {
   const { matchingNotesData } = useSelector((state) => state.product);
 
   return (
-    <div className="flex flex-col w-full my-sec-gap-pc ">
+    <div className="flex flex-col w-full my-sec-gap-pc">
       <h2 className="detail-sec-title">Story of Our Blend</h2>
 
       <Swiper
-        slidesPerView={5}
-        spaceBetween={24}
+        breakpoints={{
+          390: { slidesPerView: 2.2, spaceBetween: 16 },
+          768: { slidesPerView: 3.2, spaceBetween: 24 },
+          1024: { slidesPerView: 5, spaceBetween: 24 },
+        }}
         freeMode={true}
         modules={[FreeMode]}
         className="mySwiper notes-swiper"
