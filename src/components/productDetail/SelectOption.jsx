@@ -22,7 +22,7 @@ const SelectOption = () => {
   return (
     <div>
       <div
-        className={`relative flex tablet:flex-col justify-between items-center mt-[60px] ${selectedOption === 'engraving' ? 'mb-0' : 'mb-20'}`}
+        className={`relative flex  justify-between items-center mt-[60px] tablet:flex-col tablet:mt-5 ${selectedOption === 'engraving' ? 'mb-0' : 'mb-20'}`}
       >
         <p className="w-[30%] tablet:w-full tablet:mb-[10px]">Add Personalization</p>
         <div className="w-[22vw] h-12 tablet:w-full">

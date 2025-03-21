@@ -89,7 +89,7 @@ const ProductInfo = ({ productData }) => {
         />
       </div>
 
-      <div onClick={addToBag} className="mt-20">
+      <div onClick={addToBag} className="mt-20 tablet:mt-10">
         <BarButton type="filled" text="ADD TO BAG" />
       </div>
     </>

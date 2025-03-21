@@ -1,4 +1,4 @@
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 import './style.scss';
 
@@ -13,10 +13,9 @@ const ProductImg = ({ index, name, img }) => {
 
   return (
     <section className="img-container">
-      <div ref={ref} className="w-[100%] h-[100vh]">
+      <div ref={ref}>
         <img src={img} alt={`${name}${index + 1}`} />
       </div>
-      <motion.h2 initial={{ visibility: 'hidden' }} animate={{ visibility: 'visible' }} style={{ y }} />
     </section>
   );
 };
