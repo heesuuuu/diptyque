@@ -25,7 +25,7 @@ const Collection = () => {
   }, [selectedCollection]);
 
   return (
-    <div className="top-0 space-y-[150px] tablet:space-y-[150px] mobile:space-y-[100px]  ">
+    <div className="top-0 space-y-[150px] tablet:space-y-[150px] mobile:space-y-[100px] mb-[200px] ">
       {/* 상단 배너 및 소개 */}
       <CollectionIntro />
 
