@@ -33,15 +33,20 @@ html {
 // NotesSection.jsx style
 
 .notes-swiper {
-  height: 345px;
+  // height: 345px;
 
   .swiper-slide {
     width: 345px !important;
     height: 345px;
 
     @include desktop-less {
-      width: 200px !important;
-      height: 200px;
+      width: 26.0417vw !important;
+      height: 26.0417vw;
+    }
+
+    @include mobile-only {
+      width: 42vw !important;
+      height: 42vw;
     }
   }
 }
@@ -59,6 +64,10 @@ html {
 
     @include desktop-less {
       height: 263px;
+    }
+
+    @include mobile-only {
+      height: 208px;
     }
   }
 }

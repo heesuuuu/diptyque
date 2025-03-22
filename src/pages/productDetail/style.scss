@@ -28,6 +28,8 @@
 
     @include mobile-only {
       display: flex;
+      justify-content: center;
+      bottom: 16px;
 
       .swiper-pagination-bullet {
         margin: 0 16px !important;

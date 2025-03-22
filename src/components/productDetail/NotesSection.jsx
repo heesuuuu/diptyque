@@ -2,7 +2,6 @@ import { useSelector } from 'react-redux';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
-import 'swiper/css/pagination';
 import { FreeMode } from 'swiper/modules';
 import './style.scss';
 
@@ -15,9 +14,9 @@ const NotesSection = () => {
 
       <Swiper
         breakpoints={{
-          390: { slidesPerView: 2.2, spaceBetween: 16 },
-          768: { slidesPerView: 3.2, spaceBetween: 24 },
-          1024: { slidesPerView: 5, spaceBetween: 24 },
+          391: { slidesPerView: 2.2, spaceBetween: 16 },
+          769: { slidesPerView: 3.2, spaceBetween: 24 },
+          1025: { slidesPerView: 5, spaceBetween: 24 },
         }}
         freeMode={true}
         modules={[FreeMode]}

@@ -102,7 +102,7 @@ const ProductDetail = () => {
         </div>
       </div>
 
-      <div className="pl-[50px] overflow-hidden">
+      <div className="pl-[50px] overflow-hidden mobile:pl-4">
         {/* Notes section */}
         {(Array.isArray(notes) || Array.isArray(keyword)) && <NotesSection />}
 
