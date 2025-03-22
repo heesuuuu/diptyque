@@ -20,11 +20,10 @@ const CollectionProducts = ({ onChangeCollection }) => {
   const [transitionState, setTransitionState] = useState('stable');
   const [hasScrolled, setHasScrolled] = useState(false);
 
-  // 컬렉션별로 상품 데이터 구조화
+  const [isPC, setIsPC] = useState(false);
+
   const [productsByCollection, setProductsByCollection] = useState({});
-  // 현재 표시되는 모든 상품 목록 (현재 컬렉션 + 다음 컬렉션)
   const [displayedProducts, setDisplayedProducts] = useState([]);
-  // 마지막으로 보여진 상품의 컬렉션
   const [lastVisibleCollection, setLastVisibleCollection] = useState(null);
 
   // 다양한 참조 변수들
@@ -48,6 +47,19 @@ const CollectionProducts = ({ onChangeCollection }) => {
   const productCollectionMap = useRef({});
   // 제품 ID와 객체 매핑
   const productsMap = useRef({});
+
+  useEffect(() => {
+    const checkScreenSize = () => {
+      const width = window.innerWidth;
+      setIsPC(width >= 1024); // 1024px 이상은 PC로 간주
+    };
+    checkScreenSize();
+    window.addEventListener('resize', checkScreenSize);
+
+    return () => {
+      window.removeEventListener('resize', checkScreenSize);
+    };
+  }, []);
 
   // 모든 상품을 컬렉션별로 그룹화
   useEffect(() => {
@@ -84,19 +96,13 @@ const CollectionProducts = ({ onChangeCollection }) => {
     }
   }, [globalAllProducts, allCollectionNames]);
 
-  // 표시할 상품 목록 업데이트 (현재 컬렉션 + 다음 컬렉션)
+  // 표시할 상품 목록 업데이트 (항상 현재 컬렉션만 로드, 스크롤 이벤트로 다음 컬렉션 로드)
   useEffect(() => {
     if (selectedCollection) {
       let products = [];
 
-      // 현재 컬렉션의 상품 추가
       if (productsByCollection[selectedCollection]) {
         products = [...productsByCollection[selectedCollection]];
-      }
-
-      // 다음 컬렉션이 있으면 해당 상품도 추가
-      if (nextCollectionName && productsByCollection[nextCollectionName]) {
-        products = [...products, ...productsByCollection[nextCollectionName]];
       }
 
       setDisplayedProducts(products);
@@ -110,7 +116,7 @@ const CollectionProducts = ({ onChangeCollection }) => {
         }, 0);
       }
     }
-  }, [selectedCollection, nextCollectionName, productsByCollection]);
+  }, [selectedCollection, productsByCollection]);
 
   // 상품 맵 초기화
   useEffect(() => {
@@ -140,7 +146,6 @@ const CollectionProducts = ({ onChangeCollection }) => {
     productCollectionMap.current = cMap;
   }, [displayedProducts]);
 
-  // 상품 설명 접기/펼치기 토글
   const toggleDescription = (productId) => {
     setExpandedProducts((prev) => ({
       ...prev,
@@ -148,9 +153,8 @@ const CollectionProducts = ({ onChangeCollection }) => {
     }));
   };
 
-  // 스크롤 이벤트 핸들러
   const handleScroll = () => {
-    if (displayedProducts.length === 0) return;
+    if (displayedProducts.length === 0 || !isPC) return;
 
     // 현재 스크롤 위치 저장
     scrollPositionRef.current = window.scrollY;
@@ -161,9 +165,31 @@ const CollectionProducts = ({ onChangeCollection }) => {
       setHasScrolled(true);
     }
 
-    // 화면 중앙의 위치 계산
     const windowHeight = window.innerHeight;
     const windowMiddle = window.scrollY + windowHeight / 2;
+
+    const scrollPosition = window.scrollY;
+    const documentHeight = document.documentElement.scrollHeight;
+    const isNearBottom = scrollPosition + windowHeight > documentHeight - 500;
+
+    if (
+      isNearBottom &&
+      nextCollectionName &&
+      productsByCollection[nextCollectionName] &&
+      !displayedProducts.some((product) => {
+        // 다음 컬렉션 상품이 이미 표시되고 있는지 확인
+        let collectionName = null;
+        if (Array.isArray(product.collection)) {
+          const collectionObj = product.collection.find((col) => col && typeof col === 'object' && col.collectionName);
+          if (collectionObj) collectionName = collectionObj.collectionName;
+        } else if (product.collection && typeof product.collection === 'object') {
+          collectionName = product.collection.collectionName;
+        }
+        return collectionName === nextCollectionName;
+      })
+    ) {
+      setDisplayedProducts((prev) => [...prev, ...productsByCollection[nextCollectionName]]);
+    }
 
     // 어떤 요소가 화면 중앙에 가장 가까운지 확인
     let closestProduct = null;
@@ -174,7 +200,7 @@ const CollectionProducts = ({ onChangeCollection }) => {
       const element = productRefs.current[productId];
       if (element) {
         const rect = element.getBoundingClientRect();
-        const elementMiddle = window.scrollY + rect.top + rect.height / 2;
+        const elementMiddle = window.scrollY + rect.top + rect.height / 1;
         const distance = Math.abs(windowMiddle - elementMiddle);
 
         if (distance < minDistance) {
@@ -193,7 +219,6 @@ const CollectionProducts = ({ onChangeCollection }) => {
         setPreviousProduct(currentVisibleProduct);
         setCurrentVisibleProduct(closestProduct);
 
-        // 애니메이션 효과
         setTransitionState('fadeOut');
         requestAnimationFrame(() => {
           setTransitionState('changing');
@@ -231,26 +256,28 @@ const CollectionProducts = ({ onChangeCollection }) => {
     }
   };
 
-  // 스크롤 이벤트 리스너 설정
+  // 스크롤 이벤트 리스너 설정 - PC에서만 활성화
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
+    if (isPC) {
+      window.addEventListener('scroll', handleScroll, { passive: true });
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    }
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, [displayedProducts, selectedCollection]);
+  }, [displayedProducts, selectedCollection, isPC]);
 
-  // 컬렉션 변경 시 해당 컬렉션의 첫 상품으로 스크롤
   useEffect(() => {
     if (
       selectedCollection &&
       productsByCollection[selectedCollection] &&
       productsByCollection[selectedCollection].length > 0 &&
-      !isInitialLoadRef.current
+      !isInitialLoadRef.current &&
+      isPC
     ) {
       // 수동 변경 플래그 설정
       hasManuallyChangedRef.current = true;
@@ -277,7 +304,7 @@ const CollectionProducts = ({ onChangeCollection }) => {
         }
       }
     }
-  }, [selectedCollection, productsByCollection]);
+  }, [selectedCollection, productsByCollection, isPC]);
 
   // 현재 상품 객체 찾기
   const currentProduct = currentVisibleProduct
@@ -310,106 +337,99 @@ const CollectionProducts = ({ onChangeCollection }) => {
     }
   };
 
-  // 기존 코드에서 태블릿 그리드 관련 부분만 수정
-
-  // 오른쪽 섹션을 태블릿에서 숨기기 위한 코드 수정
-
   return (
-    <div className="product-container">
-      <div className="flex flex-col md:flex-row relative">
-        {/* 왼쪽: 상품 이미지 (스크롤 될 부분) - 태블릿에서는 전체 너비 차지 */}
-        <div className="md:w-1/2 tablet:w-full">
-          <div className="space-y-12">
-            {/* 현재 컬렉션의 상품 렌더링 - 태블릿에서 그리드로 표시 */}
-            {selectedCollection && productsByCollection[selectedCollection] && (
-              <div
-                className="collection-group tablet:grid tablet:grid-cols-2 tablet:gap-6"
-                data-collection={selectedCollection}
-              >
-                {productsByCollection[selectedCollection].map((product, index) => (
+    <div className="product-container mb-[200px] mobile:mb-[50px]  ">
+      <div className="flex flex-col md:flex-row relative mobile:mt-[100px] ">
+        {/* 왼쪽: 상품 이미지 (스크롤 될 부분)*/}
+        <div className="w-full    ">
+          <div className="space-y-12 ">
+            <div className="collection-group  tablet:grid tablet:grid-cols-2 tablet:gap-6 tablet:w-full mobile:w-full mobile:gap-4 mobile:grid-cols-2">
+              {displayedProducts.map((product, index) => {
+                // 상품의 컬렉션 정보 추출
+                let collectionName = null;
+                if (Array.isArray(product.collection)) {
+                  const collectionObj = product.collection.find(
+                    (col) => col && typeof col === 'object' && col.collectionName
+                  );
+                  if (collectionObj) collectionName = collectionObj.collectionName;
+                } else if (
+                  product.collection &&
+                  typeof product.collection === 'object' &&
+                  product.collection.collectionName
+                ) {
+                  collectionName = product.collection.collectionName;
+                }
+
+                // 컬렉션의 첫 번째 상품인지 확인 (PC에서만 필요)
+                const isFirstInCollection =
+                  isPC &&
+                  (index === 0 ||
+                    (index > 0 &&
+                      collectionName !==
+                        (() => {
+                          const prevProduct = displayedProducts[index - 1];
+                          if (Array.isArray(prevProduct.collection)) {
+                            const obj = prevProduct.collection.find(
+                              (col) => col && typeof col === 'object' && col.collectionName
+                            );
+                            return obj ? obj.collectionName : null;
+                          } else if (prevProduct.collection && typeof prevProduct.collection === 'object') {
+                            return prevProduct.collection.collectionName;
+                          }
+                          return null;
+                        })()));
+
+                return (
                   <div
                     key={product.id}
                     ref={(el) => {
-                      if (el) {
+                      // PC에서만 참조 필요
+                      if (el && isPC) {
                         productRefs.current[String(product.id)] = el;
 
-                        // 첫 번째 상품은 컬렉션 경계로 표시
-                        if (index === 0) {
-                          collectionBoundaryRefs.current[selectedCollection] = el;
+                        // 컬렉션의 첫 번째 상품은 컬렉션 경계로 표시
+                        if (isFirstInCollection && collectionName) {
+                          collectionBoundaryRefs.current[collectionName] = el;
                         }
                       }
                     }}
                     data-product-id={String(product.id)}
-                    data-collection={selectedCollection}
-                    className="mb-12 tablet:mb-6"
+                    data-collection={collectionName}
+                    className="desktop:mb-12 tablet:mb-0"
                   >
+                    {/* 새로운 컬렉션 시작 표시 (다음 컬렉션으로 넘어갔을 때) - PC에서만 필요 */}
+                    {isPC && isFirstInCollection && index > 0 && collectionName && (
+                      <div className="font-diptyque text-heading3 mb-4 pt-8 border-t border-gray-200">
+                        {collectionName}
+                      </div>
+                    )}
+
                     {product.options && product.options[0]?.images?.thumbnail?.default && (
-                      <div className="tablet:flex tablet:flex-col tablet:items-center">
-                        <img
-                          src={product.options[0].images.thumbnail.default}
-                          alt={product.name}
-                          className="w-full h-[803px] tablet:h-[263px] tablet:w-auto mobile:h-[225px] object-contain mx-auto"
-                        />
-                        <div className="hidden tablet:block tablet:mt-3 tablet:text-center">
-                          <h4 className="text-body1 tablet:text-body2">{product.name}</h4>
-                          <p className="text-body3 text-darkgrey-3">{product.options[0].price} €</p>
-                        </div>
+                      <div className="tablet:flex tablet:flex-col tablet:w-full">
+                        <Link to={`/product/detail/${product.id}`} className="none tablet:block mobile:block">
+                          <img
+                            src={product.options[0].images.thumbnail.default}
+                            alt={product.name}
+                            className="w-full h-[803px] tablet:h-full mobile:h-full object-contain cursor-pointer"
+                          />
+                          <div className="hidden tablet:block tablet:mt-5 tablet:text-left tablet:w-full">
+                            <h4 className="text-body1 tablet:text-body2">{product.name}</h4>
+                            <p className="text-body3 text-darkgrey-3">{product.options[0].price} €</p>
+                          </div>
+                        </Link>
                       </div>
                     )}
                   </div>
-                ))}
-              </div>
-            )}
-
-            {/* 다음 컬렉션의 상품 렌더링 - 태블릿에서 그리드로 표시 */}
-            {nextCollectionName && productsByCollection[nextCollectionName] && (
-              <div
-                className="collection-group tablet:grid tablet:grid-cols-2 tablet:gap-4"
-                data-collection={nextCollectionName}
-              >
-                {productsByCollection[nextCollectionName].map((product, index) => (
-                  <div
-                    key={product.id}
-                    ref={(el) => {
-                      if (el) {
-                        productRefs.current[String(product.id)] = el;
-
-                        // 첫 번째 상품은 컬렉션 경계로 표시
-                        if (index === 0) {
-                          collectionBoundaryRefs.current[nextCollectionName] = el;
-                        }
-                      }
-                    }}
-                    data-product-id={String(product.id)}
-                    data-collection={nextCollectionName}
-                    className="mb-12 tablet:mb-6"
-                  >
-                    {product.options && product.options[0]?.images?.thumbnail?.default && (
-                      <div className="tablet:flex tablet:flex-col tablet:items-center">
-                        <img
-                          src={product.options[0].images.thumbnail.default}
-                          alt={product.name}
-                          className="w-full h-[803px] tablet:h-[250px] tablet:w-auto object-contain mx-auto"
-                        />
-                        <div className="hidden tablet:block tablet:mt-3 tablet:text-center">
-                          <h4 className="text-body1 tablet:text-body2">{product.name}</h4>
-                          <p className="text-body3 text-darkgrey-3">{product.options[0].price} €</p>
-                        </div>
-                      </div>
-                    )}
-                  </div>
-                ))}
-              </div>
-            )}
+                );
+              })}
+            </div>
           </div>
         </div>
 
-        {/* 오른쪽: 상품 정보 (고정된 위치) - 태블릿에서는 숨김 */}
         <div className="relative tablet:hidden">
-          {/* 상품 정보 컨테이너 */}
           <div
             ref={productInfoRef}
-            className="md:w-[500px] ml-[90px] h-[800px] inline-grid sticky"
+            className="md:w-[590px] ml-[90px] h-[800px] inline-grid sticky"
             style={{ position: 'sticky', top: '10vh', zIndex: 10 }}
           >
             {/* PC에서만 보이는 상세 정보 */}
