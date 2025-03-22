@@ -16,16 +16,16 @@ const Service = () => {
     <div className="service-page-container w-[100vw] overflow-hidden">
       <section className="first-sec flex-col-align-box">
         <h2>Our Service Oddyssey</h2>
-        <p className="w-[32.875rem]">
+        <p className="w-[526px] tablet:w-[480px]">
           Diptyque takes you by the hand to guide you through your time at the Maison. Explore all our services, special
           touches and inspiration.
         </p>
       </section>
 
       <section className="flex-align-box">
-        <div>
+        <div className="w-1/2">
           <h2>Custom engraving</h2>
-          <p className="w-[44.25rem]">
+          <p className="w-[708px] m-auto tablet:w-[178px]">
             Initials, a first name, a memorable date… Diptyque offers you the opportunity to personalise your product
             with an engraved message. To make each piece unique, to gift or enjoy.
           </p>
@@ -34,7 +34,7 @@ const Service = () => {
       </section>
 
       <section className="flex-align-box">
-        <div className="service-sec-img-size1 overflow-hidden shrink-0">
+        <div className="service-sec-img-size1  overflow-hidden ">
           <video
             autoPlay
             muted
@@ -106,12 +106,16 @@ const Service = () => {
                 <p>AFTER-SALES ADVICE</p>
               </li>
             </ul>
-            <Link to="https://stores.diptyqueparis.com/en_eu/diptyque-garosugil">
+            <Link to="https://stores.diptyqueparis.com/en_eu/diptyque-garosugil" target="_blank">
               <BarButton type="filled" text="MORE INFORMATION" className="store-info-btn" />
             </Link>
           </SwiperSlide>
           <SwiperSlide>
-            <h2>Diptyque Seongsu Pop Up - Holiday</h2>
+            <h2>
+              Diptyque Seongsu
+              <br />
+              Pop Up - Holiday
+            </h2>
             <div className="flex-col-align-box gap-5 store-info-desc">
               <p>20-1, Yeonmujang-gil, 04781, Seoul</p>
               <p>Open - Close | 11:00 - 21:00</p>
@@ -126,7 +130,10 @@ const Service = () => {
                 <p>PERSONALISED ENGRAVING</p>
               </li>
             </ul>
-            <Link to="https://stores.diptyqueparis.com/en_eu/pop-up-seongsu-diptyque-seongsu-pop-up---holiday">
+            <Link
+              to="https://stores.diptyqueparis.com/en_eu/pop-up-seongsu-diptyque-seongsu-pop-up---holiday"
+              target="_blank"
+            >
               <BarButton type="filled" text="MORE INFORMATION" className="store-info-btn" />
             </Link>
           </SwiperSlide>
@@ -155,16 +162,16 @@ const Service = () => {
 
       <section>
         <h2>Everlasting Gifts</h2>
-        <p className="w-[530px] m-auto">
+        <p className="w-[530px] m-auto tablet:w-[462px]">
           Our refillable products and second-life accessories can be enjoyed by their recipients for years to come… For
           endless pleasure.
         </p>
-        <div className="refill-img-box flex gap-6 justify-center mt-10">
-          <div>
+        <div className="refill-img-box w-full flex gap-6 justify-center mt-10">
+          <div className="w-1/2">
             <div className="refill-img bg-[url('https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/service/everlasting1.png')]" />
             <p>Refillable Products</p>
           </div>
-          <div>
+          <div className="w-1/2">
             <div className="refill-img bg-[url('https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/service/everlasting2.png')]" />
             <p>Refillable Fragrances</p>
           </div>
@@ -173,7 +180,7 @@ const Service = () => {
 
       <section>
         <h2>For Online Explorers</h2>
-        <ul className="online-img-ul">
+        <ul className="online-img-ul grid grid-flow-col grid-rows-1 gap-6 tablet:grid-rows-2">
           <li>
             <div className="bg-[url('https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/service/online1.png')]" />
             <p>
