@@ -16,24 +16,29 @@ const Service = () => {
     <div className="service-page-container w-[100vw] overflow-hidden">
       <section className="first-sec flex-col-align-box">
         <h2>Our Service Oddyssey</h2>
-        <p className="w-[526px] tablet:w-[480px]">
+        <p className="max-w-[526px] tablet:max-w-[480px]">
           Diptyque takes you by the hand to guide you through your time at the Maison. Explore all our services, special
           touches and inspiration.
         </p>
       </section>
 
-      <section className="flex-align-box">
-        <div className="w-1/2">
+      <section className="flex-align-box engraving-sec">
+        <div className="w-1/2 mobile:w-full">
           <h2>Custom engraving</h2>
-          <p className="w-[708px] m-auto tablet:w-[178px]">
+          <p className="max-w-[708px] m-auto tablet:max-w-[178px] mobile:hidden">
             Initials, a first name, a memorable date… Diptyque offers you the opportunity to personalise your product
             with an engraved message. To make each piece unique, to gift or enjoy.
           </p>
         </div>
         <div className="service-sec-img-size1 bg-[url('https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/service/engraving.png')]"></div>
+        <p className="hidden mobile:block mt-10">
+          Initials, a first name, a memorable date… Diptyque offers you the opportunity to personalise your product with
+          an engraved message. To make each piece unique, to gift or enjoy.
+        </p>
       </section>
 
       <section className="flex-align-box">
+        <h2 className="hidden mobile:block">The Gift by Diptyque</h2>
         <div className="service-sec-img-size1  overflow-hidden ">
           <video
             autoPlay
@@ -45,14 +50,14 @@ const Service = () => {
             className="object-cover"
           ></video>
         </div>
-        <div className="service-sec-img-size1 flex flex-col justify-center items-start">
-          <h2>The Gift by Diptyque</h2>
+        <div className="service-sec-img-size1 gift-sec-txt flex flex-col justify-center items-start">
+          <h2 className="mobile:hidden">The Gift by Diptyque</h2>
           <Swiper
             slidesPerView={2.9}
             spaceBetween={24}
             freeMode={true}
             modules={[FreeMode]}
-            className="mySwiper gift-sec-swiper"
+            className="mySwiper gift-sec-swiper mobile:hidden"
           >
             <SwiperSlide>
               <div className="bg-[url('https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/service/gift1.png')]" />
@@ -68,10 +73,24 @@ const Service = () => {
             </SwiperSlide>
             <SwiperSlide></SwiperSlide>
           </Swiper>
+          <div className="gift-sec-txt-mobile hidden w-full mt-10 mobile:flex">
+            <div>
+              <div className="bg-[url('https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/service/gift1.png')]" />
+              <p>Origami wrapping</p>
+            </div>
+            <div>
+              <div className="bg-[url('https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/service/gift2.png')]" />
+              <p>Diptyque gift box</p>
+            </div>
+            <div>
+              <div className="bg-[url('https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/service/gift3.png')]" />
+              <p>Fabric gift bags</p>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section className="flex-align-box">
+      <section className="flex-align-box store-sec">
         <Swiper
           slidesPerView={1}
           spaceBetween={30}
@@ -83,10 +102,14 @@ const Service = () => {
         >
           <SwiperSlide>
             <h2>Diptyque Garosugil</h2>
-            <div className="flex-col-align-box gap-5 store-info-desc">
+            <div className="flex-col-align-box store-info-desc">
               <p>15, Garosu-gil, 06035, Seoul</p>
-              <p>+82 50 71391 7494</p>
-              <p>Open - Close | 11:00 - 21:00</p>
+              <p className="mobile:hidden">+82 50 71391 7494</p>
+              <p>
+                <span className="hidden mobile:inline-block">+82 50 71391 7494, </span> Open - Close{' '}
+                <span className="mobile:hidden">|</span> <span className="hidden mobile:inline-block">at</span> 11:00 -
+                21:00
+              </p>
             </div>
             <ul>
               <li>
@@ -121,6 +144,7 @@ const Service = () => {
               <p>Open - Close | 11:00 - 21:00</p>
             </div>
             <ul>
+              <li></li>
               <li>
                 <div className="bg-[url('https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/service/store1.png')]" />
                 <p>THE DIPTYQUE GIFT BOX</p>
@@ -129,6 +153,7 @@ const Service = () => {
                 <div className="bg-[url('https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/service/store2.png')]" />
                 <p>PERSONALISED ENGRAVING</p>
               </li>
+              <li></li>
             </ul>
             <Link
               to="https://stores.diptyqueparis.com/en_eu/pop-up-seongsu-diptyque-seongsu-pop-up---holiday"
@@ -149,12 +174,18 @@ const Service = () => {
           modules={[FreeMode, Pagination, Controller]}
           onSwiper={setSecondSwiper}
           controller={{ control: firstSwiper }}
-          className="mySwiper store-img-swiper service-sec-img-size1"
+          className="mySwiper store-img-swiper service-sec-img-size1 store-img-mobile"
         >
           <SwiperSlide>
+            <h2>Diptyque Garosugil</h2>
             <div className="store-img bg-[url('https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/service/store-garosu.png')]" />
           </SwiperSlide>
           <SwiperSlide>
+            <h2>
+              Diptyque Seongsu
+              <br />
+              Pop Up - Holiday
+            </h2>
             <div className="store-img bg-[url('https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/service/store-seongsu.jpg')]" />
           </SwiperSlide>
         </Swiper>
@@ -162,7 +193,7 @@ const Service = () => {
 
       <section>
         <h2>Everlasting Gifts</h2>
-        <p className="w-[530px] m-auto tablet:w-[462px]">
+        <p className="max-w-[530px] m-auto tablet:max-w-[462px]">
           Our refillable products and second-life accessories can be enjoyed by their recipients for years to come… For
           endless pleasure.
         </p>
