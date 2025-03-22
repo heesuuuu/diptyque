@@ -397,13 +397,6 @@ const CollectionProducts = ({ onChangeCollection }) => {
                     data-collection={collectionName}
                     className="desktop:mb-12 tablet:mb-0"
                   >
-                    {/* 새로운 컬렉션 시작 표시 (다음 컬렉션으로 넘어갔을 때) - PC에서만 필요 */}
-                    {isPC && isFirstInCollection && index > 0 && collectionName && (
-                      <div className="font-diptyque text-heading3 mb-4 pt-8 border-t border-gray-200">
-                        {collectionName}
-                      </div>
-                    )}
-
                     {product.options && product.options[0]?.images?.thumbnail?.default && (
                       <div className="tablet:flex tablet:flex-col tablet:w-full">
                         <Link to={`/product/detail/${product.id}`} className="none tablet:block mobile:block">
@@ -515,7 +508,7 @@ const CollectionProducts = ({ onChangeCollection }) => {
 
                 <div className="absolute bottom-0 w-full space-y-5">
                   {/* 상세페이지 이동 버튼 */}
-                  <Link
+                  {/* <Link
                     to={`/product/detail/${currentProduct.id}`}
                     className="text-body2 flex place-content-between h-[50px] cursor-pointer items-center"
                   >
@@ -523,10 +516,22 @@ const CollectionProducts = ({ onChangeCollection }) => {
                     <div>
                       <Icon name="north_east" size={20} />
                     </div>
-                  </Link>
+                  </Link> */}
 
                   {/* 장바구니 버튼 */}
-                  <BarButton text="ADD TO BAG" type="filled" className="text-body3" />
+                  <Link to={`/product/detail/${currentProduct.id}`}>
+                    <BarButton
+                      text={
+                        <div className="flex items-center justify-between w-full gap-1">
+                          <span>Detail Page</span>
+
+                          <Icon name="chevron_right" size={25} />
+                        </div>
+                      }
+                      type="filled"
+                      className="text-body3"
+                    />
+                  </Link>
                 </div>
               </div>
             )}

@@ -49,7 +49,6 @@ const Collection = () => {
             </div>
           </div>
         </section>
-
         {/* Most popular section */}
         {/* <section className="mt-[80px] lg:w-full lg:mx-auto overflow-visible">
           <PopularProduct />
