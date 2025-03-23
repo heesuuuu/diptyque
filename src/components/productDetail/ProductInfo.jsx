@@ -11,7 +11,7 @@ const ProductInfo = ({ productData }) => {
   const { addedToBag } = useSelector((state) => state.cart);
   const [clickedMore, setClickedMore] = useState(false);
 
-  const { name, type, notes, keyword, description, story, options } = productData;
+  const { name, type, notes, keyword, description, story, options, inStock } = productData;
 
   const maxChars = 166;
   const [desc, setDesc] = useState('');
@@ -90,7 +90,12 @@ const ProductInfo = ({ productData }) => {
       </div>
 
       <div onClick={addToBag} className="add-cart-btn">
-        <BarButton type="filled" text="ADD TO BAG" />
+        <BarButton
+          type={`${inStock ? 'filled' : ''}`}
+          text={`${inStock ? 'ADD TO BAG' : 'OUT OF STOCK'}`}
+          className={`${inStock ? '' : 'text-white bg-grey-3 '}`}
+          disabled={`${inStock ? '' : 'true'}`}
+        />
       </div>
     </>
   );

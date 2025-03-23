@@ -6,7 +6,7 @@ import { cartActions } from '../../store/modules/cartSlice';
 const BelovedItem = ({ item }) => {
   const dispatch = useDispatch();
   const { addedToBag } = useSelector((state) => state.cart);
-  const { id, name, options, type } = item;
+  const { id, name, options, type, inStock } = item;
   const price = options[0].price;
   const thumbImg = options[0].images.thumbnail.default;
   const hoverImg = options[0].images.thumbnail.hover;
@@ -42,7 +42,14 @@ const BelovedItem = ({ item }) => {
       </Link>
 
       <div onClick={addToBag}>
-        <BarButton type="filled" text="ADD TO BAG" className="mt-5 mobile:mt-[10px]" />
+        <BarButton
+          type={`${inStock ? 'filled' : ''}`}
+          text={`${inStock ? 'ADD TO BAG' : 'OUT OF STOCK'}`}
+          className={`mt-5 mobile:mt-[10px] ${inStock ? '' : 'text-white bg-grey-3 '}`}
+          disabled={`${inStock ? '' : 'true'}`}
+        />
+
+        <BarButton />
       </div>
     </>
   );
