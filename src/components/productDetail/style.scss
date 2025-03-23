@@ -35,6 +35,8 @@ html {
 .notes-swiper {
   .swiper-wrapper {
     display: flex;
+    width: 94.8438vw;
+    justify-content: center;
   }
 
   .swiper-slide {
@@ -54,6 +56,10 @@ html {
   }
 
   @include desktop-less {
+    .swiper-wrapper {
+      justify-content: start;
+    }
+
     .swiper-slide {
       max-width: 26.0417vw;
     }
