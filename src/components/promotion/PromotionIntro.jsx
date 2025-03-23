@@ -29,8 +29,8 @@ const PromotionIntro = () => {
     visible: (custom) => ({
       opacity: 1,
       transition: {
-        delay: custom * 0.05, 
-        duration: 0.1, 
+        delay: custom * 0.05,
+        duration: 0.1,
       },
     }),
   };
@@ -81,7 +81,7 @@ const PromotionIntro = () => {
       };
 
       const unsubscribe = smoothIntroProgress.onChange(updateVisibleChars);
-      updateVisibleChars(); 
+      updateVisibleChars();
 
       return () => unsubscribe();
     }, []);
@@ -107,19 +107,50 @@ const PromotionIntro = () => {
 
   return (
     <>
-      <section className="w-full h-[800px] flex justify-center items-center relative tablet:h-[343px]">
+      <section className="w-full h-[800px] flex justify-center items-center relative tablet:h-[543px] mobile:h-[700px] ">
         <div className="w-full text-center ">
-          <h3 className="text-display1 tablet:text-heading1 mobile:text-heading2 font-diptyque text-primary mt-[110px] tablet:mt-[20px] leading-[110px] tablet:max-w-[996px] tablet:text-base/8 tabelt:line-hi mx-auto relative text-center">
+          <img
+            src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-s02.png?raw=true"
+            alt=""
+            style={{ opacity: opacity, transition: 'opacity 1.5s ease-in' }}
+            className="absolute mobile:w-[25%] mobile:top-0 right desktop:hidden tablet:hidden mobile:flex transition-transform translate-y-[70%] translate-x-[280%] "
+          />
+          {/* 나무 */}
+          <img
+            src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-a01-01.png?raw=true"
+            alt=""
+            style={{ opacity: opacity, transition: 'opacity 1.5s ease-in' }}
+            className="absolute mobile:w-[18%] mobile:top-4 left-5 desktop:hidden tablet:hidden mobile:flex transition-transform translate-y-[90%]  "
+          />
+          <h3 className="text-display1 tablet:text-heading1 mobile:text-heading1 mobile:mb-[10%] font-diptyque text-primary mt-[110px] tablet:mt-[20px] leading-[110px] tablet:max-w-[996px] tablet:text-base/8  mx-auto relative text-center">
             {renderLines()}
           </h3>
         </div>
-        <div className="absolute bottom-0 w-full translate-y-[2%]">
+        {/* 기본 이미지 */}
+        <div className="absolute bottom-0 w-full translate-y-[2%] mobile:hidden overflow-hidden">
           <img
             src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/main-full.png?raw=true"
             alt="Seasonal fragrances"
-            className="w-full"
+            className="w-full tablet:w-[120%] "
             style={{ opacity: opacity, transition: 'opacity 1.5s ease-in' }}
           />
+        </div>
+        {/* mobile 이미지 */}
+        <div className="desktop:hidden tablet:hidden mobile:flex absolute  bottom-0">
+          <div className=" bottom-0 mobile:flex">
+            <img
+              src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-s01.png?raw=true"
+              alt=""
+              style={{ opacity: opacity, transition: 'opacity 1.5s ease-in', marginLeft: '-10%' }}
+              className="mobile:w-[60%]   left-0 "
+            />
+            <img
+              src=" https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-s03.png?raw=true"
+              alt=""
+              style={{ opacity: opacity, transition: 'opacity 1.5s ease-in', marginRight: '-10%' }}
+              className="mobile:w-[56%] mobile:absolute mobile:right-0 transition-transform translate-y-[-5%]  "
+            />
+          </div>
         </div>
       </section>
       <section
