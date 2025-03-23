@@ -6,7 +6,7 @@ import BelovedItem from './BelovedItem';
 
 const BelovedSection = ({ popularProducts }) => {
   return (
-    <div className="w-full mb-[12.5rem] beloved-sec">
+    <div className="w-full mb-[12.5rem] beloved-sec my-sec-gap-pc tablet:my-sec-gap-t mobile:my-sec-gap-m">
       <h2 className="detail-sec-title">Our most beloved</h2>
       <Swiper
         breakpoints={{

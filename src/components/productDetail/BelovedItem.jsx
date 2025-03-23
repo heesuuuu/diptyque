@@ -32,7 +32,7 @@ const BelovedItem = ({ item }) => {
       >
         <img className="object-cover group-hover:opacity-0 " src={thumbImg} alt={name} />
         <img className="absolute object-cover opacity-0 group-hover:opacity-100" src={hoverImg} alt={name} />
-        <h2 className="text-heading3/[160%] mt-[6px] mobile:mt-0">{name}</h2>
+        <h2 className="text-heading3/[160%] mt-[6px] truncate mobile:mt-0">{name}</h2>
         <p className="flex justify-between text-body3/[150%] tablet:flex-col tablet:gap-[10px] tablet:text-body3-m">
           {type}
           <span className="ml-auto tablet:ml-0">
@@ -46,7 +46,7 @@ const BelovedItem = ({ item }) => {
           type={`${inStock ? 'filled' : ''}`}
           text={`${inStock ? 'ADD TO BAG' : 'OUT OF STOCK'}`}
           className={`mt-5 mobile:mt-[10px] ${inStock ? '' : 'text-white bg-grey-3 '}`}
-          disabled={`${inStock ? '' : 'true'}`}
+          disabled={inStock ? undefined : true}
         />
 
         <BarButton />

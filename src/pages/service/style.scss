@@ -172,14 +172,16 @@
 }
 
 .store-sec {
-  flex-direction: column-reverse;
+  @include mobile-only {
+    flex-direction: column-reverse;
+  }
 }
 
 .store-info-swiper {
   .swiper-slide {
     display: flex;
     flex-direction: column;
-    gap: 2.0833vw;
+    gap: 1.5vw;
 
     h2 {
       margin-bottom: 2.0833vw;
@@ -191,7 +193,6 @@
       grid-template-columns: repeat(4, 1fr);
       gap: 1.25vw;
       justify-content: center;
-      margin-bottom: 2.0833vw;
 
       li {
         width: 100%;
@@ -335,15 +336,22 @@
 }
 
 .online-img-ul {
+  justify-content: center;
+
   li {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    width: 11.4583vw;
+
+    p {
+      width: 100%;
+    }
   }
 
   div {
-    width: 11.4583vw;
+    width: 100%;
     aspect-ratio: 220 / 281;
     background-size: cover;
     background-repeat: no-repeat;
@@ -352,13 +360,8 @@
   }
 
   @include desktop-less {
-    gap: 3.125vw !important;
-
     li {
       margin-bottom: 40px;
-    }
-
-    div {
       width: 26.0417vw;
     }
   }
