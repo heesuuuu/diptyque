@@ -29,10 +29,12 @@
     @include mobile-only {
       display: flex;
       justify-content: center;
-      bottom: 16px;
+      bottom: 20px;
 
       .swiper-pagination-bullet {
-        margin: 0 16px !important;
+        margin: 0 8px !important;
+        width: 6px;
+        height: 6px;
       }
     }
   }
@@ -46,8 +48,12 @@
   }
 
   @include mobile-only {
-    position: fixed;
-    bottom: 16px;
+    background-color: $white;
+    margin-top: 0;
+    padding-top: 40px;
+    padding-bottom: 16px;
+    position: sticky;
+    bottom: 0;
     left: 16px;
     z-index: 9999;
     width: calc(100vw - 32px);
@@ -74,6 +80,7 @@
 
   @include desktop-less {
     width: 336px;
+    right: 24px;
   }
 
   @include mobile-only {

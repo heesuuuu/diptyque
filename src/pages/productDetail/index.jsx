@@ -52,30 +52,15 @@ const ProductDetail = () => {
 
   return (
     <>
-      <div className="flex mt-header-h min-h-screen tablet:mt-header-h-m mobile:flex-col">
-        <div className="product-img-swiper-container w-1/2 mobile:w-full mobile:h-[512px]">
-          <Swiper
-            direction={'vertical'}
-            slidesPerView={1}
-            spaceBetween={30}
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-            }}
-            pagination={{
-              clickable: true,
-            }}
-            modules={[Mousewheel, Pagination, Autoplay]}
-            className="product-img-swiper mySwiper h-full mobile:hidden"
-          >
-            {options &&
-              options[0].images.detail &&
-              options[0].images.detail.map((img, idx) => (
-                <SwiperSlide key={idx} className="h-full">
-                  <img src={img} alt={`${name + idx}`} className="w-full h-full" />
-                </SwiperSlide>
-              ))}
-          </Swiper>
+      <div className="flex mt-header-h  tablet:mt-header-h-m mobile:flex-col">
+        <div className="w-1/2 mobile:hidden">
+          {options &&
+            options[0].images.detail &&
+            options[0].images.detail.map((img, idx) => (
+              <img key={idx} src={img} alt={name} className="w-full h-auto" />
+            ))}
+        </div>
+        <div className="product-img-swiper-container w-1/2 hidden mobile:block mobile:w-full mobile:h-[512px]">
           <Swiper
             slidesPerView={1}
             spaceBetween={30}
