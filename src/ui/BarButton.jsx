@@ -1,9 +1,10 @@
 import React from 'react';
 
-const BarButton = ({ text, type, className }) => {
+const BarButton = ({ text, type, className, disabled = false }) => {
   return (
     <button
       className={`flex justify-center items-center w-full h-[2.8125rem] text-body3 ${className} ${type === 'filled' && ' bg-black active:bg-grey-4 text-white'} ${type === 'border' && 'border border-black text-black active:border-grey-4 active:text-grey-4'}`}
+      disabled={disabled}
     >
       <p>{text}</p>
     </button>
