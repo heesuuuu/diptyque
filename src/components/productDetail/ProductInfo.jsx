@@ -94,7 +94,7 @@ const ProductInfo = ({ productData }) => {
           type={`${inStock ? 'filled' : ''}`}
           text={`${inStock ? 'ADD TO BAG' : 'OUT OF STOCK'}`}
           className={`${inStock ? '' : 'text-white bg-grey-3 '}`}
-          disabled={`${inStock ? '' : 'true'}`}
+          disabled={inStock ? undefined : true}
         />
       </div>
     </>

@@ -68,7 +68,7 @@
   right: 9.375vw;
   justify-content: center;
   align-items: center;
-  width: 600px;
+  width: 31.25vw;
   height: 58px;
   background: $black;
   color: $white;
@@ -79,7 +79,7 @@
   z-index: 0;
 
   @include desktop-less {
-    width: 336px;
+    width: 43.75vw;
     right: 24px;
   }
 
