@@ -26,6 +26,7 @@ const NotesSection = () => {
           <SwiperSlide key={data.noteId}>
             <div>
               <img src={data.img} alt={data.note} />
+              <div className="overlay"></div>
             </div>
           </SwiperSlide>
         ))}
