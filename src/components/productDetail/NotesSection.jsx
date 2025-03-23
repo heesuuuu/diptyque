@@ -20,7 +20,7 @@ const NotesSection = () => {
         }}
         freeMode={true}
         modules={[FreeMode]}
-        className="mySwiper notes-swiper"
+        className={`mySwiper notes-swiper ${matchingNotesData.length > 3 ? 'tablet-notes-start' : ''} ${matchingNotesData.length > 2 ? 'mobile-notes-start' : ''}`}
       >
         {matchingNotesData.map((data) => (
           <SwiperSlide key={data.noteId}>

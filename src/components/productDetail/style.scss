@@ -66,8 +66,10 @@ html {
   }
 
   @include desktop-less {
-    .swiper-wrapper {
-      justify-content: start;
+    &.tablet-notes-start {
+      .swiper-wrapper {
+        justify-content: start;
+      }
     }
 
     .swiper-slide {
@@ -76,6 +78,12 @@ html {
   }
 
   @include mobile-only {
+    &.mobile-notes-start {
+      .swiper-wrapper {
+        justify-content: start;
+      }
+    }
+
     .swiper-slide {
       max-width: 41.3513vw;
     }
