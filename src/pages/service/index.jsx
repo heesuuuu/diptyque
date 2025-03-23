@@ -197,7 +197,7 @@ const Service = () => {
           Our refillable products and second-life accessories can be enjoyed by their recipients for years to come… For
           endless pleasure.
         </p>
-        <div className="refill-img-box w-full flex gap-6 justify-center mt-10">
+        <div className="w-full flex gap-6 justify-center mt-10 mobile:gap-4">
           <div className="w-1/2">
             <div className="refill-img bg-[url('https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/service/everlasting1.png')]" />
             <p>Refillable Products</p>
@@ -211,7 +211,7 @@ const Service = () => {
 
       <section>
         <h2>For Online Explorers</h2>
-        <ul className="online-img-ul grid grid-flow-col grid-rows-1 gap-6 tablet:grid-rows-2">
+        <ul className="online-img-ul grid grid-flow-col grid-rows-1 gap-6 tablet:grid-rows-2 mobile:gap-4">
           <li>
             <div className="bg-[url('https://raw.githubusercontent.com/2mightyMt/diptyqueStatic1/refs/heads/main/images/service/online1.png')]" />
             <p>
