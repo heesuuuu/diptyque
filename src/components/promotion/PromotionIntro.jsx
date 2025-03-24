@@ -103,11 +103,11 @@ const PromotionIntro = () => {
         ))}
       </>
     );
-  };
+  }; /*  */
 
   return (
     <>
-      <section className="w-full h-[800px] flex justify-center items-center relative tablet:h-[543px] mobile:h-[700px] ">
+      <section className="w-full h-[800px] flex justify-center items-center relative mobile:overflow-hidden tablet:h-[543px] mobile:h-[700px] ">
         <div className="w-full text-center ">
           <img
             src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-s02.png?raw=true"
@@ -142,13 +142,13 @@ const PromotionIntro = () => {
               src="https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-s01.png?raw=true"
               alt=""
               style={{ opacity: opacity, transition: 'opacity 1.5s ease-in', marginLeft: '-10%' }}
-              className="mobile:w-[60%]   left-0 "
+              className="mobile:w-[60%]   left-0  translate-y-[-5%] "
             />
             <img
               src=" https://github.com/2mightyMt/diptyqueStatic1/blob/main/page/Promotion/m-d-s03.png?raw=true"
               alt=""
               style={{ opacity: opacity, transition: 'opacity 1.5s ease-in', marginRight: '-10%' }}
-              className="mobile:w-[56%] mobile:absolute mobile:right-0 transition-transform translate-y-[-5%]  "
+              className="mobile:w-[56%] mobile:absolute mobile:right-0 transition-transform translate-y-[-15%]  "
             />
           </div>
         </div>
