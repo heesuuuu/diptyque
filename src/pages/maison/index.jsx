@@ -1,8 +1,11 @@
+import MaisonPage from '../../components/maison/MaisonPage';
+
 const Maison = () => {
-  return (<div>
-<h1>dktestsetsTETETT</h1>
-<p>testsetstset</p>
-  </div>);
+  return (
+    <div className="maison">
+      <MaisonPage />
+    </div>
+  );
 };
 
 export default Maison;
