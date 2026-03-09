@@ -200,7 +200,7 @@ const CollectionProducts = ({ onChangeCollection }) => {
       const element = productRefs.current[productId];
       if (element) {
         const rect = element.getBoundingClientRect();
-        const elementMiddle = window.scrollY + rect.top + rect.height / 1;
+        const elementMiddle = window.scrollY + rect.top + rect.height / 2;
         const distance = Math.abs(windowMiddle - elementMiddle);
 
         if (distance < minDistance) {
